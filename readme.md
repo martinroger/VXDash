@@ -1,4 +1,5 @@
 # VX Dash
+<a href="https://www.buymeacoffee.com/magicmartin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 ## What is it ?
 VX Dash is an attempt at proposing a modular, cheap and entirely open-source digital instrument cluster for the Vauxhall VX220 ( also known as the Opel Speedster ). 
 It is based on an ESP32 MCU coupled over Serial with a Nextion screen and an inexpertly designed vehicle interface PCB.
