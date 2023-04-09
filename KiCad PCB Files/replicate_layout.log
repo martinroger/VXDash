@@ -1,68 +1,68 @@
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (7.0.0)
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.9
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x00000164DCA8D040>
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with R40 as a reference
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'R40'
-Located on: ['AnalogV_Divider1']
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (7.0.0)
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.9
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x000001E0EA2C0F70>
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with C32 as a reference
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'C32'
+Located on: ['AnalogV_Divider4']
 With filenames: ['AnalogV_Divider.kicad_sch']
-With sheet_id:['AnalogV_Divider1']
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
-[('R46', ['AnalogV_Divider4']), ('R44', ['AnalogV_Divider3']), ('R42', ['AnalogV_Divider2']), ('R40', ['AnalogV_Divider1'])]
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'AnalogV_Divider1', file:'AnalogV_Divider.kicad_sch'
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AnalogV_Divider2'], ['AnalogV_Divider3'], ['AnalogV_Divider4']]
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['AnalogV_Divider1']
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(3402, 88)
-04-07 22:23:23 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(3038, 88)
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'AnalogV_Divider1', file:'AnalogV_Divider.kicad_sch'
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AnalogV_Divider2'], ['AnalogV_Divider3'], ['AnalogV_Divider4']]
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['AnalogV_Divider2'], ['AnalogV_Divider3'], ['AnalogV_Divider4']]
-on level: ['AnalogV_Divider1']
+With sheet_id:['AnalogV_Divider4']
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('C26', ['AnalogV_Divider1']), ('C28', ['AnalogV_Divider2']), ('C30', ['AnalogV_Divider3']), ('C32', ['AnalogV_Divider4'])]
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'AnalogV_Divider4', file:'AnalogV_Divider.kicad_sch'
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AnalogV_Divider1'], ['AnalogV_Divider2'], ['AnalogV_Divider3']]
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['AnalogV_Divider4']
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(1498, 125)
+04-09 13:29:28 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(1134, 125)
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'AnalogV_Divider4', file:'AnalogV_Divider.kicad_sch'
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AnalogV_Divider1'], ['AnalogV_Divider2'], ['AnalogV_Divider3']]
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['AnalogV_Divider1'], ['AnalogV_Divider2'], ['AnalogV_Divider3']]
+on level: ['AnalogV_Divider4']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-04-07 22:23:25 root 299:updating GUI message: 'Preparing for replication'
-04-07 22:23:25 root 304:updating GUI with: 0
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
-04-07 22:23:25 root 299:updating GUI message: 'Replicating footprints'
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Replicating footprints
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider2']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider3']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider4']
-04-07 22:23:25 root 299:updating GUI message: 'Replicating tracks'
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 898:Replicating tracks
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider2']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider2'] :[('sensor_V_1', 'sensor_V_2'), ('AnalogV_1', 'AnalogV_2'), ('GND', 'GND')]
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider3']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider3'] :[('AnalogV_1', 'AnalogV_3'), ('sensor_V_1', 'sensor_V_3'), ('GND', 'GND')]
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider4']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider4'] :[('sensor_V_1', 'sensor_V_4'), ('AnalogV_1', 'AnalogV_4'), ('GND', 'GND')]
-04-07 22:23:25 root 299:updating GUI message: 'Replicating zones'
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 956:Replicating zones
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider2']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider2'] :[('sensor_V_1', 'sensor_V_2'), ('AnalogV_1', 'AnalogV_2'), ('GND', 'GND')]
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider3']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider3'] :[('AnalogV_1', 'AnalogV_3'), ('sensor_V_1', 'sensor_V_3'), ('GND', 'GND')]
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider4']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider4'] :[('sensor_V_1', 'sensor_V_4'), ('AnalogV_1', 'AnalogV_4'), ('GND', 'GND')]
-04-07 22:23:25 root 299:updating GUI message: 'Replicating text'
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1034:Replicating text
-04-07 22:23:25 root 304:updating GUI with: 0
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider2']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider3']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider4']
-04-07 22:23:25 root 299:updating GUI message: 'Replicating drawings'
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1074:Replicating drawings
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider2']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider3']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider4']
-04-07 22:23:25 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+04-09 13:29:30 root 299:updating GUI message: 'Preparing for replication'
+04-09 13:29:30 root 304:updating GUI with: 0
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
+04-09 13:29:30 root 299:updating GUI message: 'Replicating footprints'
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Replicating footprints
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider1']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider2']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider3']
+04-09 13:29:30 root 299:updating GUI message: 'Replicating tracks'
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 898:Replicating tracks
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider1']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider1'] :[('sensor_V_4', 'sensor_V_1'), ('GND', 'GND'), ('AnalogV_4', 'AnalogV_1')]
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider2']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider2'] :[('AnalogV_4', 'AnalogV_2'), ('GND', 'GND'), ('sensor_V_4', 'sensor_V_2')]
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider3']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider3'] :[('GND', 'GND'), ('sensor_V_4', 'sensor_V_3'), ('AnalogV_4', 'AnalogV_3')]
+04-09 13:29:30 root 299:updating GUI message: 'Replicating zones'
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 956:Replicating zones
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider1']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider1'] :[('sensor_V_4', 'sensor_V_1'), ('GND', 'GND'), ('AnalogV_4', 'AnalogV_1')]
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider2']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider2'] :[('AnalogV_4', 'AnalogV_2'), ('GND', 'GND'), ('sensor_V_4', 'sensor_V_2')]
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider3']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider3'] :[('GND', 'GND'), ('sensor_V_4', 'sensor_V_3'), ('AnalogV_4', 'AnalogV_3')]
+04-09 13:29:30 root 299:updating GUI message: 'Replicating text'
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1034:Replicating text
+04-09 13:29:30 root 304:updating GUI with: 0
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider1']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider2']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider3']
+04-09 13:29:30 root 299:updating GUI message: 'Replicating drawings'
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1074:Replicating drawings
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider1']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider2']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider3']
+04-09 13:29:30 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
