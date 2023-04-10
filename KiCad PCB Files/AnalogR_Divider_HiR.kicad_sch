@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "High R sensing circuit")
+    (date "2023-04-10")
+    (rev "1.0")
+    (comment 1 "https://github.com/martinroger/VXDash")
+    (comment 2 "https://cadlab.io/projects/vxdash")
+  )
+
   (lib_symbols
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)

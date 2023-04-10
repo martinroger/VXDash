@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Main architecture")
+    (date "2023-04-10")
+    (rev "1.0")
+    (comment 1 "https://github.com/martinroger/VXDash")
+    (comment 2 "https://cadlab.io/projects/vxdash")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x04_Socket" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
@@ -2119,7 +2127,7 @@
     (uuid fff956cf-45f0-40aa-95b9-59f717118c0e)
   )
 
-  (text_box "TODO : \n- Selection of connector for outside world\n- MUX connections\n- Nextion connector\n- Check Water T sense\n- Fuse fuse fuse"
+  (text_box "TODO and TOCHECK: \n- Check Water T sense, supposedly 100Hz PWM ?\n- Fuse fuse fuse ?\n- Position of RV1, use of it ?\n- K1 replaced by NPN ?\n- Position of D1 and D2 before K2 ?\n- Change Analog V circuits for constant current circuits ? Sketch it\n- Automated text placement on silkscreen\n- Current allocation table\n- Direct 12V -> 3V3"
     (at 321.31 74.93 0) (size 81.28 57.15)
     (stroke (width 0) (type default))
     (fill (type none))
