@@ -410,7 +410,7 @@
   "net_settings": {
     "classes": [
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
@@ -424,10 +424,10 @@
         "track_width": 0.254,
         "via_diameter": 0.7,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
@@ -436,16 +436,15 @@
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Fine",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
@@ -454,16 +453,15 @@
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Large",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.508,
         "via_diameter": 0.7,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       },
       {
-        "bus_width": 12.0,
+        "bus_width": 12,
         "clearance": 0.254,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
@@ -472,17 +470,16 @@
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Power",
-        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 1.27,
         "via_diameter": 0.7,
         "via_drill": 0.4,
-        "wire_width": 6.0
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 2
+      "version": 3
     },
     "net_colors": {
       "GND": "rgb(0, 255, 0)"
@@ -491,40 +488,7 @@
       "CONV_5V+": "High Current",
       "REG_3.3V+": "High Current"
     },
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "alternator"
-      },
-      {
-        "netclass": "Large",
-        "pattern": "REG_3.3V+"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "PROTECTED_12V+"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "BATT12V+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Analog*_*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "sensor_*_*"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "*_Act*"
-      },
-      {
-        "netclass": "Large",
-        "pattern": "CONV_5V+"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
