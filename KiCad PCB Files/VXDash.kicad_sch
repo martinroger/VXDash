@@ -6,8 +6,8 @@
 
   (title_block
     (title "Main architecture")
-    (date "2023-04-10")
-    (rev "1.0")
+    (date "2023-04-22")
+    (rev "1.1")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
   )
@@ -4318,13 +4318,13 @@
 
   (sheet (at 99.06 34.29) (size 34.29 7.62) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 132 132 0 1.0000))
     (uuid a87a9e87-7d8f-4fc6-ad53-8bc7de93c011)
     (property "Sheetname" "Power_Input" (at 99.06 33.5784 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheetfile" "Power_Input.kicad_sch" (at 99.06 42.4946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
+      (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "Power_Switched" output (at 133.35 36.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
