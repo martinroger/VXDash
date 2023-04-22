@@ -1699,7 +1699,7 @@
     (uuid ffdff572-1608-4c7f-8881-eadd916f060e)
   )
 
-  (text_box "TODO and TOCHECK: \n- Check Water T sense, supposedly 100Hz PWM ?\n\n- Position of D1 and D2 before K2 ?\n- Change Analog V circuits for constant current circuits ? Sketch it\n- Automated text placement on silkscreen\n- Current allocation table\n"
+  (text_box "TODO and TOCHECK: \n- Check Water T sense, supposedly 100Hz PWM ?\n\n- F1 polyfuse selection\n- Change Analog V circuits for constant current circuits ? Sketch it\n- Automated text placement on silkscreen\n- Current allocation table\n- https://github.com/martinroger/kicad_libs for custom symbols and footprints\n\n\n"
     (at 321.31 74.93 0) (size 81.28 57.15)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -1729,8 +1729,7 @@
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid a40aa6a4-2e7d-4a0d-9518-460d19673360)
   )
-  (text "12.5mA per Voltage divider at max load\n87.5mA total"
-    (at 107.95 257.81 0)
+  (text "TODO Check current consumptions \nXXXmA total" (at 107.95 257.81 0)
     (effects (font (size 1.27 1.27) bold) (justify left bottom))
     (uuid a4152686-6bdc-4a0e-84de-6489cfada015)
   )
