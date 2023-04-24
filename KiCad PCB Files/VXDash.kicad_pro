@@ -488,7 +488,20 @@
       "CONV_5V+": "High Current",
       "REG_3.3V+": "High Current"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "/Power_Input/Power_Fused"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "PROTECTED_12V+"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "CONV_5V+"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
