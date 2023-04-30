@@ -6,7 +6,7 @@
 
   (title_block
     (title "12V to 5V conversion")
-    (date "2023-04-25")
+    (date "2023-05-01")
     (rev "1.2")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
@@ -811,7 +811,7 @@
     (property "Reference" "C6" (at 55.88 78.105 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "22µF 16V" (at 55.88 80.645 0)
+    (property "Value" "22uF 16V" (at 55.88 80.645 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 53.0352 82.55 0)
