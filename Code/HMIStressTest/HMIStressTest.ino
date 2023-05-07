@@ -89,7 +89,7 @@ void refreshScreen() {
 void generateRandomSignals() {
   //int hallVal = hallRead(); //Could be used to stimulate externally ?
   speed       = floor(300*(0.5+0.5*sin(millis()*(2*PI)/15000)));
-  rpm         = map(floor(8000*(0.5+0.5*sin(millis()*(2*PI)/3000))),0,8000,0,100);
+  rpm         = floor(8000*(0.5+0.5*sin(millis()*(2*PI)/3000)));
   fuelLevel   = floor(100*(0.5+0.5*sin(millis()*(2*PI)/30000)));
   coolant     = floor(130*(0.5+0.5*sin(millis()*(2*PI)/20000)));
   analogV1    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/1000)));
