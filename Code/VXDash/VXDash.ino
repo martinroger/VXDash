@@ -2,39 +2,63 @@
 
 bool debugFlag = true;
 
+//Just to help correspondance with the schematic
+const int S0        = 13;
+const int S1        = 0;
+const int S2        = 2;
+const int S3        = 15;
+const int COM       = 21;
+const int ADC_1     = 36;
+const int ADC_3     = 34;
+const int ADC_4     = 35;
+const int ADC_5     = 32;
+const int ADC_6     = 33;
+const int ADC_7     = 25;
+const int ADC_8     = 26;
+const int ADC_9     = 27;
+const int ADC_10    = 10;
+const int ADC_11    = 13;
+const int Counter_1 = 23;
+const int Counter_2 = 22;
+const int Counter_3 = 39;
+const int Digital_1 = 19;
+const int Digital_2 = 18;
+const int Digital_3 = 5;
+const int Digital_4 = 4;
+
 EasyNex Nex7(Serial2);
 
 unsigned short refreshInterval = 60; //Refresh refreshInterval
 unsigned long lastRefreshed = 0; //last screen refresh
 
-u_int16_t speed = 0;
-u_int16_t p_speed = 0;
-u_int16_t rpm = 0;
-u_int16_t p_rpm = 0;
+uint16_t speed = 0;
+uint16_t p_speed = 0;
+uint16_t rpm = 0;
+uint16_t p_rpm = 0;
 
-u_int8_t fuelLevel = 0;
-u_int8_t coolant = 0;
-u_int8_t analogV1 = 0;
-u_int8_t analogV2 = 0;
-u_int8_t analogV3 = 0;
-u_int8_t analogV4 = 0;
-u_int8_t analogR1 = 0;
-u_int8_t analogR2 = 0;
-u_int8_t analogR3 = 0;
-u_int8_t analogR4 = 0;
-u_int8_t analogKR1 = 0;
+uint8_t fuelLevel = 0;
+uint8_t coolant = 0;
+uint8_t analogV1 = 0;
+uint8_t analogV2 = 0;
+uint8_t analogV3 = 0;
+uint8_t analogV4 = 0;
+uint8_t analogR1 = 0;
+uint8_t analogR2 = 0;
+uint8_t analogR3 = 0;
+uint8_t analogR4 = 0;
+uint8_t analogKR1 = 0;
 
-u_int8_t p_fuelLevel = 0;
-u_int8_t p_coolant = 0;
-u_int8_t p_analogV1 = 0;
-u_int8_t p_analogV2 = 0;
-u_int8_t p_analogV3 = 0;
-u_int8_t p_analogV4 = 0;
-u_int8_t p_analogR1 = 0;
-u_int8_t p_analogR2 = 0;
-u_int8_t p_analogR3 = 0;
-u_int8_t p_analogR4 = 0;
-u_int8_t p_analogKR1 = 0;
+uint8_t p_fuelLevel = 0;
+uint8_t p_coolant = 0;
+uint8_t p_analogV1 = 0;
+uint8_t p_analogV2 = 0;
+uint8_t p_analogV3 = 0;
+uint8_t p_analogV4 = 0;
+uint8_t p_analogR1 = 0;
+uint8_t p_analogR2 = 0;
+uint8_t p_analogR3 = 0;
+uint8_t p_analogR4 = 0;
+uint8_t p_analogKR1 = 0;
 
 bool lowFuelON = false;
 bool oilON = false;
@@ -70,6 +94,12 @@ if(debugFlag) { //Purely for debug
 
 Nex7.begin(921600);
 Nex7.writeNum("period.val",refreshInterval);
+
+pinMode(S0,OUTPUT);
+pinMode(S1,OUTPUT);
+pinMode(S2,OUTPUT);
+pinMode(S3,OUTPUT);
+pinMode(COM,INPUT);
 }
 
 void loop() {
@@ -84,6 +114,18 @@ void loop() {
     if(Serial.available()>0) {
       refreshInterval = Serial.parseInt(); //Fetch a new refresh rate
     }
+  }
+  else {
+    senseBinaryIOS();
+    senseAnalogV1();
+    senseAnalogV2();
+    senseAnalogV3();
+    senseAnalogV4();
+    senseAnalogR1();
+    senseAnalogR2();
+    senseAnalogR3();
+    senseAnalogR4();
+    senseAnalogKR1();
   }
 }
 
@@ -222,21 +264,109 @@ void generateRandomSignals() {
   alternatorON = (bool)(round(random(0,101)/100));
 }
 
-void senseBinaryIOS() {}
+void senseBinaryIOS() {
+  //There is probably a much more elegant way to do this with some bitwise wisdom
+  absON         = readAddr(1);
+  //doorON        = readAddr(2);
+  coolantON     = readAddr(3);
+  //buttonON      = readAddr(4);
+  MILON         = readAddr(5);
+  airbagON      = readAddr(6);
+  oilON         = readAddr(7);
+  parkingON     = readAddr(8);
+  brakesON      = readAddr(9);
+  alternatorON  = readAddr(10);
+  turnON        = (readAddr(11) || readAddr(12));
+  fullbeamsON   = readAddr(13);
+  //backlightON   = readAddr(14);
+  //ignitionON    = readAddr(15);
+}
 
-void senseAnalogV1() {}
-void senseAnalogV2() {}
-void senseAnalogV3() {}
-void senseAnalogV4() {}
+void senseAnalogV1() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_3);
+  analogV1 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
 
-void senseAnalogR1() {}
-void senseAnalogR2() {}
-void senseAnalogR3() {}
-void senseAnalogR4() {}
+void senseAnalogV2() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_4);
+  analogV2 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
 
-void senseAnalogKR1() {}
+void senseAnalogV3() {
+    uint16_t val = 4095;
+  val = analogRead(ADC_5);
+  analogV3 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+void senseAnalogV4() {
+    uint16_t val = 4095;
+  val = analogRead(ADC_6);
+  analogV4 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
 
-void senseSpeed() {}
-void senseRPM() {}
-void senseFuelLevel() {}
-void senseCoolant() {}
+void senseAnalogR1() {
+    uint16_t val = 4095;
+  val = analogRead(ADC_7);
+  analogR1 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+void senseAnalogR2() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_8);
+  analogR2 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+void senseAnalogR3() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_9);
+  analogR3 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+void senseAnalogR4() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_10);
+  analogR4 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+
+void senseAnalogKR1() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_11);
+  analogKR1 = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+
+void senseSpeed() {
+  if(!debugFlag) {
+    speed = floor(300*(0.5+0.5*sin(millis()*(2*PI)/15000)));
+  }
+}
+void senseRPM() {
+  if(!debugFlag) {
+    rpm = floor(8000*(0.5+0.5*sin(millis()*(2*PI)/3000)));
+  }
+}
+void senseFuelLevel() {
+  uint16_t val = 4095;
+  val = analogRead(ADC_1);
+  fuelLevel = map(val,0,4095,0,100);
+  //Normally interpolation data goes here
+}
+void senseCoolant() {
+  if(!debugFlag) {
+    coolant = floor(130*(0.5+0.5*sin(millis()*(2*PI)/20000)));
+  }
+}
+
+bool readAddr(int addr) {
+  digitalWrite(S0,bitRead(addr,0));
+  digitalWrite(S1,bitRead(addr,1));
+  digitalWrite(S2,bitRead(addr,2));
+  digitalWrite(S3,bitRead(addr,3));
+  return digitalRead(COM);
+}
