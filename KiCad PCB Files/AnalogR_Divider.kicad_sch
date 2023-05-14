@@ -6,7 +6,7 @@
 
   (title_block
     (title "Low R sensing circuit")
-    (date "2023-04-25")
+    (date "2023-05-01")
     (rev "1.2")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
@@ -344,18 +344,6 @@
     (pin "2" (uuid 06d3c68c-b67e-4c8e-b8c8-f2790376f402))
     (instances
       (project "VXDash"
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6b0fd668-482b-4566-8844-722ffd44607a"
-          (reference "D3") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/da93b6b7-e70f-4d1b-87b6-738291466515"
-          (reference "D4") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4010781d-44ad-4710-a22a-1441bb964b49"
-          (reference "D5") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5cbdc7e0-fc66-4c74-848d-ed1915f447f6"
-          (reference "D6") (unit 1)
-        )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/30c765e9-a1bd-41b1-86c9-2f6fc8c60940"
           (reference "D7") (unit 1)
         )
@@ -383,18 +371,6 @@
     (pin "3" (uuid 43611997-9db8-4562-a41d-3efc2b4b8f12))
     (instances
       (project "VXDash"
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6b0fd668-482b-4566-8844-722ffd44607a"
-          (reference "Q3") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/da93b6b7-e70f-4d1b-87b6-738291466515"
-          (reference "Q4") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4010781d-44ad-4710-a22a-1441bb964b49"
-          (reference "Q5") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5cbdc7e0-fc66-4c74-848d-ed1915f447f6"
-          (reference "Q6") (unit 1)
-        )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/30c765e9-a1bd-41b1-86c9-2f6fc8c60940"
           (reference "Q7") (unit 1)
         )
@@ -428,18 +404,6 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
           (reference "#PWR09") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6b0fd668-482b-4566-8844-722ffd44607a"
-          (reference "#PWR058") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/da93b6b7-e70f-4d1b-87b6-738291466515"
-          (reference "#PWR059") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4010781d-44ad-4710-a22a-1441bb964b49"
-          (reference "#PWR060") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5cbdc7e0-fc66-4c74-848d-ed1915f447f6"
-          (reference "#PWR061") (unit 1)
-        )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/30c765e9-a1bd-41b1-86c9-2f6fc8c60940"
           (reference "#PWR062") (unit 1)
         )
@@ -466,18 +430,6 @@
     (pin "2" (uuid d1b109a0-5869-4da0-9c70-a7833a610a41))
     (instances
       (project "VXDash"
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6b0fd668-482b-4566-8844-722ffd44607a"
-          (reference "R48") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/da93b6b7-e70f-4d1b-87b6-738291466515"
-          (reference "R49") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4010781d-44ad-4710-a22a-1441bb964b49"
-          (reference "R50") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5cbdc7e0-fc66-4c74-848d-ed1915f447f6"
-          (reference "R51") (unit 1)
-        )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/30c765e9-a1bd-41b1-86c9-2f6fc8c60940"
           (reference "R52") (unit 1)
         )
@@ -504,18 +456,6 @@
     (pin "2" (uuid 5958b660-0e67-4829-9621-45cdc05374cb))
     (instances
       (project "VXDash"
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6b0fd668-482b-4566-8844-722ffd44607a"
-          (reference "R66") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/da93b6b7-e70f-4d1b-87b6-738291466515"
-          (reference "R67") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4010781d-44ad-4710-a22a-1441bb964b49"
-          (reference "R68") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5cbdc7e0-fc66-4c74-848d-ed1915f447f6"
-          (reference "R69") (unit 1)
-        )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/30c765e9-a1bd-41b1-86c9-2f6fc8c60940"
           (reference "R70") (unit 1)
         )
@@ -542,18 +482,6 @@
     (pin "2" (uuid 1f777b08-9e8b-4c79-aa6f-94346e3b3e24))
     (instances
       (project "VXDash"
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6b0fd668-482b-4566-8844-722ffd44607a"
-          (reference "R53") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/da93b6b7-e70f-4d1b-87b6-738291466515"
-          (reference "R54") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4010781d-44ad-4710-a22a-1441bb964b49"
-          (reference "R55") (unit 1)
-        )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5cbdc7e0-fc66-4c74-848d-ed1915f447f6"
-          (reference "R56") (unit 1)
-        )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/30c765e9-a1bd-41b1-86c9-2f6fc8c60940"
           (reference "R57") (unit 1)
         )

@@ -462,7 +462,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
+        "clearance": 0.2,
         "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -652,32 +652,20 @@
       "AnalogV_Divider4"
     ],
     [
-      "6b0fd668-482b-4566-8844-722ffd44607a",
-      "AnalogR_Divider1"
+      "d1068bfa-7fca-483b-992f-259828068143",
+      "Rsensing_Pair2"
     ],
     [
-      "da93b6b7-e70f-4d1b-87b6-738291466515",
-      "AnalogR_Divider2"
-    ],
-    [
-      "4010781d-44ad-4710-a22a-1441bb964b49",
-      "AnalogR_Divider3"
-    ],
-    [
-      "5cbdc7e0-fc66-4c74-848d-ed1915f447f6",
-      "AnalogR_Divider4"
-    ],
-    [
-      "30c765e9-a1bd-41b1-86c9-2f6fc8c60940",
-      "AnalogR_Divider5"
-    ],
-    [
-      "e43ed556-c833-485f-a016-421bbb71c57f",
-      "AnalogKR_Divider1"
+      "72c70769-5891-4be7-a6ee-eb896333b6e7",
+      "R-KRsensing_Pair"
     ],
     [
       "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
       "Power_Input"
+    ],
+    [
+      "326d91f1-1d34-43d4-aac6-11bd9692edf0",
+      "Rsensing_Pair1"
     ]
   ],
   "text_variables": {}
