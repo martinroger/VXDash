@@ -3,7 +3,7 @@
 bool debugFlag = true;
 
 //Just to help correspondance with the schematic
-const int S0        = 13;
+const int S0        = 12;
 const int S1        = 0;
 const int S2        = 2;
 const int S3        = 15;
@@ -126,6 +126,10 @@ void loop() {
     senseAnalogR3();
     senseAnalogR4();
     senseAnalogKR1();
+    senseSpeed();
+    senseFuelLevel();
+    senseRPM();
+    senseCoolant();
   }
 }
 
@@ -144,7 +148,7 @@ void refreshScreen() {
     Nex7.writeNum("fuelLevel.val",fuelLevel);
     p_fuelLevel=fuelLevel;
   }
-  if(coolant!=coolant) {
+  if(coolant!=p_coolant) {
     Nex7.writeNum("coolant.val",coolant);
     p_coolant=coolant;
   }
@@ -288,14 +292,12 @@ void senseAnalogV1() {
   analogV1 = map(val,0,4095,0,100);
   //Normally interpolation data goes here
 }
-
 void senseAnalogV2() {
   uint16_t val = 4095;
   val = analogRead(ADC_4);
   analogV2 = map(val,0,4095,0,100);
   //Normally interpolation data goes here
 }
-
 void senseAnalogV3() {
     uint16_t val = 4095;
   val = analogRead(ADC_5);
@@ -369,4 +371,8 @@ bool readAddr(int addr) {
   digitalWrite(S2,bitRead(addr,2));
   digitalWrite(S3,bitRead(addr,3));
   return digitalRead(COM);
+}
+
+void trigger0() {
+  debugFlag = !debugFlag;
 }
