@@ -38,8 +38,8 @@ Some additional functionalities are planned :
 ## What is the timeline ?
 Currently, this is the status of the project : 
 ### A-sample
- - [ ] Preliminary circuit schematic for default variant (A-sample)
- - [ ] First PCB packaging
+ - [X] Preliminary circuit schematic for default variant (A-sample)
+ - [X] First PCB packaging
  - [ ] Test of coolant temperature input readability
  - [ ] Test of fuel level sensor
  - [ ] Test of analog resistive sensor inputs
@@ -48,7 +48,7 @@ Currently, this is the status of the project :
  - [ ] Test of Speed pulse counter
  - [ ] Test of input muxing
  - [ ] Preliminary screen HMI publication
- - [ ] Arduino code first draft with only signal acquisition architecture (no odometer, no trip) and screen interface variables
+ - [X] Arduino code first draft with only signal acquisition architecture (no odometer, no trip) and screen interface variables
  - [ ] Implementation of sensor interpolation tables
  - [ ] Publication of current consumption tables per functional modules
  ### B-sample
