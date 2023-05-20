@@ -819,7 +819,7 @@
   (symbol (lib_id "power:GND") (at 82.55 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2df1dac2-9faa-4b08-97c0-4a96fd380c49)
-    (property "Reference" "#PWR069" (at 82.55 151.13 0)
+    (property "Reference" "#PWR070" (at 82.55 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 82.55 148.59 0)
@@ -835,7 +835,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR060") (unit 1)
@@ -881,7 +881,7 @@
   (symbol (lib_id "Diode:PMEG3010EH") (at 113.03 140.97 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4260ff52-a0f7-4015-82ff-c04a955cfba2)
-    (property "Reference" "D9" (at 115.57 141.2875 90)
+    (property "Reference" "D7" (at 115.57 141.2875 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "PMEG3010EH" (at 115.57 138.7475 90)
@@ -907,7 +907,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "D9") (unit 1)
+          (reference "D7") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "D4") (unit 1)
@@ -1025,7 +1025,7 @@
   (symbol (lib_id "Device:R") (at 146.05 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 629f5009-7ec2-4d36-9cc5-f374397b43fa)
-    (property "Reference" "R74" (at 146.05 95.25 90)
+    (property "Reference" "R76" (at 146.05 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5K1" (at 146.05 97.79 90)
@@ -1051,7 +1051,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "R74") (unit 1)
+          (reference "R76") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "R52") (unit 1)
@@ -1066,7 +1066,7 @@
   (symbol (lib_id "Device:R") (at 134.62 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a26ebafb-bfd8-4ae3-a3e6-b5f9d0237246)
-    (property "Reference" "R73" (at 134.62 95.25 90)
+    (property "Reference" "R74" (at 134.62 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2K7" (at 134.62 97.79 90)
@@ -1092,7 +1092,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "R73") (unit 1)
+          (reference "R74") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "R50") (unit 1)
@@ -1144,7 +1144,7 @@
           (reference "C37") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "C41") (unit 1)
+          (reference "C13") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "C14") (unit 1)
@@ -1159,7 +1159,7 @@
   (symbol (lib_id "power:GND") (at 24.13 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b80a48cf-5b11-4927-9582-af02de4e571b)
-    (property "Reference" "#PWR070" (at 24.13 118.11 0)
+    (property "Reference" "#PWR064" (at 24.13 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 24.13 116.84 0)
@@ -1175,7 +1175,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR058") (unit 1)
@@ -1273,7 +1273,7 @@
   (symbol (lib_id "power:GND") (at 60.96 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0bba329-d8f4-4669-a4c2-b30c84392f47)
-    (property "Reference" "#PWR064" (at 60.96 114.3 0)
+    (property "Reference" "#PWR069" (at 60.96 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 59.69 111.76 0)
@@ -1289,7 +1289,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR059") (unit 1)
@@ -1304,7 +1304,7 @@
   (symbol (lib_id "Device:R") (at 146.05 146.05 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd480dc8-8e5a-472a-8b48-4b2bcff36a63)
-    (property "Reference" "R76" (at 146.05 140.97 90)
+    (property "Reference" "R149" (at 146.05 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "5K1" (at 146.05 143.51 90)
@@ -1330,7 +1330,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "R76") (unit 1)
+          (reference "R149") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "R53") (unit 1)
@@ -1382,7 +1382,7 @@
           (reference "C37") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "C13") (unit 1)
+          (reference "C41") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "C15") (unit 1)
@@ -1397,7 +1397,7 @@
   (symbol (lib_id "Device:R") (at 24.13 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f95d7748-703f-4d83-be16-8a23190e8aca)
-    (property "Reference" "R58" (at 26.67 103.505 0)
+    (property "Reference" "R73" (at 26.67 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330K" (at 26.67 106.045 0)
@@ -1423,7 +1423,7 @@
     (instances
       (project "VXDash"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
-          (reference "R58") (unit 1)
+          (reference "R73") (unit 1)
         )
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "R49") (unit 1)
