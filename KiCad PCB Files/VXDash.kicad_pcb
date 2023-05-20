@@ -10911,6 +10911,10 @@
   (gr_text "1,6000 mm" (at 105.978996 176.453) (layer "Cmts.User") (tstamp f9f4a487-ba69-48b5-b650-ce8b059deb93)
     (effects (font (size 1.5 1.5) (thickness 0.2)) (justify left top))
   )
+  (gr_text_box "Alex-XNR : https://github.com/Alex-XNR\nmartinroger : https://github.com/martinroger"
+    (start 166.624 126.619) (end 204.3684 130.81) (layer "B.SilkS") (tstamp 2e5ba88d-6497-42a0-b505-cc3fa14de6e1)
+      (effects (font (size 1 1) (thickness 0.15)) (justify left top mirror))
+  )
   (gr_text_box "VX Dash - \nHW v1.2.1 - 2023-05-14"
     (start 172.898 128.396) (end 197.917 133.095) (layer "F.SilkS") (tstamp 1d871240-021f-4eb1-892a-743419d2effc)
       (effects (font (size 1 1) (thickness 0.15)) (justify left top))
