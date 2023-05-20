@@ -764,11 +764,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR071") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR061") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "#PWR075") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -786,7 +786,16 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 115.57 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 110.49 151.13 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" (at 110.49 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MOSFET P-CH 20V 3A SOT23" (at 110.49 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Diodes Incorporated" (at 110.49 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "DMG2301L-7" (at 110.49 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c839b011-8afc-41dc-8481-ae3f8992b467))
@@ -797,10 +806,10 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "Q8") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "Q4") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
           (reference "Q6") (unit 1)
         )
       )
@@ -828,11 +837,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR069") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR060") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "#PWR074") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -859,11 +868,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR072") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR073") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "#PWR076") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -900,10 +909,10 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "D9") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "D4") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
           (reference "D6") (unit 1)
         )
       )
@@ -962,10 +971,10 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "IC5") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "IC6") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
           (reference "IC7") (unit 1)
         )
       )
@@ -978,22 +987,22 @@
     (property "Reference" "R72" (at 26.67 86.995 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "6k8" (at 26.67 89.535 0)
+    (property "Value" "6K8" (at 26.67 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 22.352 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 24.13 87.63 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf" (at 24.13 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 24.13 87.63 0)
+    (property "Description" "RES 6.8K OHM 1% 1/10W 0603" (at 24.13 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Name" "" (at 24.13 87.63 0)
+    (property "Manufacturer_Name" "Yageo" (at 24.13 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "" (at 24.13 87.63 0)
+    (property "Manufacturer_Part_Number" "RC0603FR-076K8L" (at 24.13 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4a97e249-bbdb-4cc9-b525-ee29aaa13530))
@@ -1003,11 +1012,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R72") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "R48") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "R56") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "R54") (unit 1)
         )
       )
     )
@@ -1019,22 +1028,22 @@
     (property "Reference" "R74" (at 146.05 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5k1" (at 146.05 97.79 90)
+    (property "Value" "5K1" (at 146.05 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 146.05 102.108 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 146.05 100.33 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "RES 5.1K OHM 1% 1/10W 0603" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Name" "" (at 146.05 100.33 0)
+    (property "Manufacturer_Name" "Yageo" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "" (at 146.05 100.33 0)
+    (property "Manufacturer_Part_Number" "RC0603FR-075K1L" (at 146.05 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8f64f3b0-9640-44f5-b75b-91c1c85c81b1))
@@ -1044,11 +1053,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R74") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "R54") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "R52") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "R67") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "R66") (unit 1)
         )
       )
     )
@@ -1060,22 +1069,22 @@
     (property "Reference" "R73" (at 134.62 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2k7" (at 134.62 97.79 90)
+    (property "Value" "2K7" (at 134.62 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 134.62 102.108 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 134.62 100.33 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 134.62 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "RES 2.7K OHM 1% 1/10W 0603" (at 134.62 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Name" "" (at 134.62 100.33 0)
+    (property "Manufacturer_Name" "Yageo" (at 134.62 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "" (at 134.62 100.33 0)
+    (property "Manufacturer_Part_Number" "RMCF0603FT2K70" (at 134.62 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0540fbb7-e102-4abf-9270-4220200cf5ea))
@@ -1085,11 +1094,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R73") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "R51") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "R50") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "R61") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -1137,11 +1146,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "C41") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "C40") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "C14") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "C15") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "C40") (unit 1)
         )
       )
     )
@@ -1168,11 +1177,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR070") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR058") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "#PWR062") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1184,22 +1193,22 @@
     (property "Reference" "R75" (at 134.62 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2k7" (at 134.62 143.51 90)
+    (property "Value" "2K7" (at 134.62 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 134.62 144.272 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 134.62 146.05 0)
+    (property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" (at 134.62 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "RES 2.7K OHM 1% 1/10W 0603" (at 134.62 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Name" "" (at 134.62 146.05 0)
+    (property "Manufacturer_Name" "Yageo" (at 134.62 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "" (at 134.62 146.05 0)
+    (property "Manufacturer_Part_Number" "RMCF0603FT2K70" (at 134.62 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8ba2d66c-2b0e-45e7-9486-d7fa978769e9))
@@ -1209,11 +1218,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R75") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "R53") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "R51") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "R66") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "R60") (unit 1)
         )
       )
     )
@@ -1231,7 +1240,16 @@
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 115.57 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 110.49 95.25 0)
+    (property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMG2301L.pdf" (at 110.49 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "MOSFET P-CH 20V 3A SOT23" (at 110.49 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Name" "Diodes Incorporated" (at 110.49 95.25 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer_Part_Number" "DMG2301L-7" (at 110.49 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ba22d451-f5a5-49cb-b259-ec81c5c77bfc))
@@ -1242,10 +1260,10 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "Q7") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "Q3") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
           (reference "Q5") (unit 1)
         )
       )
@@ -1273,11 +1291,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR064") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "#PWR059") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "#PWR063") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1289,22 +1307,22 @@
     (property "Reference" "R76" (at 146.05 140.97 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "5k1" (at 146.05 143.51 90)
+    (property "Value" "5K1" (at 146.05 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 146.05 144.272 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 146.05 146.05 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf" (at 146.05 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "RES 5.1K OHM 1% 1/10W 0603" (at 146.05 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Name" "" (at 146.05 146.05 0)
+    (property "Manufacturer_Name" "Yageo" (at 146.05 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "" (at 146.05 146.05 0)
+    (property "Manufacturer_Part_Number" "RC0603FR-075K1L" (at 146.05 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9719cef5-d19a-4057-a785-dd0a12789b5f))
@@ -1314,11 +1332,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R76") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "R55") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "R53") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "R68") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "R67") (unit 1)
         )
       )
     )
@@ -1366,10 +1384,10 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "C13") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "C14") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "C15") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
           (reference "C42") (unit 1)
         )
       )
@@ -1382,22 +1400,22 @@
     (property "Reference" "R58" (at 26.67 103.505 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330k" (at 26.67 106.045 0)
+    (property "Value" "330K" (at 26.67 106.045 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 22.352 104.14 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 24.13 104.14 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf" (at 24.13 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "" (at 24.13 104.14 0)
+    (property "Description" "RES 330K OHM 1% 1/10W 0603" (at 24.13 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Name" "" (at 24.13 104.14 0)
+    (property "Manufacturer_Name" "Yageo" (at 24.13 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Manufacturer_Part_Number" "" (at 24.13 104.14 0)
+    (property "Manufacturer_Part_Number" "RC0603FR-07330KL" (at 24.13 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cec11738-e8cc-48cf-9bb9-5c27b409ca7c))
@@ -1407,11 +1425,11 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R58") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
-          (reference "R57") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
+          (reference "R49") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
-          (reference "R59") (unit 1)
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
+          (reference "R55") (unit 1)
         )
       )
     )
@@ -1448,10 +1466,10 @@
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "D2") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/d1068bfa-7fca-483b-992f-259828068143"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/483a50ff-5292-4e38-b119-955c9aa0d885"
           (reference "D3") (unit 1)
         )
-        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ab8a9460-71cd-4862-ab5b-7fd199f4cc91"
+        (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/cde898fa-c0a0-4517-ae2b-ce2224f38a03"
           (reference "D5") (unit 1)
         )
       )
