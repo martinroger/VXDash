@@ -1,68 +1,62 @@
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (7.0.0)
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.9
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x0000023D212A1F70>
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with R47 as a reference
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'R47'
-Located on: ['AnalogV_Divider4']
-With filenames: ['AnalogV_Divider.kicad_sch']
-With sheet_id:['AnalogV_Divider4']
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
-[('R43', ['AnalogV_Divider2']), ('R45', ['AnalogV_Divider3']), ('R41', ['AnalogV_Divider1']), ('R47', ['AnalogV_Divider4'])]
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'AnalogV_Divider4', file:'AnalogV_Divider.kicad_sch'
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AnalogV_Divider1'], ['AnalogV_Divider2'], ['AnalogV_Divider3']]
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['AnalogV_Divider4']
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(2541, 133)
-05-21 19:52:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(2177, 133)
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'AnalogV_Divider4', file:'AnalogV_Divider.kicad_sch'
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['AnalogV_Divider1'], ['AnalogV_Divider2'], ['AnalogV_Divider3']]
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['AnalogV_Divider1'], ['AnalogV_Divider2'], ['AnalogV_Divider3']]
-on level: ['AnalogV_Divider4']
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (7.0.0)
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 2.0.9
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x00000176C1CC2F70>
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with IC6 as a reference
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'IC6'
+Located on: ['Rsensing_Pair1']
+With filenames: ['Rsensing_Pair.kicad_sch']
+With sheet_id:['Rsensing_Pair1']
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('IC7', ['Rsensing_Pair3']), ('IC6', ['Rsensing_Pair1']), ('IC5', ['Rsensing_Pair2'])]
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'Rsensing_Pair1', file:'Rsensing_Pair.kicad_sch'
+05-27 23:31:05 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['Rsensing_Pair2'], ['Rsensing_Pair3']]
+05-27 23:31:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1341:Level selected: ['Rsensing_Pair1']
+05-27 23:31:06 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+05-27 23:31:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(3402, 88)
+05-27 23:31:06 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(3038, 88)
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 384:constructing a list of sheets suitable for replication on level:'Rsensing_Pair1', file:'Rsensing_Pair.kicad_sch'
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 421:suitable sheets are:[['Rsensing_Pair2'], ['Rsensing_Pair3']]
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 230:Starting replication of sheets: [['Rsensing_Pair2'], ['Rsensing_Pair3']]
+on level: ['Rsensing_Pair1']
 with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
-05-21 19:52:37 root 299:updating GUI message: 'Preparing for replication'
-05-21 19:52:37 root 304:updating GUI with: 0
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
-05-21 19:52:37 root 304:updating GUI with: 66
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
-05-21 19:52:37 root 299:updating GUI message: 'Replicating footprints'
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Replicating footprints
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider1']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider2']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['AnalogV_Divider3']
-05-21 19:52:37 root 299:updating GUI message: 'Replicating tracks'
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 898:Replicating tracks
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider1']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider1'] :[('sensor_V_4', 'sensor_V_1'), ('AnalogV_4', 'AnalogV_1'), ('GND', 'GND')]
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider2']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider2'] :[('sensor_V_4', 'sensor_V_2'), ('GND', 'GND'), ('AnalogV_4', 'AnalogV_2')]
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['AnalogV_Divider3']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider3'] :[('AnalogV_4', 'AnalogV_3'), ('sensor_V_4', 'sensor_V_3'), ('GND', 'GND')]
-05-21 19:52:37 root 299:updating GUI message: 'Replicating zones'
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 956:Replicating zones
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider1']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider1'] :[('sensor_V_4', 'sensor_V_1'), ('AnalogV_4', 'AnalogV_1'), ('GND', 'GND')]
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider2']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider2'] :[('sensor_V_4', 'sensor_V_2'), ('GND', 'GND'), ('AnalogV_4', 'AnalogV_2')]
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['AnalogV_Divider3']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['AnalogV_Divider3'] :[('AnalogV_4', 'AnalogV_3'), ('sensor_V_4', 'sensor_V_3'), ('GND', 'GND')]
-05-21 19:52:37 root 299:updating GUI message: 'Replicating text'
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1034:Replicating text
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider1']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider2']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['AnalogV_Divider3']
-05-21 19:52:37 root 299:updating GUI message: 'Replicating drawings'
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1074:Replicating drawings
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider1']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider2']
-05-21 19:52:37 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['AnalogV_Divider3']
-05-21 19:52:38 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+05-27 23:31:10 root 299:updating GUI message: 'Preparing for replication'
+05-27 23:31:10 root 304:updating GUI with: 0
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 300:Getting the list of source footprints
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of all the remaining footprints
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 317:Getting source tracks
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1176:Filtering list of tracks
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 321:Getting source zones
+05-27 23:31:10 root 304:updating GUI with: 50
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 325:Getting source text items
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 329:Getting source drawing items
+05-27 23:31:10 root 299:updating GUI message: 'Replicating footprints'
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 733:Replicating footprints
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['Rsensing_Pair2']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 739:Replicating footprints on sheet ['Rsensing_Pair3']
+05-27 23:31:10 root 299:updating GUI message: 'Replicating tracks'
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 898:Replicating tracks
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['Rsensing_Pair2']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['Rsensing_Pair2'] :[('/Rsensing_Pair1/Rset_1', '/Rsensing_Pair2/Rset_1'), ('GND', 'GND'), ('sensor_R_1', 'sensor_R_3'), ('sensor_R_2', 'sensor_R_4'), ('Net-(IC6-OUT1)', 'Net-(IC5-OUT1)'), ('AnalogR_1', 'AnalogR_3'), ('/Rsensing_Pair1/Rset_2', '/Rsensing_Pair2/Rset_2'), ('Net-(IC6-OUT2)', 'Net-(IC5-OUT2)'), ('Net-(D3-A)', 'Net-(D2-A)'), ('Net-(IC6-IN1+)', 'Net-(IC5-IN1+)'), ('AnalogR_2', 'AnalogR_4'), ('CONV_5V+', 'CONV_5V+'), ('Net-(D4-A)', 'Net-(D7-A)')]
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 904:Replicating tracks on sheet ['Rsensing_Pair3']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['Rsensing_Pair3'] :[('Net-(D4-A)', 'Net-(D6-A)'), ('Net-(IC6-IN1+)', 'Net-(IC7-IN1+)'), ('GND', 'GND'), ('sensor_R_1', 'fuel_level'), ('Net-(IC6-OUT2)', 'Net-(IC7-OUT2)'), ('AnalogR_2', 'AnalogKR_1'), ('Net-(IC6-OUT1)', 'Net-(IC7-OUT1)'), ('sensor_R_2', 'sensor_KR_1'), ('/Rsensing_Pair1/Rset_1', '/Rsensing_Pair3/Rset_1'), ('/Rsensing_Pair1/Rset_2', '/Rsensing_Pair3/Rset_2'), ('AnalogR_1', 'FUEL_LVL_Rsense'), ('Net-(D3-A)', 'Net-(D5-A)'), ('CONV_5V+', 'CONV_5V+')]
+05-27 23:31:10 root 304:updating GUI with: 50
+05-27 23:31:10 root 299:updating GUI message: 'Replicating zones'
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 956:Replicating zones
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['Rsensing_Pair2']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['Rsensing_Pair2'] :[('/Rsensing_Pair1/Rset_1', '/Rsensing_Pair2/Rset_1'), ('GND', 'GND'), ('sensor_R_1', 'sensor_R_3'), ('sensor_R_2', 'sensor_R_4'), ('Net-(IC6-OUT1)', 'Net-(IC5-OUT1)'), ('AnalogR_1', 'AnalogR_3'), ('/Rsensing_Pair1/Rset_2', '/Rsensing_Pair2/Rset_2'), ('Net-(IC6-OUT2)', 'Net-(IC5-OUT2)'), ('Net-(D3-A)', 'Net-(D2-A)'), ('Net-(IC6-IN1+)', 'Net-(IC5-IN1+)'), ('AnalogR_2', 'AnalogR_4'), ('CONV_5V+', 'CONV_5V+'), ('Net-(D4-A)', 'Net-(D7-A)')]
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 963:Replicating zones on sheet ['Rsensing_Pair3']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 728:Net pairs for sheet ['Rsensing_Pair3'] :[('Net-(D4-A)', 'Net-(D6-A)'), ('Net-(IC6-IN1+)', 'Net-(IC7-IN1+)'), ('GND', 'GND'), ('sensor_R_1', 'fuel_level'), ('Net-(IC6-OUT2)', 'Net-(IC7-OUT2)'), ('AnalogR_2', 'AnalogKR_1'), ('Net-(IC6-OUT1)', 'Net-(IC7-OUT1)'), ('sensor_R_2', 'sensor_KR_1'), ('/Rsensing_Pair1/Rset_1', '/Rsensing_Pair3/Rset_1'), ('/Rsensing_Pair1/Rset_2', '/Rsensing_Pair3/Rset_2'), ('AnalogR_1', 'FUEL_LVL_Rsense'), ('Net-(D3-A)', 'Net-(D5-A)'), ('CONV_5V+', 'CONV_5V+')]
+05-27 23:31:10 root 299:updating GUI message: 'Replicating text'
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1034:Replicating text
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['Rsensing_Pair2']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1041:Replicating text on sheet ['Rsensing_Pair3']
+05-27 23:31:10 root 299:updating GUI message: 'Replicating drawings'
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1074:Replicating drawings
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['Rsensing_Pair2']
+05-27 23:31:10 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1080:Replicating drawings on sheet ['Rsensing_Pair3']
+05-27 23:31:13 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
