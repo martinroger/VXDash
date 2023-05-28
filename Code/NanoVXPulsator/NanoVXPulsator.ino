@@ -10,89 +10,91 @@ A1 Speed freq
 A2 RPM freq
 A3 Duty cycle Water T
 */
+#include <Arduino_Helpers.h>
+#include <AH/Timing/MillisMicrosTimer.hpp>
 
-#include <smart_duty_cycling.h>
+Timer<millis> potUpdateTimer = 100;
+Timer<micros> speedTimerOn = 10000;
+Timer<micros> speedTimerOff = 5000;
+Timer<micros> rpmTimerOn = 10000;
+Timer<micros> rpmTimerOff = 5000;
+Timer<micros> waterTimerOn = 10000;
+Timer<micros> waterTimerOff = 1000;
 
-smart_duty_cycling speedCycle;
-smart_duty_cycling rpmCycle;
-smart_duty_cycling water_TCycle;
-smart_duty_cycling potCycle;
-float pot_freq = 10.0;
-float speed_freq = 1.0;
-float rpm_freq = 1.0;
-float gen_duty_cycle = 0.25;
-float water_T_duty_cycle = 0.1;
+int speedFreq = 1;
+unsigned long speedInterval = 1000000;
+int rpmFreq = 1;
+unsigned long rpmInterval = 1000000;
+int waterT_DC = 10;
+
+bool debug=false;
+
 int rawA0 = 0;
 int rawA1 = 0;
 int rawA2 = 0;
 int rawA3 = 0;
 
 
+void refreshPots() {
+  rawA0 = analogRead(A0); //generate DC
+  if(debug) {Serial.print(rawA0); Serial.print(" ");}
+  rawA1 = analogRead(A1); //Speed
+  if(debug) {Serial.print(rawA1); Serial.print(" ");}
+  rawA2 = analogRead(A2); //RPM
+  if(debug) {Serial.print(rawA2); Serial.print(" ");}
+  rawA3 = analogRead(A3); //Water
+  if(debug) Serial.println(rawA3);
+  
+  speedFreq = map(rawA1,0,1023,1,987);
+  if(debug) {Serial.print(speedFreq); Serial.print(" ");}
+  speedInterval = 1000000/speedFreq;
+  if(speedTimerOn.getInterval()!=speedInterval) {
+    speedTimerOn.setInterval(speedInterval);
+    speedTimerOff.setInterval(speedInterval*20/100);
+  }
+  
+  rpmFreq   = map(rawA2,0,1023,1,14000/60);
+  if(debug) {Serial.print(rpmFreq); Serial.print(" ");}
+  rpmInterval =1000000/rpmFreq;
+  if(rpmTimerOn.getInterval()!=rpmInterval) {
+    rpmTimerOn.setInterval(rpmInterval);
+    rpmTimerOff.setInterval(rpmInterval*20/100);
+  }
+  
+  waterT_DC = map(rawA3,0,1023,10,95);
+  if(debug) {Serial.println(waterT_DC);}
+  if(waterTimerOff.getInterval()!=(waterT_DC*10000/100)) {
+    waterTimerOff.setInterval(waterT_DC*10000/100);
+  }
+
+}
+
+
+
 void setup() {
-  //Serial.begin(115200);
+  if(debug) Serial.begin(115200);
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(13,OUTPUT);
-
-  speedCycle.setFrequencyDutyCycle(speed_freq,gen_duty_cycle);
-  rpmCycle.setFrequencyDutyCycle(rpm_freq,gen_duty_cycle);
-  water_TCycle.setFrequencyDutyCycle(100.0,water_T_duty_cycle);
-  potCycle.setFrequencyDutyCycle(pot_freq,0.5);
-  //Serial.println("Setup Done");
 }
 
 void loop() {
-  //Refresh the pot readouts
-  if(potCycle.switchMode()) {
-    if(potCycle.wake) {
-      rawA0 = analogRead(A0); //generate DC
-      //Serial.print(rawA0); Serial.print(" ");
-      rawA1 = analogRead(A1); //Speed
-      //Serial.print(rawA1); Serial.print(" ");
-      rawA2 = analogRead(A2); //RPM
-      //Serial.print(rawA2); Serial.print(" ");
-      rawA3 = analogRead(A3); //Water
-      //Serial.println(rawA3);
-      
-      //gen_duty_cycle = ((float)map(rawA0,0,1023,10,95))/100.0;
-      //gen_duty_cycle = constrain(gen_duty_cycle,0.2,0.8);
-
-      speed_freq = (float)map(rawA1,0,1023,0,987);
-      speed_freq = constrain(speed_freq,0.01,987.0);
-      speedCycle.setFrequencyDutyCycle(speed_freq,gen_duty_cycle);
-
-      rpm_freq = ((float)map(rawA2,0,1023,0,14000))/60.0;
-      rpm_freq = constrain(rpm_freq,0.01,240);
-      rpmCycle.setFrequencyDutyCycle(rpm_freq,gen_duty_cycle);
-
-      water_T_duty_cycle = ((float)map(rawA3,0,1023,10,95))/100.0;
-      water_T_duty_cycle = constrain(water_T_duty_cycle,0.1,0.95);
-      water_TCycle.setDutyCycle(water_T_duty_cycle);
-    }
+  if(potUpdateTimer) refreshPots();
+  if(speedTimerOn) {
+    digitalWrite(2,HIGH);
+    speedTimerOff.beginNextPeriod();
   }
-
-
-  if(water_TCycle.switchMode()) {
-    if(water_TCycle.wake) {
-      digitalWrite(13,HIGH);
-    }
-    else
-    {
-      digitalWrite(13,LOW);
-    }
+  if(speedTimerOff) digitalWrite(2,LOW);
+  if(rpmTimerOn) {
+    digitalWrite(3,HIGH);
+    rpmTimerOff.beginNextPeriod();
   }
-
-  if(speedCycle.switchMode()) {
-    if(speedCycle.wake) {
-      digitalWrite(2,HIGH);
-    }
-    else digitalWrite(2,LOW);
+  if(rpmTimerOff) digitalWrite(3,LOW);
+  if(waterTimerOn) {
+    digitalWrite(13,HIGH);
+    waterTimerOff.beginNextPeriod();
   }
-
-  if(rpmCycle.switchMode()) {
-    if(rpmCycle.wake) {
-      digitalWrite(3,HIGH);
-    }
-    else digitalWrite(3,LOW);
-  }
+  if(waterTimerOff) digitalWrite(13,LOW);
 }
+
+
