@@ -7,7 +7,7 @@
   (title_block
     (title "5 to 3V3 stage")
     (date "2023-05-14")
-    (rev "1.2.1")
+    (rev "1.2.2")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
   )
@@ -698,7 +698,7 @@
     (property "Footprint" "Inductor_SMD:L_1210_3225Metric" (at 166.37 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 166.37 62.23 0)
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/srp3212a.pdf" (at 166.37 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "Ind,3.2x2.5x1mm,3.3uH+/-20%,3.1A,shd AEC-Q200" (at 166.37 62.23 0)
