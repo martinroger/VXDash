@@ -16,7 +16,7 @@ const int ADC_6     = 33;
 const int ADC_7     = 25;
 const int ADC_8     = 26;
 const int ADC_9     = 27;
-const int ADC_10    = 10;
+const int ADC_10    = 14;
 const int ADC_11    = 13;
 const int Counter_1 = 23;
 const int Counter_2 = 22;
@@ -360,12 +360,20 @@ void senseFuelLevel() {
   if (fuelLevel<10) {
     lowFuelON = true; 
     }
-    else lowFuelON = false;
+    else if (fuelLevel>20) {
+      lowFuelON = false;
+    }
   //Normally interpolation data goes here
 }
 void senseCoolant() {
   if(!debugFlag) {
     coolant = floor(130*(0.5+0.5*sin(millis()*(2*PI)/20000)));
+  }
+  if (coolant>100) {
+    overheatON = true;
+  }
+  else if (coolant<95) {
+    overheatON = false;
   }
 }
 
