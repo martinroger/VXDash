@@ -6,8 +6,8 @@
 
   (title_block
     (title "270R divider")
-    (date "2023-05-14")
-    (rev "1.2.2")
+    (date "2023-06-18")
+    (rev "1.2.3")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
   )
@@ -1254,7 +1254,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 125.73 154.94 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bca7a9b9-a785-4648-8522-906050bb6e41)
     (property "Reference" "R85" (at 125.73 149.86 90)
       (effects (font (size 1.27 1.27)))
