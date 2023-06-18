@@ -185,7 +185,7 @@ void refreshScreen() {
     p_analogR4=analogR4;
   }
   if(analogKR1!=p_analogKR1) {
-    Nex7.writeNum("analogR1.val",analogKR1);
+    Nex7.writeNum("analogKR1.val",analogKR1);
     p_analogKR1=analogKR1;
   }
   if(lowFuelON!=p_lowFuelON) {       
@@ -357,6 +357,10 @@ void senseFuelLevel() {
   uint16_t val = 4095;
   val = analogRead(ADC_1);
   fuelLevel = map(val,0,4095,0,100);
+  if (fuelLevel<10) {
+    lowFuelON = true; 
+    }
+    else lowFuelON = false;
   //Normally interpolation data goes here
 }
 void senseCoolant() {
@@ -370,7 +374,7 @@ bool readAddr(int addr) {
   digitalWrite(S1,bitRead(addr,1));
   digitalWrite(S2,bitRead(addr,2));
   digitalWrite(S3,bitRead(addr,3));
-  return digitalRead(COM);
+  return !digitalRead(COM);
 }
 
 void trigger0() {
