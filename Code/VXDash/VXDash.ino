@@ -44,29 +44,29 @@ uint8_t fuelLevel = 0;
 uint16_t fuel_raw = 0;
 uint8_t coolant = 0;
 uint16_t coolant_raw = 0;
-uint8_t analogV1 = 0;
-uint8_t analogV2 = 0;
-uint8_t analogV3 = 0;
-uint8_t analogV4 = 0;
-uint8_t analogR1 = 0;
-uint8_t analogR2 = 0;
-uint8_t analogR3 = 0;
-uint8_t analogR4 = 0;
-uint8_t analogKR1 = 0;
+uint16_t analogV1 = 0;
+uint16_t analogV2 = 0;
+uint16_t analogV3 = 0;
+uint16_t analogV4 = 0;
+uint16_t analogR1 = 0;
+uint16_t analogR2 = 0;
+uint16_t analogR3 = 0;
+uint16_t analogR4 = 0;
+uint16_t analogKR1 = 0;
 
 uint8_t p_fuelLevel = 0;
 uint16_t p_fuel_raw = 0;
 uint8_t p_coolant = 0;
 uint16_t p_coolant_raw = 0;
-uint8_t p_analogV1 = 0;
-uint8_t p_analogV2 = 0;
-uint8_t p_analogV3 = 0;
-uint8_t p_analogV4 = 0;
-uint8_t p_analogR1 = 0;
-uint8_t p_analogR2 = 0;
-uint8_t p_analogR3 = 0;
-uint8_t p_analogR4 = 0;
-uint8_t p_analogKR1 = 0;
+uint16_t p_analogV1 = 0;
+uint16_t p_analogV2 = 0;
+uint16_t p_analogV3 = 0;
+uint16_t p_analogV4 = 0;
+uint16_t p_analogR1 = 0;
+uint16_t p_analogR2 = 0;
+uint16_t p_analogR3 = 0;
+uint16_t p_analogR4 = 0;
+uint16_t p_analogKR1 = 0;
 
 bool lowFuelON = false;
 bool oilON = false;
@@ -313,57 +313,66 @@ void senseBinaryIOS() {
 void senseAnalogV1() {
   uint16_t val = 4095;
   val = analogRead(ADC_3);
-  analogV1 = map(val,0,4095,0,100);
+  //analogV1 = map(val,0,4095,0,100);
+  analogV1 = val;
   //Normally interpolation data goes here
 }
 void senseAnalogV2() {
   uint16_t val = 4095;
   val = analogRead(ADC_4);
-  analogV2 = map(val,0,4095,0,100);
+  //analogV2 = map(val,0,4095,0,100);
+  analogV2 = val;
   //Normally interpolation data goes here
 }
 void senseAnalogV3() {
-    uint16_t val = 4095;
+  uint16_t val = 4095;
   val = analogRead(ADC_5);
-  analogV3 = map(val,0,4095,0,100);
+  //analogV3 = map(val,0,4095,0,100);
+  analogV3 = val;
   //Normally interpolation data goes here
 }
 void senseAnalogV4() {
-    uint16_t val = 4095;
+  uint16_t val = 4095;
   val = analogRead(ADC_6);
-  analogV4 = map(val,0,4095,0,100);
+  //analogV4 = map(val,0,4095,0,100);
+  analogV4 = val;
   //Normally interpolation data goes here
 }
 
 void senseAnalogR1() {
-    uint16_t val = 4095;
+  uint16_t val = 4095;
   val = analogRead(ADC_7);
-  analogR1 = map(val,0,4095,0,100);
+  //analogR1 = map(val,0,4095,0,100);
+  analogR1 = val;
   //Normally interpolation data goes here
 }
 void senseAnalogR2() {
   uint16_t val = 4095;
   val = analogRead(ADC_8);
-  analogR2 = map(val,0,4095,0,100);
+  //analogR2 = map(val,0,4095,0,100);
+  analogR2 = val;
   //Normally interpolation data goes here
 }
 void senseAnalogR3() {
   uint16_t val = 4095;
   val = analogRead(ADC_9);
-  analogR3 = map(val,0,4095,0,100);
+  //analogR3 = map(val,0,4095,0,100);
+  analogR3 = val;
   //Normally interpolation data goes here
 }
 void senseAnalogR4() {
   uint16_t val = 4095;
   val = analogRead(ADC_10);
-  analogR4 = map(val,0,4095,0,100);
+  //analogR4 = map(val,0,4095,0,100);
+  analogR4 = val;
   //Normally interpolation data goes here
 }
 
 void senseAnalogKR1() {
   uint16_t val = 4095;
   val = analogRead(ADC_11);
-  analogKR1 = map(val,0,4095,0,100);
+  //analogKR1 = map(val,0,4095,0,100);
+  analogKR1 = val;
   //Normally interpolation data goes here
 }
 
@@ -381,6 +390,7 @@ void senseFuelLevel() {
   uint16_t val = 4095;
   val = analogRead(ADC_1);
   fuelLevel = map(val,0,4095,0,100);
+  fuel_raw = val;
   if (fuelLevel<10) {
     lowFuelON = true; 
     }
