@@ -21,13 +21,15 @@ Timer<micros> rpmTimerOff = 5000;
 Timer<micros> waterTimerOn = 10000;
 Timer<micros> waterTimerOff = 1000;
 
+int dutyCycle = 20;
 int speedFreq = 1;
 unsigned long speedInterval = 1000000;
 int rpmFreq = 1;
 unsigned long rpmInterval = 1000000;
 int waterT_DC = 10;
 
-bool debug=false;
+bool debug = false;
+bool serialOn = true;
 
 int rawA0 = 0;
 int rawA1 = 0;
@@ -45,24 +47,26 @@ void refreshPots() {
   rawA3 = analogRead(A3); //Water
   if(debug) Serial.println(rawA3);
   
+  dutyCycle = map(rawA0,0,1023,20,80);
+
   speedFreq = map(rawA1,0,1023,1,987);
-  if(debug) {Serial.print(speedFreq); Serial.print(" ");}
+  if(debug || serialOn) {Serial.print(speedFreq); Serial.print(" ");}
   speedInterval = 1000000/speedFreq;
   if(speedTimerOn.getInterval()!=speedInterval) {
     speedTimerOn.setInterval(speedInterval);
-    speedTimerOff.setInterval(speedInterval*20/100);
+    speedTimerOff.setInterval(speedInterval*dutyCycle/100);
   }
   
   rpmFreq   = map(rawA2,0,1023,1,14000/60);
-  if(debug) {Serial.print(rpmFreq); Serial.print(" ");}
+  if(debug || serialOn) {Serial.print(rpmFreq); Serial.print(" ");}
   rpmInterval =1000000/rpmFreq;
   if(rpmTimerOn.getInterval()!=rpmInterval) {
     rpmTimerOn.setInterval(rpmInterval);
-    rpmTimerOff.setInterval(rpmInterval*20/100);
+    rpmTimerOff.setInterval(rpmInterval*dutyCycle/100);
   }
   
   waterT_DC = map(rawA3,0,1023,10,95);
-  if(debug) {Serial.println(waterT_DC);}
+  if(debug || serialOn) {Serial.println(waterT_DC);}
   if(waterTimerOff.getInterval()!=(waterT_DC*10000/100)) {
     waterTimerOff.setInterval(waterT_DC*10000/100);
   }
@@ -72,7 +76,7 @@ void refreshPots() {
 
 
 void setup() {
-  if(debug) Serial.begin(115200);
+  if(debug || serialOn) Serial.begin(115200);
   pinMode(2,OUTPUT);
   pinMode(3,OUTPUT);
   pinMode(13,OUTPUT);

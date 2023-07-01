@@ -1,6 +1,6 @@
 #include "EasyNextionLibrary.h"
 
-bool debugFlag = true;
+bool debugFlag = false;
 
 //Just to help correspondance with the schematic
 const int S0        = 12;
@@ -33,11 +33,17 @@ unsigned long lastRefreshed = 0; //last screen refresh
 
 uint16_t speed = 0;
 uint16_t p_speed = 0;
+uint16_t speed_raw = 0;
+uint16_t p_speed_raw = 0;
 uint16_t rpm = 0;
 uint16_t p_rpm = 0;
+uint16_t rpm_raw = 0;
+uint16_t p_rpm_raw = 0;
 
 uint8_t fuelLevel = 0;
+uint16_t fuel_raw = 0;
 uint8_t coolant = 0;
+uint16_t coolant_raw = 0;
 uint8_t analogV1 = 0;
 uint8_t analogV2 = 0;
 uint8_t analogV3 = 0;
@@ -49,7 +55,9 @@ uint8_t analogR4 = 0;
 uint8_t analogKR1 = 0;
 
 uint8_t p_fuelLevel = 0;
+uint16_t p_fuel_raw = 0;
 uint8_t p_coolant = 0;
+uint16_t p_coolant_raw = 0;
 uint8_t p_analogV1 = 0;
 uint8_t p_analogV2 = 0;
 uint8_t p_analogV3 = 0;
@@ -140,17 +148,33 @@ void refreshScreen() {
     Nex7.writeNum("speed.val",speed);
     p_speed=speed;
   }
+  if(speed_raw!=p_speed_raw) {
+    Nex7.writeNum("speed_raw.val",speed_raw);
+    p_speed_raw=speed_raw;
+  }
   if(rpm!=p_rpm) {
     Nex7.writeNum("rpm.val",rpm);
     p_rpm=rpm;
+  }
+  if(rpm_raw!=p_rpm_raw) {
+    Nex7.writeNum("rpm_raw.val",rpm_raw);
+    p_rpm_raw=rpm_raw;
   }
   if(fuelLevel!=p_fuelLevel) {
     Nex7.writeNum("fuelLevel.val",fuelLevel);
     p_fuelLevel=fuelLevel;
   }
+  if(fuel_raw!=p_fuel_raw) {
+    Nex7.writeNum("fuel_raw.val",fuel_raw);
+    p_fuel_raw=fuel_raw;
+  }
   if(coolant!=p_coolant) {
     Nex7.writeNum("coolant.val",coolant);
     p_coolant=coolant;
+  }
+  if(coolant_raw!=p_coolant_raw) {
+    Nex7.writeNum("coolant_raw.val",coolant_raw);
+    p_coolant_raw=coolant_raw;
   }
   if(analogV1!=p_analogV1) {
     Nex7.writeNum("analogV1.val",analogV1);
