@@ -1,5 +1,10 @@
-#include "EasyNextionLibrary.h"
+//Required for communication with the Serial Nextion screen. Provides an easy wrapper as well as some interrupts.
+#include "EasyNextionLibrary.h" 
+//Requires EmotiBit ArduinoFilters to add some filters and tasteful timers
+#include <Arduino_Helpers.h>
+#include <AH/Timing/MillisMicrosTimer.hpp>
 
+//useful debug flag, can also be triggered via the screen
 bool debugFlag = false;
 
 //Just to help correspondance with the schematic
@@ -26,10 +31,13 @@ const int Digital_2 = 18;
 const int Digital_3 = 5;
 const int Digital_4 = 4;
 
+//Nextion screen instance on Serial 2 (GPIO 16 and 17)
 EasyNex Nex7(Serial2);
 
-unsigned short refreshInterval = 60; //Refresh refreshInterval
-unsigned long lastRefreshed = 0; //last screen refresh
+//Instancing the main screen refresh Timer
+Timer<millis> screenTimer = 60;
+Timer<millis> slowRefresh = 500;
+Timer<millis> fastRefresh = 100;
 
 uint16_t speed = 0;
 uint16_t p_speed = 0;
@@ -101,7 +109,6 @@ if(debugFlag) { //Purely for debug
 } 
 
 Nex7.begin(921600);
-Nex7.writeNum("period.val",refreshInterval);
 
 pinMode(S0,OUTPUT);
 pinMode(S1,OUTPUT);
@@ -113,37 +120,34 @@ pinMode(COM,INPUT);
 void loop() {
   Nex7.NextionListen();
   // Periodically force feed the screen
-  if((millis()-lastRefreshed)>refreshInterval) {
-    lastRefreshed = millis();
-    refreshScreen();
-  }
+  if(screenTimer) refreshScreen();
   if(debugFlag) {
     generateRandomSignals();
-    if(Serial.available()>0) {
-      refreshInterval = Serial.parseInt(); //Fetch a new refresh rate
-    }
   }
   else {
-    senseBinaryIOS();
-    senseAnalogV1();
-    senseAnalogV2();
-    senseAnalogV3();
-    senseAnalogV4();
-    senseAnalogR1();
-    senseAnalogR2();
-    senseAnalogR3();
-    senseAnalogR4();
-    senseAnalogKR1();
-    senseSpeed();
-    senseFuelLevel();
-    senseRPM();
-    senseCoolant();
+    if(slowRefresh) {
+      senseAnalogV1();
+      senseAnalogV2();
+      senseAnalogV3();
+      senseAnalogV4();
+      senseAnalogR1();
+      senseAnalogR2();
+      senseAnalogR3();
+      senseAnalogR4();
+      senseAnalogKR1();
+      senseFuelLevel();
+      senseCoolant();
+    }
+    if(fastRefresh) {
+      senseBinaryIOS();
+      senseSpeed();
+      senseRPM();
+    }
   }
 }
 
 void refreshScreen() {
   //Checks for value change, only refreshes in that case
-  Nex7.writeNum("period.val",refreshInterval);
   if(speed!=p_speed) {
     Nex7.writeNum("speed.val",speed);
     p_speed=speed;
@@ -213,7 +217,7 @@ void refreshScreen() {
     p_analogKR1=analogKR1;
   }
   if(lowFuelON!=p_lowFuelON) {       
-    Nex7.writeNum("lowFuelON.aph",127*((int)lowFuelON)); //uses a multiplication with the alpha factor
+    Nex7.writeNum("lowFuelON.aph",127*((int)lowFuelON)); //uses a multiplication with the icon alpha
     p_lowFuelON = lowFuelON;
   }
   if(oilON!=p_oilON) {
