@@ -23,9 +23,9 @@ const int ADC_8     = 26;
 const int ADC_9     = 27;
 const int ADC_10    = 14;
 const int ADC_11    = 13;
-const int Counter_1 = 23;
-const int Counter_2 = 22;
-const int Counter_3 = 39;
+const int Counter_1 = 23; //RPM
+const int Counter_2 = 22; //SPEED
+const int Counter_3 = 39; //Water temp
 const int Digital_1 = 19;
 const int Digital_2 = 18;
 const int Digital_3 = 5;
@@ -39,14 +39,19 @@ Timer<millis> screenTimer = 60;
 Timer<millis> slowRefresh = 500;
 Timer<millis> fastRefresh = 100;
 
-uint16_t speed = 0;
-uint16_t p_speed = 0;
-uint16_t speed_raw = 0;
-uint16_t p_speed_raw = 0;
+// p_ variables are meant for limiting refresh attempts
+uint16_t speed = 0;           //Last calculated value
+uint16_t p_speed = 0;         //Previous refresh value
+uint16_t speed_raw = 0;       //Last raw value (PPS)
+uint16_t p_speed_raw = 0;     //Previous raw value (PPS)
+volatile uint32_t tmstp_speed = 0;     //Last pulse timestamp
+volatile uint32_t intv_speed = 300000; //Pulse intervals duration
 uint16_t rpm = 0;
 uint16_t p_rpm = 0;
 uint16_t rpm_raw = 0;
 uint16_t p_rpm_raw = 0;
+volatile uint32_t tmstp_rpm = 0;
+volatile uint32_t intv_rpm = 0;
 
 uint8_t fuelLevel = 0;
 uint16_t fuel_raw = 0;
@@ -103,24 +108,34 @@ bool p_airbagON = false;
 bool p_alternatorON = false;
 
 void setup() {
-if(debugFlag) { //Purely for debug
-  Serial.begin(112500);
-  randomSeed(millis());
-} 
+  if(debugFlag) { //Purely for debug, open a Serial port over USB if enabled
+    Serial.begin(112500);
+    randomSeed(millis());
+  } 
 
-Nex7.begin(921600);
+  Nex7.begin(921600);
 
-pinMode(S0,OUTPUT);
-pinMode(S1,OUTPUT);
-pinMode(S2,OUTPUT);
-pinMode(S3,OUTPUT);
-pinMode(COM,INPUT);
+  //Declare pin types for the MUX
+  pinMode(S0,OUTPUT);
+  pinMode(S1,OUTPUT);
+  pinMode(S2,OUTPUT);
+  pinMode(S3,OUTPUT);
+  pinMode(COM,INPUT);
+
+  pinMode(Counter_1,INPUT);
+  attachInterrupt(digitalPinToInterrupt(Counter_1),rpmPulse,RISING);
+
+  pinMode(Counter_2,INPUT);
+  attachInterrupt(digitalPinToInterrupt(Counter_2),speedPulse,RISING);
+
 }
 
 void loop() {
   Nex7.NextionListen();
   // Periodically force feed the screen
   if(screenTimer) refreshScreen();
+  
+  //If the debugflag is on, use random values
   if(debugFlag) {
     generateRandomSignals();
   }
@@ -381,8 +396,21 @@ void senseAnalogKR1() {
 }
 
 void senseSpeed() {
-  if(!debugFlag) {
-    speed = floor(300*(0.5+0.5*sin(millis()*(2*PI)/15000)));
+  unsigned long interval = 300001;
+  unsigned long timestamp = 0;
+  p_speed_raw = speed_raw;
+  p_speed = speed;
+  noInterrupts();
+  interval = intv_speed;
+  timestamp = tmstp_speed;
+  interrupts();
+  interval = max(interval,(micros()-timestamp));
+  if(interval > 300000) {
+    speed = 0;
+  }
+  else {
+    speed_raw = 1000000/interval;
+    speed = speed_raw / 5; //Probably would need some care there
   }
 }
 void senseRPM() {
@@ -425,4 +453,14 @@ bool readAddr(int addr) {
 
 void trigger0() {
   debugFlag = !debugFlag;
+}
+
+void speedPulse() {
+  intv_speed = micros()-tmstp_speed;
+  tmstp_speed = micros();
+}
+
+void rpmPulse() {
+  intv_rpm = micros()-tmstp_rpm;
+  tmstp_rpm = micros();
 }
