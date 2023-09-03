@@ -3,6 +3,8 @@
 //Requires EmotiBit ArduinoFilters to add some filters and tasteful timers
 #include <Arduino_Helpers.h>
 #include <AH/Timing/MillisMicrosTimer.hpp>
+#include <AH/STL/cmath>
+#include <Filters/SMA.hpp>
 
 //useful debug flag, can also be triggered via the screen
 bool debugFlag = false;
@@ -46,12 +48,15 @@ uint16_t speed_raw = 0;       //Last raw value (PPS)
 uint16_t p_speed_raw = 0;     //Previous raw value (PPS)
 volatile uint32_t tmstp_speed = 0;     //Last pulse timestamp
 volatile uint32_t intv_speed = 300000; //Pulse intervals duration
+SMA<10,uint32_t,uint64_t> speed_filter = {0};
+
 uint16_t rpm = 0;
 uint16_t p_rpm = 0;
 uint16_t rpm_raw = 0;
 uint16_t p_rpm_raw = 0;
 volatile uint32_t tmstp_rpm = 0;
 volatile uint32_t intv_rpm = 0;
+SMA<10,uint32_t,uint64_t> rpm_filter = {0};
 
 uint8_t fuelLevel = 0;
 uint16_t fuel_raw = 0;
@@ -411,7 +416,7 @@ void senseSpeed() {
   }
   else {
     speed_raw = 1000000/interval;
-    speed = speed_raw / 5; //Probably would need some care there
+    speed = speed_filter(speed_raw / 5); //Probably would need some care there
   }
 }
 void senseRPM() {
@@ -430,7 +435,7 @@ void senseRPM() {
   }
   else {
     rpm_raw = 1000000/interval;
-    rpm = rpm_raw*30;
+    rpm = rpm_filter(rpm_raw*30);
   }
 }
 void senseFuelLevel() {
