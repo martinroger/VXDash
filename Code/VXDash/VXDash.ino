@@ -42,21 +42,19 @@ Timer<millis> slowRefresh = 500;
 Timer<millis> fastRefresh = 100;
 
 // p_ variables are meant for limiting refresh attempts
-uint16_t speed = 0;           //Last calculated value
-uint16_t p_speed = 0;         //Previous refresh value
-uint16_t speed_raw = 0;       //Last raw value (PPS)
-uint16_t p_speed_raw = 0;     //Previous raw value (PPS)
-volatile uint32_t tmstp_speed = 0;     //Last pulse timestamp
-volatile uint32_t intv_speed = 300000; //Pulse intervals duration
-SMA<10,uint32_t,uint64_t> speed_filter = {0};
+uint16_t speed = 0;                       //Last calculated value
+uint16_t p_speed = 0;                     //Previous refresh value
+uint16_t speed_raw = 0;                   //Last raw value (PPS)
+uint16_t p_speed_raw = 0;                 //Previous raw value (PPS)
+volatile uint16_t speedPulseCounter = 0;  //Counter of pulses
+SMA<10,uint16_t,uint16_t> speedPulseSMA = {0};
 
 uint16_t rpm = 0;
 uint16_t p_rpm = 0;
 uint16_t rpm_raw = 0;
 uint16_t p_rpm_raw = 0;
-volatile uint32_t tmstp_rpm = 0;
-volatile uint32_t intv_rpm = 0;
-SMA<10,uint32_t,uint64_t> rpm_filter = {0};
+volatile uint16_t rpmPulseCounter = 0;
+SMA<10,uint16_t,uint16_t> rpmPulseSMA = {0};
 
 uint8_t fuelLevel = 0;
 uint16_t fuel_raw = 0;
@@ -401,42 +399,19 @@ void senseAnalogKR1() {
 }
 
 void senseSpeed() {
-  unsigned long interval = 300001;
-  unsigned long timestamp = 0;
   p_speed_raw = speed_raw;
   p_speed = speed;
-  noInterrupts();
-  interval = intv_speed;
-  timestamp = tmstp_speed;
-  interrupts();
-  interval = max(interval,(micros()-timestamp));
-  if(interval > 300000) {
-    speed = 0;
-    speed_raw = 0;
-  }
-  else {
-    speed_raw = 1000000/interval;
-    speed = speed_filter(speed_raw / 5); //Probably would need some care there
-  }
+  speed_raw = speedPulseSMA(10*speedPulseCounter);
+  speedPulseCounter = 0;
+  speed = speed_raw * 0.24455;
 }
 void senseRPM() {
-  unsigned long interval = 100001;
-  unsigned long timestamp = 0;
   p_rpm_raw = rpm_raw;
   p_rpm = rpm;
-  noInterrupts();
-  interval = intv_rpm;
-  timestamp = tmstp_rpm;
-  interrupts();
-  interval = max(interval,(micros()-timestamp));
-  if(interval > 100000) {
-    rpm = 0;
-    rpm_raw = 0;
-  }
-  else {
-    rpm_raw = 1000000/interval;
-    rpm = rpm_filter(rpm_raw*30);
-  }
+  rpm_raw = rpmPulseSMA(10*rpmPulseCounter);
+  rpmPulseCounter = 0;
+  if (rpm_raw<5) rpm_raw = 0;
+  rpm = rpm_raw * 30;
 }
 void senseFuelLevel() {
   uint16_t val = 4095;
@@ -476,11 +451,9 @@ void trigger0() {
 }
 
 void speedPulse() {
-  intv_speed = micros()-tmstp_speed;
-  tmstp_speed = micros();
+  speedPulseCounter++;
 }
 
 void rpmPulse() {
-  intv_rpm = micros()-tmstp_rpm;
-  tmstp_rpm = micros();
+  rpmPulseCounter++;
 }
