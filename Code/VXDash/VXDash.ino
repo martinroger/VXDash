@@ -122,10 +122,10 @@ void setup() {
   pinMode(S3,OUTPUT);
   pinMode(COM,INPUT);
 
-  pinMode(Counter_1,INPUT);
+  pinMode(Counter_1,INPUT_PULLDOWN);
   attachInterrupt(digitalPinToInterrupt(Counter_1),rpmPulse,RISING);
 
-  pinMode(Counter_2,INPUT);
+  pinMode(Counter_2,INPUT_PULLDOWN);
   attachInterrupt(digitalPinToInterrupt(Counter_2),speedPulse,RISING);
 
 }
@@ -407,6 +407,7 @@ void senseSpeed() {
   interval = max(interval,(micros()-timestamp));
   if(interval > 300000) {
     speed = 0;
+    speed_raw = 0;
   }
   else {
     speed_raw = 1000000/interval;
@@ -414,8 +415,22 @@ void senseSpeed() {
   }
 }
 void senseRPM() {
-  if(!debugFlag) {
-    rpm = floor(8000*(0.5+0.5*sin(millis()*(2*PI)/3000)));
+  unsigned long interval = 100001;
+  unsigned long timestamp = 0;
+  p_rpm_raw = rpm_raw;
+  p_rpm = rpm;
+  noInterrupts();
+  interval = intv_rpm;
+  timestamp = tmstp_rpm;
+  interrupts();
+  interval = max(interval,(micros()-timestamp));
+  if(interval > 100000) {
+    rpm = 0;
+    rpm_raw = 0;
+  }
+  else {
+    rpm_raw = 1000000/interval;
+    rpm = rpm_raw*30;
   }
 }
 void senseFuelLevel() {
