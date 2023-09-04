@@ -16,6 +16,7 @@ const int S2        = 2;
 const int S3        = 15;
 const int COM       = 21;
 const int ADC_1     = 36;
+const int ADC_2     = 39; //Can be used later to sense 12V level, circuitry missing
 const int ADC_3     = 34;
 const int ADC_4     = 35;
 const int ADC_5     = 32;
@@ -27,11 +28,11 @@ const int ADC_10    = 14;
 const int ADC_11    = 13;
 const int Counter_1 = 23; //RPM
 const int Counter_2 = 22; //SPEED
-const int Counter_3 = 39; //Water temp
+const int Counter_3 = 18;  //Water temp, was 4
 const int Digital_1 = 19;
-const int Digital_2 = 18;
+//const int Digital_2 = 18;
 const int Digital_3 = 5;
-const int Digital_4 = 4;
+
 
 //Nextion screen instance on Serial 2 (GPIO 16 and 17)
 EasyNex Nex7(Serial2);
@@ -58,8 +59,13 @@ SMA<10,uint16_t,uint16_t> rpmPulseSMA = {0};
 
 uint8_t fuelLevel = 0;
 uint16_t fuel_raw = 0;
+
 uint8_t coolant = 0;
 uint16_t coolant_raw = 0;
+volatile uint32_t coolant_tmstp = 0;           //Microseconds
+volatile uint16_t coolant_deltaTime = 1000;    //Microseconds
+SMA<10,uint16_t,uint32_t> coolantDeltaTimeSMA = {1000};
+
 uint16_t analogV1 = 0;
 uint16_t analogV2 = 0;
 uint16_t analogV3 = 0;
@@ -110,6 +116,26 @@ bool p_overheatON = false;
 bool p_airbagON = false;
 bool p_alternatorON = false;
 
+//Moving interrupts earlier
+
+void IRAM_ATTR speedPulse() {
+  speedPulseCounter++;
+}
+
+void IRAM_ATTR rpmPulse() {
+  rpmPulseCounter++;
+}
+
+void IRAM_ATTR coolantPulse() {
+  if(digitalRead(Counter_3)) { //If High
+    coolant_tmstp = micros();
+  }
+  else {
+    coolant_deltaTime =(uint16_t)(micros()-coolant_tmstp); //If LOW
+  }
+}
+
+
 void setup() {
   if(debugFlag) { //Purely for debug, open a Serial port over USB if enabled
     Serial.begin(112500);
@@ -131,6 +157,9 @@ void setup() {
   pinMode(Counter_2,INPUT_PULLDOWN);
   attachInterrupt(digitalPinToInterrupt(Counter_2),speedPulse,RISING);
 
+  pinMode(Counter_3,INPUT_PULLDOWN);
+  attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
+  //attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulseDOWN,FALLING);
 }
 
 void loop() {
@@ -399,15 +428,15 @@ void senseAnalogKR1() {
 }
 
 void senseSpeed() {
-  p_speed_raw = speed_raw;
-  p_speed = speed;
+  //p_speed_raw = speed_raw;
+  //p_speed = speed;
   speed_raw = speedPulseSMA(10*speedPulseCounter);
   speedPulseCounter = 0;
   speed = speed_raw * 0.24455;
 }
 void senseRPM() {
-  p_rpm_raw = rpm_raw;
-  p_rpm = rpm;
+  //p_rpm_raw = rpm_raw;
+  //p_rpm = rpm;
   rpm_raw = rpmPulseSMA(10*rpmPulseCounter);
   rpmPulseCounter = 0;
   if (rpm_raw<5) rpm_raw = 0;
@@ -427,9 +456,9 @@ void senseFuelLevel() {
   //Normally interpolation data goes here
 }
 void senseCoolant() {
-  if(!debugFlag) {
-    coolant = floor(130*(0.5+0.5*sin(millis()*(2*PI)/20000)));
-  }
+  //coolant_raw = coolantDeltaTimeSMA(coolant_deltaTime)/100; //Should give the duty cycle in percents
+  coolant_raw = coolant_deltaTime/100;
+  coolant = 0.7147 * coolant_raw + 63.83;
   if (coolant>100) {
     overheatON = true;
   }
@@ -450,10 +479,7 @@ void trigger0() {
   debugFlag = !debugFlag;
 }
 
-void speedPulse() {
-  speedPulseCounter++;
-}
 
-void rpmPulse() {
-  rpmPulseCounter++;
-}
+// void IRAM_ATTR coolantPulseDOWN() {
+//   coolant_deltaTime = (uint16_t)(micros() - coolant_tmstp);
+// }
