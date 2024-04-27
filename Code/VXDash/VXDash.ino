@@ -30,7 +30,7 @@ const int Counter_1 = 23; //RPM
 const int Counter_2 = 22; //SPEED
 const int Counter_3 = 18;  //Water temp, was 4
 const int Digital_1 = 19;
-//const int Digital_2 = 18;
+const int Digital_2 = 4;
 const int Digital_3 = 5;
 
 
