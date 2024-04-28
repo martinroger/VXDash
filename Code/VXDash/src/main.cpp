@@ -135,62 +135,12 @@ void IRAM_ATTR coolantPulse() {
   }
 }
 
-
-void setup() {
-  if(debugFlag) { //Purely for debug, open a Serial port over USB if enabled
-    Serial.begin(112500);
-    randomSeed(millis());
-  } 
-
-  Nex7.begin(921600);
-
-  //Declare pin types for the MUX
-  pinMode(S0,OUTPUT);
-  pinMode(S1,OUTPUT);
-  pinMode(S2,OUTPUT);
-  pinMode(S3,OUTPUT);
-  pinMode(COM,INPUT);
-
-  pinMode(Counter_1,INPUT_PULLDOWN);
-  attachInterrupt(digitalPinToInterrupt(Counter_1),rpmPulse,RISING);
-
-  pinMode(Counter_2,INPUT_PULLDOWN);
-  attachInterrupt(digitalPinToInterrupt(Counter_2),speedPulse,RISING);
-
-  pinMode(Counter_3,INPUT_PULLDOWN);
-  attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
-  //attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulseDOWN,FALLING);
-}
-
-void loop() {
-  Nex7.NextionListen();
-  // Periodically force feed the screen
-  if(screenTimer) refreshScreen();
-  
-  //If the debugflag is on, use random values
-  if(debugFlag) {
-    generateRandomSignals();
-  }
-  else {
-    if(slowRefresh) {
-      senseAnalogV1();
-      senseAnalogV2();
-      senseAnalogV3();
-      senseAnalogV4();
-      senseAnalogR1();
-      senseAnalogR2();
-      senseAnalogR3();
-      senseAnalogR4();
-      senseAnalogKR1();
-      senseFuelLevel();
-      senseCoolant();
-    }
-    if(fastRefresh) {
-      senseBinaryIOS();
-      senseSpeed();
-      senseRPM();
-    }
-  }
+bool readAddr(int addr) {
+  digitalWrite(S0,bitRead(addr,0));
+  digitalWrite(S1,bitRead(addr,1));
+  digitalWrite(S2,bitRead(addr,2));
+  digitalWrite(S3,bitRead(addr,3));
+  return !digitalRead(COM);
 }
 
 void refreshScreen() {
@@ -467,13 +417,6 @@ void senseCoolant() {
   }
 }
 
-bool readAddr(int addr) {
-  digitalWrite(S0,bitRead(addr,0));
-  digitalWrite(S1,bitRead(addr,1));
-  digitalWrite(S2,bitRead(addr,2));
-  digitalWrite(S3,bitRead(addr,3));
-  return !digitalRead(COM);
-}
 
 void trigger0() {
   debugFlag = !debugFlag;
@@ -483,3 +426,62 @@ void trigger0() {
 // void IRAM_ATTR coolantPulseDOWN() {
 //   coolant_deltaTime = (uint16_t)(micros() - coolant_tmstp);
 // }
+
+void setup() {
+  if(debugFlag) { //Purely for debug, open a Serial port over USB if enabled
+    Serial.begin(112500);
+    randomSeed(millis());
+  } 
+
+  Nex7.begin(921600);
+
+  //Declare pin types for the MUX
+  pinMode(S0,OUTPUT);
+  pinMode(S1,OUTPUT);
+  pinMode(S2,OUTPUT);
+  pinMode(S3,OUTPUT);
+  pinMode(COM,INPUT);
+
+  pinMode(Counter_1,INPUT_PULLDOWN);
+  attachInterrupt(digitalPinToInterrupt(Counter_1),rpmPulse,RISING);
+
+  pinMode(Counter_2,INPUT_PULLDOWN);
+  attachInterrupt(digitalPinToInterrupt(Counter_2),speedPulse,RISING);
+
+  pinMode(Counter_3,INPUT_PULLDOWN);
+  attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
+  //attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulseDOWN,FALLING);
+}
+
+void loop() {
+  Nex7.NextionListen();
+  // Periodically force feed the screen
+  if(screenTimer) refreshScreen();
+  
+  //If the debugflag is on, use random values
+  if(debugFlag) {
+    generateRandomSignals();
+  }
+  else {
+    if(slowRefresh) {
+      senseAnalogV1();
+      senseAnalogV2();
+      senseAnalogV3();
+      senseAnalogV4();
+      senseAnalogR1();
+      senseAnalogR2();
+      senseAnalogR3();
+      senseAnalogR4();
+      senseAnalogKR1();
+      senseFuelLevel();
+      senseCoolant();
+    }
+    if(fastRefresh) {
+      senseBinaryIOS();
+      senseSpeed();
+      senseRPM();
+    }
+  }
+}
+
+
