@@ -1,38 +1,18 @@
 //Required for communication with the Serial Nextion screen. Provides an easy wrapper as well as some interrupts.
 #include "EasyNextionLibrary.h" 
-//Requires EmotiBit ArduinoFilters to add some filters and tasteful timers
+#include "pinsDef.h"
+#include "utils.h"
 #include <Arduino_Helpers.h>
 #include <AH/Timing/MillisMicrosTimer.hpp>
 #include <AH/STL/cmath>
 #include <Filters/SMA.hpp>
+#include <counters.h>
+#include <stateVars.h>
+#include <muxSense.h>
+#include <analogs.h>
 
 //useful debug flag, can also be triggered via the screen
 bool debugFlag = false;
-
-//Just to help correspondance with the schematic
-const int S0        = 12;
-const int S1        = 0;
-const int S2        = 2;
-const int S3        = 15;
-const int COM       = 21;
-const int ADC_1     = 36;
-const int ADC_2     = 39; //Can be used later to sense 12V level, circuitry missing
-const int ADC_3     = 34;
-const int ADC_4     = 35;
-const int ADC_5     = 32;
-const int ADC_6     = 33;
-const int ADC_7     = 25;
-const int ADC_8     = 26;
-const int ADC_9     = 27;
-const int ADC_10    = 14;
-const int ADC_11    = 13;
-const int Counter_1 = 23; //RPM
-const int Counter_2 = 22; //SPEED
-const int Counter_3 = 18;  //Water temp, was 4
-const int Digital_1 = 19;
-const int Digital_2 = 4;
-const int Digital_3 = 5;
-
 
 //Nextion screen instance on Serial 2 (GPIO 16 and 17)
 EasyNex Nex7(Serial2);
@@ -41,107 +21,6 @@ EasyNex Nex7(Serial2);
 Timer<millis> screenTimer = 60;
 Timer<millis> slowRefresh = 500;
 Timer<millis> fastRefresh = 100;
-
-// p_ variables are meant for limiting refresh attempts
-uint16_t speed = 0;                       //Last calculated value
-uint16_t p_speed = 0;                     //Previous refresh value
-uint16_t speed_raw = 0;                   //Last raw value (PPS)
-uint16_t p_speed_raw = 0;                 //Previous raw value (PPS)
-volatile uint16_t speedPulseCounter = 0;  //Counter of pulses
-SMA<10,uint16_t,uint16_t> speedPulseSMA = {0};
-
-uint16_t rpm = 0;
-uint16_t p_rpm = 0;
-uint16_t rpm_raw = 0;
-uint16_t p_rpm_raw = 0;
-volatile uint16_t rpmPulseCounter = 0;
-SMA<10,uint16_t,uint16_t> rpmPulseSMA = {0};
-
-uint8_t fuelLevel = 0;
-uint16_t fuel_raw = 0;
-
-uint8_t coolant = 0;
-uint16_t coolant_raw = 0;
-volatile uint32_t coolant_tmstp = 0;           //Microseconds
-volatile uint16_t coolant_deltaTime = 1000;    //Microseconds
-SMA<10,uint16_t,uint32_t> coolantDeltaTimeSMA = {1000};
-
-uint16_t analogV1 = 0;
-uint16_t analogV2 = 0;
-uint16_t analogV3 = 0;
-uint16_t analogV4 = 0;
-uint16_t analogR1 = 0;
-uint16_t analogR2 = 0;
-uint16_t analogR3 = 0;
-uint16_t analogR4 = 0;
-uint16_t analogKR1 = 0;
-
-uint8_t p_fuelLevel = 0;
-uint16_t p_fuel_raw = 0;
-uint8_t p_coolant = 0;
-uint16_t p_coolant_raw = 0;
-uint16_t p_analogV1 = 0;
-uint16_t p_analogV2 = 0;
-uint16_t p_analogV3 = 0;
-uint16_t p_analogV4 = 0;
-uint16_t p_analogR1 = 0;
-uint16_t p_analogR2 = 0;
-uint16_t p_analogR3 = 0;
-uint16_t p_analogR4 = 0;
-uint16_t p_analogKR1 = 0;
-
-bool lowFuelON = false;
-bool oilON = false;
-bool fullbeamsON = false;
-bool coolantON = false;
-bool MILON = false;
-bool turnON = false;
-bool parkingON = false;
-bool absON = false;
-bool brakesON = false;
-bool overheatON = false;
-bool airbagON = false;
-bool alternatorON = false;
-
-bool p_lowFuelON = false;
-bool p_oilON = false;
-bool p_fullbeamsON = false;
-bool p_coolantON = false;
-bool p_MILON = false;
-bool p_turnON = false;
-bool p_parkingON = false;
-bool p_absON = false;
-bool p_brakesON = false;
-bool p_overheatON = false;
-bool p_airbagON = false;
-bool p_alternatorON = false;
-
-//Moving interrupts earlier
-
-void IRAM_ATTR speedPulse() {
-  speedPulseCounter++;
-}
-
-void IRAM_ATTR rpmPulse() {
-  rpmPulseCounter++;
-}
-
-void IRAM_ATTR coolantPulse() {
-  if(digitalRead(Counter_3)) { //If High
-    coolant_tmstp = micros();
-  }
-  else {
-    coolant_deltaTime =(uint16_t)(micros()-coolant_tmstp); //If LOW
-  }
-}
-
-bool readAddr(int addr) {
-  digitalWrite(S0,bitRead(addr,0));
-  digitalWrite(S1,bitRead(addr,1));
-  digitalWrite(S2,bitRead(addr,2));
-  digitalWrite(S3,bitRead(addr,3));
-  return !digitalRead(COM);
-}
 
 void refreshScreen() {
   //Checks for value change, only refreshes in that case
@@ -263,176 +142,17 @@ void refreshScreen() {
   }
 }
 
-void generateRandomSignals() {
-  //int hallVal = hallRead(); //Could be used to stimulate externally ?
-  speed       = floor(300*(0.5+0.5*sin(millis()*(2*PI)/15000)));
-  rpm         = floor(8000*(0.5+0.5*sin(millis()*(2*PI)/3000)));
-  fuelLevel   = floor(100*(0.5+0.5*sin(millis()*(2*PI)/30000)));
-  coolant     = floor(130*(0.5+0.5*sin(millis()*(2*PI)/20000)));
-  analogV1    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/1000)));
-  analogV2    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/2000)));
-  analogV3    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/3000)));
-  analogV4    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/4000)));
-  analogR1    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/1500)));
-  analogR2    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/3000)));
-  analogR3    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/4500)));
-  analogR4    = floor(100*(0.5+0.5*sin(millis()*(2*PI)/6000)));
-  analogKR1   = floor(100*(0.5+0.5*sin(millis()*(2*PI)/2222)));
-
-  lowFuelON = (bool)(round(random(0,101)/100));
-  oilON = (bool)(round(random(0,101)/100));
-  fullbeamsON = (bool)(round(random(0,101)/100));
-  coolantON = (bool)(round(random(0,101)/100));
-  MILON = (bool)(round(random(0,101)/100));
-  turnON = (bool)(round(random(0,101)/100));
-  parkingON = (bool)(round(random(0,101)/100));
-  absON = (bool)(round(random(0,101)/100));
-  brakesON = (bool)(round(random(0,101)/100));
-  overheatON = (bool)(round(random(0,101)/100));
-  airbagON = (bool)(round(random(0,101)/100));
-  alternatorON = (bool)(round(random(0,101)/100));
-}
-
-void senseBinaryIOS() {
-  //There is probably a much more elegant way to do this with some bitwise wisdom
-  absON         = readAddr(1);
-  //doorON        = readAddr(2);
-  coolantON     = readAddr(3);
-  //buttonON      = readAddr(4);
-  MILON         = readAddr(5);
-  airbagON      = readAddr(6);
-  oilON         = readAddr(7);
-  parkingON     = readAddr(8);
-  brakesON      = readAddr(9);
-  alternatorON  = readAddr(10);
-  turnON        = (readAddr(11) || readAddr(12));
-  fullbeamsON   = readAddr(13);
-  //backlightON   = readAddr(14);
-  //ignitionON    = readAddr(15);
-}
-
-void senseAnalogV1() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_3);
-  //analogV1 = map(val,0,4095,0,100);
-  analogV1 = val;
-  //Normally interpolation data goes here
-}
-void senseAnalogV2() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_4);
-  //analogV2 = map(val,0,4095,0,100);
-  analogV2 = val;
-  //Normally interpolation data goes here
-}
-void senseAnalogV3() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_5);
-  //analogV3 = map(val,0,4095,0,100);
-  analogV3 = val;
-  //Normally interpolation data goes here
-}
-void senseAnalogV4() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_6);
-  //analogV4 = map(val,0,4095,0,100);
-  analogV4 = val;
-  //Normally interpolation data goes here
-}
-
-void senseAnalogR1() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_7);
-  //analogR1 = map(val,0,4095,0,100);
-  analogR1 = val;
-  //Normally interpolation data goes here
-}
-void senseAnalogR2() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_8);
-  //analogR2 = map(val,0,4095,0,100);
-  analogR2 = val;
-  //Normally interpolation data goes here
-}
-void senseAnalogR3() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_9);
-  //analogR3 = map(val,0,4095,0,100);
-  analogR3 = val;
-  //Normally interpolation data goes here
-}
-void senseAnalogR4() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_10);
-  //analogR4 = map(val,0,4095,0,100);
-  analogR4 = val;
-  //Normally interpolation data goes here
-}
-
-void senseAnalogKR1() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_11);
-  //analogKR1 = map(val,0,4095,0,100);
-  analogKR1 = val;
-  //Normally interpolation data goes here
-}
-
-void senseSpeed() {
-  //p_speed_raw = speed_raw;
-  //p_speed = speed;
-  speed_raw = speedPulseSMA(10*speedPulseCounter);
-  speedPulseCounter = 0;
-  speed = speed_raw * 0.24455;
-}
-void senseRPM() {
-  //p_rpm_raw = rpm_raw;
-  //p_rpm = rpm;
-  rpm_raw = rpmPulseSMA(10*rpmPulseCounter);
-  rpmPulseCounter = 0;
-  if (rpm_raw<5) rpm_raw = 0;
-  rpm = rpm_raw * 30;
-}
-void senseFuelLevel() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_1);
-  fuelLevel = map(val,0,4095,0,100);
-  fuel_raw = val;
-  if (fuelLevel<10) {
-    lowFuelON = true; 
-    }
-    else if (fuelLevel>20) {
-      lowFuelON = false;
-    }
-  //Normally interpolation data goes here
-}
-void senseCoolant() {
-  //coolant_raw = coolantDeltaTimeSMA(coolant_deltaTime)/100; //Should give the duty cycle in percents
-  coolant_raw = coolant_deltaTime/100;
-  coolant = 0.7147 * coolant_raw + 63.83;
-  if (coolant>100) {
-    overheatON = true;
-  }
-  else if (coolant<95) {
-    overheatON = false;
-  }
-}
-
-
+//Nextion trigger for debug
 void trigger0() {
   debugFlag = !debugFlag;
 }
-
-
-// void IRAM_ATTR coolantPulseDOWN() {
-//   coolant_deltaTime = (uint16_t)(micros() - coolant_tmstp);
-// }
 
 void setup() {
   if(debugFlag) { //Purely for debug, open a Serial port over USB if enabled
     Serial.begin(112500);
     randomSeed(millis());
   } 
-
+  //Start Nextion screen Serial
   Nex7.begin(921600);
 
   //Declare pin types for the MUX
@@ -442,6 +162,8 @@ void setup() {
   pinMode(S3,OUTPUT);
   pinMode(COM,INPUT);
 
+  //Setup counters and IRQs
+  #pragma region
   pinMode(Counter_1,INPUT_PULLDOWN);
   attachInterrupt(digitalPinToInterrupt(Counter_1),rpmPulse,RISING);
 
@@ -450,7 +172,7 @@ void setup() {
 
   pinMode(Counter_3,INPUT_PULLDOWN);
   attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
-  //attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulseDOWN,FALLING);
+  #pragma endregion
 }
 
 void loop() {
@@ -483,5 +205,3 @@ void loop() {
     }
   }
 }
-
-
