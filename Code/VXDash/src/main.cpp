@@ -32,6 +32,14 @@ void refreshScreen() {
     Nex7.writeNum("speed_raw.val",speed_raw);
     p_speed_raw=speed_raw;
   }
+  if(odometer!=p_odometer) {
+    Nex7.writeNum("x0.val",odometer);
+    p_odometer=odometer;
+  }
+  if(trip!=p_trip) {
+    Nex7.writeNum("x1.val",trip);
+    p_trip=trip;
+  }
   if(rpm!=p_rpm) {
     Nex7.writeNum("rpm.val",rpm);
     p_rpm=rpm;
@@ -142,6 +150,70 @@ void refreshScreen() {
   }
 }
 
+void resetScreen() {
+    Nex7.writeNum("speed.val",speed);
+    p_speed=speed;
+    Nex7.writeNum("speed_raw.val",speed_raw);
+    p_speed_raw=speed_raw;
+    Nex7.writeNum("x0.val",odometer);
+    p_odometer=odometer;
+    Nex7.writeNum("x1.val",trip);
+    p_trip=trip;
+    Nex7.writeNum("rpm.val",rpm);
+    p_rpm=rpm;
+    Nex7.writeNum("rpm_raw.val",rpm_raw);
+    p_rpm_raw=rpm_raw;
+    Nex7.writeNum("fuelLevel.val",fuelLevel);
+    p_fuelLevel=fuelLevel;
+    Nex7.writeNum("fuel_raw.val",fuel_raw);
+    p_fuel_raw=fuel_raw;
+    Nex7.writeNum("coolant.val",coolant);
+    p_coolant=coolant;
+    Nex7.writeNum("coolant_raw.val",coolant_raw);
+    p_coolant_raw=coolant_raw;
+    Nex7.writeNum("analogV1.val",analogV1);
+    p_analogV1=analogV1;
+    Nex7.writeNum("analogV2.val",analogV2);
+    p_analogV2=analogV2;
+    Nex7.writeNum("analogV3.val",analogV3);
+    p_analogV3=analogV3;
+    Nex7.writeNum("analogV4.val",analogV4);
+    p_analogV4=analogV4;
+    Nex7.writeNum("analogR1.val",analogR1);
+    p_analogR1=analogR1;
+    Nex7.writeNum("analogR2.val",analogR2);
+    p_analogR2=analogR2;
+    Nex7.writeNum("analogR3.val",analogR3);
+    p_analogR3=analogR3;
+    Nex7.writeNum("analogR4.val",analogR4);
+    p_analogR4=analogR4;
+    Nex7.writeNum("analogKR1.val",analogKR1);
+    p_analogKR1=analogKR1;
+    Nex7.writeNum("lowFuelON.aph",127*((int)lowFuelON)); //uses a multiplication with the icon alpha
+    p_lowFuelON = lowFuelON;
+    Nex7.writeNum("oilON.aph",127*((int)oilON));
+    p_oilON=oilON;
+    Nex7.writeNum("fullbeamsON.aph",127*((int)fullbeamsON));
+    p_fullbeamsON = fullbeamsON;
+    Nex7.writeNum("coolantON.aph",127*((int)coolantON));
+    p_coolantON = coolantON;
+    Nex7.writeNum("MILON.aph",127*((int)MILON));
+    p_MILON=MILON;
+    Nex7.writeNum("turnON.aph",127*((int)turnON));
+    p_turnON=turnON;
+    Nex7.writeNum("parkingON.aph",127*((int)parkingON));
+    p_parkingON = parkingON;
+    Nex7.writeNum("absON.aph",127*((int)absON));
+    p_absON = absON;
+    Nex7.writeNum("brakesON.aph",127*((int)brakesON));
+    p_brakesON=brakesON;
+    Nex7.writeNum("overheatON.aph",127*((int)overheatON));
+    p_overheatON=overheatON;
+    Nex7.writeNum("airbagON.aph",127*((int)airbagON));
+    p_airbagON=airbagON;
+    Nex7.writeNum("alternatorON.aph",127*((int)alternatorON));
+    p_alternatorON=alternatorON;
+}
 //Nextion trigger for debug
 void trigger0() {
   debugFlag = !debugFlag;
@@ -173,6 +245,10 @@ void setup() {
   pinMode(Counter_3,INPUT_PULLDOWN);
   attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
   #pragma endregion
+
+delay(2000);
+resetScreen();
+
 }
 
 void loop() {
@@ -197,6 +273,7 @@ void loop() {
       senseAnalogKR1();
       senseFuelLevel();
       senseCoolant();
+      senseDistance(&odometer,&trip);
     }
     if(fastRefresh) {
       senseBinaryIOS();

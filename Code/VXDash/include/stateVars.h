@@ -7,6 +7,12 @@ uint16_t p_speed = 0;                     //Previous refresh value
 uint16_t speed_raw = 0;                   //Last raw value (PPS)
 uint16_t p_speed_raw = 0;                 //Previous raw value (PPS)
 
+//Distance measurement related
+uint32_t odometer = 0;
+uint32_t p_odometer = 0;
+uint16_t trip = 0;
+uint16_t p_trip = 0;
+
 //RPM detection related
 uint16_t rpm = 0;
 uint16_t p_rpm = 0;
@@ -70,3 +76,4 @@ bool   airbagON = false;
 bool p_airbagON = false;
 bool   alternatorON = false;
 bool p_alternatorON = false;
+bool   buttonON = false;
