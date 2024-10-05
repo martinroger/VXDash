@@ -65,7 +65,7 @@
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
-        "copper_sliver": "warning",
+        "copper_sliver": "ignore",
         "courtyards_overlap": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -94,7 +94,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -639,10 +639,6 @@
     [
       "21f2fd69-aa93-4550-8877-dde4aa3e5582",
       "12V_to_3V3_MP2322GQH"
-    ],
-    [
-      "3b362962-9c58-4f3d-b4cb-26a93c5b171d",
-      "ESP32"
     ],
     [
       "49dd7f56-e2bc-4ece-8d45-7f7746b35cf1",
