@@ -155,9 +155,9 @@ void resetScreen() {
     p_speed=speed;
     Nex7.writeNum("speed_raw.val",speed_raw);
     p_speed_raw=speed_raw;
-    Nex7.writeNum("x0.val",odometer);
+    Nex7.writeNum("odo.val",odometer/10);
     p_odometer=odometer;
-    Nex7.writeNum("x1.val",trip);
+    Nex7.writeNum("trip.val",trip);
     p_trip=trip;
     Nex7.writeNum("rpm.val",rpm);
     p_rpm=rpm;
