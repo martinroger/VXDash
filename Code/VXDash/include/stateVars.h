@@ -32,24 +32,24 @@ uint16_t coolant_raw = 0;
 uint16_t p_coolant_raw = 0;
 
 //Direct inputs
-uint16_t   analogV1 = 0;
-uint16_t p_analogV1 = 0;
-uint16_t   analogV2 = 0;
-uint16_t p_analogV2 = 0;
-uint16_t   analogV3 = 0;
-uint16_t p_analogV3 = 0;
-uint16_t   analogV4 = 0;
-uint16_t p_analogV4 = 0;
-uint16_t   analogR1 = 0;
-uint16_t p_analogR1 = 0;
-uint16_t   analogR2 = 0;
-uint16_t p_analogR2 = 0;
-uint16_t   analogR3 = 0;
-uint16_t p_analogR3 = 0;
-uint16_t   analogR4 = 0;
-uint16_t p_analogR4 = 0;
-uint16_t   analogKR1 = 0;
-uint16_t p_analogKR1 = 0;
+uint32_t   analogV1 = 0;
+uint32_t p_analogV1 = 0;
+uint32_t   analogV2 = 0;
+uint32_t p_analogV2 = 0;
+uint32_t   analogV3 = 0;
+uint32_t p_analogV3 = 0;
+uint32_t   analogV4 = 0;
+uint32_t p_analogV4 = 0;
+uint32_t   analogR1 = 0;
+uint32_t p_analogR1 = 0;
+uint32_t   analogR2 = 0;
+uint32_t p_analogR2 = 0;
+uint32_t   analogR3 = 0;
+uint32_t p_analogR3 = 0;
+uint32_t   analogR4 = 0;
+uint32_t p_analogR4 = 0;
+uint32_t   analogKR1 = 0;
+uint32_t p_analogKR1 = 0;
 
 //TellTales
 bool   lowFuelON = false;

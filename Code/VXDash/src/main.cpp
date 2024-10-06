@@ -246,8 +246,8 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
   #pragma endregion
 
-delay(2000);
-resetScreen();
+  delay(2000);
+  resetScreen();
 
 }
 

@@ -4,8 +4,8 @@
 #include <pinsDef.h>
 
 void senseAnalogV2() {
-  uint16_t val = 4095;
-  val = analogRead(ADC_4);
+  uint32_t val = 0;
+  val = analogReadMilliVolts(ADC_4);
   //analogV2 = map(val,0,4095,0,100);
   analogV2 = val;
   //Normally interpolation data goes here
