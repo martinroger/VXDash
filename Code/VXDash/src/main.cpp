@@ -33,11 +33,11 @@ void refreshScreen() {
     p_speed_raw=speed_raw;
   }
   if(odometer!=p_odometer) {
-    Nex7.writeNum("x0.val",odometer);
+    Nex7.writeNum("odo.val",odometer/10);
     p_odometer=odometer;
   }
   if(trip!=p_trip) {
-    Nex7.writeNum("x1.val",trip);
+    Nex7.writeNum("trip.val",trip);
     p_trip=trip;
   }
   if(rpm!=p_rpm) {
@@ -252,9 +252,14 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
   #pragma endregion
 
-  delay(2000);
+  delay(1000);
   resetScreen();
-
+  //Aggressively pre-fetch the fuel level
+  for (uint8_t i = 0; i < 100; i++)
+  {
+    senseFuelLevel();
+    delay(5);
+  }
 }
 
 void loop() {

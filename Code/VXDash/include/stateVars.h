@@ -22,8 +22,8 @@ uint16_t p_rpm_raw = 0;
 //Fuel level measurement
 uint8_t fuelLevel = 0;
 uint8_t p_fuelLevel = 0;
-uint16_t fuel_raw = 0;
-uint16_t p_fuel_raw = 0;
+uint32_t fuel_raw = 0;
+uint32_t p_fuel_raw = 0;
 
 //Coolant temperature measurement
 uint8_t coolant = 0;
