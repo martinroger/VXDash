@@ -234,6 +234,12 @@ void setup() {
   pinMode(S3,OUTPUT);
   pinMode(COM,INPUT);
 
+  pinMode(ADC_2,OUTPUT);
+  pinMode(Digital_2,OUTPUT);
+
+  digitalWrite(ADC_2,LOW);
+  digitalWrite(Digital_2,LOW);
+
   //Setup counters and IRQs
   #pragma region
   pinMode(Counter_1,INPUT_PULLDOWN);
