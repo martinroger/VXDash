@@ -10,6 +10,9 @@
 #include <stateVars.h>
 #include <muxSense.h>
 #include <analogs.h>
+#include <Preferences.h>
+
+Preferences persistentData;
 
 //useful debug flag, can also be triggered via the screen
 bool debugFlag = false;
@@ -227,6 +230,23 @@ void setup() {
   //Start Nextion screen Serial
   Nex7.begin(921600);
 
+  //Preferences management
+  persistentData.begin("trips",false);
+  if(!persistentData.isKey("trip")) {
+    persistentData.putUShort("trip",0);
+  }
+  else {
+    trip = persistentData.getUShort("trip");
+    memTrip = trip;
+  }
+  if(!persistentData.isKey("odometer")) {
+    persistentData.putULong("odometer",0);
+  }
+  else {
+    odometer = persistentData.getULong("odometer");
+    memOdometer = odometer;
+  }
+
   //Declare pin types for the MUX
   pinMode(S0,OUTPUT);
   pinMode(S1,OUTPUT);
@@ -285,6 +305,17 @@ void loop() {
       senseFuelLevel();
       senseCoolant();
       senseDistance(&odometer,&trip);
+
+      if(memOdometer!=odometer) {
+        persistentData.putULong("odometer",odometer);
+        memOdometer = odometer;
+      }
+
+      if(memTrip!=trip) {
+        persistentData.putUShort("trip",trip);
+        memTrip = trip;
+      }
+
     }
     if(fastRefresh) {
       senseBinaryIOS();
