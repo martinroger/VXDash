@@ -10,8 +10,10 @@ uint16_t p_speed_raw = 0;                 //Previous raw value (PPS)
 //Distance measurement related
 uint32_t odometer = 0;
 uint32_t p_odometer = 0;
+uint32_t memOdometer = 0;
 uint16_t trip = 0;
 uint16_t p_trip = 0;
+uint16_t memTrip = 0;
 
 //RPM detection related
 uint16_t rpm = 0;
