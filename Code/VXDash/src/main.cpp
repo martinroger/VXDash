@@ -10,6 +10,9 @@
 #include <stateVars.h>
 #include <muxSense.h>
 #include <analogs.h>
+#include <Preferences.h>
+
+Preferences persistentData;
 
 //useful debug flag, can also be triggered via the screen
 bool debugFlag = false;
@@ -33,11 +36,11 @@ void refreshScreen() {
     p_speed_raw=speed_raw;
   }
   if(odometer!=p_odometer) {
-    Nex7.writeNum("x0.val",odometer);
+    Nex7.writeNum("odo.val",odometer/10);
     p_odometer=odometer;
   }
   if(trip!=p_trip) {
-    Nex7.writeNum("x1.val",trip);
+    Nex7.writeNum("trip.val",trip);
     p_trip=trip;
   }
   if(rpm!=p_rpm) {
@@ -155,9 +158,9 @@ void resetScreen() {
     p_speed=speed;
     Nex7.writeNum("speed_raw.val",speed_raw);
     p_speed_raw=speed_raw;
-    Nex7.writeNum("x0.val",odometer);
+    Nex7.writeNum("odo.val",odometer/10);
     p_odometer=odometer;
-    Nex7.writeNum("x1.val",trip);
+    Nex7.writeNum("trip.val",trip);
     p_trip=trip;
     Nex7.writeNum("rpm.val",rpm);
     p_rpm=rpm;
@@ -227,6 +230,23 @@ void setup() {
   //Start Nextion screen Serial
   Nex7.begin(921600);
 
+  //Preferences management
+  persistentData.begin("trips",false);
+  if(!persistentData.isKey("trip")) {
+    persistentData.putUShort("trip",0);
+  }
+  else {
+    trip = persistentData.getUShort("trip");
+    memTrip = trip;
+  }
+  if(!persistentData.isKey("odometer")) {
+    persistentData.putULong("odometer",0);
+  }
+  else {
+    odometer = persistentData.getULong("odometer");
+    memOdometer = odometer;
+  }
+
   //Declare pin types for the MUX
   pinMode(S0,OUTPUT);
   pinMode(S1,OUTPUT);
@@ -252,9 +272,14 @@ void setup() {
   attachInterrupt(digitalPinToInterrupt(Counter_3),coolantPulse,CHANGE);
   #pragma endregion
 
-  delay(2000);
+  delay(1000);
   resetScreen();
-
+  //Aggressively pre-fetch the fuel level
+  for (uint8_t i = 0; i < 100; i++)
+  {
+    senseFuelLevel();
+    delay(5);
+  }
 }
 
 void loop() {
@@ -280,6 +305,17 @@ void loop() {
       senseFuelLevel();
       senseCoolant();
       senseDistance(&odometer,&trip);
+
+      if(memOdometer!=odometer) {
+        persistentData.putULong("odometer",odometer);
+        memOdometer = odometer;
+      }
+
+      if(memTrip!=trip) {
+        persistentData.putUShort("trip",trip);
+        memTrip = trip;
+      }
+
     }
     if(fastRefresh) {
       senseBinaryIOS();
