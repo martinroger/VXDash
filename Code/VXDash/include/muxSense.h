@@ -9,7 +9,7 @@ void senseBinaryIOS() {
   absON         = readAddr(1);
   //doorON        = readAddr(2);
   coolantON     = readAddr(3);
-  //buttonON      = readAddr(4);
+  buttonON      = readAddr(4);
   MILON         = readAddr(5);
   airbagON      = readAddr(6);
   oilON         = readAddr(7);

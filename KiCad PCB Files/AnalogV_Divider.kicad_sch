@@ -6,8 +6,8 @@
 
   (title_block
     (title "0-5V voltage sensing circuit")
-    (date "2024-04-29")
-    (rev "1.2.5")
+    (date "2024-10-06")
+    (rev "1.3.1")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
   )
@@ -158,6 +158,10 @@
     (uuid d1b67dac-3fab-4be0-9ef3-ef66780c1bb5)
   )
 
+  (wire (pts (xy 165.1 80.01) (xy 186.69 80.01))
+    (stroke (width 0) (type default))
+    (uuid 19126a31-e59d-4731-9ea6-1d15c3b1851d)
+  )
   (wire (pts (xy 92.71 60.96) (xy 142.24 60.96))
     (stroke (width 0) (type default))
     (uuid 4fd05d13-9d24-4d81-b329-d267da19e842)
@@ -181,10 +185,6 @@
   (wire (pts (xy 165.1 60.96) (xy 142.24 60.96))
     (stroke (width 0) (type default))
     (uuid d2ac219b-cf99-41ac-b6cb-b98f2c3f76e6)
-  )
-  (wire (pts (xy 186.69 80.01) (xy 165.1 80.01))
-    (stroke (width 0) (type default))
-    (uuid e9a07aa7-d2cd-4ff7-a63e-9698d4afa8ff)
   )
   (wire (pts (xy 92.71 60.96) (xy 64.77 60.96))
     (stroke (width 0) (type default))
