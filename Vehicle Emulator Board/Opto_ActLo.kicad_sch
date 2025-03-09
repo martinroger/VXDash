@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Active Low Optocoupler circuit")
-    (date "2024-10-06")
-    (rev "1.3.1")
+    (title "Vehicle Emulator Board")
+    (date "2025-03-09")
+    (rev "1.0.0")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
   )
@@ -376,7 +376,7 @@
           (reference "R52") (unit 1)
         )
       )
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/2079de5b-2f3f-4362-a932-421ac573d68a"
           (reference "R7") (unit 1)
         )
@@ -473,7 +473,7 @@
           (reference "R52") (unit 1)
         )
       )
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/2079de5b-2f3f-4362-a932-421ac573d68a"
           (reference "R6") (unit 1)
         )
@@ -525,7 +525,7 @@
     )
     (pin "1" (uuid 38bbf9bf-2a25-4e54-8bf4-4950ab9cf84a))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/2079de5b-2f3f-4362-a932-421ac573d68a"
           (reference "#PWR015") (unit 1)
         )
@@ -594,7 +594,7 @@
           (reference "U1") (unit 1)
         )
       )
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
           (reference "U1") (unit 1)
         )

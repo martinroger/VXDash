@@ -5,9 +5,9 @@
   (paper "A4")
 
   (title_block
-    (title "Dual Op-Amp Constant current source resistive sensor")
-    (date "2024-10-06")
-    (rev "1.3.1")
+    (title "Vehicle Emulator Board")
+    (date "2025-03-09")
+    (rev "1.0.0")
     (comment 1 "https://github.com/martinroger/VXDash")
     (comment 2 "https://cadlab.io/projects/vxdash")
   )
@@ -747,7 +747,7 @@
     )
     (pin "1" (uuid ec76120b-40f0-40a7-a4f6-cd88779a9999))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR071") (unit 1)
         )
@@ -789,7 +789,7 @@
     (pin "2" (uuid fe41e4f5-5a90-4288-9b87-761e61f28c9c))
     (pin "3" (uuid 4df3c420-40ce-47e2-bcd3-1eae306401b0))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "Q8") (unit 1)
         )
@@ -820,7 +820,7 @@
     )
     (pin "1" (uuid 73133911-7133-4769-9fb6-7601ee7e678c))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR069") (unit 1)
         )
@@ -851,7 +851,7 @@
     )
     (pin "1" (uuid 671772bd-484c-4a00-a310-56b0305aa3b0))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR072") (unit 1)
         )
@@ -892,7 +892,7 @@
     (pin "1" (uuid 40836fa3-4ad0-462f-b9be-fcc80bdfc95a))
     (pin "2" (uuid c0c6ae95-d12a-4dd5-8a1e-e7874af2c743))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "D9") (unit 1)
         )
@@ -954,7 +954,7 @@
     (pin "7" (uuid 0dfd4ea4-280f-4784-b959-5d00a6ffb025))
     (pin "8" (uuid c28d5d74-0002-41e6-aa32-67a87931f6ae))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "IC5") (unit 1)
         )
@@ -995,7 +995,7 @@
     (pin "1" (uuid 4a97e249-bbdb-4cc9-b525-ee29aaa13530))
     (pin "2" (uuid 7167c2ac-daed-4df9-b8ec-c76f9856395a))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R72") (unit 1)
         )
@@ -1036,7 +1036,7 @@
     (pin "1" (uuid 8f64f3b0-9640-44f5-b75b-91c1c85c81b1))
     (pin "2" (uuid 64c067ea-5e38-4965-a248-dce77141c6f8))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R74") (unit 1)
         )
@@ -1077,7 +1077,7 @@
     (pin "1" (uuid 0540fbb7-e102-4abf-9270-4220200cf5ea))
     (pin "2" (uuid 0352f16d-5a24-401a-9c02-24d3ce26272d))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R73") (unit 1)
         )
@@ -1123,7 +1123,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
           (reference "C35") (unit 1)
         )
@@ -1160,7 +1160,7 @@
     )
     (pin "1" (uuid 28fc5deb-2681-47a8-b95e-8719c097e08f))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR070") (unit 1)
         )
@@ -1201,7 +1201,7 @@
     (pin "1" (uuid 8ba2d66c-2b0e-45e7-9486-d7fa978769e9))
     (pin "2" (uuid 2efcfe86-5eec-4143-ad81-18222623b388))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R75") (unit 1)
         )
@@ -1243,7 +1243,7 @@
     (pin "2" (uuid 906d197a-0844-4b4d-a0c7-07dc24005091))
     (pin "3" (uuid 3da3b6ca-72ce-4302-8d43-8caf0d6c3db7))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "Q7") (unit 1)
         )
@@ -1274,7 +1274,7 @@
     )
     (pin "1" (uuid 906597a9-c2d4-4d20-8c30-104694a805e0))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "#PWR064") (unit 1)
         )
@@ -1315,7 +1315,7 @@
     (pin "1" (uuid 9719cef5-d19a-4057-a785-dd0a12789b5f))
     (pin "2" (uuid 6a269638-4548-472f-92b1-142bfe757c07))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R76") (unit 1)
         )
@@ -1361,7 +1361,7 @@
           (reference "C6") (unit 1)
         )
       )
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
           (reference "C35") (unit 1)
         )
@@ -1408,7 +1408,7 @@
     (pin "1" (uuid cec11738-e8cc-48cf-9bb9-5c27b409ca7c))
     (pin "2" (uuid 9d3c52fb-bf03-4702-9b83-185e4e52ead9))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "R58") (unit 1)
         )
@@ -1449,7 +1449,7 @@
     (pin "1" (uuid 4849f0f3-e23c-47ee-9014-8bb92aec9996))
     (pin "2" (uuid 4d5511b3-cf8b-41e4-9551-b9b2fe0e429b))
     (instances
-      (project "VXDash"
+      (project "Vehicle Emulator Board"
         (path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/326d91f1-1d34-43d4-aac6-11bd9692edf0"
           (reference "D2") (unit 1)
         )
