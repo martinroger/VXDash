@@ -746,7 +746,133 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Dielectric",
+            "name": "Dielectric",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Height",
+            "name": "Height",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Tolerance",
+            "name": "Tolerance",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Voltage",
+            "name": "Voltage",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Type",
+            "name": "Type",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "MFT_PN",
+            "name": "MFT_PN",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Power",
+            "name": "Power",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Tol",
+            "name": "Tol",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFT",
+            "name": "MFT",
+            "show": true
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "BOM",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -775,16 +901,16 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -799,16 +925,10 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Arrow Price/Stock",
-          "name": "Arrow Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
+          "group_by": true,
           "label": "Dielectric",
           "name": "Dielectric",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -818,57 +938,15 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Testing Part Number",
-          "name": "Mouser Testing Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Testing Price/Stock",
-          "name": "Mouser Testing Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Arrow Part Number",
-          "name": "Arrow Part Number",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -880,6 +958,54 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Type",
+          "name": "Type",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MFT_PN",
+          "name": "MFT_PN",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Power",
+          "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Tol",
+          "name": "Tol",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFT",
+          "name": "MFT",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Isat",
+          "name": "Isat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Irated",
+          "name": "Irated",
           "show": false
         }
       ],
@@ -947,7 +1073,7 @@
     ],
     [
       "e4c69d46-7a64-435d-9e3a-d73acbe7ec2b",
-      "12V_to_5V_AP63200WU-7"
+      "5V_SMPS_1"
     ],
     [
       "2079de5b-2f3f-4362-a932-421ac573d68a",
@@ -1011,7 +1137,7 @@
     ],
     [
       "21f2fd69-aa93-4550-8877-dde4aa3e5582",
-      "12V_to_3V3_MP2322GQH"
+      "3V3_SMPS"
     ],
     [
       "3b362962-9c58-4f3d-b4cb-26a93c5b171d",
@@ -1048,6 +1174,10 @@
     [
       "326d91f1-1d34-43d4-aac6-11bd9692edf0",
       "Rsensing_Pair1"
+    ],
+    [
+      "08acef39-2886-400a-86d2-7f8ed30d55fe",
+      "5V_SMPS_2"
     ]
   ],
   "text_variables": {}

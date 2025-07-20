@@ -6,136 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Active Hi Optocoupler circuit")
-		(date "2024-10-06")
+		(date "2025-07-19")
 		(rev "1.3.1")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
 	(lib_symbols
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Isolator:SFH617A-2X009T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -432,6 +308,177 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VXDash_passives:Res"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.27 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Res"
+				(at 1.27 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tol" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "100mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Type" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Res_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Res_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -534,14 +581,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "SFH617A-2X009T\nCTR 63-125%\nVf = 1.35V\n\nCircuit CTR:\nIf = (12V-1.35V)/1K = 10.65mA\nIc = 3.3/1K = 3.3mA\nCTRc = 3.3/10.65 = 30.9%\n\nOpto is always in saturation\n"
+	(text_box "Assume 50% CTR w.c.\nVf = 1.2V @1mA\nLowest battery = 10V\n\nCircuit CTR:\nIf = (10V-1.2V)/1mA = 8.8k. \nLower closest 8k2 = 1.07mA\nIc = 3.3/10k = 330uA\nCTRc = 0.33/1.07 = 30.8%\n\nOpto is always in saturation\n"
 		(exclude_from_sim no)
-		(at 62.23 78.74 0)
-		(size 36.83 25.4)
+		(at 116.84 48.26 0)
+		(size 35.56 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -553,17 +600,47 @@
 			)
 			(justify left top)
 		)
-		(uuid "4bb4d0d1-4330-4be7-98d3-c615c766af0d")
+		(uuid "f7f41087-a010-4d26-b204-03a337e26a95")
 	)
 	(junction
-		(at 116.84 110.49)
+		(at 149.86 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a53a9837-f9f6-4345-a140-39712841b17f")
+		(uuid "c8a9273e-0673-4e81-9c47-2e070e84e5d3")
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 121.92 110.49)
+			(xy 149.86 106.68) (xy 149.86 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00215662-3dbc-431d-8819-5db50f19b6aa")
+	)
+	(wire
+		(pts
+			(xy 127 101.6) (xy 130.81 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00da4b55-08e0-4ced-802c-af62b905626c")
+	)
+	(wire
+		(pts
+			(xy 157.48 96.52) (xy 149.86 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0449a410-2d0c-4888-943d-2f906f32eb67")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
@@ -573,7 +650,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 72.39) (xy 116.84 76.2)
+			(xy 119.38 81.28) (xy 127 81.28)
 		)
 		(stroke
 			(width 0)
@@ -583,27 +660,27 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 101.6) (xy 111.76 113.03)
+			(xy 149.86 81.28) (xy 149.86 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2dcdd35f-0d9d-45cd-93b4-b35e09687778")
+		(uuid "22591d6c-29cf-48b6-a63a-b7cfd68c8e88")
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 116.84 118.11)
+			(xy 127 96.52) (xy 130.81 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "304bf3b0-6086-4578-b6ea-68a65cf3204b")
+		(uuid "2871167e-3dd4-479e-a160-4d4ddbfcfc75")
 	)
 	(wire
 		(pts
-			(xy 116.84 101.6) (xy 116.84 110.49)
+			(xy 146.05 96.52) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
@@ -613,49 +690,79 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 83.82) (xy 116.84 86.36)
+			(xy 127 81.28) (xy 127 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "deab1ced-ef8e-4e17-aa3e-c4ece1382bce")
+		(uuid "5eee2dbe-2f36-4c0f-b0ff-e89dc4ec49a5")
 	)
 	(wire
 		(pts
-			(xy 111.76 72.39) (xy 111.76 86.36)
+			(xy 157.48 81.28) (xy 149.86 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f5116e34-392e-43eb-8684-caad029e6e04")
+		(uuid "92bd7fd9-4fab-43cc-a771-286972687e1b")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d10bf45c-992a-42f8-8d49-9558615a88e1")
+	)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 146.05 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d186a155-233c-420b-b28b-dbb19c5c6f56")
+	)
+	(wire
+		(pts
+			(xy 127 106.68) (xy 127 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e231b83c-a7d9-429f-a689-e4ff8ee6a919")
 	)
 	(global_label "REG_3.3V+"
 		(shape bidirectional)
-		(at 116.84 125.73 270)
+		(at 157.48 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "a781452d-80e2-4409-bbee-9d630aeb197e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.84 139.2755 90)
+			(at 171.1049 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
-	(hierarchical_label "LL_out"
+	(hierarchical_label "~{LL_output}"
 		(shape output)
-		(at 121.92 110.49 0)
+		(at 157.48 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -664,20 +771,20 @@
 		)
 		(uuid "81494e5c-0376-4c2b-b926-336726bce0d4")
 	)
-	(hierarchical_label "HL_in"
-		(shape output)
-		(at 116.84 72.39 90)
+	(hierarchical_label "HL_Input"
+		(shape input)
+		(at 119.38 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "88a54cbf-9693-4d12-9cc5-c2a780eedd10")
 	)
 	(symbol
 		(lib_id "Isolator:SFH617A-2X009T")
-		(at 114.3 93.98 270)
+		(at 138.43 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -686,16 +793,15 @@
 		(fields_autoplaced yes)
 		(uuid "06d1594b-580c-4e4b-a22c-8d7a6969ad6a")
 		(property "Reference" "U11"
-			(at 119.38 92.7099 90)
+			(at 138.43 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "SFH617A-2X009T"
-			(at 119.38 95.2499 90)
+		(property "Value" "~"
+			(at 139.6999 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -704,7 +810,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:SMDIP-4_W7.62mm"
-			(at 106.68 93.98 0)
+			(at 138.43 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -712,8 +818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/83740/sfh617a.pdf"
-			(at 121.92 85.09 0)
+		(property "Datasheet" ""
+			(at 129.54 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,8 +827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "OPTOISOLATOR 5.3KV TRANS 4SMD"
-			(at 114.3 93.98 0)
+		(property "Description" "DIP-4 optocoupler"
+			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -730,8 +836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 114.3 93.98 0)
+		(property "MFT" ""
+			(at 138.43 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,8 +845,17 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SFH617A-2X009T"
-			(at 114.3 93.98 0)
+		(property "MFT_PN" ""
+			(at 138.43 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -792,8 +907,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 116.84 121.92 0)
+		(lib_id "VXDash_passives:Res")
+		(at 149.86 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -802,7 +917,7 @@
 		(fields_autoplaced yes)
 		(uuid "22e66e85-24cf-4d25-b04c-a3c96d8e3b9d")
 		(property "Reference" "R27"
-			(at 119.38 120.6499 0)
+			(at 152.4 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,8 +925,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 119.38 123.1899 0)
+		(property "Value" "10k"
+			(at 152.4 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -819,8 +934,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 115.062 121.92 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 148.082 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,8 +943,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 116.84 121.92 0)
+		(property "Datasheet" ""
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +953,7 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 1% 1/8W 0805"
-			(at 116.84 121.92 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,8 +961,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 116.84 121.92 0)
+		(property "Tol" "1%"
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,8 +970,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RMCF0805FT1K00"
-			(at 116.84 121.92 0)
+		(property "Power" "100mW"
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -943,7 +1094,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 113.03 0)
+		(at 149.86 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -952,7 +1103,7 @@
 		(fields_autoplaced yes)
 		(uuid "a598ee63-9a59-4adf-9f0b-acfc31b3fe83")
 		(property "Reference" "#PWR026"
-			(at 111.76 119.38 0)
+			(at 149.86 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,15 +1112,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 118.11 0)
+			(at 152.4 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 113.03 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -978,7 +1130,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 113.03 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +1139,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 113.03 0)
+			(at 149.86 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,8 +1176,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 116.84 80.01 0)
+		(lib_id "VXDash_passives:Res")
+		(at 127 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1034,7 +1186,7 @@
 		(fields_autoplaced yes)
 		(uuid "b2a6b19e-ee01-442c-8419-af6fc98024eb")
 		(property "Reference" "R26"
-			(at 119.38 78.7399 0)
+			(at 129.54 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1042,8 +1194,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 119.38 81.2799 0)
+		(property "Value" "8k2"
+			(at 129.54 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1051,8 +1203,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 115.062 80.01 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.222 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,8 +1212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf"
-			(at 116.84 80.01 0)
+		(property "Datasheet" ""
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,7 +1222,7 @@
 			)
 		)
 		(property "Description" "RES 1K OHM 1% 1/8W 0805"
-			(at 116.84 80.01 0)
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,8 +1230,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Stackpole Electronics Inc"
-			(at 116.84 80.01 0)
+		(property "Tol" "1%"
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,8 +1239,44 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RMCF0805FT1K00"
-			(at 116.84 80.01 0)
+		(property "Power" "100mW"
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 127 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1363,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 72.39 180)
+		(at 127 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1184,7 +1372,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0bfa16b-e45e-4f3f-ba25-df0cec28909b")
 		(property "Reference" "#PWR025"
-			(at 111.76 66.04 0)
+			(at 127 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,15 +1381,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.76 67.31 0)
+			(at 129.54 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 72.39 0)
+			(at 127 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1210,7 +1399,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 72.39 0)
+			(at 127 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1219,7 +1408,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 72.39 0)
+			(at 127 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
