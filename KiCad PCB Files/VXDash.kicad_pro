@@ -895,6 +895,12 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -950,12 +956,6 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
@@ -1006,6 +1006,24 @@
           "group_by": false,
           "label": "Irated",
           "name": "Irated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vbr",
+          "name": "Vbr",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vwm",
+          "name": "Vwm",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ippm",
+          "name": "Ippm",
           "show": false
         }
       ],
@@ -1144,40 +1162,44 @@
       "ESP32"
     ],
     [
-      "49dd7f56-e2bc-4ece-8d45-7f7746b35cf1",
+      "7a015d8c-0bfa-4a16-bdcd-1d17833caee2",
       "AnalogV_Divider1"
     ],
     [
-      "0aba8308-846a-4b92-bff8-a5f43fc8954a",
+      "5c960f8f-bf80-41bc-a879-992c50d29f1d",
       "AnalogV_Divider2"
     ],
     [
-      "9da43d6d-a7f0-4946-a56f-24a651ef1449",
+      "024f3b9c-af80-4b8c-9e91-7ad2b6b7f854",
+      "Analogue"
+    ],
+    [
+      "5a426090-a212-448a-a415-b266d8e90572",
       "AnalogV_Divider3"
     ],
     [
-      "90407443-bcf0-4ef5-806a-0401be5e98d0",
+      "86e99c99-fb11-4ded-8b94-444f84514f75",
       "AnalogV_Divider4"
     ],
     [
-      "d1068bfa-7fca-483b-992f-259828068143",
-      "Rsensing_Pair2"
-    ],
-    [
-      "ab8a9460-71cd-4862-ab5b-7fd199f4cc91",
-      "Rsensing_Pair3"
+      "1ecce2ed-36c5-4f2b-bb85-c902b846ae0c",
+      "Rsensing_Pair1"
     ],
     [
       "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
       "Power_Input"
     ],
     [
-      "326d91f1-1d34-43d4-aac6-11bd9692edf0",
-      "Rsensing_Pair1"
+      "367fd9a9-6a47-4f5e-94da-7163cefdc48e",
+      "Rsensing_Pair2"
     ],
     [
-      "08acef39-2886-400a-86d2-7f8ed30d55fe",
+      "1e710dfa-ec27-4a4d-bb24-4bffb525a2be",
       "5V_SMPS_2"
+    ],
+    [
+      "cc05830a-15d9-41d6-80b0-3286fa1b8a0e",
+      "Rsensing_Pair3"
     ]
   ],
   "text_variables": {}

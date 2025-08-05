@@ -7,7 +7,7 @@
 	(title_block
 		(title "Active Low Optocoupler circuit")
 		(date "2025-07-19")
-		(rev "1.3.1")
+		(rev "1.4")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
@@ -728,7 +728,7 @@
 		)
 		(uuid "db7d9e14-8d57-49bf-85de-050dadcf64a0")
 	)
-	(global_label "REG_3.3V+"
+	(global_label "+3V3"
 		(shape bidirectional)
 		(at 167.64 85.09 0)
 		(fields_autoplaced yes)
@@ -840,7 +840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -1046,7 +1046,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RES 1K OHM 1% 1/8W 0805"
+		(property "Description" ""
 			(at 132.08 91.44 0)
 			(effects
 				(font

@@ -7,7 +7,7 @@
 	(title_block
 		(title "12V to 5V conversion")
 		(date "2025-07-19")
-		(rev "1.3.1")
+		(rev "1.4")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
@@ -1505,7 +1505,7 @@
 		)
 		(uuid "fe88cfec-c3db-4243-bfb8-727c730df0ab")
 	)
-	(hierarchical_label "12V_IN"
+	(hierarchical_label "12V_in"
 		(shape input)
 		(at 67.31 76.2 180)
 		(effects
@@ -1516,7 +1516,7 @@
 		)
 		(uuid "27c18ee7-25a6-4a95-a173-d3fab4040565")
 	)
-	(hierarchical_label "5V_OUT"
+	(hierarchical_label "5V_out"
 		(shape output)
 		(at 195.58 81.28 0)
 		(effects
@@ -1527,7 +1527,7 @@
 		)
 		(uuid "373e90fb-cffe-4d5c-a280-3d8f49e2b137")
 	)
-	(hierarchical_label "12V_EN"
+	(hierarchical_label "5V_en"
 		(shape input)
 		(at 67.31 91.44 180)
 		(effects
@@ -1548,7 +1548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "046eae1f-6a19-4fec-8c09-10e7418034bc")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR"
 			(at 113.03 114.3 0)
 			(effects
 				(font
@@ -1593,16 +1593,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "77c9d329-6bf0-4749-b675-500bd7c9dcdd")
+			(uuid "62278ecb-1c9d-4216-89bd-dc824f0c31e2")
 		)
 		(instances
-			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 157.48 86.36 0)
 			(effects
 				(font
@@ -1718,14 +1714,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e2f4aa46-8650-4861-83e7-58ebeefa1fa0")
+			(uuid "0fd9dacd-da92-4755-ac7c-e6a2e7718bf1")
 		)
 		(pin "2"
-			(uuid "31053a76-9ef3-4385-a00f-ac0e9d603652")
+			(uuid "24d61867-e817-4cad-bdbe-4a3cf2b67c7e")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "C28")
 					(unit 1)
 				)
@@ -1782,7 +1778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 90.17 82.55 0)
 			(effects
 				(font
@@ -1846,14 +1842,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "53343df1-d661-4ca7-a9bd-0aa72955e51a")
+			(uuid "01826e78-178c-4ff1-b1af-c5cfb0fdad07")
 		)
 		(pin "2"
-			(uuid "4f34e09c-dd25-4923-b3b4-36e6a0711981")
+			(uuid "23bbbd8e-55bd-4f86-bb68-c0a091b39bdf")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "C23")
 					(unit 1)
 				)
@@ -1909,7 +1905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 189.23 86.36 0)
 			(effects
 				(font
@@ -1964,15 +1960,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "5d371c03-03af-4537-9d18-7cc838da0641")
+			(uuid "f9815a8b-7913-47f1-bc93-c503137dd8fa")
 		)
 		(pin "1"
-			(uuid "69bceb56-ecd1-432c-a157-b4b4920816e6")
+			(uuid "83eeea03-b145-4f89-a968-1e0f1b95528e")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
-					(reference "C58")
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
@@ -2027,7 +2023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 181.61 86.36 0)
 			(effects
 				(font
@@ -2082,14 +2078,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "eb04674a-e788-4eb4-ad43-75524a9fb10e")
+			(uuid "b9d0700a-950c-4a5f-9e6c-68322feb4ad6")
 		)
 		(pin "1"
-			(uuid "a1dee1c0-6e88-4ca5-9f97-2e3d0a860d49")
+			(uuid "f595cd5c-3993-4fe8-9eb7-02689921a2e8")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "C32")
 					(unit 1)
 				)
@@ -2181,27 +2177,27 @@
 			)
 		)
 		(pin "6"
-			(uuid "0e7b71f2-db8a-4b52-8d8e-94ed3f11b0f7")
+			(uuid "2a4c5c5b-6646-46b5-8c6b-719084c6b768")
 		)
 		(pin "3"
-			(uuid "4be3f722-9dae-46da-891c-40238ba48e76")
+			(uuid "cd4f385e-4a92-411c-834f-95dca285bf02")
 		)
 		(pin "5"
-			(uuid "f74201eb-1843-4e41-9e72-149ba2e9206d")
+			(uuid "363f4c36-ee01-466b-894c-a62e2e1c2124")
 		)
 		(pin "1"
-			(uuid "9d67b0ea-3dbf-46dc-aa5d-b2fe7addf39b")
+			(uuid "6506d751-d2b1-4592-9394-eb46a77b5fe4")
 		)
 		(pin "4"
-			(uuid "709e3f56-aa3b-4665-a567-e16ebefa3c59")
+			(uuid "8fa30bbc-d0db-4309-8918-a56f53e2ca5d")
 		)
 		(pin "2"
-			(uuid "897582e4-07c0-4e99-94d8-0bcbf18dfa29")
+			(uuid "fe55c8bb-9405-47eb-ab19-38a967a786d5")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
-					(reference "IC9")
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
+					(reference "IC7")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
@@ -2247,7 +2243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -2256,7 +2252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 74.93 91.44 0)
 			(effects
 				(font
@@ -2320,14 +2316,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "28aacf9d-8e64-4d17-a444-27a5f7bcc774")
+			(uuid "a37229e1-e741-4789-85f7-7089bfd0d1e2")
 		)
 		(pin "2"
-			(uuid "ea75980d-11ef-4042-b0e1-bdc4bd34ca8a")
+			(uuid "628e7e84-8924-4b79-9682-8a192ef919b7")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "R79")
 					(unit 1)
 				)
@@ -2382,7 +2378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -2446,14 +2442,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "9c999a5c-837c-41f2-9ba6-0588a0555369")
+			(uuid "ab8ac864-be81-4499-9465-8b5446c23f3e")
 		)
 		(pin "1"
-			(uuid "5735a74f-82cc-4c8c-8d01-1b2d321afa5a")
+			(uuid "f4458e30-cc35-4178-87bc-fb1c9cc82fb6")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "L3")
 					(unit 1)
 				)
@@ -2509,7 +2505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 129.54 76.2 0)
 			(effects
 				(font
@@ -2572,14 +2568,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "04d07bef-54f2-449b-afc7-5b8cf37e715b")
+			(uuid "3ab7f74e-5ab4-4175-a68a-b14067baf964")
 		)
 		(pin "2"
-			(uuid "be769d43-e99f-4574-a025-a457f20c8393")
+			(uuid "80f9947d-58ad-46dc-85e5-6ca791026fee")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "C26")
 					(unit 1)
 				)
@@ -2636,7 +2632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 173.99 86.36 0)
 			(effects
 				(font
@@ -2700,14 +2696,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdcb6c30-b74d-49f8-8ab4-444bd7fd8c2e")
+			(uuid "93884656-f509-4951-b077-8d6e05e1c79c")
 		)
 		(pin "2"
-			(uuid "13f42856-ab28-4e67-8ac1-d58942d63f5a")
+			(uuid "938ce4dc-d5aa-4a23-acda-5a18f3b46c5e")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "C30")
 					(unit 1)
 				)
@@ -2764,7 +2760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 148.59 97.79 0)
 			(effects
 				(font
@@ -2828,14 +2824,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "db2d7872-4c5d-4166-8010-3b48b6052735")
+			(uuid "903fb699-77b7-4d1a-a147-3ab2552c2452")
 		)
 		(pin "2"
-			(uuid "6f0b1f30-4237-49a2-9f12-45cb9e8cdff8")
+			(uuid "5d40a6be-165a-4cff-92f5-7df2cfdb47e5")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "R82")
 					(unit 1)
 				)
@@ -2892,7 +2888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" ""
 			(at 82.55 82.55 0)
 			(effects
 				(font
@@ -2956,14 +2952,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a0e0ae1-effe-40b0-8844-08d9a800a487")
+			(uuid "885f25a3-aa32-4cc8-b3ae-87dbe718979d")
 		)
 		(pin "2"
-			(uuid "735624cd-4ee9-4028-a7ee-cc6de883b86d")
+			(uuid "eb89d105-057e-4d56-9b73-a71c0586ee1a")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "C22")
 					(unit 1)
 				)
@@ -3021,7 +3017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 100.33 96.52 0)
 			(effects
 				(font
@@ -3085,14 +3081,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "7888cc00-4715-4280-ab63-6a7e7268ae3f")
+			(uuid "b32eb975-a85f-4fb8-be3e-b57dcbca978a")
 		)
 		(pin "2"
-			(uuid "b29dddbf-cf27-40fe-8f06-4ee4bb4e5e8d")
+			(uuid "81d0ab64-4349-4991-8537-8a295a1ca73f")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "R80")
 					(unit 1)
 				)
@@ -3149,7 +3145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 148.59 86.36 0)
 			(effects
 				(font
@@ -3213,14 +3209,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "73567856-b51a-4228-8a20-178784279881")
+			(uuid "35c04ee0-3679-4d69-9b29-090adfc8369b")
 		)
 		(pin "2"
-			(uuid "f3f44c8c-6e72-43fd-923e-8d5774add959")
+			(uuid "22fd8407-5131-4948-9db6-4badc4ea2e45")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/08acef39-2886-400a-86d2-7f8ed30d55fe"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1e710dfa-ec27-4a4d-bb24-4bffb525a2be"
 					(reference "R81")
 					(unit 1)
 				)
