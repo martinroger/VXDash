@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "0-5V voltage sensing circuit")
-		(date "2025-07-19")
+		(date "2025-08-08")
 		(rev "1.4")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
@@ -970,7 +970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1329a6ac-646d-4f2f-a7af-6455313cc2dd")
-		(property "Reference" "R42"
+		(property "Reference" "R59"
 			(at 173.99 90.17 90)
 			(effects
 				(font
@@ -1058,15 +1058,6 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 173.99 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8e88fb81-ba04-401b-8c4c-c5143e32c5e2")
 		)
@@ -1076,19 +1067,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "R50")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "R42")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "R54")
+					(reference "R63")
 					(unit 1)
 				)
 			)
@@ -1104,7 +1087,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b540ccf-63f9-4d04-921d-d3d4ce7a8b14")
-		(property "Reference" "R41"
+		(property "Reference" "R58"
 			(at 148.59 104.1399 0)
 			(effects
 				(font
@@ -1194,15 +1177,6 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0f0bd18f-e05c-4bea-9246-205d4000c15a")
 		)
@@ -1212,19 +1186,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "R49")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "R41")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "R53")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -1240,7 +1206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68678fbb-b101-4dda-b9b0-45810e171c28")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR049"
 			(at 146.05 121.92 0)
 			(effects
 				(font
@@ -1290,19 +1256,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "#PWR037")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "#PWR035")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "#PWR041")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -1318,7 +1276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a502365-ba6d-42a2-9a89-657602704977")
-		(property "Reference" "R36"
+		(property "Reference" "R56"
 			(at 116.84 71.12 90)
 			(effects
 				(font
@@ -1406,15 +1364,6 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 116.84 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c76b8e94-17cf-461d-9a0f-83b569d4cf6e")
 		)
@@ -1424,19 +1373,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "R47")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "R36")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "R51")
+					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -1452,7 +1393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9151ab82-73db-4c45-9220-3536f931b060")
-		(property "Reference" "C14"
+		(property "Reference" "C33"
 			(at 184.15 102.8699 0)
 			(effects
 				(font
@@ -1542,15 +1483,6 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" ""
-			(at 180.34 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "741b90ee-9573-49b7-9c8d-f0ae908b1800")
 		)
@@ -1560,19 +1492,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "C29")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "C25")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "C14")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "C40")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4b51911-474d-4a78-a608-6e6f93b99539")
-		(property "Reference" "R40"
+		(property "Reference" "R57"
 			(at 148.59 85.0899 0)
 			(effects
 				(font
@@ -1678,15 +1602,6 @@
 				(hide yes)
 			)
 		)
-		(property "Tolerance" ""
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9246b139-19eb-418b-87c8-f804b8b6d391")
 		)
@@ -1696,19 +1611,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "R40")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "R52")
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -1724,7 +1631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3734785-32ca-4529-98ee-9332d8e40474")
-		(property "Reference" "C13"
+		(property "Reference" "C32"
 			(at 132.08 80.0099 0)
 			(effects
 				(font
@@ -1814,15 +1721,6 @@
 				(justify right)
 			)
 		)
-		(property "Tolerance" ""
-			(at 128.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "df1f0a33-2200-4b40-8c55-f555fcb2a33a")
 		)
@@ -1832,19 +1730,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "C27")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "C15")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "C13")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "C31")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -1860,7 +1750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7eac5e4-bfb8-401b-964e-8c93404ccce8")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR048"
 			(at 121.92 95.25 0)
 			(effects
 				(font
@@ -1910,19 +1800,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "#PWR036")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "#PWR010")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "#PWR040")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -1939,7 +1821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2b776e0-3b83-4a4f-a066-ffc3b827f0d5")
-		(property "Reference" "D2"
+		(property "Reference" "D4"
 			(at 119.38 81.2799 90)
 			(effects
 				(font
@@ -2038,19 +1920,11 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "D5")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)

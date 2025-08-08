@@ -250,6 +250,7 @@
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
         "text_height": "ignore",
+        "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -943,12 +944,6 @@
           "show": false
         },
         {
-          "group_by": false,
-          "label": "Tolerance",
-          "name": "Tolerance",
-          "show": false
-        },
-        {
           "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
@@ -1025,6 +1020,12 @@
           "label": "Ippm",
           "name": "Ippm",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MFT_PN_1",
+          "name": "ALT_MFT_PN_1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1098,60 +1099,60 @@
       "Opto_ActLo1"
     ],
     [
-      "fd55f427-5875-408d-af6e-f5f38fa2377b",
+      "b35c940f-baa6-46a1-adee-d5b5ad7f2de7",
       "Opto_ActLo2"
     ],
     [
-      "6fba9a48-01d6-44fb-b292-5227e8d8ae6c",
+      "2c42d151-3f82-4e36-8ef6-a2a8856329ed",
       "Opto_ActLo3"
     ],
     [
-      "754f234e-dea0-4267-8620-aae242941fbe",
+      "78ec3fed-e0f7-4c10-8e27-628198f4a0d7",
       "Opto_ActLo4"
     ],
     [
-      "9092231a-f98c-4042-8b24-a22dd8e09436",
+      "643e93ce-074d-41b8-8267-8cd768a19e35",
       "Opto_ActLo5"
     ],
     [
-      "96d539f7-d0da-4d4e-a53a-3adc943b5554",
+      "22d7e4c3-2f98-48b1-822b-d87f9cb003dc",
       "Opto_ActLo6"
     ],
     [
-      "7bdfe67b-e54c-45df-a8c5-722716866713",
+      "4292c77c-6947-4703-ab55-15d783bb0dbb",
       "Opto_ActLo7"
     ],
     [
-      "efa532b4-1daf-4941-a104-12dfe5b97eef",
+      "ee13a136-3711-40c9-8966-5935214037ae",
       "Opto_ActLo8"
     ],
     [
-      "340c5d5c-a272-4ed2-9f95-90be2d1f330f",
+      "3c86231c-7b35-4b64-9413-492f9e109edd",
       "Opto_ActLo9"
     ],
     [
-      "6061d8d0-b456-4b55-8622-9fb1e7b6c054",
+      "eb0d7996-49da-4ffe-ae91-4b075a92eda1",
       "Opto_ActLo10"
     ],
     [
-      "5e9a0371-c608-4c84-ab02-d30fc5643806",
-      "Opto_ActHi1"
+      "6cef8934-8b7c-410b-8d9f-f073b93271b8",
+      "Opto_ActHi5"
     ],
     [
-      "be85d3af-ca26-4a6e-b027-93e91348b2af",
-      "Opto_ActHi2"
+      "c35a8a47-33e6-4037-9210-ef0a9877c6bd",
+      "Opto_ActHi6"
     ],
     [
-      "998dbfd4-a57e-4641-8a97-dbc71175c4dc",
-      "Opto_ActHi3"
+      "4633f9da-2230-4b15-802a-f9ef806e5330",
+      "Opto_ActHi7"
     ],
     [
       "36ea4b64-9158-43b1-97c6-20da8346f32e",
       "Opto_ActHi4"
     ],
     [
-      "5a79ddc5-5e01-43e2-bd2f-23483fb1dac8",
-      "Opto_ActHi5"
+      "df7be051-e61b-464b-85a0-ebedf6cc1666",
+      "Opto_ActHi8"
     ],
     [
       "21f2fd69-aa93-4550-8877-dde4aa3e5582",
@@ -1162,16 +1163,12 @@
       "ESP32"
     ],
     [
-      "7a015d8c-0bfa-4a16-bdcd-1d17833caee2",
-      "AnalogV_Divider1"
-    ],
-    [
-      "5c960f8f-bf80-41bc-a879-992c50d29f1d",
-      "AnalogV_Divider2"
+      "17fb3549-8ca7-418f-beb2-9d5e3767d202",
+      "Rsensing_Pair1"
     ],
     [
       "024f3b9c-af80-4b8c-9e91-7ad2b6b7f854",
-      "Analogue"
+      "ANALOGUE"
     ],
     [
       "5a426090-a212-448a-a415-b266d8e90572",
@@ -1182,24 +1179,16 @@
       "AnalogV_Divider4"
     ],
     [
-      "1ecce2ed-36c5-4f2b-bb85-c902b846ae0c",
-      "Rsensing_Pair1"
-    ],
-    [
       "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
-      "Power_Input"
-    ],
-    [
-      "367fd9a9-6a47-4f5e-94da-7163cefdc48e",
-      "Rsensing_Pair2"
+      "POWER INPUT"
     ],
     [
       "1e710dfa-ec27-4a4d-bb24-4bffb525a2be",
       "5V_SMPS_2"
     ],
     [
-      "cc05830a-15d9-41d6-80b0-3286fa1b8a0e",
-      "Rsensing_Pair3"
+      "14b92d06-2854-413c-a3d0-402c2486556d",
+      "CAN XCVR"
     ]
   ],
   "text_variables": {}
