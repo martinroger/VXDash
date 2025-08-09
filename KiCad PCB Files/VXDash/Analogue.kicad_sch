@@ -1070,6 +1070,18 @@
 		(color 0 0 0 0)
 		(uuid "ff48fabc-d326-4a5d-b10f-ae3f8825a793")
 	)
+	(no_connect
+		(at 194.31 107.95)
+		(uuid "ada1c080-3502-4fed-a0a7-53436c3ba1a7")
+	)
+	(no_connect
+		(at 162.56 107.95)
+		(uuid "b20f0cd7-4dd1-4f64-bc11-aab2cb184c1e")
+	)
+	(no_connect
+		(at 194.31 110.49)
+		(uuid "e536cfd3-6517-43e0-ba29-bc9f54a91789")
+	)
 	(wire
 		(pts
 			(xy 121.92 139.7) (xy 120.65 139.7)
@@ -1462,6 +1474,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 107.95) (xy 194.31 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a102a86a-7201-4c01-83e1-802973249150")
+	)
+	(wire
+		(pts
 			(xy 147.32 127) (xy 292.1 127)
 		)
 		(stroke
@@ -1519,6 +1541,16 @@
 			(type default)
 		)
 		(uuid "b4056bc1-88d9-4c83-a95f-a0d238e3ab3a")
+	)
+	(wire
+		(pts
+			(xy 191.77 100.33) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5449274-46f4-44cf-951d-37b41fed3e27")
 	)
 	(wire
 		(pts
@@ -1589,6 +1621,16 @@
 			(type default)
 		)
 		(uuid "cc07f714-4eb2-43de-93a2-0d058ab1e864")
+	)
+	(wire
+		(pts
+			(xy 191.77 110.49) (xy 194.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd557957-4ddd-4b82-9fdf-79fec38678c3")
 	)
 	(wire
 		(pts
@@ -1769,6 +1811,17 @@
 			(justify left bottom)
 		)
 		(uuid "c8b72af5-e3c3-4c98-9522-70add190ab94")
+	)
+	(hierarchical_label "Set_Hi_Chan_A"
+		(shape input)
+		(at 194.31 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "018eb53b-0205-4ed3-9e43-8a03d5c517e5")
 	)
 	(hierarchical_label "V_SENSOR_IN_2"
 		(shape input)

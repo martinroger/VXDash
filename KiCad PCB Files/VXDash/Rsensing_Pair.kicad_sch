@@ -1250,7 +1250,7 @@
 		)
 		(uuid "b02745f5-688f-4a59-aa8e-3aa7a85245c6")
 	)
-	(text_box "ADC range 2.7V. Allows for reasonable voltage drop across current source and diode.\n300R and 3k max sensor resistance per range.\nLow range = 2.7 / 300 = 9mA,\nHigh range = 2.7 / 3k = 900uA.\n150mV Vref. \nLow range = 150mV / 9mA = 16.666 ohm\nHigh range 150mA / 900uA = 166.666 ohm\n\nHigh range = 160R + 6R8 = 166R8 = 899.2uA\nLow range = 18R || 166R8 = 16.247R = 9.232mA\n"
+	(text_box "ADC range 2.7V. Allows for reasonable voltage drop across current source and diode.\n300R and 3k max sensor resistance per range.\nLow range = 2.7 / 300 = 9mA,\nHigh range = 2.7 / 3k = 900uA.\n150mV Vref. \nLow range = 150mV / 9mA = 16.666 ohm\nHigh range 150mV / 900uA = 166.666 ohm\n\nHigh range = 160R + 6R8 = 166R8 = 899.2uA\nLow range = 18R || 166R8 = 16.247R = 9.232mA\n"
 		(exclude_from_sim no)
 		(at 118.11 49.53 0)
 		(size 53.34 25.4)

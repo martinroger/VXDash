@@ -4460,10 +4460,6 @@
 		(uuid "61af93fd-4488-43d3-ab83-4f7cbb6e452d")
 	)
 	(no_connect
-		(at 306.07 152.4)
-		(uuid "6a325fc3-7fc3-4aeb-9b1e-3b1c939c4822")
-	)
-	(no_connect
 		(at 306.07 180.34)
 		(uuid "6b99c2b1-f342-46c6-9e40-d8aeb62bdf5f")
 	)
@@ -5198,6 +5194,16 @@
 			(type default)
 		)
 		(uuid "45ca5053-2429-4485-b1b4-87a9d5be7acf")
+	)
+	(wire
+		(pts
+			(xy 306.07 152.4) (xy 316.23 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4620600f-0eb3-4e37-8073-4ef56c597ccf")
 	)
 	(wire
 		(pts
@@ -6701,6 +6707,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 86.36) (xy 349.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e79260-2a32-44ce-8ded-6921080578a5")
+	)
+	(wire
+		(pts
 			(xy 189.23 137.16) (xy 189.23 139.7)
 		)
 		(stroke
@@ -7603,6 +7619,16 @@
 		)
 		(uuid "ce710a9d-d650-4e89-8ef2-20b93602edac")
 	)
+	(label "Set_Hi_Chan_A"
+		(at 316.23 152.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d387463f-4b79-4876-b478-dcc5f2015544")
+	)
 	(label "CAN_tx"
 		(at 316.23 147.32 0)
 		(effects
@@ -7672,6 +7698,16 @@
 			(justify left bottom)
 		)
 		(uuid "f0c52de3-d1d4-42c6-8e1f-7005c71d79be")
+	)
+	(label "Set_Hi_Chan_A"
+		(at 326.39 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f434ebaf-e223-44c8-9d93-2095082b9cf4")
 	)
 	(label "CAN_rx"
 		(at 349.25 123.19 180)
@@ -14329,16 +14365,6 @@
 				(justify left)
 			)
 		)
-		(pin "ADC_SDL" input
-			(at 349.25 81.28 180)
-			(uuid "15f175fa-e00a-47f5-9b2b-5a358ed70c26")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "V_SENSOR_IN_1" input
 			(at 382.27 92.71 0)
 			(uuid "01ec34c2-21f4-4b67-a12b-579b52964d95")
@@ -14387,6 +14413,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "ADC_SCL" input
+			(at 349.25 81.28 180)
+			(uuid "054bb4d9-1bd2-467a-b091-12bca8cd9bc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Set_Hi_Chan_A" input
+			(at 349.25 86.36 180)
+			(uuid "c5eb18cf-b9f2-4302-b38e-a3fb098653fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
