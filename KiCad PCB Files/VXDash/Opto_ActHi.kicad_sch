@@ -5,9 +5,10 @@
 	(uuid "dbdb4d64-9dc3-407c-9a89-50e40659462f")
 	(paper "A4")
 	(title_block
-		(title "Active Hi Optocoupler circuit")
-		(date "2025-08-08")
+		(title "Main architecture")
+		(date "2025-08-10")
 		(rev "1.4")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
@@ -792,7 +793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d1594b-580c-4e4b-a22c-8d7a6969ad6a")
-		(property "Reference" "U11"
+		(property "Reference" "U16"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -855,19 +856,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fece83c-f51d-4bb3-8f34-00cbf8968f02")
+			(uuid "9d04515a-0f23-418f-a9db-d8a7a3a487f4")
 		)
 		(pin "2"
-			(uuid "ba3f0a59-f822-4fb7-a9f6-9335657627f3")
+			(uuid "f1e3a287-ca7f-4fb9-9792-cc24ff124115")
 		)
 		(pin "3"
-			(uuid "fb38262b-7f2c-408e-95dc-161e7144649b")
+			(uuid "fff93726-08a3-4353-b7b4-779d627142dd")
 		)
 		(pin "4"
-			(uuid "f052ed88-9f38-4156-b3e2-7b44ca5923f9")
+			(uuid "83fca2fe-bbcc-4df4-9e0e-6bede21ebbea")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/0e70c286-e2c1-42eb-aaa1-5a4ab22bb424"
+					(reference "U19")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36ea4b64-9158-43b1-97c6-20da8346f32e"
 					(reference "U14")
 					(unit 1)
@@ -878,6 +883,10 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6cef8934-8b7c-410b-8d9f-f073b93271b8"
 					(reference "U11")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/771becef-f508-42ea-9fb3-6952fb053001"
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c35a8a47-33e6-4037-9210-ef0a9877c6bd"
@@ -901,7 +910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e66e85-24cf-4d25-b04c-a3c96d8e3b9d")
-		(property "Reference" "R28"
+		(property "Reference" "R68"
 			(at 152.4 85.0899 0)
 			(effects
 				(font
@@ -992,13 +1001,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "84649485-1559-4d51-ac26-5c0958b7a3fc")
+			(uuid "724877b0-44ed-4e79-8faa-c7d39d9ef2e8")
 		)
 		(pin "2"
-			(uuid "62d04771-7ac8-4b1d-ba4d-c63371501286")
+			(uuid "175eeed0-9a3c-4236-b9e7-b8efa30e5073")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/0e70c286-e2c1-42eb-aaa1-5a4ab22bb424"
+					(reference "R70")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36ea4b64-9158-43b1-97c6-20da8346f32e"
 					(reference "R34")
 					(unit 1)
@@ -1009,6 +1022,10 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6cef8934-8b7c-410b-8d9f-f073b93271b8"
 					(reference "R28")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/771becef-f508-42ea-9fb3-6952fb053001"
+					(reference "R68")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c35a8a47-33e6-4037-9210-ef0a9877c6bd"
@@ -1032,7 +1049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a598ee63-9a59-4adf-9f0b-acfc31b3fe83")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR037"
 			(at 149.86 113.03 0)
 			(effects
 				(font
@@ -1078,10 +1095,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f8d66b2-b407-4396-b764-678f6831fd82")
+			(uuid "e0deba01-4e47-4e2c-93fe-dfa37615447e")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/0e70c286-e2c1-42eb-aaa1-5a4ab22bb424"
+					(reference "#PWR039")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36ea4b64-9158-43b1-97c6-20da8346f32e"
 					(reference "#PWR030")
 					(unit 1)
@@ -1092,6 +1113,10 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6cef8934-8b7c-410b-8d9f-f073b93271b8"
 					(reference "#PWR024")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/771becef-f508-42ea-9fb3-6952fb053001"
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c35a8a47-33e6-4037-9210-ef0a9877c6bd"
@@ -1115,7 +1140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a6b19e-ee01-442c-8419-af6fc98024eb")
-		(property "Reference" "R27"
+		(property "Reference" "R41"
 			(at 129.54 85.0899 0)
 			(effects
 				(font
@@ -1206,13 +1231,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e4d5422-d3b6-4888-bc89-40481d5615a7")
+			(uuid "2d6d9ee7-e2a2-4f5c-b6aa-04189ff0356a")
 		)
 		(pin "2"
-			(uuid "0a416faa-94e5-4742-8b23-783d5075c629")
+			(uuid "a74e97a7-a5a9-436e-aab8-93fa71058a18")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/0e70c286-e2c1-42eb-aaa1-5a4ab22bb424"
+					(reference "R69")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36ea4b64-9158-43b1-97c6-20da8346f32e"
 					(reference "R33")
 					(unit 1)
@@ -1223,6 +1252,10 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6cef8934-8b7c-410b-8d9f-f073b93271b8"
 					(reference "R27")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/771becef-f508-42ea-9fb3-6952fb053001"
+					(reference "R41")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c35a8a47-33e6-4037-9210-ef0a9877c6bd"
@@ -1246,7 +1279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bfa16b-e45e-4f3f-ba25-df0cec28909b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR035"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -1292,10 +1325,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "ad19ddb4-3987-4c5c-a76f-03d640c1f5ea")
+			(uuid "3a237187-b193-4be7-af64-f576f7dcdf7e")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/0e70c286-e2c1-42eb-aaa1-5a4ab22bb424"
+					(reference "#PWR038")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36ea4b64-9158-43b1-97c6-20da8346f32e"
 					(reference "#PWR029")
 					(unit 1)
@@ -1306,6 +1343,10 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6cef8934-8b7c-410b-8d9f-f073b93271b8"
 					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/771becef-f508-42ea-9fb3-6952fb053001"
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c35a8a47-33e6-4037-9210-ef0a9877c6bd"

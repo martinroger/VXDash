@@ -5,8 +5,10 @@
 	(uuid "1c1323e2-840c-4269-8cfa-5e63590e0945")
 	(paper "A3")
 	(title_block
-		(date "2025-08-08")
+		(title "Main architecture")
+		(date "2025-08-10")
 		(rev "1.4")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
@@ -1801,7 +1803,7 @@
 		)
 		(uuid "b632fd1f-17a7-4d80-8632-ced0c3d0f7d9")
 	)
-	(hierarchical_label "ADC_SDL"
+	(hierarchical_label "ADC_SCL"
 		(shape input)
 		(at 88.9 134.62 180)
 		(effects

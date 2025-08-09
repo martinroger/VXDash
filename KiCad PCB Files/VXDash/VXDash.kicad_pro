@@ -704,7 +704,14 @@
     "net_colors": {
       "GND": "rgb(0, 255, 0)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/usb_dn": [
+        "10mil"
+      ],
+      "/usb_dp": [
+        "10mil"
+      ]
+    },
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -1111,8 +1118,8 @@
       "Opto_ActLo4"
     ],
     [
-      "643e93ce-074d-41b8-8267-8cd768a19e35",
-      "Opto_ActLo5"
+      "771becef-f508-42ea-9fb3-6952fb053001",
+      "Opto_ActHi9"
     ],
     [
       "22d7e4c3-2f98-48b1-822b-d87f9cb003dc",
@@ -1159,12 +1166,16 @@
       "3V3_SMPS"
     ],
     [
-      "3b362962-9c58-4f3d-b4cb-26a93c5b171d",
-      "ESP32"
+      "0e70c286-e2c1-42eb-aaa1-5a4ab22bb424",
+      "Opto_ActHi10"
     ],
     [
       "17fb3549-8ca7-418f-beb2-9d5e3767d202",
       "Rsensing_Pair1"
+    ],
+    [
+      "953fd3d7-9509-4c58-82a6-39e33ee72bc0",
+      "Left Display CAN XCVR"
     ],
     [
       "024f3b9c-af80-4b8c-9e91-7ad2b6b7f854",
@@ -1179,6 +1190,10 @@
       "AnalogV_Divider4"
     ],
     [
+      "fb37cce7-8e05-49fe-8555-39d7a0910c13",
+      "Right Display CAN XCVR"
+    ],
+    [
       "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
       "POWER INPUT"
     ],
@@ -1187,8 +1202,12 @@
       "5V_SMPS_2"
     ],
     [
+      "2e212a69-c846-4621-91af-cd3a20f77307",
+      "USBC"
+    ],
+    [
       "14b92d06-2854-413c-a3d0-402c2486556d",
-      "CAN XCVR"
+      "IB CAN XCVR"
     ]
   ],
   "text_variables": {}

@@ -5,9 +5,10 @@
 	(uuid "8065f162-92c3-4516-8dd9-47076dd23f27")
 	(paper "A4")
 	(title_block
-		(title "Active Low Optocoupler circuit")
-		(date "2025-08-08")
+		(title "Main architecture")
+		(date "2025-08-10")
 		(rev "1.4")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
@@ -922,10 +923,6 @@
 					(reference "R20")
 					(unit 1)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/643e93ce-074d-41b8-8267-8cd768a19e35"
-					(reference "R16")
-					(unit 1)
-				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/78ec3fed-e0f7-4c10-8e27-628198f4a0d7"
 					(reference "R14")
 					(unit 1)
@@ -1073,10 +1070,6 @@
 					(reference "R19")
 					(unit 1)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/643e93ce-074d-41b8-8267-8cd768a19e35"
-					(reference "R15")
-					(unit 1)
-				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/78ec3fed-e0f7-4c10-8e27-628198f4a0d7"
 					(reference "R13")
 					(unit 1)
@@ -1174,10 +1167,6 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4292c77c-6947-4703-ab55-15d783bb0dbb"
 					(reference "#PWR019")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/643e93ce-074d-41b8-8267-8cd768a19e35"
-					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/78ec3fed-e0f7-4c10-8e27-628198f4a0d7"
@@ -1302,10 +1291,6 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4292c77c-6947-4703-ab55-15d783bb0dbb"
 					(reference "U7")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/643e93ce-074d-41b8-8267-8cd768a19e35"
-					(reference "U5")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/78ec3fed-e0f7-4c10-8e27-628198f4a0d7"
