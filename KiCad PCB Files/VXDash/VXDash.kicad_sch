@@ -2620,30 +2620,6 @@
 		)
 		(uuid "066ef47c-427d-46d2-b943-1a02af56c3bf")
 	)
-	(text "Allocated 100mA, may be more like 50mA\nDO NOT TURN ON WIFI/RF"
-		(exclude_from_sim no)
-		(at 179.07 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right bottom)
-		)
-		(uuid "75cea605-2095-4fe5-8f82-fc1e247972af")
-	)
-	(text "50mA max consumption"
-		(exclude_from_sim no)
-		(at 127 218.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a40aa6a4-2e7d-4a0d-9518-460d19673360")
-	)
 	(text "2A Continuous output max"
 		(exclude_from_sim no)
 		(at 278.13 36.83 0)
@@ -2712,14 +2688,14 @@
 		)
 		(uuid "38ceb68c-2622-4ecf-99d7-498cf7bbe6ae")
 	)
-	(text_box "TODO and TOCHECK: \n \n\n- F1 polyfuse selection\n- Automated text placement on silkscreen\n- Current allocation table\n- https://github.com/martinroger/kicad_libs for custom symbols and footprints\n\n\n"
+	(text_box "TODO and TOCHECK: \n \n\n\n\n"
 		(exclude_from_sim no)
 		(at 325.12 13.97 0)
 		(size 81.28 26.67)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
@@ -4968,7 +4944,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
+				(color 0 0 0 1)
 			)
 			(justify left bottom)
 		)
@@ -5019,7 +4995,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -5030,7 +5006,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 0 0 1)
+				(color 0 0 0 1)
 			)
 			(justify right bottom)
 		)
@@ -5504,7 +5480,7 @@
 			)
 		)
 	)
-	(global_label "COOLANT_ActLO"
+	(global_label "COOLANT_ActHI"
 		(shape output)
 		(at 78.74 60.96 0)
 		(fields_autoplaced yes)
@@ -5516,7 +5492,7 @@
 		)
 		(uuid "2b9e576d-37fa-4615-b4b2-6bcaa183026c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.7279 60.8806 0)
+			(at 95.2226 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6340,7 +6316,7 @@
 			)
 		)
 	)
-	(global_label "COOLANT_ActLO"
+	(global_label "COOLANT_ActHI"
 		(shape input)
 		(at 41.91 245.11 180)
 		(fields_autoplaced yes)
@@ -6352,7 +6328,7 @@
 		)
 		(uuid "e9e1d8a0-8fb3-4048-be73-ba94331c364b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.9221 245.0306 0)
+			(at 25.4274 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
