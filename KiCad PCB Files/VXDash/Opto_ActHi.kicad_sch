@@ -740,7 +740,7 @@
 		(uuid "e231b83c-a7d9-429f-a689-e4ff8ee6a919")
 	)
 	(global_label "+3V3"
-		(shape bidirectional)
+		(shape input)
 		(at 157.48 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -751,7 +751,7 @@
 		)
 		(uuid "a781452d-80e2-4409-bbee-9d630aeb197e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.1049 81.28 0)
+			(at 164.891 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)

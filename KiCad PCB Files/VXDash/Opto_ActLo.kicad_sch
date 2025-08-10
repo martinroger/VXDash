@@ -729,8 +729,30 @@
 		)
 		(uuid "db7d9e14-8d57-49bf-85de-050dadcf64a0")
 	)
+	(global_label "Protected_12V"
+		(shape input)
+		(at 124.46 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20ecf361-eb2c-4047-93d1-c3292fd8cc32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.5824 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "+3V3"
-		(shape bidirectional)
+		(shape input)
 		(at 167.64 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -741,34 +763,12 @@
 		)
 		(uuid "3b2dd238-cd5b-4da0-bbb9-a29d89e17796")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.2649 85.09 0)
+			(at 175.051 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PROTECTED_12V+"
-		(shape bidirectional)
-		(at 124.46 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8c2fd7c-6b80-4a55-b1a3-64b09128963d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.4852 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
