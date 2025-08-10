@@ -1908,6 +1908,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Rationale is to keep it to 4 wires and have the remote ECUS have a switched 12V either on the loom or avalaible locally (e.g. above rear left wheel arch)"
+		(exclude_from_sim no)
+		(at 97.282 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee4ac28a-2e2d-4be4-9337-d00f65221283")
+	)
 	(text_box "Main Harness Connector"
 		(exclude_from_sim no)
 		(at 48.26 25.4 0)
@@ -2952,6 +2962,16 @@
 		)
 		(uuid "9495682f-84bc-4738-951f-df2434445490")
 	)
+	(label "IGNITION_ActHI"
+		(at 91.44 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "956610ab-21d6-4edd-be5e-c7876db432a7")
+	)
 	(label "AIRBAG_ActLO"
 		(at 124.46 46.99 0)
 		(effects
@@ -3091,16 +3111,6 @@
 			(justify left bottom)
 		)
 		(uuid "d0bb3144-ae45-48aa-9c38-85a12e731792")
-	)
-	(label "BATT12V+"
-		(at 91.44 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d93cdcc0-65d3-40b4-aeb5-34595f186f83")
 	)
 	(label "FUEL_LVL_Rsense"
 		(at 195.58 81.28 180)

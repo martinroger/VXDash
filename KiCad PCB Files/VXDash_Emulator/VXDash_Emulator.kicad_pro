@@ -623,7 +623,7 @@
     ]
   },
   "meta": {
-    "filename": "VXDash_RemoteECU.kicad_pro",
+    "filename": "VXDash_Emulator.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -704,14 +704,7 @@
     "net_colors": {
       "GND": "rgb(0, 255, 0)"
     },
-    "netclass_assignments": {
-      "/usb_dn": [
-        "10mil"
-      ],
-      "/usb_dp": [
-        "10mil"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -735,7 +728,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "VXDash_RemoteECU.step",
+      "step": "VXDash_Emulator.step",
       "svg": "",
       "vrml": ""
     },
@@ -1098,72 +1091,80 @@
       "Root"
     ],
     [
-      "ca8265c0-1f59-4074-84ad-ae7ddbcd9ebc",
-      "Opto Act Hi1"
+      "e4c69d46-7a64-435d-9e3a-d73acbe7ec2b",
+      "5V_SMPS_1"
     ],
     [
-      "ad0c1184-6555-44ba-919d-de3fd8cc209a",
-      "Opto Act Lo1"
+      "2079de5b-2f3f-4362-a932-421ac573d68a",
+      "Opto_ActLo1"
     ],
     [
-      "dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a",
+      "b35c940f-baa6-46a1-adee-d5b5ad7f2de7",
+      "Opto_ActLo2"
+    ],
+    [
+      "2c42d151-3f82-4e36-8ef6-a2a8856329ed",
+      "Opto_ActLo3"
+    ],
+    [
+      "78ec3fed-e0f7-4c10-8e27-628198f4a0d7",
+      "Opto_ActLo4"
+    ],
+    [
+      "771becef-f508-42ea-9fb3-6952fb053001",
+      "Opto_ActHi9"
+    ],
+    [
+      "22d7e4c3-2f98-48b1-822b-d87f9cb003dc",
+      "Opto_ActLo6"
+    ],
+    [
+      "4292c77c-6947-4703-ab55-15d783bb0dbb",
+      "Opto_ActLo7"
+    ],
+    [
+      "ee13a136-3711-40c9-8966-5935214037ae",
+      "Opto_ActLo8"
+    ],
+    [
+      "3c86231c-7b35-4b64-9413-492f9e109edd",
+      "Opto_ActLo9"
+    ],
+    [
+      "eb0d7996-49da-4ffe-ae91-4b075a92eda1",
+      "Opto_ActLo10"
+    ],
+    [
+      "6cef8934-8b7c-410b-8d9f-f073b93271b8",
+      "Opto_ActHi5"
+    ],
+    [
+      "c35a8a47-33e6-4037-9210-ef0a9877c6bd",
+      "Opto_ActHi6"
+    ],
+    [
+      "4633f9da-2230-4b15-802a-f9ef806e5330",
+      "Opto_ActHi7"
+    ],
+    [
+      "36ea4b64-9158-43b1-97c6-20da8346f32e",
+      "Opto_ActHi4"
+    ],
+    [
+      "df7be051-e61b-464b-85a0-ebedf6cc1666",
+      "Opto_ActHi8"
+    ],
+    [
+      "21f2fd69-aa93-4550-8877-dde4aa3e5582",
       "3V3_SMPS"
     ],
     [
-      "c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f",
-      "Input protection"
+      "0e70c286-e2c1-42eb-aaa1-5a4ab22bb424",
+      "Opto_ActHi10"
     ],
     [
-      "f28d59c3-3184-4c96-b6c0-966ec9ca6979",
-      "5V Sensors supply"
-    ],
-    [
-      "088344ab-0087-41b9-ba15-1cbc38cf2c06",
-      "Opto Act Hi"
-    ],
-    [
-      "67fb424f-5314-4c27-af1b-a82602305e49",
-      "Opto Act Lo"
-    ],
-    [
-      "11c95b80-6877-4331-900f-61afaaa4bc98",
-      "USB C"
-    ],
-    [
-      "7a015d8c-0bfa-4a16-bdcd-1d17833caee2",
-      "AnalogV_Divider1"
-    ],
-    [
-      "5c960f8f-bf80-41bc-a879-992c50d29f1d",
-      "AnalogV_Divider2"
-    ],
-    [
-      "024f3b9c-af80-4b8c-9e91-7ad2b6b7f854",
-      "ANALOGUE"
-    ],
-    [
-      "5a426090-a212-448a-a415-b266d8e90572",
-      "AnalogV_Divider3"
-    ],
-    [
-      "86e99c99-fb11-4ded-8b94-444f84514f75",
-      "AnalogV_Divider4"
-    ],
-    [
-      "1ecce2ed-36c5-4f2b-bb85-c902b846ae0c",
-      "Rsensing_Pair1"
-    ],
-    [
-      "367fd9a9-6a47-4f5e-94da-7163cefdc48e",
-      "Rsensing_Pair2"
-    ],
-    [
-      "cc05830a-15d9-41d6-80b0-3286fa1b8a0e",
-      "Rsensing_Pair3"
-    ],
-    [
-      "14b92d06-2854-413c-a3d0-402c2486556d",
-      "CAN XCVR"
+      "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
+      "POWER INPUT"
     ]
   ],
   "text_variables": {}

@@ -5,9 +5,10 @@
 	(uuid "0843bead-779d-4e25-a3e6-462c9caa0104")
 	(paper "A4")
 	(title_block
-		(title "VXDash RemoteECU")
-		(date "2025-08-08")
-		(rev "Proto A")
+		(title "Main architecture")
+		(date "2025-08-10")
+		(rev "0.0")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
@@ -1552,7 +1553,7 @@
 		)
 		(uuid "a62b7fd6-86d9-4b20-80ba-b972d161e7c2")
 	)
-	(hierarchical_label "V_IN"
+	(hierarchical_label "12V_in"
 		(shape input)
 		(at 76.2 55.88 180)
 		(effects
@@ -1622,7 +1623,7 @@
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "#PWR033")
 					(unit 1)
 				)
@@ -1720,7 +1721,7 @@
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "IC4")
 					(unit 1)
 				)
@@ -1835,7 +1836,7 @@
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C17")
 					(unit 1)
 				)
@@ -1950,7 +1951,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "R40")
 					(unit 1)
 				)
@@ -2065,7 +2066,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C14")
 					(unit 1)
 				)
@@ -2180,7 +2181,7 @@
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "R39")
 					(unit 1)
 				)
@@ -2295,7 +2296,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "R37")
 					(unit 1)
 				)
@@ -2409,7 +2410,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C20")
 					(unit 1)
 				)
@@ -2523,7 +2524,7 @@
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C19")
 					(unit 1)
 				)
@@ -2645,7 +2646,7 @@
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "L2")
 					(unit 1)
 				)
@@ -2760,7 +2761,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "R38")
 					(unit 1)
 				)
@@ -2875,7 +2876,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C15")
 					(unit 1)
 				)
@@ -2988,7 +2989,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C16")
 					(unit 1)
 				)
@@ -3103,7 +3104,7 @@
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
 					(reference "C18")
 					(unit 1)
 				)
