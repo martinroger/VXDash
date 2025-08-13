@@ -1106,7 +1106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1140b315-dd5e-4a50-a487-a7ed6a2b8688")
-		(property "Reference" "C62"
+		(property "Reference" "C30"
 			(at 115.57 71.1199 0)
 			(effects
 				(font
@@ -1124,7 +1124,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.7948 77.47 0)
 			(effects
 				(font
@@ -1196,6 +1196,15 @@
 				(justify right)
 			)
 		)
+		(property "Tolerance" ""
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb6ca397-a153-4aa1-a7ae-cb50774596dd")
 		)
@@ -1209,11 +1218,11 @@
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "C62")
+					(reference "C30")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "C67")
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -1228,7 +1237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "22d962c1-fe2a-4cff-af61-3f260639984f")
-		(property "Reference" "R118"
+		(property "Reference" "R61"
 			(at 130.81 76.1999 0)
 			(effects
 				(font
@@ -1318,6 +1327,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" ""
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a85ddbf1-7f9d-45de-b0e9-96187b9e163f")
 		)
@@ -1327,15 +1345,15 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/14b92d06-2854-413c-a3d0-402c2486556d"
-					(reference "R116")
+					(reference "R88")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "R118")
+					(reference "R61")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "R121")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -1351,7 +1369,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32ddd755-b976-4245-b94f-d1e02ba8fd47")
-		(property "Reference" "C63"
+		(property "Reference" "C31"
 			(at 148.59 71.1199 0)
 			(effects
 				(font
@@ -1369,7 +1387,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.8148 77.47 0)
 			(effects
 				(font
@@ -1441,6 +1459,15 @@
 				(justify right)
 			)
 		)
+		(property "Tolerance" ""
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e04dcd5b-f0f8-4190-8636-216d32e4e98b")
 		)
@@ -1454,11 +1481,11 @@
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "C63")
+					(reference "C31")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "C68")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -1474,7 +1501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5991698b-0a67-446f-a18e-7d7673ea8588")
-		(property "Reference" "C64"
+		(property "Reference" "C32"
 			(at 160.02 71.1199 0)
 			(effects
 				(font
@@ -1564,6 +1591,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" ""
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f17473e-c942-4f59-897c-024d3a2fd1e3")
 		)
@@ -1577,11 +1613,11 @@
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "C64")
+					(reference "C32")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "C69")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -1596,7 +1632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "65ba9346-0ae5-43ce-97d1-83f12da0e617")
-		(property "Reference" "IC11"
+		(property "Reference" "IC6"
 			(at 134.62 101.6 0)
 			(effects
 				(font
@@ -1668,6 +1704,15 @@
 				(hide yes)
 			)
 		)
+		(property "Tolerance" ""
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "26cbef05-1263-4c8a-9b12-d56243807bf3")
 		)
@@ -1695,15 +1740,15 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/14b92d06-2854-413c-a3d0-402c2486556d"
-					(reference "IC10")
+					(reference "IC9")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "IC11")
+					(reference "IC6")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "IC12")
+					(reference "IC7")
 					(unit 1)
 				)
 			)
@@ -1718,7 +1763,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9dca67ea-4405-489d-ab31-00721b760212")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR052"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -1768,15 +1813,15 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/14b92d06-2854-413c-a3d0-402c2486556d"
-					(reference "#PWR067")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "#PWR073")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "#PWR077")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -1791,7 +1836,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be0d4970-f087-48bd-b399-60b174d31a62")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR050"
 			(at 111.76 85.09 0)
 			(effects
 				(font
@@ -1841,15 +1886,15 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/14b92d06-2854-413c-a3d0-402c2486556d"
-					(reference "#PWR065")
+					(reference "#PWR068")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "#PWR070")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "#PWR075")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -1864,7 +1909,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ccd82a9e-3eb0-48da-956a-baa70dae5922")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR051"
 			(at 125.73 115.57 0)
 			(effects
 				(font
@@ -1914,15 +1959,15 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/14b92d06-2854-413c-a3d0-402c2486556d"
-					(reference "#PWR066")
+					(reference "#PWR069")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/953fd3d7-9509-4c58-82a6-39e33ee72bc0"
-					(reference "#PWR072")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/fb37cce7-8e05-49fe-8555-39d7a0910c13"
-					(reference "#PWR076")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
