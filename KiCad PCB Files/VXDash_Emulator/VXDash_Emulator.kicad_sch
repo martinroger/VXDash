@@ -13,6 +13,113 @@
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2950,6 +3057,223 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "VXDash_diodes:LED_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D1"
+				(at 0.0635 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_Small"
+				(at 0.0635 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pin" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Vf" "2V"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "If" "5mA"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode light-emitting-diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy -0.508 1.27) (xy -0.254 1.27) (xy -0.508 1.27) (xy -0.508 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.778) (xy 0.254 1.778) (xy 0 1.778) (xy 0 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VXDash_passives:Cap_MLCC"
 			(pin_numbers
 				(hide yes)
@@ -3505,7 +3829,7 @@
 		)
 		(uuid "38ceb68c-2622-4ecf-99d7-498cf7bbe6ae")
 	)
-	(text_box "TODO and TOCHECK: \n- Revert High/Lo circuit\n- Test points\n- Check things are in the project library\n- Idiot lights \n- Pull-ups on i²C\n- Switchable resistances "
+	(text_box "TODO and TOCHECK: \n\n- Test points\n- Check things are in the project library\n"
 		(exclude_from_sim no)
 		(at 356.87 223.52 0)
 		(size 46.99 26.67)
@@ -3526,10 +3850,28 @@
 		(uuid "5f0da5eb-f346-44f7-86bc-05f58b87c74d")
 	)
 	(junction
+		(at 288.29 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a050b46-7926-4096-886f-17a54a53a2d6")
+	)
+	(junction
+		(at 379.73 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199933ed-f83a-4198-9b7b-1347af040820")
+	)
+	(junction
 		(at 46.99 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1b9eefe3-62bd-46a0-ada2-a2d5ec6097ec")
+	)
+	(junction
+		(at 109.22 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bf09b8a-4b8d-4130-93b4-7e9caf6ddef8")
 	)
 	(junction
 		(at 298.45 93.98)
@@ -3550,13 +3892,19 @@
 		(uuid "374dea81-dd00-4432-8fc1-aa318e25a8ca")
 	)
 	(junction
+		(at 300.99 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "48ded095-a05e-41b4-ba55-13547fc83ab9")
+	)
+	(junction
 		(at 298.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f937e00-fa8a-4e76-8d15-49fbd095e8fc")
 	)
 	(junction
-		(at 193.04 21.59)
+		(at 370.84 193.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "507cbcae-fa06-4f60-a320-0a981872c08f")
@@ -3604,6 +3952,18 @@
 		(uuid "85e1a4b7-9246-4dda-98ff-131aa9c6f6ab")
 	)
 	(junction
+		(at 355.6 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "925e1726-e636-4f4e-bec0-1777961758c4")
+	)
+	(junction
+		(at 130.81 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93715e6b-6f60-45ed-8543-44fc90d58413")
+	)
+	(junction
 		(at 298.45 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3622,6 +3982,18 @@
 		(uuid "a047d38a-a31f-4735-b83f-70c85533222c")
 	)
 	(junction
+		(at 355.6 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7428551-c227-4fa2-8ea0-70b7a5549617")
+	)
+	(junction
+		(at 293.37 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0cdebef-0a6c-4d06-99f3-94b952209b32")
+	)
+	(junction
 		(at 298.45 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3638,6 +4010,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4600c27-e30b-4166-bfb4-75c3a9bd9604")
+	)
+	(junction
+		(at 118.11 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4dc0e50-1181-4d6a-ac2a-9f26bf98547a")
 	)
 	(junction
 		(at 368.3 160.02)
@@ -3674,6 +4052,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eea285df-893c-4ec8-934d-b425383ba388")
+	)
+	(junction
+		(at 370.84 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb951912-1954-45e0-a983-073df49181eb")
 	)
 	(junction
 		(at 300.99 26.67)
@@ -3729,7 +4113,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 100.33) (xy 151.13 104.14)
+			(xy 151.13 85.09) (xy 151.13 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3749,7 +4133,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 50.8) (xy 358.14 50.8)
+			(xy 351.79 50.8) (xy 355.6 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3759,7 +4143,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 219.71) (xy 257.81 219.71)
+			(xy 250.19 219.71) (xy 280.67 219.71)
 		)
 		(stroke
 			(width 0)
@@ -3809,6 +4193,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 44.45) (xy 190.5 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3204a8-4816-4338-b29c-12b599f7b40a")
+	)
+	(wire
+		(pts
 			(xy 109.22 220.98) (xy 91.44 220.98)
 		)
 		(stroke
@@ -3816,6 +4210,16 @@
 			(type default)
 		)
 		(uuid "0c88511e-fb90-458a-b7a6-9d5eecd5e20e")
+	)
+	(wire
+		(pts
+			(xy 130.81 27.94) (xy 138.43 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d3f755c-e632-43fc-8c47-be7fc7c7d355")
 	)
 	(wire
 		(pts
@@ -3869,6 +4273,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 36.83) (xy 288.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edc18af-e4a8-4b07-a0ba-380aa342d38c")
+	)
+	(wire
+		(pts
 			(xy 306.07 129.54) (xy 308.61 129.54)
 		)
 		(stroke
@@ -3879,7 +4293,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 179.07) (xy 127 182.88)
+			(xy 127 171.45) (xy 127 173.99)
 		)
 		(stroke
 			(width 0)
@@ -3909,7 +4323,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 26.67) (xy 300.99 26.67)
+			(xy 284.48 26.67) (xy 288.29 26.67)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +4360,16 @@
 			(type default)
 		)
 		(uuid "132e143c-30d1-4e0a-9915-2a9d2e55728f")
+	)
+	(wire
+		(pts
+			(xy 280.67 224.79) (xy 280.67 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13ca5d2b-a94c-40f2-988d-9102240a3531")
 	)
 	(wire
 		(pts
@@ -3999,6 +4423,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 74.93) (xy 293.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18f4cbb4-1387-4a8b-8a66-93b428aab690")
+	)
+	(wire
+		(pts
 			(xy 340.36 142.24) (xy 340.36 163.83)
 		)
 		(stroke
@@ -4016,6 +4450,16 @@
 			(type default)
 		)
 		(uuid "1d1d2909-e115-4085-a73b-621a0304bdb5")
+	)
+	(wire
+		(pts
+			(xy 370.84 55.88) (xy 382.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dae129d-0ab9-4bc2-9031-ae472306bdff")
 	)
 	(wire
 		(pts
@@ -4059,6 +4503,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 67.31) (xy 293.37 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "243a9016-8400-49ca-9d40-7870917f42f3")
+	)
+	(wire
+		(pts
 			(xy 36.83 29.21) (xy 40.64 29.21)
 		)
 		(stroke
@@ -4089,6 +4543,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 26.67) (xy 288.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287def8a-909a-4638-bdf8-2e7e59cc8e90")
+	)
+	(wire
+		(pts
 			(xy 400.05 147.32) (xy 400.05 149.86)
 		)
 		(stroke
@@ -4109,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 96.52) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a4a60a7-c2ff-4f43-8599-f786ac4af516")
+	)
+	(wire
+		(pts
 			(xy 306.07 76.2) (xy 308.61 76.2)
 		)
 		(stroke
@@ -4116,6 +4590,16 @@
 			(type default)
 		)
 		(uuid "2b72ab7b-6fdb-411d-a4db-34f8b1246cb6")
+	)
+	(wire
+		(pts
+			(xy 46.99 96.52) (xy 46.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c375cd0-d176-4b6f-94a9-5de9b6d56a04")
 	)
 	(wire
 		(pts
@@ -4186,6 +4670,26 @@
 			(type default)
 		)
 		(uuid "35b58c55-c1d9-46bc-98bd-f97628c89ebe")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 118.11 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35c038ab-77a1-4818-bdee-51295c099d2a")
+	)
+	(wire
+		(pts
+			(xy 35.56 96.52) (xy 35.56 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3673988d-950c-4863-abc3-d7bc00523161")
 	)
 	(wire
 		(pts
@@ -4299,7 +4803,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 21.59) (xy 201.93 21.59)
+			(xy 370.84 193.04) (xy 379.73 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4379,7 +4883,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 21.59) (xy 193.04 21.59)
+			(xy 368.3 193.04) (xy 370.84 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4446,6 +4950,26 @@
 			(type default)
 		)
 		(uuid "489bbc2d-33e8-4803-8d08-0dc864e4dddf")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49369d3d-b31b-428b-97e5-622a520a424b")
+	)
+	(wire
+		(pts
+			(xy 288.29 26.67) (xy 300.99 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4939b0fc-8886-4bde-9767-177194a9bd09")
 	)
 	(wire
 		(pts
@@ -4559,7 +5083,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 222.25) (xy 257.81 222.25)
+			(xy 250.19 222.25) (xy 280.67 222.25)
 		)
 		(stroke
 			(width 0)
@@ -4609,6 +5133,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 55.88) (xy 355.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57c6ee85-73ee-4adf-9303-681eb2587a56")
+	)
+	(wire
+		(pts
 			(xy 340.36 163.83) (xy 335.28 163.83)
 		)
 		(stroke
@@ -4649,6 +5183,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 181.61) (xy 127 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b9bc6d0-51bc-443c-b9d2-47ad0b8d99d3")
+	)
+	(wire
+		(pts
 			(xy 53.34 34.29) (xy 57.15 34.29)
 		)
 		(stroke
@@ -4659,7 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 24.13) (xy 201.93 21.59)
+			(xy 379.73 195.58) (xy 379.73 193.04)
 		)
 		(stroke
 			(width 0)
@@ -4676,6 +5220,26 @@
 			(type default)
 		)
 		(uuid "60e07fc7-e23d-4053-9094-2533d350e551")
+	)
+	(wire
+		(pts
+			(xy 355.6 44.45) (xy 355.6 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61223749-97bc-41b8-8dea-141f1cf76e80")
+	)
+	(wire
+		(pts
+			(xy 109.22 35.56) (xy 109.22 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62061547-3649-44cd-98b3-457521187a26")
 	)
 	(wire
 		(pts
@@ -4719,7 +5283,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 38.1) (xy 201.93 31.75)
+			(xy 379.73 209.55) (xy 379.73 205.74)
 		)
 		(stroke
 			(width 0)
@@ -4736,6 +5300,16 @@
 			(type default)
 		)
 		(uuid "67160642-a163-4399-a78b-254daf0388c1")
+	)
+	(wire
+		(pts
+			(xy 356.87 20.32) (xy 355.6 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "695e1318-22aa-4d4b-be6e-7773884fe9a0")
 	)
 	(wire
 		(pts
@@ -4756,6 +5330,16 @@
 			(type default)
 		)
 		(uuid "6ac8180b-2e2c-4d46-b912-49cf36310b18")
+	)
+	(wire
+		(pts
+			(xy 101.6 25.4) (xy 109.22 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c673ba9-4d3a-4650-b5be-a401ec44be24")
 	)
 	(wire
 		(pts
@@ -4809,6 +5393,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 35.56) (xy 309.88 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73a00ba3-30ba-4bcd-aa43-02970aab8281")
+	)
+	(wire
+		(pts
 			(xy 400.05 149.86) (xy 400.05 160.02)
 		)
 		(stroke
@@ -4826,6 +5420,16 @@
 			(type default)
 		)
 		(uuid "752cf493-d4cb-4edc-a00a-4b63f7ebb449")
+	)
+	(wire
+		(pts
+			(xy 139.7 104.14) (xy 139.7 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f57c6d-b6be-4463-b5d5-4ad8c97ec6cf")
 	)
 	(wire
 		(pts
@@ -4959,6 +5563,26 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 96.52) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fea7d9a-0def-476d-82fe-e019733877f4")
+	)
+	(wire
+		(pts
+			(xy 370.84 30.48) (xy 382.27 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "809d654b-d735-4de3-8465-a52059945b71")
+	)
+	(wire
+		(pts
 			(xy 58.42 242.57) (xy 91.44 242.57)
 		)
 		(stroke
@@ -4969,7 +5593,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 189.23) (xy 257.81 189.23)
+			(xy 250.19 189.23) (xy 260.35 189.23)
 		)
 		(stroke
 			(width 0)
@@ -4999,6 +5623,16 @@
 	)
 	(wire
 		(pts
+			(xy 288.29 44.45) (xy 288.29 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8331e30c-35ab-49bc-8e79-36807bb51ba7")
+	)
+	(wire
+		(pts
 			(xy 30.48 189.23) (xy 35.56 189.23)
 		)
 		(stroke
@@ -5016,6 +5650,16 @@
 			(type default)
 		)
 		(uuid "89939f82-7362-43fe-9a6a-20eb8bd69322")
+	)
+	(wire
+		(pts
+			(xy 109.22 25.4) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89c64795-8a08-4086-b7a7-3ce94f6484be")
 	)
 	(wire
 		(pts
@@ -5049,6 +5693,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 207.01) (xy 257.81 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9263e67b-38e0-40d3-ad66-c26cc539a4b9")
+	)
+	(wire
+		(pts
 			(xy 53.34 41.91) (xy 57.15 41.91)
 		)
 		(stroke
@@ -5069,6 +5723,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 104.14) (xy 35.56 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94c629b2-0b44-49e7-b95f-48fc19ea4c8d")
+	)
+	(wire
+		(pts
 			(xy 386.08 111.76) (xy 393.7 111.76)
 		)
 		(stroke
@@ -5076,6 +5740,16 @@
 			(type default)
 		)
 		(uuid "9553ae1b-77c6-421c-8ed3-f93f58a31b98")
+	)
+	(wire
+		(pts
+			(xy 88.9 86.36) (xy 88.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9714d366-5d1a-4d84-9f71-2eb7b773eb65")
 	)
 	(wire
 		(pts
@@ -5129,7 +5803,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 153.67) (xy 226.06 163.83)
+			(xy 226.06 149.86) (xy 226.06 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5239,6 +5913,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 25.4) (xy 130.81 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a363fd51-c6da-4d43-87df-884ae0daabb7")
+	)
+	(wire
+		(pts
 			(xy 345.44 66.04) (xy 345.44 111.76)
 		)
 		(stroke
@@ -5266,6 +5950,16 @@
 			(type default)
 		)
 		(uuid "a489be24-dfb8-4183-8def-ba29fa9277ad")
+	)
+	(wire
+		(pts
+			(xy 35.56 86.36) (xy 35.56 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a8d139-c366-46ba-9911-7035f8dbd06f")
 	)
 	(wire
 		(pts
@@ -5319,7 +6013,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 189.23) (xy 278.13 189.23)
+			(xy 370.84 205.74) (xy 370.84 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97ebe76-66bd-48c0-ba71-62bf8359325d")
+	)
+	(wire
+		(pts
+			(xy 279.4 189.23) (xy 280.67 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5399,13 +6103,23 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 100.33) (xy 368.3 104.14)
+			(xy 368.3 88.9) (xy 368.3 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b02564e6-62ce-4a4e-927c-b490b48bfc4c")
+	)
+	(wire
+		(pts
+			(xy 364.49 205.74) (xy 370.84 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0aec6a8-36e8-4a9e-b811-0aa0567597c5")
 	)
 	(wire
 		(pts
@@ -5449,6 +6163,26 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 160.02) (xy 273.05 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59763d8-d224-437d-a39c-d83b03c42262")
+	)
+	(wire
+		(pts
+			(xy 118.11 25.4) (xy 118.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5bbfcc3-9bde-425d-b3fc-308b187ffd7f")
+	)
+	(wire
+		(pts
 			(xy 58.42 207.01) (xy 83.82 207.01)
 		)
 		(stroke
@@ -5469,6 +6203,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 30.48) (xy 355.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd3cd5b6-e308-42c8-9f3e-99d3b572cff8")
+	)
+	(wire
+		(pts
 			(xy 58.42 233.68) (xy 88.9 233.68)
 		)
 		(stroke
@@ -5479,7 +6223,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 189.23) (xy 269.24 189.23)
+			(xy 270.51 189.23) (xy 271.78 189.23)
 		)
 		(stroke
 			(width 0)
@@ -5506,6 +6250,16 @@
 			(type default)
 		)
 		(uuid "bf3c9af0-e52e-4384-8bd0-8a2de1cc1f2f")
+	)
+	(wire
+		(pts
+			(xy 300.99 17.78) (xy 300.99 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfa8804f-3950-40ca-95e9-1a6fd39372e1")
 	)
 	(wire
 		(pts
@@ -5539,6 +6293,16 @@
 	)
 	(wire
 		(pts
+			(xy 293.37 67.31) (xy 298.45 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5324d7b-ff81-4bb1-b1a7-7903d3db689b")
+	)
+	(wire
+		(pts
 			(xy 88.9 218.44) (xy 88.9 233.68)
 		)
 		(stroke
@@ -5549,7 +6313,17 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 100.33) (xy 46.99 104.14)
+			(xy 109.22 43.18) (xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6544d73-394d-4db6-9c3e-3cfbde0ce3d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 85.09) (xy 46.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5609,13 +6383,23 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 100.33) (xy 100.33 104.14)
+			(xy 100.33 85.09) (xy 100.33 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cacc0867-e01d-41ec-93e3-4f025b28e080")
+	)
+	(wire
+		(pts
+			(xy 190.5 36.83) (xy 190.5 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caeab882-45aa-4ba8-8ffa-b07f69355cee")
 	)
 	(wire
 		(pts
@@ -5749,6 +6533,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 205.74) (xy 384.81 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daad4d4c-1346-46f4-9546-044979821983")
+	)
+	(wire
+		(pts
 			(xy 86.36 205.74) (xy 86.36 198.12)
 		)
 		(stroke
@@ -5769,6 +6563,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 149.86) (xy 273.05 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcb29d98-8a58-4227-982f-f0d444668275")
+	)
+	(wire
+		(pts
 			(xy 350.52 119.38) (xy 341.63 119.38)
 		)
 		(stroke
@@ -5776,6 +6580,26 @@
 			(type default)
 		)
 		(uuid "dcf3d9ab-a959-4b8a-a844-0ae15a1d275d")
+	)
+	(wire
+		(pts
+			(xy 139.7 86.36) (xy 139.7 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd0490c-6cb9-45e1-8623-a9c5f44241dd")
+	)
+	(wire
+		(pts
+			(xy 356.87 44.45) (xy 355.6 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde62f4d-c3e1-4fe8-8ee8-6d475454096f")
 	)
 	(wire
 		(pts
@@ -5799,13 +6623,23 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 26.67) (xy 358.14 26.67)
+			(xy 351.79 26.67) (xy 355.6 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e027a6a2-1689-4766-aaf5-9ec508ab75e4")
+	)
+	(wire
+		(pts
+			(xy 312.42 35.56) (xy 309.88 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e15f3c2e-cd3f-4844-bdd6-a98908b2b389")
 	)
 	(wire
 		(pts
@@ -5839,6 +6673,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 44.45) (xy 217.17 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4795524-35ff-475d-9e9c-37d2580c23ad")
+	)
+	(wire
+		(pts
 			(xy 298.45 147.32) (xy 298.45 156.21)
 		)
 		(stroke
@@ -5846,6 +6690,36 @@
 			(type default)
 		)
 		(uuid "e4f98452-6d54-442b-8773-2a9e25fee756")
+	)
+	(wire
+		(pts
+			(xy 217.17 36.83) (xy 217.17 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e50eb101-5fd1-4143-9988-d3536836fc3d")
+	)
+	(wire
+		(pts
+			(xy 368.3 101.6) (xy 368.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e625f3de-1a48-466a-af77-9150bd034b92")
+	)
+	(wire
+		(pts
+			(xy 355.6 20.32) (xy 355.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65acf44-fb91-4089-9e0f-10fefe118ba1")
 	)
 	(wire
 		(pts
@@ -5859,7 +6733,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 38.1) (xy 193.04 31.75)
+			(xy 370.84 209.55) (xy 370.84 205.74)
 		)
 		(stroke
 			(width 0)
@@ -5899,6 +6773,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 96.52) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edac837e-7067-4ca1-9fae-e02b0239931b")
+	)
+	(wire
+		(pts
 			(xy 350.52 129.54) (xy 336.55 129.54)
 		)
 		(stroke
@@ -5906,6 +6790,36 @@
 			(type default)
 		)
 		(uuid "ef764fb8-a737-4a98-ad89-9cdb488fe393")
+	)
+	(wire
+		(pts
+			(xy 190.5 26.67) (xy 190.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef9b6656-935b-4e32-818c-dbfe590ed353")
+	)
+	(wire
+		(pts
+			(xy 226.06 160.02) (xy 226.06 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02b41ce-5e41-4a10-8763-a88b6a3c9411")
+	)
+	(wire
+		(pts
+			(xy 309.88 29.21) (xy 312.42 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03ea05e-9c4f-4628-b725-786582680924")
 	)
 	(wire
 		(pts
@@ -5929,6 +6843,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 26.67) (xy 217.17 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f320fe92-0aab-4bc4-95ce-1433ae780180")
+	)
+	(wire
+		(pts
 			(xy 151.13 111.76) (xy 151.13 115.57)
 		)
 		(stroke
@@ -5949,7 +6873,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 21.59) (xy 193.04 24.13)
+			(xy 370.84 193.04) (xy 370.84 195.58)
 		)
 		(stroke
 			(width 0)
@@ -5979,6 +6903,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 205.74) (xy 379.73 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2c7e3c-9aae-481b-9d45-bb7f1cf5d6d3")
+	)
+	(wire
+		(pts
 			(xy 250.19 214.63) (xy 257.81 214.63)
 		)
 		(stroke
@@ -5986,6 +6920,16 @@
 			(type default)
 		)
 		(uuid "fa3f0e75-e6c7-4aa2-889d-3f032bf8a59e")
+	)
+	(wire
+		(pts
+			(xy 355.6 30.48) (xy 363.22 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb37bc5d-5b8a-4950-9de4-67baf4d33f5e")
 	)
 	(wire
 		(pts
@@ -6009,6 +6953,36 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 96.52) (xy 139.7 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd15f213-7d6e-4e48-a8fc-b2cb1e432375")
+	)
+	(wire
+		(pts
+			(xy 355.6 55.88) (xy 363.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd207bc4-ea09-46bd-a543-4b440037833d")
+	)
+	(wire
+		(pts
+			(xy 273.05 167.64) (xy 273.05 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8fa11e-24ef-4c63-a67e-8a2c344bb892")
+	)
+	(wire
+		(pts
 			(xy 109.22 195.58) (xy 96.52 195.58)
 		)
 		(stroke
@@ -6029,7 +7003,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 67.31) (xy 298.45 67.31)
+			(xy 290.83 67.31) (xy 293.37 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6038,7 +7012,7 @@
 		(uuid "ff91581b-006b-4ccd-91d1-4f3d0de2907c")
 	)
 	(label "SCL"
-		(at 201.93 38.1 180)
+		(at 379.73 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6046,6 +7020,16 @@
 			(justify right bottom)
 		)
 		(uuid "04f8f9e3-34e8-4b08-9954-1552264f6fb6")
+	)
+	(label "ign_EN"
+		(at 273.05 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0b73376d-8bda-4e7c-a7ed-263183c0e5d3")
 	)
 	(label "airbag"
 		(at 66.04 198.12 0)
@@ -6078,7 +7062,7 @@
 		(uuid "36c847bf-79b1-4a1b-b9d3-3b4a919a8d3e")
 	)
 	(label "SDA"
-		(at 193.04 38.1 180)
+		(at 370.84 209.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6220,6 +7204,16 @@
 		)
 		(uuid "9bfdd307-7dd6-40e3-bcdd-cffa66ab7145")
 	)
+	(label "5v_enable"
+		(at 257.81 207.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9d1899f8-c4b5-433c-abdd-728c007b95b1")
+	)
 	(label "SDA"
 		(at 223.52 274.32 180)
 		(effects
@@ -6250,6 +7244,16 @@
 		)
 		(uuid "ab1c5625-62ea-454f-b190-306be0ad1dc8")
 	)
+	(label "ledc_chan_2"
+		(at 35.56 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ad57b239-e793-4679-83ee-dfe3ec5b2a76")
+	)
 	(label "SDA"
 		(at 152.4 190.5 0)
 		(effects
@@ -6269,6 +7273,36 @@
 			(justify left bottom)
 		)
 		(uuid "ba28c834-29e4-4628-90ab-765edd911f8a")
+	)
+	(label "ledc_chan_1"
+		(at 88.9 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba4066fa-fd35-46f7-8b45-0156f98004df")
+	)
+	(label "ledc_chan_0"
+		(at 139.7 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc19c735-32d9-4f0c-94e1-2d2385a3ed16")
+	)
+	(label "5v_enable"
+		(at 312.42 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1d0fa0f-fa06-44f3-bc8c-e0af0bac4448")
 	)
 	(label "ledc_chan_3"
 		(at 257.81 219.71 0)
@@ -6379,6 +7413,38 @@
 			(justify left bottom)
 		)
 		(uuid "f510a37e-bb0d-4570-bbd7-4d70a9bc7a4c")
+	)
+	(label "ign_EN"
+		(at 252.73 189.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f640c05a-a13f-4fdd-a668-47e7f0ceed2b")
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 217.17 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04e84761-fd10-4244-be57-023573948042")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.17 19.259 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "WATER_T_PWM"
 		(shape output)
@@ -6556,6 +7622,28 @@
 			)
 		)
 	)
+	(global_label "BATT12V+"
+		(shape input)
+		(at 101.6 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22316425-b5cb-4256-bcf9-3ed5d904d0f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.8952 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "R_TURN_ActLO"
 		(shape input)
 		(at 36.83 49.53 180)
@@ -6668,7 +7756,7 @@
 	)
 	(global_label "BATT12V+"
 		(shape input)
-		(at 46.99 100.33 90)
+		(at 46.99 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6678,7 +7766,7 @@
 		)
 		(uuid "33fec7e7-cbbf-4965-ba35-a1cb26e0d816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 46.99 88.6252 90)
+			(at 46.99 73.3852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6706,6 +7794,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+5V_1"
+		(shape input)
+		(at 190.5 26.67 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a067fe6-60ce-4b2a-9b39-97c0d97d749a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 18.2914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7086,7 +8196,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 190.5 21.59 180)
+		(at 368.3 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7096,7 +8206,7 @@
 		)
 		(uuid "95b1b104-3fb7-4630-970a-e22229595094")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.4348 21.59 0)
+			(at 360.2348 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +8262,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 226.06 153.67 90)
+		(at 226.06 149.86 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7162,7 +8272,7 @@
 		)
 		(uuid "9b5c27f8-4690-431b-aded-405c398c4144")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 226.06 146.259 90)
+			(at 226.06 142.449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7240,7 +8350,7 @@
 	)
 	(global_label "+5V_1"
 		(shape output)
-		(at 358.14 26.67 0)
+		(at 382.27 30.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7250,7 +8360,7 @@
 		)
 		(uuid "b0e1bc90-6318-4a06-8bcb-3614de290e55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 366.5186 26.67 0)
+			(at 390.6486 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7262,7 +8372,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 368.3 100.33 90)
+		(at 368.3 88.9 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7272,7 +8382,7 @@
 		)
 		(uuid "b1f0e659-debf-4794-822b-c1f1e3a82ad0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.3 92.919 90)
+			(at 368.3 81.489 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7306,7 +8416,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 278.13 189.23 0)
+		(at 280.67 189.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7316,7 +8426,7 @@
 		)
 		(uuid "b54c832d-bb4c-4922-b464-1e62678a1123")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 285.541 189.23 0)
+			(at 288.081 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7438,7 +8548,7 @@
 	)
 	(global_label "BATT12V+"
 		(shape input)
-		(at 151.13 100.33 90)
+		(at 151.13 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7448,7 +8558,7 @@
 		)
 		(uuid "de9de6e7-c946-4186-aa5d-3121d9c22ece")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 88.6252 90)
+			(at 151.13 73.3852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +8570,7 @@
 	)
 	(global_label "+3V3"
 		(shape input)
-		(at 127 179.07 90)
+		(at 127 171.45 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7470,7 +8580,7 @@
 		)
 		(uuid "e4f8cc0d-4474-4efe-9bc2-d13b91c0c162")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 171.659 90)
+			(at 127 164.039 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +8658,7 @@
 	)
 	(global_label "+3V3"
 		(shape output)
-		(at 358.14 50.8 0)
+		(at 382.27 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7558,7 +8668,7 @@
 		)
 		(uuid "ec84810b-6dd6-4566-ac9e-746bc56e8f36")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 370.8124 50.8 0)
+			(at 394.9424 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +8724,7 @@
 	)
 	(global_label "BATT12V+"
 		(shape input)
-		(at 100.33 100.33 90)
+		(at 100.33 85.09 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7624,7 +8734,7 @@
 		)
 		(uuid "fe5dc6b0-9d03-42c8-8add-d9a147cd380f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.33 88.6252 90)
+			(at 100.33 73.3852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7855,6 +8965,116 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 273.05 165.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "084850e7-fb35-4422-b852-f327a0e85b41")
+		(property "Reference" "D42"
+			(at 268.986 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IGN_ON"
+			(at 263.398 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 273.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 273.05 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 273.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 273.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 273.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 273.05 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 277.368 166.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 277.368 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1abc830f-02e6-4da8-a8ac-7fde4e07fb68")
+		)
+		(pin "1"
+			(uuid "267ec136-8a4a-4036-914e-77fff48bef5a")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D42")
 					(unit 1)
 				)
 			)
@@ -8271,7 +9491,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 193.04 27.94 180)
+		(at 370.84 199.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8280,7 +9500,7 @@
 		(fields_autoplaced yes)
 		(uuid "14c4bd55-1095-4e99-ba05-eb2f6cce2b69")
 		(property "Reference" "R1"
-			(at 195.58 26.6699 0)
+			(at 373.38 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +9509,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 195.58 29.2099 0)
+			(at 373.38 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +9518,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 194.818 27.94 90)
+			(at 372.618 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8307,7 +9527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +9536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8325,7 +9545,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8334,7 +9554,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8343,7 +9563,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,7 +9572,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8361,7 +9581,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 193.04 27.94 0)
+			(at 370.84 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,6 +9599,182 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 280.67 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "160be82f-6da2-4028-8fff-22bee6cb49f7")
+		(property "Reference" "TP8"
+			(at 281.94 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_LEDC4"
+			(at 281.94 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 285.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 280.67 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "992d9f74-450f-4204-85f9-3dd88f58644d")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 88.9 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21bb6ed4-0f3d-4ed1-ba0f-a0e762fe44b6")
+		(property "Reference" "D2"
+			(at 84.836 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ledc_chan_1_ON"
+			(at 79.248 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 88.9 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 93.218 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 93.218 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f963982-69d1-457a-ad49-10a35a3b7ff0")
+		)
+		(pin "1"
+			(uuid "d3f4e52f-0b05-4ad2-aff3-5b409f844b91")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8492,6 +9888,73 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 356.87 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b63689c-2181-4c11-8510-915e7591c4ef")
+		(property "Reference" "TP2"
+			(at 358.14 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP5V"
+			(at 358.14 21.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 361.95 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 356.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "310908f0-1f31-4496-b2a1-498e1d3c16d6")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -8628,6 +10091,182 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "U18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 35.56 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "33276d78-706c-4873-93d1-67a92ba8b95e")
+		(property "Reference" "D3"
+			(at 31.496 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ledc_chan_2_ON"
+			(at 25.908 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 35.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 35.56 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 35.56 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 39.878 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 39.878 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa7a65e3-1359-43b9-9bfc-1de359b16b54")
+		)
+		(pin "1"
+			(uuid "a009983f-f336-46db-b544-45bded77a6b2")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 288.29 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "336e637d-1b5c-4bc0-a61a-9012aac46d66")
+		(property "Reference" "#PWR091"
+			(at 288.29 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 288.29 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 288.29 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6559f962-dd8c-4ec1-8934-d98d6c3abbfb")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -8860,6 +10499,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 280.67 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a46ef2-3d69-4d58-9950-f17c0746bdb5")
+		(property "Reference" "TP7"
+			(at 281.94 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_LEDC3"
+			(at 281.94 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 285.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 285.75 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 280.67 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c2cba53f-ded5-4398-8888-72ae4d2f0771")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VXDash_passives:Res")
 		(at 302.26 67.31 90)
 		(unit 1)
@@ -8973,6 +10679,315 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 364.49 205.74 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4654c533-855b-4b34-a07e-92e0de960012")
+		(property "Reference" "TP5"
+			(at 363.22 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPSDA"
+			(at 363.22 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 369.57 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 369.57 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 364.49 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c734b971-2be9-44c1-8f31-bc6dd68f79fc")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ecd388-2b48-4f62-86d8-76ac47eecb02")
+		(property "Reference" "#PWR040"
+			(at 139.7 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1cacb920-7ba4-4f17-9fa1-261f14d615e0")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48efd550-f1fe-4de5-bbf1-6e7dcd359318")
+		(property "Reference" "#PWR041"
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d53b049a-e950-4711-adc8-1273f82ee2d8")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 217.17 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "493b26ec-21cb-4581-bf87-87faa78ba4dd")
+		(property "Reference" "D40"
+			(at 213.106 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3_ON"
+			(at 212.598 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 217.17 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 217.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 221.488 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 221.488 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f10862ee-7673-46dd-babf-7352c5d81e8b")
+		)
+		(pin "1"
+			(uuid "78cdca5b-a785-4012-86ba-732a42d2e290")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GSD")
 		(at 97.79 123.19 0)
 		(unit 1)
@@ -9058,6 +11073,235 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 151.13 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "497eb92c-74fe-435c-a040-8e5e1c40de82")
+		(property "Reference" "R142"
+			(at 153.67 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 153.67 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 152.908 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 151.13 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ba73262-fde9-4487-b4c7-a2d8f2b11e03")
+		)
+		(pin "2"
+			(uuid "7f72842c-6e5f-4d06-b997-20cfd933e911")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R142")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 273.05 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d54f9a5-ffac-421d-b91a-c16c5e082185")
+		(property "Reference" "R138"
+			(at 275.59 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 275.59 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 271.272 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 273.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f864ac37-3ec0-4330-9a3e-dcbbfb338965")
+		)
+		(pin "2"
+			(uuid "20312c6e-a666-4b4e-bca4-c3ab2159efeb")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R138")
 					(unit 1)
 				)
 			)
@@ -9243,6 +11487,231 @@
 		)
 	)
 	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 88.9 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b7e260b-6aaa-4b54-880b-45aba688a95e")
+		(property "Reference" "R100"
+			(at 91.44 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 91.44 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 87.122 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f89943-de26-4201-b894-486ac9f3e298")
+		)
+		(pin "2"
+			(uuid "4cb728f9-ca50-48fe-bf5f-2f531393baa0")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 190.5 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d7b792e-8bf6-4f93-9a32-742b044076cc")
+		(property "Reference" "D41"
+			(at 186.436 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5V_ON"
+			(at 185.42 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 190.5 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 190.5 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 194.818 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 194.818 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ab402e14-c09c-44f0-a70c-69f7a415df4e")
+		)
+		(pin "1"
+			(uuid "ed489e38-fa02-43a1-bdd9-5106b94ca8bc")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 233.68 271.78 0)
 		(unit 1)
@@ -9307,6 +11776,121 @@
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 109.22 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64b7bbe9-4d4e-4a63-8703-3106438a6398")
+		(property "Reference" "R134"
+			(at 111.76 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 111.76 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 107.442 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 109.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "854255b7-9a57-4a1b-91e4-1b94de615245")
+		)
+		(pin "2"
+			(uuid "738c701a-75e8-4fd4-9108-f153bc7fec10")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R134")
 					(unit 1)
 				)
 			)
@@ -9464,6 +12048,120 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "Q24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 367.03 30.48 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f3c8850-eb38-46e6-ba7c-0410907fe5eb")
+		(property "Reference" "R146"
+			(at 365.7599 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 368.2999 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 367.03 28.702 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 367.03 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0b24a0c-2160-4020-89cb-61a8115c6474")
+		)
+		(pin "2"
+			(uuid "a3e6db33-0279-4b7d-96cf-2324688c13e0")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R146")
 					(unit 1)
 				)
 			)
@@ -10073,6 +12771,121 @@
 		)
 	)
 	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 226.06 156.21 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83db6a8b-35f2-4269-8b42-d83c239b4963")
+		(property "Reference" "R140"
+			(at 223.52 154.9399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 223.52 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 224.282 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 226.06 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8580fbb-b161-4a7b-97d5-bface3069731")
+		)
+		(pin "2"
+			(uuid "e1f51ca3-7fe6-41fb-a56d-947e62315934")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 368.3 160.02 0)
 		(unit 1)
@@ -10133,6 +12946,497 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 139.7 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85a4ccae-8096-4cde-9c09-dc744ffd2554")
+		(property "Reference" "D1"
+			(at 135.636 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ledc_chan_0_ON"
+			(at 130.048 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 139.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 139.7 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 139.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 144.018 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 144.018 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "20ad095b-6abd-46e0-b4b9-556a97856b3c")
+		)
+		(pin "1"
+			(uuid "40e2b1c8-9ee2-4333-bc6a-7ccf3f80cf25")
+		)
+		(instances
+			(project ""
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 384.81 205.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b41191f-f673-4af4-87e9-97bdac63b6fc")
+		(property "Reference" "TP6"
+			(at 386.08 204.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPSCL"
+			(at 386.08 207.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 389.89 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 389.89 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 384.81 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3685302c-bcf3-48bd-a2cf-638328f8d0f3")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 300.99 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b718e8d-e98c-40e2-9f96-06ee59c469e7")
+		(property "Reference" "TP1"
+			(at 302.26 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP12VP"
+			(at 302.26 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 306.07 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 306.07 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 300.99 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "535ef269-ac9b-41b7-916b-7d6611f13323")
+		)
+		(instances
+			(project ""
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "945d6df2-26ec-46e8-83ab-0717c8b9788c")
+		(property "Reference" "#PWR072"
+			(at 138.43 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd96f223-c27c-4e37-ad01-625792ed81d4")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97d5de7d-d314-4c3e-952e-e4d356607a59")
+		(property "Reference" "#PWR093"
+			(at 190.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74cd7e29-61e8-4009-8dbb-d7db2f495184")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 190.5 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997c8c34-11af-42b4-af79-216aeda96491")
+		(property "Reference" "R137"
+			(at 193.04 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "620"
+			(at 193.04 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 188.722 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 190.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b7ec11c-fad3-4f0a-9d50-73905f1a82d5")
+		)
+		(pin "2"
+			(uuid "d205b973-4b59-46a3-bccb-f9b646947817")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R137")
 					(unit 1)
 				)
 			)
@@ -10246,6 +13550,230 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 46.99 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a1940124-c7a6-4647-a0f1-1e26f8e48e2a")
+		(property "Reference" "R144"
+			(at 49.53 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 49.53 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 48.768 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 46.99 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fa5e1cf-17cb-4787-94dd-ac36e3a6ce26")
+		)
+		(pin "2"
+			(uuid "52e4e53c-a20b-481c-8f04-304e12c46375")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R144")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 109.22 40.64 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a24b5289-ce3d-439f-90c6-5d3f9eeff3f3")
+		(property "Reference" "D38"
+			(at 105.156 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BATT_ON"
+			(at 103.124 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 109.22 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 113.538 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 113.538 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2aa98989-1528-437d-b4bd-b3909ec40689")
+		)
+		(pin "1"
+			(uuid "18a5269f-f431-4506-9712-6be8f182b274")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -10480,6 +14008,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 356.87 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a74afd74-438c-48d1-82c3-a038f3ad1c90")
+		(property "Reference" "TP3"
+			(at 358.14 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP3V3"
+			(at 358.14 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 361.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 361.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 356.87 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac4ba74-543d-4b91-a207-908d8605ffec")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 377.19 99.06 0)
 		(unit 1)
@@ -10540,6 +14135,296 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:LED_Small")
+		(at 288.29 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad38d7c9-869c-4818-a2cd-735234e4baad")
+		(property "Reference" "D39"
+			(at 284.226 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PROT12V ON"
+			(at 278.638 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 288.29 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 288.29 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 288.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 288.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 288.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 288.29 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vf" "2V"
+			(at 292.608 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "If" "5mA"
+			(at 292.608 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1ae73a34-447e-4464-8f35-b669ca8d232c")
+		)
+		(pin "1"
+			(uuid "e33cfbf5-c6cf-470c-a661-673be4d55466")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "D39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 289.56 74.93 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1f6ef85-21cb-4a37-bf40-e07ccc0e99fd")
+		(property "Reference" "TP4"
+			(at 289.56 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TP_FUEL"
+			(at 289.56 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 289.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "372b9e61-df83-46bc-a21f-760bb7d04fb3")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 127 177.8 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b42112b9-2bf1-496f-8078-fee072bca459")
+		(property "Reference" "R139"
+			(at 124.46 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 124.46 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 125.222 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 127 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "63e24864-5e51-42bb-857d-a31ba1a4419a")
+		)
+		(pin "2"
+			(uuid "d570282d-68d0-41e5-b81d-912659753b00")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R139")
 					(unit 1)
 				)
 			)
@@ -11225,8 +15110,123 @@
 		)
 	)
 	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 368.3 97.79 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c420857c-0fe9-4077-817e-0d95588b214a")
+		(property "Reference" "R141"
+			(at 365.76 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 365.76 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 366.522 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 368.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e5c33c-0172-49ec-aee7-bed8f2e150b1")
+		)
+		(pin "2"
+			(uuid "d1063fc8-30cd-4987-8d36-d20f0929554e")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 262.89 189.23 0)
+		(at 265.43 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11235,7 +15235,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4f85d21-feeb-42fa-a445-3adc1797b894")
 		(property "Reference" "SW2"
-			(at 262.89 182.88 0)
+			(at 265.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +15243,7 @@
 			)
 		)
 		(property "Value" "Enable"
-			(at 262.89 185.42 0)
+			(at 265.43 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +15251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 189.23 0)
+			(at 265.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11260,7 +15260,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 189.23 0)
+			(at 265.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11269,7 +15269,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 262.89 189.23 0)
+			(at 265.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11400,6 +15400,187 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbc91ec4-d2f6-48ff-9349-7a288d9cc27d")
+		(property "Reference" "#PWR042"
+			(at 35.56 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30c1ce73-e184-4ac9-b691-75fec4b8d572")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 288.29 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbdd924d-7bfc-469a-9bb2-eaa52866ea88")
+		(property "Reference" "R135"
+			(at 290.83 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 290.83 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 286.512 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 288.29 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7896589-8556-480b-95d1-480d7ec215fe")
+		)
+		(pin "2"
+			(uuid "ecd5ca05-9871-4259-a6c8-5d1b5ccd83ca")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R135")
 					(unit 1)
 				)
 			)
@@ -11539,7 +15720,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 273.05 189.23 270)
+		(at 275.59 189.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11548,7 +15729,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7b4afa4-3823-4d40-891e-3cc750dbed6b")
 		(property "Reference" "R98"
-			(at 273.05 182.88 90)
+			(at 275.59 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11556,7 +15737,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 273.05 185.42 90)
+			(at 275.59 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11564,7 +15745,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 273.05 187.452 90)
+			(at 275.59 187.452 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11573,7 +15754,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11582,7 +15763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +15772,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11600,7 +15781,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11609,7 +15790,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11618,7 +15799,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11627,7 +15808,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 273.05 189.23 0)
+			(at 275.59 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,6 +15832,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 109.22 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db96e6bc-15c7-463f-ae0a-f724a53bc87c")
+		(property "Reference" "#PWR090"
+			(at 109.22 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 109.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ac694e5-3d12-400d-8401-c11ca0934546")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 123.19 25.4 0)
 		(unit 1)
@@ -11668,7 +15915,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x02_Odd_Even"
+		(property "Value" "Board supply"
 			(at 124.46 21.59 0)
 			(effects
 				(font
@@ -11792,6 +16039,120 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
+		(at 100.33 92.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e66dcd1e-ca64-4f73-a9d9-147f55d9687d")
+		(property "Reference" "R143"
+			(at 102.87 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 102.87 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 102.108 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 100.33 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b51f98b-4b71-4622-8f11-6571b5aab2a0")
+		)
+		(pin "2"
+			(uuid "7c985f0f-41e7-4350-a8b0-e8d2adbdae22")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
 		(at 87.63 123.19 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11905,7 +16266,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 201.93 27.94 180)
+		(at 379.73 199.39 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11914,7 +16275,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec9e3e26-f309-408a-a7d4-1887e54f7ab9")
 		(property "Reference" "R2"
-			(at 204.47 26.6699 0)
+			(at 382.27 198.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11923,7 +16284,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 204.47 29.2099 0)
+			(at 382.27 200.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11932,7 +16293,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 203.708 27.94 90)
+			(at 381.508 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11941,7 +16302,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11950,7 +16311,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11959,7 +16320,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11968,7 +16329,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11977,7 +16338,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11986,7 +16347,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11995,7 +16356,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 201.93 27.94 0)
+			(at 379.73 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12156,6 +16517,121 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
+		(at 35.56 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efbdbfbe-bcf9-4ba3-ba26-a41e137d6c2c")
+		(property "Reference" "R101"
+			(at 38.1 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 38.1 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 33.782 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 35.56 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36eef765-dad5-4102-b0ef-c929541b6d6e")
+		)
+		(pin "2"
+			(uuid "aab7d51e-76a5-4a87-a5f6-65309dc9bdaa")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
 		(at 302.26 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12262,6 +16738,482 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f13aa5aa-eeff-4bb5-903c-fe8f3612d478")
+		(property "Reference" "#PWR092"
+			(at 217.17 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ec9020b-f55c-4e3b-9e5c-56dbd3eba3bf")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 273.05 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8ea568a-e767-41bd-b373-0389b8c37b3e")
+		(property "Reference" "#PWR094"
+			(at 273.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 273.05 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 273.05 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57d7cc39-1e0f-4ec5-801b-5b961cb1591b")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 139.7 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9886a11-3f54-487c-8d58-a4de3eef23bf")
+		(property "Reference" "R99"
+			(at 142.24 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 142.24 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 137.922 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "677c7196-ec3a-4086-9d33-6a53efe30937")
+		)
+		(pin "2"
+			(uuid "4edc7daf-5e21-4054-a303-447cecf4c0d7")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 217.17 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdd14912-a50c-4211-ac89-3e690acc9f05")
+		(property "Reference" "R136"
+			(at 219.71 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "270"
+			(at 219.71 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 215.392 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 217.17 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9d7a89ca-8039-4a17-a57e-84af66587813")
+		)
+		(pin "2"
+			(uuid "a9f5ae1d-e386-4df3-8723-594de274cab1")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 367.03 55.88 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe559473-1c15-4d35-82fd-c7f13b4a7a4f")
+		(property "Reference" "R145"
+			(at 365.7599 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 368.2999 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 367.03 54.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" ""
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" ""
+			(at 367.03 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6544e372-08aa-4fcb-877d-28371799a35c")
+		)
+		(pin "2"
+			(uuid "a84fa08c-33cf-4d33-a2fa-f8028b598b27")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -12663,9 +17615,9 @@
 				(hide yes)
 			)
 		)
-		(pin "3V3_out" output
+		(pin "3V3_OUT" output
 			(at 351.79 50.8 0)
-			(uuid "2b7a3ab9-9daa-4dcf-b474-9f4b6e2a1afa")
+			(uuid "ac9a5b90-96de-413b-8a33-e4e76f928098")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,9 +17625,9 @@
 				(justify right)
 			)
 		)
-		(pin "12V_in" input
+		(pin "V_IN" input
 			(at 312.42 50.8 180)
-			(uuid "ad547466-f96d-4568-be26-efaca7fbd81a")
+			(uuid "1f615ae1-a9cc-4f0c-8be0-25721df91be3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14350,9 +19302,9 @@
 				(hide yes)
 			)
 		)
-		(pin "5V_en" input
+		(pin "5V_EN" input
 			(at 312.42 29.21 180)
-			(uuid "6cd395fe-d664-4b7e-8685-b5cc37d80b6b")
+			(uuid "c1ff7f75-bb20-49be-852e-78292319223b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14360,9 +19312,9 @@
 				(justify left)
 			)
 		)
-		(pin "5V_out" output
+		(pin "5V_OUT" output
 			(at 351.79 26.67 0)
-			(uuid "be04591f-7afc-41df-ad46-7a285820e9da")
+			(uuid "d7beb81f-1d7d-4887-bbde-7b7e9e0ed88d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14370,9 +19322,9 @@
 				(justify right)
 			)
 		)
-		(pin "12V_in" input
+		(pin "V_IN" input
 			(at 312.42 26.67 180)
-			(uuid "41dfc712-a165-4aee-a005-9b57c267e37e")
+			(uuid "03de39bf-713e-4291-8ee4-8c5d810d0416")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3638,6 +3638,119 @@
 	)
 	(symbol
 		(lib_id "VXDash_ICs:AS2333_OpAmp")
+		(at 184.15 96.52 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77424004-3d5d-413e-9e10-3b3364cdac29")
+		(property "Reference" "IC4"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AS2333_OpAmp"
+			(at 184.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
+			(at 184.15 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AS2333.pdf"
+			(at 184.15 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
+			(at 184.15 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Diode Inc"
+			(at 184.15 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "AS2333M8-13"
+			(at 184.15 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 184.15 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0da11692-5a41-4653-80bd-973c1aa15b5b")
+		)
+		(pin "4"
+			(uuid "e12c34ee-2fb6-4e22-b887-375a89311635")
+		)
+		(pin "7"
+			(uuid "4d4633e1-298b-427f-a47d-1297d5e22e72")
+		)
+		(pin "3"
+			(uuid "b9ff0dd8-ad64-41ef-a433-5d1891e8b8c8")
+		)
+		(pin "8"
+			(uuid "4d526ff2-f32e-4bb9-aca0-655eb6124ef5")
+		)
+		(pin "1"
+			(uuid "94b60faa-2f11-4f17-afa1-6ad956e56c25")
+		)
+		(pin "5"
+			(uuid "bd504f70-4fec-4483-885f-852046bdca87")
+		)
+		(pin "6"
+			(uuid "913707dc-2961-407f-a54b-017ee624cc88")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+					(reference "IC4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_ICs:AS2333_OpAmp")
 		(at 54.61 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5230,119 +5343,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_ICs:AS2333_OpAmp")
-		(at 184.15 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f68e24c0-0970-47e6-81b5-287de9f24cd0")
-		(property "Reference" "IC5"
-			(at 184.15 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AS2333_OpAmp"
-			(at 184.15 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 184.15 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AS2333.pdf"
-			(at 184.15 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
-			(at 184.15 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Diode Inc"
-			(at 184.15 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "AS2333M8-13"
-			(at 184.15 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" ""
-			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "64e080de-74c6-4482-bc48-1710a7e4513e")
-		)
-		(pin "4"
-			(uuid "b19301d0-5cf5-4304-8322-33c464759058")
-		)
-		(pin "7"
-			(uuid "cd094413-4d42-44ee-a6b8-7d449070932b")
-		)
-		(pin "3"
-			(uuid "6ff5519f-130f-4ed9-9ed6-d1f947d5cc27")
-		)
-		(pin "8"
-			(uuid "607234dd-a5a5-40dd-9b98-ad76b9f7c588")
-		)
-		(pin "1"
-			(uuid "fe30dcd2-ab6f-493a-b86f-a6e470dfa35b")
-		)
-		(pin "5"
-			(uuid "e39372ee-a47e-4a2e-881b-911942cf0bb4")
-		)
-		(pin "6"
-			(uuid "6fc54d14-0778-4428-8ce1-af03d8466c32")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
-					(reference "IC5")
 					(unit 1)
 				)
 			)
