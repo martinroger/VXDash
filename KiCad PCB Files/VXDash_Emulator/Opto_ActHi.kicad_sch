@@ -1352,7 +1352,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06d1594b-580c-4e4b-a22c-8d7a6969ad6a")
-		(property "Reference" "U16"
+		(property "Reference" "U8"
 			(at 134.62 92.71 0)
 			(effects
 				(font
@@ -1429,31 +1429,31 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "U16")
+					(reference "U8")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "U21")
+					(reference "U16")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "U23")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
 					(reference "U19")
 					(unit 1)
 				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
+					(reference "U14")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "U22")
+					(reference "U17")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "U20")
+					(reference "U15")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "U?")
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -1469,7 +1469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0719089b-38fe-4505-949c-3610356c4d05")
-		(property "Reference" "R102"
+		(property "Reference" "R60"
 			(at 218.44 114.2999 0)
 			(effects
 				(font
@@ -1568,31 +1568,31 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "R102")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "R105")
+					(reference "R84")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "R108")
+					(reference "R97")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "R103")
+					(reference "R78")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "R106")
+					(reference "R87")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "R104")
+					(reference "R81")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "R107")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -1608,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e66e85-24cf-4d25-b04c-a3c96d8e3b9d")
-		(property "Reference" "R42"
+		(property "Reference" "R59"
 			(at 158.75 90.17 90)
 			(effects
 				(font
@@ -1705,31 +1705,31 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "R42")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "R45")
+					(reference "R83")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "R47")
+					(reference "R96")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "R43")
+					(reference "R77")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "R46")
+					(reference "R86")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "R44")
+					(reference "R80")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "R?")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -1744,7 +1744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f67eaa8-2f31-42ab-98cb-f712ef6ee449")
-		(property "Reference" "D4"
+		(property "Reference" "D13"
 			(at 211.836 124.46 90)
 			(effects
 				(font
@@ -1839,31 +1839,31 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "D4")
+					(reference "D13")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "D7")
+					(reference "D21")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "D12")
+					(reference "D24")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "D5")
+					(reference "D19")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "D8")
+					(reference "D22")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "D6")
+					(reference "D20")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "D9")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -1933,27 +1933,27 @@
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "TP12")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
 					(reference "TP15")
 					(unit 1)
 				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
+					(reference "TP21")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "TP10")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "TP13")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
 					(reference "TP11")
 					(unit 1)
 				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
+					(reference "TP17")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
+					(reference "TP13")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "TP14")
+					(reference "TP19")
 					(unit 1)
 				)
 			)
@@ -1968,7 +1968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8dd56956-a460-48c6-bbc3-b3fd04263628")
-		(property "Reference" "TP16"
+		(property "Reference" "TP10"
 			(at 167.64 110.4899 0)
 			(effects
 				(font
@@ -2019,11 +2019,11 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "TP16")
+					(reference "TP10")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "TP19")
+					(reference "TP16")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
@@ -2031,19 +2031,19 @@
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "TP17")
+					(reference "TP12")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "TP20")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
 					(reference "TP18")
 					(unit 1)
 				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
+					(reference "TP14")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "TP21")
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -2059,7 +2059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a6b19e-ee01-442c-8419-af6fc98024eb")
-		(property "Reference" "R41"
+		(property "Reference" "R58"
 			(at 119.38 86.3599 0)
 			(effects
 				(font
@@ -2158,31 +2158,31 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "R41")
+					(reference "R58")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "R54")
+					(reference "R82")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "R56")
+					(reference "R95")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "R52")
+					(reference "R76")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "R55")
+					(reference "R85")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "R53")
+					(reference "R79")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "R51")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -2198,7 +2198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0bfa16b-e45e-4f3f-ba25-df0cec28909b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 127 113.03 0)
 			(effects
 				(font
@@ -2249,31 +2249,31 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "#PWR037")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "#PWR039")
+					(reference "#PWR051")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "#PWR035")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
-					(reference "#PWR038")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "#PWR?")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46855c2-86fa-4666-8569-c3ae3a263492")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR029"
 			(at 215.9 135.89 0)
 			(effects
 				(font
@@ -2339,19 +2339,19 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/06d5ae6f-f138-4d62-9727-bfa8ed842e6d"
-					(reference "#PWR043")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4fdb01d0-8045-405b-a70a-5c98b14dce71"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b54c6c3-4101-447e-ad9f-09b95f1a7189"
-					(reference "#PWR073")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6120af76-94bd-4013-b8f3-013e4fe5e007"
-					(reference "#PWR044")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/65099049-203b-40d3-8edb-25cd8821da6e"
@@ -2359,11 +2359,11 @@
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/69a7452a-2b9c-4b60-bfdf-061e25860860"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df7be051-e61b-464b-85a0-ebedf6cc1666"
-					(reference "#PWR069")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
