@@ -1413,6 +1413,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -5595,6 +5745,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 264.16) (xy 143.51 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38e36ff7-9037-4b7b-8536-8d8c508bfdd4")
+	)
+	(wire
+		(pts
 			(xy 46.99 115.57) (xy 54.61 115.57)
 		)
 		(stroke
@@ -7485,6 +7645,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 264.16) (xy 157.48 264.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dac22982-7762-4208-8d0c-e2d3e7002f32")
+	)
+	(wire
+		(pts
 			(xy 298.45 111.76) (xy 298.45 120.65)
 		)
 		(stroke
@@ -8102,6 +8272,17 @@
 			(justify left bottom)
 		)
 		(uuid "4bb9ba96-7678-4ef8-83db-c2b3cd389a30")
+	)
+	(label "button"
+		(at 157.48 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "50f3ad22-6d82-41c7-8df8-8370c2ee3859")
 	)
 	(label "button"
 		(at 66.04 260.35 0)
@@ -10206,6 +10387,74 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 148.59 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b64f5dd-dd5c-4e91-8b0f-ef71eba1ef85")
+		(property "Reference" "SW2"
+			(at 148.59 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Button Manual"
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 148.59 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecba3e1f-e8d7-4b0a-b1e1-0d184d576df9")
+		)
+		(pin "1"
+			(uuid "9b0faea9-020f-4f20-a441-4af1635a7dd3")
+		)
+		(instances
+			(project ""
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -17477,6 +17726,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 138.43 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d87b4fe9-951d-4746-b482-c70add9b8cde")
+		(property "Reference" "#PWR020"
+			(at 138.43 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.5059 271.2371 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57c99b62-0b24-4bc9-a766-13d8c0685496")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 109.22 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18882,7 +19197,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 151.13)
+		(at 35.56 168.91)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18894,11 +19209,11 @@
 			(type solid)
 		)
 		(fill
-			(color 221 133 0 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "06d5ae6f-f138-4d62-9727-bfa8ed842e6d")
-		(property "Sheetname" "Opto_ActHi9"
-			(at 35.56 150.4184 0)
+		(uuid "15e05ecd-f0ab-4c25-a1ce-0533be5c70d0")
+		(property "Sheetname" "NMOSFET Shifter3"
+			(at 35.56 168.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18906,71 +19221,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 156.7946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "HL_output" output
-			(at 35.56 153.67 180)
-			(uuid "09f49dee-3b5c-4e49-ad99-78ec3dba9bb1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LL_input" input
-			(at 58.42 153.67 0)
-			(uuid "99d8191f-c1d7-4a1c-b4a6-b0ce783ae971")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 257.81)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 0 255 1.0000)
-		)
-		(uuid "1331dc91-a493-4b67-99c4-0b5af7dbc635")
-		(property "Sheetname" "Opto_ActLo18"
-			(at 35.56 257.0984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 263.4746 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 174.5746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18980,8 +19232,8 @@
 			)
 		)
 		(pin "LL_input" input
-			(at 58.42 260.35 0)
-			(uuid "a5517b65-0fe1-48a7-8e4f-18f43e659113")
+			(at 58.42 171.45 0)
+			(uuid "f7634876-7c11-40b5-a84f-6e2e2cfe5c86")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18989,9 +19241,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
-			(at 35.56 260.35 180)
-			(uuid "0d34e992-9164-4bd1-a289-5bd66f2677eb")
+		(pin "~{HL output}" input
+			(at 35.56 171.45 180)
+			(uuid "8c8c1d23-5543-49ee-90ec-bfc92698659d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19002,7 +19254,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "11")
+					(page "5")
 				)
 			)
 		)
@@ -19254,7 +19506,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 204.47)
+		(at 35.56 195.58)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19266,11 +19518,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "3e2d84af-a9fa-4dfc-ba72-d80f67c8dbaa")
-		(property "Sheetname" "Opto_ActLo15"
-			(at 35.56 203.7584 0)
+		(uuid "36e0082d-b5e2-4495-a0f0-5f86be5a928d")
+		(property "Sheetname" "NMOSFET Shifter6"
+			(at 35.56 194.8684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19278,8 +19530,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 210.1346 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 201.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19289,8 +19541,8 @@
 			)
 		)
 		(pin "LL_input" input
-			(at 58.42 207.01 0)
-			(uuid "19f45a0a-540d-426f-88cf-49ae214dceb6")
+			(at 58.42 198.12 0)
+			(uuid "7c2de553-be5f-4809-a738-aa6b52a49a18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19298,9 +19550,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
-			(at 35.56 207.01 180)
-			(uuid "be0938e1-5ea3-4354-b162-7792e6ce1eb7")
+		(pin "~{HL output}" input
+			(at 35.56 198.12 180)
+			(uuid "65e66538-057a-46e8-8acd-10875bf966fc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19317,7 +19569,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 186.69)
+		(at 35.56 266.7)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19329,11 +19581,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "43fee0b8-9465-43da-8530-db45bb3b36d6")
-		(property "Sheetname" "Opto_ActLo13"
-			(at 35.56 185.9784 0)
+		(uuid "3ae0d07a-3bbb-47a7-9bc3-682d4e5ed7f8")
+		(property "Sheetname" "NMOSFET Shifter14"
+			(at 35.56 265.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19341,8 +19593,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 192.3546 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 272.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19352,8 +19604,8 @@
 			)
 		)
 		(pin "LL_input" input
-			(at 58.42 189.23 0)
-			(uuid "410c03f7-30e7-4953-b891-f56f5e6ebd86")
+			(at 58.42 269.24 0)
+			(uuid "a31a7770-c4b2-4863-830e-0050ea508b98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19361,9 +19613,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
-			(at 35.56 189.23 180)
-			(uuid "d02e066c-8857-46d2-a454-e4c14d2805e6")
+		(pin "~{HL output}" input
+			(at 35.56 269.24 180)
+			(uuid "8574775c-87e2-4d4c-8e94-761e5efa2c42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19374,7 +19626,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "5")
+					(page "16")
 				)
 			)
 		)
@@ -19502,7 +19754,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 248.92)
+		(at 35.56 257.81)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19514,11 +19766,11 @@
 			(type solid)
 		)
 		(fill
-			(color 221 133 0 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "4fdb01d0-8045-405b-a70a-5c98b14dce71")
-		(property "Sheetname" "Opto_ActHi12"
-			(at 35.56 248.2084 0)
+		(uuid "4a66e416-12e4-4df5-a573-502df73efaca")
+		(property "Sheetname" "NMOSFET Shifter13"
+			(at 35.56 257.0984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19526,8 +19778,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 254.5846 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 263.4746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19536,24 +19788,24 @@
 				(hide yes)
 			)
 		)
-		(pin "HL_output" output
-			(at 35.56 251.46 180)
-			(uuid "6e5b054a-9829-4a3b-9b5e-7f44b413eac4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LL_input" input
-			(at 58.42 251.46 0)
-			(uuid "55f7e316-ca95-4c71-b409-df6f76d52126")
+			(at 58.42 260.35 0)
+			(uuid "6e7d4125-6304-4894-8aea-d82d1f941be8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 260.35 180)
+			(uuid "512747af-ab5b-416e-aa3b-25937f40cb20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -19565,7 +19817,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 195.58)
+		(at 35.56 231.14)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19577,11 +19829,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "50a6ec2d-f8f3-4ed7-b051-eda196550955")
-		(property "Sheetname" "Opto_ActLo14"
-			(at 35.56 194.8684 0)
+		(uuid "4c8f6e1b-ce8b-424f-b5f8-6db24f1ac57e")
+		(property "Sheetname" "NMOSFET Shifter10"
+			(at 35.56 230.4284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19589,8 +19841,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 201.2446 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 236.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19600,8 +19852,8 @@
 			)
 		)
 		(pin "LL_input" input
-			(at 58.42 198.12 0)
-			(uuid "f655633d-bbb1-4447-b802-b906dcc43dbc")
+			(at 58.42 233.68 0)
+			(uuid "ae42b116-603c-4d43-ac53-1faefa1d63bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19609,9 +19861,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
-			(at 35.56 198.12 180)
-			(uuid "beb0b786-be40-4b07-940f-94b5e594745e")
+		(pin "~{HL output}" input
+			(at 35.56 233.68 180)
+			(uuid "1e1fdfba-2339-4941-bbb7-a2e2743487a4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19622,259 +19874,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 275.59)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 221 133 0 1.0000)
-		)
-		(uuid "5b54c6c3-4101-447e-ad9f-09b95f1a7189")
-		(property "Sheetname" "Opto_ActHi14"
-			(at 35.56 274.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 281.2546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "HL_output" output
-			(at 35.56 278.13 180)
-			(uuid "1562d94e-a213-422c-8064-17f9c9df97e6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LL_input" input
-			(at 58.42 278.13 0)
-			(uuid "42d308f9-557c-4a94-92bd-67ff6452c470")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "19")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 213.36)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 221 133 0 1.0000)
-		)
-		(uuid "6120af76-94bd-4013-b8f3-013e4fe5e007")
-		(property "Sheetname" "Opto_ActHi10"
-			(at 35.56 212.6484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 219.0246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "HL_output" output
-			(at 35.56 215.9 180)
-			(uuid "1a18c4a1-623d-4751-96f5-a5b9f3b0ba79")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LL_input" input
-			(at 58.42 215.9 0)
-			(uuid "9f1a0781-c211-47d1-b59d-c789cfb155d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "13")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 266.7)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 221 133 0 1.0000)
-		)
-		(uuid "65099049-203b-40d3-8edb-25cd8821da6e")
-		(property "Sheetname" "Opto_ActHi13"
-			(at 35.56 265.9884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 272.3646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "HL_output" output
-			(at 35.56 269.24 180)
-			(uuid "0423e563-16b4-4481-b6c5-cb923d782a59")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LL_input" input
-			(at 58.42 269.24 0)
-			(uuid "eda19087-7683-4fc9-b4ee-ceb062b1bbfd")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 35.56 222.25)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 221 133 0 1.0000)
-		)
-		(uuid "69a7452a-2b9c-4b60-bfdf-061e25860860")
-		(property "Sheetname" "Opto_ActHi11"
-			(at 35.56 221.5384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 227.9146 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "HL_output" output
-			(at 35.56 224.79 180)
-			(uuid "c4da4f2e-f866-4a3e-a788-e77114043387")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "LL_input" input
-			(at 58.42 224.79 0)
-			(uuid "a41c98b3-ee1c-478b-9811-deec3aba5645")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "14")
+					(page "12")
 				)
 			)
 		)
@@ -19941,7 +19941,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 240.03)
+		(at 35.56 142.24)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19953,11 +19953,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "749ba166-5a75-4ddc-806a-9a9baaa1b49d")
-		(property "Sheetname" "Opto_ActLo17"
-			(at 35.56 239.3184 0)
+		(uuid "8789b34c-e66b-4b0d-ae37-4c0850dda3dd")
+		(property "Sheetname" "NMOSFET Shifter"
+			(at 35.56 141.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19965,8 +19965,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 245.6946 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19976,8 +19976,8 @@
 			)
 		)
 		(pin "LL_input" input
-			(at 58.42 242.57 0)
-			(uuid "f4d9e5e8-669e-4a8b-ba49-c9a6f3ca6fa4")
+			(at 58.42 144.78 0)
+			(uuid "9be401b8-a44f-46a6-ac15-216ac5663ef8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19985,9 +19985,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
-			(at 35.56 242.57 180)
-			(uuid "e62457c9-3836-4224-94ca-a62bda48b57e")
+		(pin "~{HL output}" input
+			(at 35.56 144.78 180)
+			(uuid "1e0df82d-f166-4232-b3e4-f9d5c31e4a5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19998,7 +19998,70 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "10")
+					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 222.25)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "88a87fcc-eccf-491a-b753-1f8fa2961801")
+		(property "Sheetname" "NMOSFET Shifter9"
+			(at 35.56 221.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 227.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 58.42 224.79 0)
+			(uuid "05ae7dab-5345-421e-b49c-47e9af1c3319")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 224.79 180)
+			(uuid "155a4441-c05f-49fd-8dc9-4a5ab9787bce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "11")
 				)
 			)
 		)
@@ -20060,6 +20123,258 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "30")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 186.69)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94ff6500-08e9-496b-8a1a-1f7e852f1a1d")
+		(property "Sheetname" "NMOSFET Shifter5"
+			(at 35.56 185.9784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 58.42 189.23 0)
+			(uuid "b09b15b7-cc86-4ee8-a3d3-2d1e0afc2ca2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 189.23 180)
+			(uuid "c8f3efdf-04b2-4f48-b7a6-6898487ca30c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 204.47)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "968a16bc-ec89-4798-9f4e-35529e970b28")
+		(property "Sheetname" "NMOSFET Shifter7"
+			(at 35.56 203.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 210.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 58.42 207.01 0)
+			(uuid "b103f3f9-fb64-4437-b16d-c7d55a76460a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 207.01 180)
+			(uuid "d5c47926-23b2-4f0c-b796-c33edbd541a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 151.13)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9a47d5b4-b3a3-4831-89fd-c98b09d0b813")
+		(property "Sheetname" "NMOSFET Shifter1"
+			(at 35.56 150.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 58.42 153.67 0)
+			(uuid "f573b428-8bcc-421b-a814-fc23c092fbfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 153.67 180)
+			(uuid "c4e409fc-d351-418c-8ca2-46e7432295e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 275.59)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ac5267b-3ee0-4de0-9a47-03837d492fd4")
+		(property "Sheetname" "NMOSFET Shifter15"
+			(at 35.56 274.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 281.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 58.42 278.13 0)
+			(uuid "952f2267-88c0-4cf3-8dfc-a5643e16ee84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 278.13 180)
+			(uuid "a183b861-fc3b-4c51-910b-012d23fa85a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "17")
 				)
 			)
 		)
@@ -20199,7 +20514,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 168.91)
+		(at 35.56 240.03)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20211,11 +20526,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "a993d3bf-f47b-481e-bc45-945a03f6f2ab")
-		(property "Sheetname" "Opto_ActLo11"
-			(at 35.56 168.1984 0)
+		(uuid "afcc6447-8c71-4693-af89-d9fd82a517b8")
+		(property "Sheetname" "NMOSFET Shifter11"
+			(at 35.56 239.3184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20223,8 +20538,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 174.5746 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 245.6946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20234,8 +20549,8 @@
 			)
 		)
 		(pin "LL_input" input
-			(at 58.42 171.45 0)
-			(uuid "5267f684-1a22-4705-94d0-1f40cb9f45c8")
+			(at 58.42 242.57 0)
+			(uuid "d38566e0-3bf6-4b18-b720-b0c1d45eadd3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20243,9 +20558,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
-			(at 35.56 171.45 180)
-			(uuid "ed673ce0-13db-4e01-a3d5-f66f0a2517f3")
+		(pin "~{HL output}" input
+			(at 35.56 242.57 180)
+			(uuid "6e60215a-92f9-40e5-9570-8cf293e1a2bd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20256,7 +20571,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "3")
+					(page "13")
 				)
 			)
 		)
@@ -20323,69 +20638,6 @@
 		)
 	)
 	(sheet
-		(at 35.56 231.14)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 0 255 1.0000)
-		)
-		(uuid "c00d92df-200b-46b5-b163-c3e9f44e3e9d")
-		(property "Sheetname" "Opto_ActLo16"
-			(at 35.56 230.4284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
-			(at 35.56 236.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "LL_input" input
-			(at 58.42 233.68 0)
-			(uuid "c2faad72-b73e-4796-a653-d4ac080b488a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{HL_output}" output
-			(at 35.56 233.68 180)
-			(uuid "9eb13be7-c590-45eb-90e0-8f72b6ea8029")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 35.56 177.8)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
@@ -20398,10 +20650,10 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "c670b0ba-a112-4360-a600-f6e10ac71d07")
-		(property "Sheetname" "Opto_ActLo12"
+		(uuid "b932ac00-e6bb-4665-8a6e-72dd4a253713")
+		(property "Sheetname" "NMOSFET Shifter4"
 			(at 35.56 177.0884 0)
 			(effects
 				(font
@@ -20410,7 +20662,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
 			(at 35.56 183.4646 0)
 			(effects
 				(font
@@ -20422,7 +20674,7 @@
 		)
 		(pin "LL_input" input
 			(at 58.42 180.34 0)
-			(uuid "aa140596-06b7-4346-b892-1061a7c5d0a6")
+			(uuid "ae1ef9d2-c68a-460e-a844-a77817dd2806")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20430,9 +20682,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
+		(pin "~{HL output}" input
 			(at 35.56 180.34 180)
-			(uuid "de9cbccd-720e-45f6-ab9a-cf4df33ee889")
+			(uuid "464b5d81-3455-4b80-9b8a-d935dbb44c31")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20443,7 +20695,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
@@ -20754,7 +21006,7 @@
 		)
 	)
 	(sheet
-		(at 35.56 142.24)
+		(at 35.56 213.36)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20766,11 +21018,11 @@
 			(type solid)
 		)
 		(fill
-			(color 221 133 0 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "df7be051-e61b-464b-85a0-ebedf6cc1666")
-		(property "Sheetname" "Opto_ActHi8"
-			(at 35.56 141.5284 0)
+		(uuid "e37edb38-c8c8-4d52-9886-b886580ea80d")
+		(property "Sheetname" "NMOSFET Shifter8"
+			(at 35.56 212.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20778,8 +21030,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActHi.kicad_sch"
-			(at 35.56 147.9046 0)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 219.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20788,19 +21040,9 @@
 				(hide yes)
 			)
 		)
-		(pin "HL_output" output
-			(at 35.56 144.78 180)
-			(uuid "d74c6545-af3a-4594-82c1-3cf2aacac2c9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LL_input" input
-			(at 58.42 144.78 0)
-			(uuid "2593464e-bf45-4cc4-93ac-8e21538066a0")
+			(at 58.42 215.9 0)
+			(uuid "8df8d765-8722-4b9b-b1d3-b055c5ef1638")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20808,10 +21050,20 @@
 				(justify right)
 			)
 		)
+		(pin "~{HL output}" input
+			(at 35.56 215.9 180)
+			(uuid "be03c222-08f4-4a46-9cd5-309a8ce7acaf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "17")
+					(page "10")
 				)
 			)
 		)
@@ -20902,10 +21154,10 @@
 			(type solid)
 		)
 		(fill
-			(color 255 0 255 1.0000)
+			(color 0 0 0 0.0000)
 		)
-		(uuid "eb0d7996-49da-4ffe-ae91-4b075a92eda1")
-		(property "Sheetname" "Opto_ActLo10"
+		(uuid "e68f0948-e1f7-480d-a92a-427cd9d1d2cb")
+		(property "Sheetname" "NMOSFET Shifter2"
 			(at 35.56 159.3084 0)
 			(effects
 				(font
@@ -20914,7 +21166,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Opto_ActLo.kicad_sch"
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
 			(at 35.56 165.6846 0)
 			(effects
 				(font
@@ -20926,7 +21178,7 @@
 		)
 		(pin "LL_input" input
 			(at 58.42 162.56 0)
-			(uuid "5b318e86-ba5e-4e1d-8a5c-aa37117d02ea")
+			(uuid "953957ff-9a7c-48be-913d-53a101c8baeb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20934,9 +21186,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL_output}" output
+		(pin "~{HL output}" input
 			(at 35.56 162.56 180)
-			(uuid "253194f5-0f53-4cb0-98fa-8dcdb3457285")
+			(uuid "fd934a58-2c42-4a92-aa42-9188b9a990be")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20947,7 +21199,70 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "12")
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 248.92)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea03d736-6e45-4cf6-bfe1-906d45e297bd")
+		(property "Sheetname" "NMOSFET Shifter12"
+			(at 35.56 248.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+			(at 35.56 254.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 58.42 251.46 0)
+			(uuid "567cefc9-dd34-449d-8d4d-18197c47e099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 35.56 251.46 180)
+			(uuid "031db5cd-b0b3-4463-b3e8-0563682cdf3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "14")
 				)
 			)
 		)
