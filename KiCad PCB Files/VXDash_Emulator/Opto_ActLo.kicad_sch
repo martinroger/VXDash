@@ -13,6 +13,113 @@
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Isolator:SFH617A-2X009T"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -826,6 +933,22 @@
 		(color 0 0 0 0)
 		(uuid "4c7d9e35-f161-492d-95ec-9d295d3bd282")
 	)
+	(junction
+		(at 132.08 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560c70cb-f81a-4a27-b1e3-7a44304a23a3")
+	)
+	(wire
+		(pts
+			(xy 83.82 85.09) (xy 95.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08c84159-2d6f-4fe5-afe2-6bc74616ce65")
+	)
 	(wire
 		(pts
 			(xy 180.34 90.17) (xy 180.34 92.71)
@@ -835,6 +958,16 @@
 			(type default)
 		)
 		(uuid "09f7fa25-ede7-4c95-a8a6-5ee750e07d99")
+	)
+	(wire
+		(pts
+			(xy 132.08 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cba3e3a-0a81-437f-88b8-9abae29baec7")
 	)
 	(wire
 		(pts
@@ -878,13 +1011,33 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 80.01) (xy 133.35 80.01)
+			(xy 120.65 80.01) (xy 132.08 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f00a7ab-2b83-4cc4-9e83-06e28a26e7cd")
+	)
+	(wire
+		(pts
+			(xy 132.08 90.17) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e069f8f-8585-4976-8e38-98868a0cbc77")
+	)
+	(wire
+		(pts
+			(xy 149.86 90.17) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d745934-b2dc-4441-9b35-de8ef2cd6010")
 	)
 	(wire
 		(pts
@@ -895,6 +1048,16 @@
 			(type default)
 		)
 		(uuid "81281e18-90eb-48d4-b195-a3ed51b1d905")
+	)
+	(wire
+		(pts
+			(xy 95.25 85.09) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0e4b9d4-a599-425a-8715-7b1135e42224")
 	)
 	(wire
 		(pts
@@ -935,6 +1098,16 @@
 			(type default)
 		)
 		(uuid "e35eea04-bedd-460a-90d0-f3908a0c830d")
+	)
+	(wire
+		(pts
+			(xy 83.82 90.17) (xy 83.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbde3774-b1be-421f-be7a-1d510c71e28e")
 	)
 	(table
 		(column_count 3)
@@ -1604,6 +1777,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 149.86 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9b542e99-bbe2-43ce-9423-37707541cd22")
+		(property "Reference" "TP24"
+			(at 151.13 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_LL"
+			(at 151.13 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47c3066c-a0ad-4741-8d07-9177a1d1122f")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1331dc91-a493-4b67-99c4-0b5af7dbc635"
+					(reference "TP38")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3e2d84af-a9fa-4dfc-ba72-d80f67c8dbaa"
+					(reference "TP32")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/43fee0b8-9465-43da-8530-db45bb3b36d6"
+					(reference "TP28")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/50a6ec2d-f8f3-4ed7-b051-eda196550955"
+					(reference "TP30")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/749ba166-5a75-4ddc-806a-9a9baaa1b49d"
+					(reference "TP36")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/a993d3bf-f47b-481e-bc45-945a03f6f2ab"
+					(reference "TP24")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c00d92df-200b-46b5-b163-c3e9f44e3e9d"
+					(reference "TP34")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c670b0ba-a112-4360-a600-f6e10ac71d07"
+					(reference "TP26")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/eb0d7996-49da-4ffe-ae91-4b075a92eda1"
+					(reference "TP40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VXDash_passives:Res")
 		(at 180.34 86.36 0)
 		(unit 1)
@@ -2088,6 +2359,104 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/eb0d7996-49da-4ffe-ae91-4b075a92eda1"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 83.82 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f92604be-5d1f-4bec-9054-27f9456b8053")
+		(property "Reference" "TP23"
+			(at 85.09 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~{TP_HL}"
+			(at 85.09 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5077976b-f1fd-46cc-9f94-fc8c7bd02ffb")
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1331dc91-a493-4b67-99c4-0b5af7dbc635"
+					(reference "TP37")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3e2d84af-a9fa-4dfc-ba72-d80f67c8dbaa"
+					(reference "TP31")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/43fee0b8-9465-43da-8530-db45bb3b36d6"
+					(reference "TP27")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/50a6ec2d-f8f3-4ed7-b051-eda196550955"
+					(reference "TP29")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/749ba166-5a75-4ddc-806a-9a9baaa1b49d"
+					(reference "TP35")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/a993d3bf-f47b-481e-bc45-945a03f6f2ab"
+					(reference "TP23")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c00d92df-200b-46b5-b163-c3e9f44e3e9d"
+					(reference "TP33")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c670b0ba-a112-4360-a600-f6e10ac71d07"
+					(reference "TP25")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/eb0d7996-49da-4ffe-ae91-4b075a92eda1"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
