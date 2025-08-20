@@ -5665,6 +5665,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 217.17) (xy 257.81 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2deaaa95-f643-433c-92a5-5472ae185d5d")
+	)
+	(wire
+		(pts
 			(xy 53.34 46.99) (xy 57.15 46.99)
 		)
 		(stroke
@@ -6235,16 +6245,6 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 212.09) (xy 257.81 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e07fc7-e23d-4053-9094-2533d350e551")
-	)
-	(wire
-		(pts
 			(xy 355.6 44.45) (xy 355.6 50.8)
 		)
 		(stroke
@@ -6402,16 +6402,6 @@
 			(type default)
 		)
 		(uuid "7019a861-950e-4bfa-9baf-99f655cb7d6a")
-	)
-	(wire
-		(pts
-			(xy 250.19 217.17) (xy 257.81 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71885ad6-2919-4c39-bdff-d7787974c494")
 	)
 	(wire
 		(pts
@@ -7515,6 +7505,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 212.09) (xy 257.81 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc7dc902-c980-44a9-920d-dc50a37952c8")
+	)
+	(wire
+		(pts
 			(xy 341.63 144.78) (xy 341.63 172.72)
 		)
 		(stroke
@@ -8378,7 +8378,7 @@
 		(uuid "a00418a2-d8a3-47e1-bcfa-3f0b51cc7c8a")
 	)
 	(label "ledc_chan_0"
-		(at 257.81 212.09 0)
+		(at 257.81 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8478,7 +8478,7 @@
 		(uuid "c9cd0bdc-75c5-45a1-baa9-57f7348b780a")
 	)
 	(label "ledc_chan_2"
-		(at 257.81 217.17 0)
+		(at 257.81 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
