@@ -1221,7 +1221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 330 OHM 1% 1/10W 0603"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -1257,7 +1257,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -1266,7 +1266,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07330RL"
 			(at 124.46 96.52 0)
 			(effects
 				(font
@@ -1394,7 +1394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -1439,7 +1439,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-071KL"
 			(at 128.27 90.17 0)
 			(effects
 				(font
@@ -1692,7 +1692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED ORANGE DIFFUSED 0603 SMD"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -1710,7 +1710,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -1719,7 +1719,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911UD--20D001014U1930"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -1738,6 +1738,14 @@
 		)
 		(property "If" "5mA"
 			(at 128.778 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -138,7 +138,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -552,6 +552,24 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Tolerance",
+          "name": "Tolerance",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Power",
+          "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
@@ -561,6 +579,24 @@
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MFT",
+          "name": "MFT",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MFT_PN",
+          "name": "MFT_PN",
           "show": true
         },
         {
@@ -579,13 +615,73 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "If",
+          "name": "If",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Irated",
+          "name": "Irated",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Isat",
+          "name": "Isat",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol",
+          "name": "Tol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Type",
+          "name": "Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DCR",
+          "name": "DCR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },

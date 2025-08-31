@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Main architecture")
-		(date "2025-08-10")
-		(rev "0.0")
+		(date "2025-08-31")
+		(rev "0.1")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
@@ -4820,7 +4820,7 @@
 		)
 		(uuid "38ceb68c-2622-4ecf-99d7-498cf7bbe6ae")
 	)
-	(text_box "TODO and TOCHECK: \n\n- Test points\n- Check things are in the project library\n"
+	(text_box "TODO and TOCHECK: \n\n"
 		(exclude_from_sim no)
 		(at 356.87 223.52 0)
 		(size 46.99 26.67)
@@ -10155,7 +10155,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "08149818-082f-44c4-acf5-4526a67680cf")
 		(property "Reference" "J7"
@@ -10194,12 +10194,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
 			(at 304.8 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Würth Elektronik"
+			(at 304.8 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "61300211121"
+			(at 307.34 214.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10261,7 +10280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
 			(at 273.05 165.1 0)
 			(effects
 				(font
@@ -10279,7 +10298,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 273.05 165.1 0)
 			(effects
 				(font
@@ -10288,7 +10307,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911PG--20D000514U1930"
 			(at 273.05 165.1 0)
 			(effects
 				(font
@@ -10307,6 +10326,14 @@
 		)
 		(property "If" "5mA"
 			(at 277.368 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 273.05 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10374,7 +10401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/4W 0805"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -10410,7 +10437,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -10419,7 +10446,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RNCP0805FTD1K00"
 			(at 46.99 107.95 0)
 			(effects
 				(font
@@ -10486,7 +10513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 93.98 0)
 			(effects
 				(font
@@ -10522,7 +10549,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 93.98 0)
 			(effects
 				(font
@@ -10531,7 +10558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 93.98 0)
 			(effects
 				(font
@@ -10562,7 +10589,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0b64f5dd-dd5c-4e91-8b0f-ef71eba1ef85")
 		(property "Reference" "SW2"
@@ -10606,6 +10633,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFT" "APEM"
+			(at 154.94 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFT_PN" "MJTP1250"
+			(at 154.94 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10735,7 +10778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 377.19 95.25 0)
 			(effects
 				(font
@@ -10744,7 +10787,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 377.19 95.25 0)
 			(effects
 				(font
@@ -10753,7 +10796,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CC0603KRX7R7BB104"
 			(at 377.19 95.25 0)
 			(effects
 				(font
@@ -10780,7 +10823,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 381 97.7899 0)
 			(effects
 				(font
@@ -10850,7 +10893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
 			(at 370.84 199.39 0)
 			(effects
 				(font
@@ -10886,7 +10929,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 370.84 199.39 0)
 			(effects
 				(font
@@ -10895,7 +10938,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-074K7L"
 			(at 370.84 199.39 0)
 			(effects
 				(font
@@ -10924,9 +10967,9 @@
 		(at 280.67 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "160be82f-6da2-4028-8fff-22bee6cb49f7")
 		(property "Reference" "TP2"
 			(at 281.94 223.5199 0)
@@ -11028,7 +11071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED ORANGE DIFFUSED 0603 SMD"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -11046,7 +11089,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -11055,7 +11098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911UD--20D001014U1930"
 			(at 88.9 101.6 0)
 			(effects
 				(font
@@ -11074,6 +11117,14 @@
 		)
 		(property "If" "5mA"
 			(at 93.218 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 88.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11138,7 +11189,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 138.43 0)
 			(effects
 				(font
@@ -11174,7 +11225,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 138.43 0)
 			(effects
 				(font
@@ -11183,7 +11234,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 138.43 0)
 			(effects
 				(font
@@ -11212,9 +11263,9 @@
 		(at 356.87 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b63689c-2181-4c11-8510-915e7591c4ef")
 		(property "Reference" "TP5"
@@ -11471,7 +11522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 85.09 0)
 			(effects
 				(font
@@ -11507,7 +11558,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 85.09 0)
 			(effects
 				(font
@@ -11516,7 +11567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 85.09 0)
 			(effects
 				(font
@@ -11583,7 +11634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 165.1 0)
 			(effects
 				(font
@@ -11619,7 +11670,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 165.1 0)
 			(effects
 				(font
@@ -11628,7 +11679,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 165.1 0)
 			(effects
 				(font
@@ -11695,7 +11746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED ORANGE DIFFUSED 0603 SMD"
 			(at 35.56 101.6 0)
 			(effects
 				(font
@@ -11713,7 +11764,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 35.56 101.6 0)
 			(effects
 				(font
@@ -11722,7 +11773,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911UD--20D001014U1930"
 			(at 35.56 101.6 0)
 			(effects
 				(font
@@ -11741,6 +11792,14 @@
 		)
 		(property "If" "5mA"
 			(at 39.878 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 35.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11871,7 +11930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 120.65 0)
 			(effects
 				(font
@@ -11907,7 +11966,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 120.65 0)
 			(effects
 				(font
@@ -11916,7 +11975,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 120.65 0)
 			(effects
 				(font
@@ -11945,9 +12004,9 @@
 		(at 280.67 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "42a46ef2-3d69-4d58-9950-f17c0746bdb5")
 		(property "Reference" "TP1"
@@ -12050,7 +12109,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 67.31 0)
 			(effects
 				(font
@@ -12086,7 +12145,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 67.31 0)
 			(effects
 				(font
@@ -12095,7 +12154,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 67.31 0)
 			(effects
 				(font
@@ -12125,9 +12184,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4654c533-855b-4b34-a07e-92e0de960012")
 		(property "Reference" "TP7"
 			(at 363.22 204.4699 0)
@@ -12361,7 +12420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
 			(at 217.17 41.91 0)
 			(effects
 				(font
@@ -12379,7 +12438,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 217.17 41.91 0)
 			(effects
 				(font
@@ -12388,7 +12447,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911PG--20D000514U1930"
 			(at 217.17 41.91 0)
 			(effects
 				(font
@@ -12407,6 +12466,14 @@
 		)
 		(property "If" "5mA"
 			(at 221.488 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 215.9 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12564,7 +12631,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -12600,7 +12667,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -12609,7 +12676,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 151.13 92.71 0)
 			(effects
 				(font
@@ -12679,7 +12746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 273.05 156.21 0)
 			(effects
 				(font
@@ -12715,7 +12782,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 273.05 156.21 0)
 			(effects
 				(font
@@ -12724,7 +12791,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 273.05 156.21 0)
 			(effects
 				(font
@@ -12755,7 +12822,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4da3de20-28ba-487f-9e52-b792fec5a1e1")
 		(property "Reference" "H2"
@@ -12927,7 +12994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -12963,7 +13030,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -12972,7 +13039,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 88.9 92.71 0)
 			(effects
 				(font
@@ -13039,7 +13106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
 			(at 190.5 41.91 0)
 			(effects
 				(font
@@ -13057,7 +13124,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 190.5 41.91 0)
 			(effects
 				(font
@@ -13066,7 +13133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911PG--20D000514U1930"
 			(at 190.5 41.91 0)
 			(effects
 				(font
@@ -13085,6 +13152,14 @@
 		)
 		(property "If" "5mA"
 			(at 194.818 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 189.484 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13114,7 +13189,6 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "5dc58ab9-4442-437a-ada8-031ec1fefe56")
 		(property "Reference" "J6"
 			(at 236.22 271.7799 0)
@@ -13152,8 +13226,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 2POS 2.54MM"
 			(at 233.68 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Würth Elektronik"
+			(at 236.22 266.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "61300211121"
+			(at 233.934 267.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13222,7 +13314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 3K OHM 1% 1/10W 0603"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -13258,7 +13350,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -13267,7 +13359,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT3K00"
 			(at 109.22 31.75 0)
 			(effects
 				(font
@@ -13298,7 +13390,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "660f3946-60aa-4ac0-a0cf-6fbaa69ffa47")
 		(property "Reference" "J3"
@@ -13337,12 +13429,31 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 100.33 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Würth Elektronik"
+			(at 100.33 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "61300311121"
+			(at 105.41 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -13473,7 +13584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -13509,7 +13620,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -13518,7 +13629,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 156.21 0)
 			(effects
 				(font
@@ -13615,7 +13726,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "67a9bddb-d1c0-40be-b871-e94d6e123982")
 		(property "Reference" "J2"
@@ -13654,7 +13765,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
+			(at 46.99 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Würth Elektronik"
+			(at 52.07 63.4999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "61300311121"
 			(at 46.99 60.96 0)
 			(effects
 				(font
@@ -13817,7 +13947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 367.03 30.48 0)
 			(effects
 				(font
@@ -13853,7 +13983,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 367.03 30.48 0)
 			(effects
 				(font
@@ -13862,7 +13992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 367.03 30.48 0)
 			(effects
 				(font
@@ -13932,7 +14062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/4W 0805"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -13968,7 +14098,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -13977,7 +14107,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RNCP0805FTD1K00"
 			(at 151.13 107.95 0)
 			(effects
 				(font
@@ -14044,7 +14174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 191.77 0)
 			(effects
 				(font
@@ -14080,7 +14210,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 191.77 0)
 			(effects
 				(font
@@ -14089,7 +14219,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 191.77 0)
 			(effects
 				(font
@@ -14118,9 +14248,9 @@
 		(at 224.79 209.55 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "757dc58e-204f-44ba-8c00-6fbbded4cd41")
 		(property "Reference" "U2"
@@ -14353,7 +14483,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 34.29 123.19 0)
 			(effects
 				(font
@@ -14389,7 +14519,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 34.29 123.19 0)
 			(effects
 				(font
@@ -14398,7 +14528,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-071KL"
 			(at 34.29 123.19 0)
 			(effects
 				(font
@@ -14531,7 +14661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 129.54 0)
 			(effects
 				(font
@@ -14567,7 +14697,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 129.54 0)
 			(effects
 				(font
@@ -14576,7 +14706,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 129.54 0)
 			(effects
 				(font
@@ -14643,7 +14773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 200.66 0)
 			(effects
 				(font
@@ -14679,7 +14809,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 200.66 0)
 			(effects
 				(font
@@ -14688,7 +14818,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 200.66 0)
 			(effects
 				(font
@@ -14757,7 +14887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 226.06 156.21 0)
 			(effects
 				(font
@@ -14793,7 +14923,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 226.06 156.21 0)
 			(effects
 				(font
@@ -14802,7 +14932,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 226.06 156.21 0)
 			(effects
 				(font
@@ -14935,7 +15065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED ORANGE DIFFUSED 0603 SMD"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -14953,7 +15083,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -14962,7 +15092,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911UD--20D001014U1930"
 			(at 139.7 101.6 0)
 			(effects
 				(font
@@ -14981,6 +15111,14 @@
 		)
 		(property "If" "5mA"
 			(at 144.018 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 139.7 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15007,9 +15145,9 @@
 		(at 384.81 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b41191f-f673-4af4-87e9-97bdac63b6fc")
 		(property "Reference" "TP8"
@@ -15074,9 +15212,9 @@
 		(at 300.99 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b718e8d-e98c-40e2-9f96-06ee59c469e7")
 		(property "Reference" "TP4"
@@ -15380,7 +15518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 620 OHM 1% 1/10W 0603"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -15416,7 +15554,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Vishay"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -15425,7 +15563,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CRCW0603620RFKEAC"
 			(at 190.5 33.02 0)
 			(effects
 				(font
@@ -15492,7 +15630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 173.99 0)
 			(effects
 				(font
@@ -15528,7 +15666,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 173.99 0)
 			(effects
 				(font
@@ -15537,7 +15675,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 173.99 0)
 			(effects
 				(font
@@ -15606,7 +15744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -15642,7 +15780,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -15651,7 +15789,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 46.99 92.71 0)
 			(effects
 				(font
@@ -15718,7 +15856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -15736,7 +15874,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -15745,7 +15883,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911PG--20D000514U1930"
 			(at 109.22 40.64 0)
 			(effects
 				(font
@@ -15764,6 +15902,14 @@
 		)
 		(property "If" "5mA"
 			(at 113.538 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,7 +15977,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/4W 0805"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -15867,7 +16013,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -15876,7 +16022,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RNCP0805FTD1K00"
 			(at 100.33 107.95 0)
 			(effects
 				(font
@@ -15943,7 +16089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 147.32 0)
 			(effects
 				(font
@@ -15979,7 +16125,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 147.32 0)
 			(effects
 				(font
@@ -15988,7 +16134,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 147.32 0)
 			(effects
 				(font
@@ -16055,7 +16201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 102.87 0)
 			(effects
 				(font
@@ -16091,7 +16237,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 102.87 0)
 			(effects
 				(font
@@ -16100,7 +16246,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 102.87 0)
 			(effects
 				(font
@@ -16169,7 +16315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 223.52 156.21 0)
 			(effects
 				(font
@@ -16205,7 +16351,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 223.52 156.21 0)
 			(effects
 				(font
@@ -16214,7 +16360,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 223.52 156.21 0)
 			(effects
 				(font
@@ -16243,9 +16389,9 @@
 		(at 356.87 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a74afd74-438c-48d1-82c3-a038f3ad1c90")
 		(property "Reference" "TP6"
@@ -16348,7 +16494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 111.76 0)
 			(effects
 				(font
@@ -16384,7 +16530,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 111.76 0)
 			(effects
 				(font
@@ -16393,7 +16539,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 111.76 0)
 			(effects
 				(font
@@ -16526,7 +16672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode, small symbol"
+		(property "Description" "LED GREEN DIFFUSED 0603 SMD"
 			(at 288.29 41.91 0)
 			(effects
 				(font
@@ -16544,7 +16690,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Harvatek Corp"
 			(at 288.29 41.91 0)
 			(effects
 				(font
@@ -16553,7 +16699,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "B1911PG--20D000514U1930"
 			(at 288.29 41.91 0)
 			(effects
 				(font
@@ -16572,6 +16718,14 @@
 		)
 		(property "If" "5mA"
 			(at 292.608 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "2V"
+			(at 287.274 39.116 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16599,9 +16753,9 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b1f6ef85-21cb-4a37-bf40-e07ccc0e99fd")
 		(property "Reference" "TP3"
 			(at 289.56 80.01 90)
@@ -16665,8 +16819,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "b287122f-92fd-4ee4-bfd7-e2ee29802c4e")
 		(property "Reference" "J5"
 			(at 156.21 60.9599 90)
@@ -16704,8 +16857,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER VERT 3POS 2.54MM"
 			(at 151.13 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Würth Elektronik"
+			(at 145.034 61.976 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "61300311121"
+			(at 142.748 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16777,7 +16948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 133.35 175.26 0)
 			(effects
 				(font
@@ -16813,7 +16984,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 133.35 175.26 0)
 			(effects
 				(font
@@ -16822,7 +16993,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 133.35 175.26 0)
 			(effects
 				(font
@@ -16983,7 +17154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CAP CER 0.1UF 16V X7R 0603"
 			(at 142.24 171.45 0)
 			(effects
 				(font
@@ -16992,7 +17163,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 142.24 171.45 0)
 			(effects
 				(font
@@ -17001,7 +17172,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CC0603KRX7R7BB104"
 			(at 142.24 171.45 0)
 			(effects
 				(font
@@ -17028,7 +17199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "50V"
+		(property "Voltage" "16V"
 			(at 146.05 173.9899 0)
 			(effects
 				(font
@@ -17096,7 +17267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -17132,7 +17303,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -17141,7 +17312,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-071KL"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -17170,7 +17341,7 @@
 		(at 45.72 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -17209,7 +17380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Placeholder 02x12"
 			(at 45.72 34.29 0)
 			(effects
 				(font
@@ -17345,7 +17516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 368.3 97.79 0)
 			(effects
 				(font
@@ -17381,7 +17552,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 368.3 97.79 0)
 			(effects
 				(font
@@ -17390,7 +17561,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 368.3 97.79 0)
 			(effects
 				(font
@@ -17421,8 +17592,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "c4f85d21-feeb-42fa-a445-3adc1797b894")
 		(property "Reference" "SW1"
 			(at 265.43 182.88 0)
@@ -17458,13 +17628,29 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "SWITCH SLIDE DIP SPST 0.025A 24V"
 			(at 265.43 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "MFT" "Same Sky"
+			(at 265.43 193.802 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFT_PN" "DS01-254-L-01BE"
+			(at 265.43 192.278 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17525,7 +17711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 2K OHM 1% 1/10W 0603"
 			(at 302.26 182.88 0)
 			(effects
 				(font
@@ -17561,7 +17747,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 302.26 182.88 0)
 			(effects
 				(font
@@ -17570,7 +17756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT2K00"
 			(at 302.26 182.88 0)
 			(effects
 				(font
@@ -17706,7 +17892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 3K OHM 1% 1/10W 0603"
 			(at 288.29 33.02 0)
 			(effects
 				(font
@@ -17742,7 +17928,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "StackPole Electronics"
 			(at 288.29 33.02 0)
 			(effects
 				(font
@@ -17751,7 +17937,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RMCF0603FT3K00"
 			(at 288.29 33.02 0)
 			(effects
 				(font
@@ -17951,7 +18137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 275.59 189.23 0)
 			(effects
 				(font
@@ -17987,7 +18173,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 275.59 189.23 0)
 			(effects
 				(font
@@ -17996,7 +18182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-071KL"
 			(at 275.59 189.23 0)
 			(effects
 				(font
@@ -18159,8 +18345,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
+		(dnp yes)
 		(uuid "dc6aac2f-cb98-4846-bc58-4667454b26db")
 		(property "Reference" "J4"
 			(at 124.46 19.05 0)
@@ -18196,8 +18381,26 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "CONN HEADER SMD 4POS 2.54MM"
 			(at 123.19 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Amphenol ICC (FCI)"
+			(at 124.206 14.732 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "10129383-904001BLF"
+			(at 124.206 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18502,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4ad6f9f-9777-4f33-851c-7ab2583bec22")
 		(property "Reference" "H1"
@@ -18404,7 +18607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -18440,7 +18643,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -18449,7 +18652,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 100.33 92.71 0)
 			(effects
 				(font
@@ -18517,7 +18720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 1K OHM 1% 1/10W 0603"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -18553,7 +18756,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -18562,7 +18765,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-071KL"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -18632,7 +18835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 4.7K OHM 1% 1/10W 0603"
 			(at 379.73 199.39 0)
 			(effects
 				(font
@@ -18668,7 +18871,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 379.73 199.39 0)
 			(effects
 				(font
@@ -18677,7 +18880,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-074K7L"
 			(at 379.73 199.39 0)
 			(effects
 				(font
@@ -18902,7 +19105,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 35.56 92.71 0)
 			(effects
 				(font
@@ -18938,7 +19141,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 35.56 92.71 0)
 			(effects
 				(font
@@ -18947,7 +19150,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 35.56 92.71 0)
 			(effects
 				(font
@@ -19080,7 +19283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 302.26 76.2 0)
 			(effects
 				(font
@@ -19116,7 +19319,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 302.26 76.2 0)
 			(effects
 				(font
@@ -19125,7 +19328,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 302.26 76.2 0)
 			(effects
 				(font
@@ -19261,7 +19464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -19297,7 +19500,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -19306,7 +19509,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -19376,7 +19579,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES 270 OHM 1% 1/10W 0603"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -19412,7 +19615,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -19421,7 +19624,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 217.17 33.02 0)
 			(effects
 				(font
@@ -19490,7 +19693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RES SMD 0 OHM JUMPER 1/8W 0805"
 			(at 367.03 55.88 0)
 			(effects
 				(font
@@ -19526,7 +19729,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Panasonic Electronic Components"
 			(at 367.03 55.88 0)
 			(effects
 				(font
@@ -19535,7 +19738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "ERJ-6GEY0R00V"
 			(at 367.03 55.88 0)
 			(effects
 				(font
