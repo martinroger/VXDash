@@ -529,7 +529,175 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Tolerance",
+            "name": "Tolerance",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Power",
+            "name": "Power",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Voltage",
+            "name": "Voltage",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "MFT",
+            "name": "MFT",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "MFT_PN",
+            "name": "MFT_PN",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "LCSC alt",
+            "name": "LCSC alt",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "LCSC",
+            "name": "LCSC",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Dielectric",
+            "name": "Dielectric",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "If",
+            "name": "If",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Irated",
+            "name": "Irated",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Isat",
+            "name": "Isat",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pin",
+            "name": "Sim.Pin",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Tol",
+            "name": "Tol",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Type",
+            "name": "Type",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vf",
+            "name": "Vf",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DCR",
+            "name": "DCR",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": false,
+        "name": "BOM Export",
+        "sort_asc": false,
+        "sort_field": "MFT_PN"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
@@ -546,28 +714,28 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Tolerance",
           "name": "Tolerance",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Power",
           "name": "Power",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Voltage",
           "name": "Voltage",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -600,7 +768,13 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
+          "label": "LCSC alt",
+          "name": "LCSC alt",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -615,7 +789,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
