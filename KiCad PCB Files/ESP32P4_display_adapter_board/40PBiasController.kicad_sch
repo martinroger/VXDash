@@ -1298,7 +1298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "023d7707-9035-4bd5-bfbf-6b8310b2abfc")
-		(property "Reference" "C11"
+		(property "Reference" "C10"
 			(at 219.71 95.2499 0)
 			(effects
 				(font
@@ -1413,7 +1413,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "C11")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -1429,7 +1429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "034002cc-1da9-4456-bb98-0459919de3e1")
-		(property "Reference" "C10"
+		(property "Reference" "C8"
 			(at 177.8 82.5499 0)
 			(effects
 				(font
@@ -1544,7 +1544,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "C10")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -1560,7 +1560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0996929a-af61-4ef7-b0e9-9987e668e6e7")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 232.41 95.2499 0)
 			(effects
 				(font
@@ -1675,7 +1675,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1691,7 +1691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4f5b45-25ab-470c-a910-ed296e4471f3")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR038"
 			(at 228.6 113.03 0)
 			(effects
 				(font
@@ -1741,7 +1741,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR022")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1757,7 +1757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e46d21a-1360-4d2a-8aa9-8f494c760c9b")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR034"
 			(at 173.99 95.25 0)
 			(effects
 				(font
@@ -1807,7 +1807,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR015")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1823,7 +1823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33bdc51c-009c-44fc-a225-5fe41a228d05")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR030"
 			(at 87.63 109.22 0)
 			(effects
 				(font
@@ -1873,7 +1873,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR017")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1889,7 +1889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b911323-a0d2-4539-a91f-d1fa8b31e0c3")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR035"
 			(at 179.07 111.76 0)
 			(effects
 				(font
@@ -1939,7 +1939,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR019")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -1955,7 +1955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60dd04a6-4596-496f-8d5e-006afe858e93")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR037"
 			(at 215.9 113.03 0)
 			(effects
 				(font
@@ -2005,7 +2005,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR021")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -2021,7 +2021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "611fb7aa-cb20-44f2-bdc0-175bfeba86f3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR032"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -2072,7 +2072,7 @@
 		(instances
 			(project ""
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR014")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2225,7 +2225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "708e24a6-c1fb-4b47-97e3-f8f2ba4595ec")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 168.91 111.76 0)
 			(effects
 				(font
@@ -2275,7 +2275,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d90853e-bd22-4e8a-ae63-922a7520c7c6")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR036"
 			(at 185.42 111.76 0)
 			(effects
 				(font
@@ -2478,7 +2478,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR018")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -2631,7 +2631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee46a742-d662-4bf6-8b52-04a33b4e2944")
-		(property "Reference" "C8"
+		(property "Reference" "C9"
 			(at 189.23 99.0599 0)
 			(effects
 				(font
@@ -2746,7 +2746,7 @@
 		(instances
 			(project ""
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "C8")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -2762,7 +2762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0f20757-cff5-43dd-bb9c-e2d0783da0ab")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR031"
 			(at 92.71 101.6 0)
 			(effects
 				(font
@@ -2812,7 +2812,7 @@
 		(instances
 			(project "ESP32P4_display_adapter_board"
 				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9/7529fbfb-9c2a-4f57-9d69-4b1b0697c67f"
-					(reference "#PWR016")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
