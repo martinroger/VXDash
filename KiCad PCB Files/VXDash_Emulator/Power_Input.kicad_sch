@@ -1272,7 +1272,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ceremic capacitor"
+			(property "Description" "Ceramic Capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1318,6 +1318,24 @@
 				)
 			)
 			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1502,6 +1520,24 @@
 				)
 			)
 			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -2587,6 +2623,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C98220"
@@ -2595,6 +2632,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2846,6 +2884,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14663"
@@ -2854,6 +2893,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2882,7 +2922,7 @@
 		(fields_autoplaced yes)
 		(uuid "53a3c36d-7766-49d1-a3bf-855d81082f65")
 		(property "Reference" "FB1"
-			(at 190.4492 68.58 90)
+			(at 190.4492 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +2930,7 @@
 			)
 		)
 		(property "Value" "120R@100MHz"
-			(at 190.4492 71.12 90)
+			(at 190.4492 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2957,6 +2997,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C79382"
@@ -2965,6 +3006,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2990,6 +3032,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "53f9049a-9734-402d-b806-2906d711a2cd")
 		(property "Reference" "Q11"
 			(at 132.08 68.58 90)
@@ -3067,6 +3110,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C313504"
@@ -3075,6 +3119,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3211,6 +3256,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14663"
@@ -3219,6 +3265,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3357,6 +3404,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C98220"
@@ -3365,6 +3413,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3462,9 +3511,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8145b1d3-d082-46dc-accf-5a36735c09d0")
 		(property "Reference" "D32"
-			(at 152.4 83.185 90)
+			(at 152.4 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +3523,7 @@
 			)
 		)
 		(property "Value" "18V"
-			(at 152.4 85.725 90)
+			(at 152.4 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,27 +3586,33 @@
 			)
 		)
 		(property "Voltage" "18V"
-			(at 149.86 83.82 0)
+			(at 152.4 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C668896"
-			(at 149.86 83.82 0)
+			(at 152.4 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C42379435"
-			(at 149.86 83.82 0)
+			(at 152.4 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3686,6 +3742,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C126352"
@@ -3694,6 +3751,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3766,6 +3824,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8aeb7c8f-6910-4ff8-9dfe-80e9147c7c2f")
 		(property "Reference" "Q12"
 			(at 160.02 68.58 90)
@@ -3843,6 +3902,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C313504"
@@ -3851,6 +3911,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3959,6 +4020,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C78712"
@@ -3967,6 +4029,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4175,6 +4238,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14860"
@@ -4183,6 +4247,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4314,6 +4379,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14663"
@@ -4322,6 +4388,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4354,9 +4421,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b4f6664d-b60a-47e7-9ae7-a9f475d48dec")
 		(property "Reference" "D31"
-			(at 104.14 117.475 90)
+			(at 104.14 116.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4365,12 +4433,13 @@
 			)
 		)
 		(property "Value" "18V"
-			(at 104.14 120.015 90)
+			(at 104.14 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -4428,27 +4497,32 @@
 			)
 		)
 		(property "Voltage" "18V"
-			(at 106.68 118.11 0)
+			(at 104.14 119.3799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "LCSC" "C668896"
-			(at 106.68 118.11 0)
+			(at 104.14 120.6499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C42379435"
-			(at 106.68 118.11 0)
+			(at 104.14 123.1899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4581,6 +4655,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14675"
@@ -4589,6 +4664,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4617,7 +4693,7 @@
 		(fields_autoplaced yes)
 		(uuid "d35e3443-c457-40c7-aa1c-1d469b3c21a5")
 		(property "Reference" "F1"
-			(at 99.06 69.85 90)
+			(at 99.06 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +4701,7 @@
 			)
 		)
 		(property "Value" "0ZRB0250FF1E"
-			(at 99.06 72.39 90)
+			(at 99.06 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4688,19 +4764,21 @@
 			)
 		)
 		(property "LCSC" "C3761262"
-			(at 99.06 74.93 0)
+			(at 99.06 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C207101"
-			(at 99.06 74.93 0)
+			(at 99.06 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4834,6 +4912,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14860"
@@ -4842,6 +4921,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4981,6 +5061,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C14860"
@@ -4989,6 +5070,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

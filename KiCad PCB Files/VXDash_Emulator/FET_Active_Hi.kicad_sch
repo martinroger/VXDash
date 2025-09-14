@@ -765,6 +765,24 @@
 					)
 				)
 			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -977,6 +995,24 @@
 				)
 			)
 			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1582,9 +1618,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "1921eed4-0bf0-4398-8169-7fa99624f8b9")
 		(property "Reference" "J8"
-			(at 204.47 85.0901 0)
+			(at 204.47 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1630,7 @@
 			)
 		)
 		(property "Value" "Manual backup"
-			(at 204.47 82.5501 0)
+			(at 204.47 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1629,35 +1666,43 @@
 			)
 		)
 		(property "MFT" "Würth Elektronik"
-			(at 201.93 83.82 0)
+			(at 204.47 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "MFT_PN" "61300311121"
-			(at 201.93 83.82 0)
+			(at 204.47 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C2915006"
-			(at 201.93 83.82 0)
+			(at 204.47 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C2937625"
-			(at 201.93 83.82 0)
+			(at 204.47 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2096,6 +2141,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C727989"
@@ -2104,6 +2150,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2318,7 +2365,7 @@
 		(fields_autoplaced yes)
 		(uuid "81814f34-ade2-4b41-b05a-dd921969b876")
 		(property "Reference" "Q24"
-			(at 124.46 68.5799 0)
+			(at 124.46 66.0399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2374,7 @@
 			)
 		)
 		(property "Value" "2N7002"
-			(at 124.46 71.1199 0)
+			(at 124.46 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,19 +2428,23 @@
 			)
 		)
 		(property "LCSC" "C78712"
-			(at 118.11 69.85 0)
+			(at 124.46 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C78712"
-			(at 118.11 69.85 0)
+			(at 124.46 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2482,21 +2533,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "95defdbe-aa6d-4c95-98f0-28ec8705b8b2")
 		(property "Reference" "D46"
-			(at 92.456 85.09 90)
+			(at 99.06 79.9464 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Out Lo"
-			(at 92.456 87.122 90)
+			(at 99.06 82.4864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -2554,27 +2608,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 100.838 86.36 90)
+			(at 99.06 85.0264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 100.838 83.82 90)
+			(at 99.06 87.5664 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 96.52 85.09 0)
+			(at 99.06 90.1064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C5556934"
@@ -2583,6 +2640,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -2591,6 +2649,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2774,6 +2833,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -2782,6 +2842,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2963,6 +3024,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C22548"
@@ -2971,6 +3033,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3154,6 +3217,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -3162,6 +3226,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3247,21 +3312,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cbb5c00f-86cc-4c32-bc3b-1f4acdf1f3f3")
 		(property "Reference" "D45"
-			(at 92.456 60.96 90)
+			(at 99.06 55.8164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "Out Hi"
-			(at 92.456 62.992 90)
+			(at 99.06 58.3564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -3319,27 +3387,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 100.838 62.23 90)
+			(at 99.06 60.8964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 100.838 59.69 90)
+			(at 99.06 63.4364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 96.52 60.96 0)
+			(at 99.06 65.9764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C5556934"
@@ -3348,6 +3419,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -3356,6 +3428,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3539,6 +3612,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C727989"
@@ -3547,6 +3621,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3730,6 +3805,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C727989"
@@ -3738,6 +3814,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"

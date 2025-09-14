@@ -4135,6 +4135,24 @@
 					)
 				)
 			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode light-emitting-diode"
 				(at 0 0 0)
 				(effects
@@ -4301,7 +4319,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Ceremic capacitor"
+			(property "Description" "Ceramic Capacitor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4347,6 +4365,24 @@
 				)
 			)
 			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4531,6 +4567,24 @@
 				)
 			)
 			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5862,7 +5916,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 261.62) (xy 149.86 261.62)
+			(xy 144.78 261.62) (xy 151.13 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7732,7 +7786,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 261.62) (xy 163.83 261.62)
+			(xy 161.29 261.62) (xy 163.83 261.62)
 		)
 		(stroke
 			(width 0)
@@ -10228,6 +10282,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C492401"
@@ -10236,6 +10291,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10261,21 +10317,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "084850e7-fb35-4422-b852-f327a0e85b41")
 		(property "Reference" "D7"
-			(at 268.986 165.1 90)
+			(at 275.59 159.9564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "IGN_ON"
-			(at 263.398 167.64 90)
+			(at 275.59 162.4964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -10333,27 +10392,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 277.368 166.37 90)
+			(at 275.59 165.0364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 277.368 163.83 90)
+			(at 275.59 167.5764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 273.05 165.1 0)
+			(at 275.59 170.1164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C5556934"
@@ -10362,6 +10424,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -10370,6 +10433,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10493,6 +10557,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C727989"
@@ -10501,6 +10566,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10621,6 +10687,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -10629,6 +10696,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10648,16 +10716,15 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 154.94 261.62 0)
+		(at 156.21 261.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "0b64f5dd-dd5c-4e91-8b0f-ef71eba1ef85")
 		(property "Reference" "SW2"
-			(at 154.94 254 0)
+			(at 156.464 263.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10665,7 +10732,7 @@
 			)
 		)
 		(property "Value" "Button Manual"
-			(at 154.94 256.54 0)
+			(at 156.464 266.446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10673,7 +10740,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
-			(at 154.94 256.54 0)
+			(at 156.21 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10682,7 +10749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 256.54 0)
+			(at 156.21 256.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10691,7 +10758,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 154.94 261.62 0)
+			(at 156.21 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10767,7 @@
 			)
 		)
 		(property "MFT" "APEM"
-			(at 154.94 261.62 0)
+			(at 156.464 268.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10708,7 +10775,7 @@
 			)
 		)
 		(property "MFT_PN" "MJTP1250"
-			(at 154.94 261.62 0)
+			(at 156.464 271.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10716,19 +10783,21 @@
 			)
 		)
 		(property "LCSC" "C6301337"
-			(at 154.94 261.62 0)
+			(at 156.464 265.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C500068"
-			(at 154.94 261.62 0)
+			(at 156.21 264.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -10918,6 +10987,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C108079"
@@ -10926,6 +10996,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11049,6 +11120,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C99782"
@@ -11057,6 +11129,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11164,21 +11237,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "21bb6ed4-0f3d-4ed1-ba0f-a0e762fe44b6")
 		(property "Reference" "D2"
-			(at 84.836 101.6 90)
+			(at 86.36 96.4564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "ledc_chan_1_ON"
-			(at 79.248 104.14 90)
+			(at 86.36 98.9964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -11236,27 +11312,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 93.218 102.87 90)
+			(at 86.36 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "If" "5mA"
-			(at 93.218 100.33 90)
+			(at 86.36 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 88.9 101.6 0)
+			(at 86.36 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "LCSC" "C7218224"
@@ -11265,6 +11344,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C157740"
@@ -11273,6 +11353,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -11393,6 +11474,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -11401,6 +11483,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11580,6 +11663,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C42420608"
@@ -11588,6 +11672,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "22"
@@ -11774,6 +11859,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -11782,6 +11868,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11902,6 +11989,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -11910,6 +11998,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11935,21 +12024,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "33276d78-706c-4873-93d1-67a92ba8b95e")
 		(property "Reference" "D1"
-			(at 31.496 101.6 90)
+			(at 33.02 96.4564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "ledc_chan_2_ON"
-			(at 25.908 104.14 90)
+			(at 33.02 98.9964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -12007,27 +12099,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 39.878 102.87 90)
+			(at 33.02 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "If" "5mA"
-			(at 39.878 100.33 90)
+			(at 33.02 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 35.56 101.6 0)
+			(at 33.02 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "LCSC" "C7218224"
@@ -12036,6 +12131,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C157740"
@@ -12044,6 +12140,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12230,6 +12327,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -12238,6 +12336,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12441,6 +12540,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -12449,6 +12549,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12790,6 +12891,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -12798,6 +12900,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -12894,6 +12997,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C78712"
@@ -12902,6 +13006,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13027,6 +13132,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -13035,6 +13141,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13158,6 +13265,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -13166,6 +13274,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13438,6 +13547,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -13446,6 +13556,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13572,6 +13683,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -13580,6 +13692,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -13806,6 +13919,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C126358"
@@ -13814,6 +13928,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13842,7 +13957,7 @@
 		(fields_autoplaced yes)
 		(uuid "660f3946-60aa-4ac0-a0cf-6fbaa69ffa47")
 		(property "Reference" "J3"
-			(at 105.41 59.6899 90)
+			(at 105.41 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13851,7 +13966,7 @@
 			)
 		)
 		(property "Value" "Level_Select"
-			(at 105.41 62.2299 90)
+			(at 105.41 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13906,19 +14021,21 @@
 			)
 		)
 		(property "LCSC" "C2915006"
-			(at 100.33 60.96 0)
+			(at 105.41 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC alt" "C2937625"
-			(at 100.33 60.96 0)
+			(at 105.41 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "3"
@@ -14108,6 +14225,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -14116,6 +14234,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14210,7 +14329,7 @@
 		(fields_autoplaced yes)
 		(uuid "67a9bddb-d1c0-40be-b871-e94d6e123982")
 		(property "Reference" "J2"
-			(at 52.07 59.6899 90)
+			(at 52.07 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14219,7 +14338,7 @@
 			)
 		)
 		(property "Value" "Level_Select"
-			(at 52.07 62.2299 90)
+			(at 52.07 59.6899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14274,19 +14393,21 @@
 			)
 		)
 		(property "LCSC" "C2915006"
-			(at 46.99 60.96 0)
+			(at 52.07 62.2299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC alt" "C2937625"
-			(at 46.99 60.96 0)
+			(at 52.07 64.7699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "3"
@@ -14386,6 +14507,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C78712"
@@ -14394,6 +14516,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14519,6 +14642,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -14527,6 +14651,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14650,6 +14775,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C727989"
@@ -14658,6 +14784,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14778,6 +14905,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -14786,6 +14914,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15119,6 +15248,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C22548"
@@ -15127,6 +15257,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15313,6 +15444,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -15321,6 +15453,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15441,6 +15574,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -15449,6 +15583,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15571,6 +15706,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -15579,6 +15715,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15670,21 +15807,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "85a4ccae-8096-4cde-9c09-dc744ffd2554")
 		(property "Reference" "D4"
-			(at 135.636 101.6 90)
+			(at 137.16 96.4564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "ledc_chan_0_ON"
-			(at 130.048 104.14 90)
+			(at 137.16 98.9964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -15742,27 +15882,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 144.018 102.87 90)
+			(at 137.16 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "If" "5mA"
-			(at 144.018 100.33 90)
+			(at 137.16 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 139.7 101.6 0)
+			(at 137.16 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "LCSC" "C7218224"
@@ -15771,6 +15914,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C157740"
@@ -15779,6 +15923,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16266,6 +16411,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137695"
@@ -16274,6 +16420,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16394,6 +16541,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -16402,6 +16550,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16524,6 +16673,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -16532,6 +16682,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16557,21 +16708,24 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a24b5289-ce3d-439f-90c6-5d3f9eeff3f3")
 		(property "Reference" "D3"
-			(at 105.156 40.64 90)
+			(at 111.76 35.4964 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "BATT_ON"
-			(at 103.124 43.434 90)
+			(at 111.76 38.0364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -16629,27 +16783,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 113.538 41.91 90)
+			(at 111.76 40.5764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 113.538 39.37 90)
+			(at 111.76 43.1164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 109.22 40.64 0)
+			(at 111.76 45.6564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C5556934"
@@ -16658,6 +16815,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -16666,6 +16824,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -16789,6 +16948,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C727989"
@@ -16797,6 +16957,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16917,6 +17078,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -16925,6 +17087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17045,6 +17208,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -17053,6 +17217,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17175,6 +17340,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -17183,6 +17349,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17386,6 +17553,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -17394,6 +17562,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17586,6 +17755,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C284909"
@@ -17594,6 +17764,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -17700,9 +17871,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "b287122f-92fd-4ee4-bfd7-e2ee29802c4e")
 		(property "Reference" "J5"
-			(at 156.21 60.9599 90)
+			(at 156.21 58.4199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17711,7 +17883,7 @@
 			)
 		)
 		(property "Value" "Level_Select"
-			(at 156.21 63.4999 90)
+			(at 156.21 60.9599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17765,19 +17937,21 @@
 			)
 		)
 		(property "LCSC" "C2915006"
-			(at 151.13 62.23 0)
+			(at 156.21 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "LCSC alt" "C2937625"
-			(at 151.13 62.23 0)
+			(at 156.21 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(pin "3"
@@ -17904,6 +18078,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -17912,6 +18087,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18008,6 +18184,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C78712"
@@ -18016,6 +18193,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18142,6 +18320,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C108079"
@@ -18150,6 +18329,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18271,6 +18451,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C22548"
@@ -18279,6 +18460,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18552,6 +18734,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -18560,6 +18743,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18585,6 +18769,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
+		(fields_autoplaced yes)
 		(uuid "c4f85d21-feeb-42fa-a445-3adc1797b894")
 		(property "Reference" "SW1"
 			(at 265.43 182.88 0)
@@ -18630,35 +18815,39 @@
 			)
 		)
 		(property "MFT" "Same Sky"
-			(at 265.43 193.802 0)
+			(at 265.43 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "MFT_PN" "DS01-254-L-01BE"
-			(at 265.43 192.278 0)
+			(at 265.43 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC" "C3312384"
-			(at 265.43 189.23 0)
+			(at 265.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C7527760"
-			(at 265.43 189.23 0)
+			(at 265.43 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18779,6 +18968,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C105576"
@@ -18787,6 +18977,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18976,6 +19167,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C126358"
@@ -18984,6 +19176,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19237,6 +19430,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C22548"
@@ -19245,6 +19439,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19755,6 +19950,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -19763,6 +19959,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19884,6 +20081,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C22548"
@@ -19892,6 +20090,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20015,6 +20214,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C99782"
@@ -20023,6 +20223,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20120,6 +20321,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C42420608"
@@ -20128,6 +20330,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "22"
@@ -20317,6 +20520,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -20325,6 +20529,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20511,6 +20716,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -20519,6 +20725,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20708,6 +20915,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -20716,6 +20924,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20839,6 +21048,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C137754"
@@ -20847,6 +21057,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20969,6 +21180,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C17477"
@@ -20977,6 +21189,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
