@@ -8324,6 +8324,26 @@
 		)
 		(uuid "0b73376d-8bda-4e7c-a7ed-263183c0e5d3")
 	)
+	(label "~{ledc_chan_2}"
+		(at 35.56 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "17a1e91d-c155-481e-bcd6-e45a2326d965")
+	)
+	(label "~{ledc_chan_1}"
+		(at 88.9 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "20782353-17cf-4df3-be69-81ad506303c1")
+	)
 	(label "airbag"
 		(at 71.12 172.72 0)
 		(effects
@@ -8343,16 +8363,6 @@
 			(justify left bottom)
 		)
 		(uuid "27356848-1081-49a3-9786-8d6073904c75")
-	)
-	(label "ledc_chan_2"
-		(at 29.21 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36c847bf-79b1-4a1b-b9d3-3b4a919a8d3e")
 	)
 	(label "SDA"
 		(at 370.84 209.55 180)
@@ -8435,6 +8445,16 @@
 		)
 		(uuid "50f3ad22-6d82-41c7-8df8-8370c2ee3859")
 	)
+	(label "~{ledc_chan_0}"
+		(at 133.35 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57407004-9a11-4c67-aa74-8c046ccd1678")
+	)
 	(label "button"
 		(at 71.12 208.28 0)
 		(effects
@@ -8456,7 +8476,17 @@
 		)
 		(uuid "68b8b7d6-655d-4a52-87ce-900090fcacc1")
 	)
-	(label "ledc_chan_1"
+	(label "~{ledc_chan_2}"
+		(at 29.21 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7592579a-a285-4e83-8666-946463c39dfa")
+	)
+	(label "~{ledc_chan_1}"
 		(at 82.55 123.19 180)
 		(effects
 			(font
@@ -8464,7 +8494,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "80394942-a48d-400c-a08e-69981091b2ea")
+		(uuid "8ce0d6f7-80e7-4903-af16-6989e040087a")
 	)
 	(label "right_turn"
 		(at 69.85 243.84 0)
@@ -8528,17 +8558,7 @@
 		)
 		(uuid "9ffb9a78-95dd-4b7b-9c0b-de6fc1e6b3a1")
 	)
-	(label "ledc_chan_0"
-		(at 133.35 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a00418a2-d8a3-47e1-bcfa-3f0b51cc7c8a")
-	)
-	(label "ledc_chan_0"
+	(label "~{ledc_chan_0}"
 		(at 257.81 217.17 0)
 		(effects
 			(font
@@ -8547,16 +8567,6 @@
 			(justify left bottom)
 		)
 		(uuid "ab1c5625-62ea-454f-b190-306be0ad1dc8")
-	)
-	(label "ledc_chan_2"
-		(at 35.56 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad57b239-e793-4679-83ee-dfe3ec5b2a76")
 	)
 	(label "SDA"
 		(at 158.75 187.96 0)
@@ -8578,26 +8588,6 @@
 		)
 		(uuid "ba28c834-29e4-4628-90ab-765edd911f8a")
 	)
-	(label "ledc_chan_1"
-		(at 88.9 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ba4066fa-fd35-46f7-8b45-0156f98004df")
-	)
-	(label "ledc_chan_0"
-		(at 139.7 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bc19c735-32d9-4f0c-94e1-2d2385a3ed16")
-	)
 	(label "5v_enable"
 		(at 312.42 35.56 0)
 		(effects
@@ -8608,7 +8598,7 @@
 		)
 		(uuid "c1d0fa0f-fa06-44f3-bc8c-e0af0bac4448")
 	)
-	(label "ledc_chan_3"
+	(label "~{ledc_chan_3}"
 		(at 257.81 219.71 0)
 		(effects
 			(font
@@ -8638,7 +8628,7 @@
 		)
 		(uuid "c9cd0bdc-75c5-45a1-baa9-57f7348b780a")
 	)
-	(label "ledc_chan_2"
+	(label "~{ledc_chan_2}"
 		(at 257.81 212.09 0)
 		(effects
 			(font
@@ -8647,6 +8637,16 @@
 			(justify left bottom)
 		)
 		(uuid "cb9af9c5-c7f1-4dfe-a8dd-713aea3bfb53")
+	)
+	(label "~{ledc_chan_0}"
+		(at 139.7 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cf82131c-542c-4920-a82b-0b4fc63f36cd")
 	)
 	(label "SDA"
 		(at 393.7 111.76 0)
@@ -8688,7 +8688,7 @@
 		)
 		(uuid "e7dfc650-e49b-48b1-8f97-6f1994530eac")
 	)
-	(label "ledc_chan_1"
+	(label "~{ledc_chan_1}"
 		(at 257.81 214.63 0)
 		(effects
 			(font
@@ -8708,7 +8708,7 @@
 		)
 		(uuid "f0c52de3-d1d4-42c6-8e1f-7005c71d79be")
 	)
-	(label "ledc_chan_4"
+	(label "~{ledc_chan_4}"
 		(at 257.81 222.25 0)
 		(effects
 			(font
@@ -11237,24 +11237,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "21bb6ed4-0f3d-4ed1-ba0f-a0e762fe44b6")
 		(property "Reference" "D2"
-			(at 86.36 96.4564 90)
+			(at 91.44 96.4564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "ledc_chan_1_ON"
-			(at 86.36 98.9964 90)
+		(property "Value" "~{ledc_chan_1_ON}"
+			(at 85.598 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -11312,30 +11311,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 86.36 101.5364 90)
+			(at 91.44 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 86.36 104.0764 90)
+			(at 91.44 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 86.36 106.6164 90)
+			(at 91.44 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C7218224"
@@ -12024,24 +12023,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "33276d78-706c-4873-93d1-67a92ba8b95e")
 		(property "Reference" "D1"
-			(at 33.02 96.4564 90)
+			(at 38.1 96.4564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "ledc_chan_2_ON"
-			(at 33.02 98.9964 90)
+		(property "Value" "~{ledc_chan_2_ON}"
+			(at 32.004 91.948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -12099,30 +12097,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 33.02 101.5364 90)
+			(at 38.1 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 33.02 104.0764 90)
+			(at 38.1 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 33.02 106.6164 90)
+			(at 38.1 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C7218224"
@@ -15807,24 +15805,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85a4ccae-8096-4cde-9c09-dc744ffd2554")
 		(property "Reference" "D4"
-			(at 137.16 96.4564 90)
+			(at 142.24 96.4564 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "ledc_chan_0_ON"
-			(at 137.16 98.9964 90)
+		(property "Value" "~{ledc_chan_0_ON}"
+			(at 135.636 94.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
@@ -15882,30 +15879,30 @@
 			)
 		)
 		(property "Vf" "2V"
-			(at 137.16 101.5364 90)
+			(at 142.24 101.5364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "If" "5mA"
-			(at 137.16 104.0764 90)
+			(at 142.24 104.0764 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Voltage" "2V"
-			(at 137.16 106.6164 90)
+			(at 142.24 106.6164 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "LCSC" "C7218224"
