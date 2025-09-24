@@ -1,0 +1,291 @@
+(footprint "TE_DTF13-4P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -6.36055 -8.90477 0)
+		(layer "F.SilkS")
+		(uuid "8dd23172-ef85-42cc-89f7-0901918b4dfe")
+		(effects
+			(font
+				(size 2.003323 2.003323)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TE_DTF13-4P"
+		(at 1.271375 31.785725 0)
+		(layer "F.Fab")
+		(uuid "b811a702-ba7e-48cf-b4d9-5ae793519754")
+		(effects
+			(font
+				(size 2.002244 2.002244)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=108-151009&DocType=SS&DocLang=EN"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99f37c79-9449-4088-a960-6a0d44817b13")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "CONN HEADER R/A 4POS 4.44MM"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c865a825-305f-469d-8fb2-8e234d0b441a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -13.59 -5.58)
+		(end 13.59 -5.58)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b138e6ee-81e9-4dc0-ba3c-f11c409dfd46")
+	)
+	(fp_line
+		(start -13.59 6.541)
+		(end -13.59 -5.58)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed58c743-83c6-48c5-a71c-3f9defabd84a")
+	)
+	(fp_line
+		(start 13.59 -5.58)
+		(end 13.59 6.541)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2aa3a41-5254-48d0-bfb8-07659a06c731")
+	)
+	(fp_line
+		(start 13.59 6.541)
+		(end -13.59 6.541)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3309a99-ccbc-43e3-a4fb-8ed07c545aa0")
+	)
+	(fp_circle
+		(center 4.33 -6.6)
+		(end 4.58 -6.6)
+		(stroke
+			(width 0.5)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "8072ea30-4cf0-4690-9e7a-4243db3bc78d")
+	)
+	(fp_circle
+		(center -10.415 0)
+		(end -7.19 0)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "fa9e9b68-e413-4064-a8c2-6ae7db19b604")
+	)
+	(fp_circle
+		(center 10.415 0)
+		(end 13.64 0)
+		(stroke
+			(width 0.1)
+			(type dot)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ffedf864-190f-431d-a636-d0bc91cec887")
+	)
+	(fp_line
+		(start -14 -6)
+		(end 14 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "98503283-a7be-4f77-9e5a-f6f76a3ca5e9")
+	)
+	(fp_line
+		(start -14 6.9)
+		(end -14 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2551c9b4-8370-4979-9484-3d13ce6e6b1b")
+	)
+	(fp_line
+		(start 14 -6)
+		(end 14 6.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b616cd35-1a25-4c7d-b5a9-db54f968c5d3")
+	)
+	(fp_line
+		(start 14 6.9)
+		(end -14 6.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f38754ee-8ca3-4074-9281-9cffe48ae751")
+	)
+	(fp_line
+		(start -13.59 -5.58)
+		(end 13.59 -5.58)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "516f7c82-51bd-46df-9405-ca09d2d2e9b2")
+	)
+	(fp_line
+		(start -13.59 27.88)
+		(end -13.59 -5.58)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cd736e4c-29a5-4d5c-865a-20d940f3f7b2")
+	)
+	(fp_line
+		(start 13.59 -5.58)
+		(end 13.59 27.88)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "229a8d9a-0dad-4280-8e02-d02575c37969")
+	)
+	(fp_line
+		(start 13.59 14.5)
+		(end -13.59 14.5)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(layer "F.Fab")
+		(uuid "759d377a-1c0d-4d1e-9d50-42ca857a7efa")
+	)
+	(fp_line
+		(start 13.59 27.88)
+		(end -13.59 27.88)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c772190c-a828-4f26-9a3d-d05f300b8d14")
+	)
+	(fp_text user "Panel outer edge"
+		(at 0 14.732 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "e91ecfd1-d1b7-4978-9792-7321664a0663")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify top)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10.415 0)
+		(size 2.16 2.16)
+		(drill 2.16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ae25a7c8-b01a-4325-a816-ebfa20541b8b")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.415 0)
+		(size 2.16 2.16)
+		(drill 2.16)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d9fa8439-a423-47ee-b275-90d6d0bbc667")
+	)
+	(pad "1" thru_hole rect
+		(at 4.561 -2.223)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e1340a22-183c-41ee-8b2e-6bfbdcccf9c0")
+	)
+	(pad "2" thru_hole circle
+		(at 4.561 2.227)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "88370616-faf4-4c35-bc1e-f40f26dd6220")
+	)
+	(pad "3" thru_hole circle
+		(at -4.559 2.227)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "99581ccd-dcc0-4484-ac6a-7dc0da5d418e")
+	)
+	(pad "4" thru_hole circle
+		(at -4.559 -2.223)
+		(size 2.64 2.64)
+		(drill 1.76)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3e2f334a-dd12-4138-a8c8-1809d3a807a0")
+	)
+	(embedded_fonts no)
+	(model "${VXDASH_LIB}/3d/DTF13-4P.STEP"
+		(offset
+			(xyz 0 -27.88 11.875)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1964,6 +1964,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 146.05) (xy 121.92 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "030742f7-a4e2-4dac-8d63-4b19cce35faf")
+	)
+	(wire
+		(pts
 			(xy 71.12 67.31) (xy 73.66 67.31)
 		)
 		(stroke
@@ -2054,6 +2064,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 148.59) (xy 127 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e5529d6-ab49-425b-bf61-11b7a14ebfd0")
+	)
+	(wire
+		(pts
 			(xy 52.07 69.85) (xy 52.07 41.91)
 		)
 		(stroke
@@ -2071,6 +2091,16 @@
 			(type default)
 		)
 		(uuid "210e4691-b613-4d10-a716-76da7b49e9f7")
+	)
+	(wire
+		(pts
+			(xy 121.92 151.13) (xy 127 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2135368c-b1dd-410d-b5a7-d779bd059861")
 	)
 	(wire
 		(pts
@@ -2141,6 +2171,16 @@
 			(type default)
 		)
 		(uuid "33076ea1-2604-465e-84b5-e1f7c466cf3a")
+	)
+	(wire
+		(pts
+			(xy 127 151.13) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332e3666-b890-476d-8d2e-f75720ee9931")
 	)
 	(wire
 		(pts
@@ -2251,6 +2291,16 @@
 			(type default)
 		)
 		(uuid "59227ef8-c558-489e-9cb2-1abf972f2535")
+	)
+	(wire
+		(pts
+			(xy 121.92 143.51) (xy 127 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66e8a453-81c9-418d-9cb2-ad82e7553b73")
 	)
 	(wire
 		(pts
@@ -2812,6 +2862,16 @@
 		)
 		(uuid "577b83a0-b394-494c-85cc-fbd154f99b93")
 	)
+	(label "CAN_H"
+		(at 127 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "62fab651-9765-4bc2-8740-8f2a55854fb2")
+	)
 	(label "PARK_ActLO"
 		(at 124.46 41.91 0)
 		(effects
@@ -2831,6 +2891,16 @@
 			(justify left bottom)
 		)
 		(uuid "6f0b7ae0-94c9-41d4-a5ec-4a40feda7310")
+	)
+	(label "CAN_L"
+		(at 127 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "706b2ba2-7df9-46cd-91f1-2a08dbcff476")
 	)
 	(label "IGNITION_ActHI"
 		(at 71.12 44.45 180)
@@ -2921,6 +2991,16 @@
 			(justify left bottom)
 		)
 		(uuid "8656cecb-b54b-4528-8220-966291c48a8a")
+	)
+	(label "IGNITION_ActHI"
+		(at 127 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "872c45d0-faa8-4587-a052-2befd170e3b0")
 	)
 	(label "SPEED_HALL"
 		(at 195.58 76.2 180)
@@ -3676,6 +3756,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 116.84 148.59 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a81a9074-1d42-4c85-80cc-fe87c97d0c07")
+		(property "Reference" "J4"
+			(at 114.3 148.5901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CANbus"
+			(at 114.3 146.0501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "VXDash_connectors:TE_DTF13-4P"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/en/product-DTF13-4P.html"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "TE Deutsch"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "DTF13-4P"
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "505eef12-55d7-4e4c-9fd6-7773315bed88")
+		)
+		(pin "3"
+			(uuid "cc063e68-4323-4955-bba2-f88c6e1d6368")
+		)
+		(pin "4"
+			(uuid "b51c918f-2f8e-42f7-852d-7fa9e2b4ef66")
+		)
+		(pin "2"
+			(uuid "06d7caec-fa9c-42dd-91d0-37621bcfc852")
+		)
+		(instances
+			(project "VXDash_Connectors"
+				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 81.28 175.26 0)
 		(unit 1)
@@ -3808,12 +3981,78 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 127 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddb6f4cf-cd06-461f-89c2-3a5490ce621c")
+		(property "Reference" "#PWR04"
+			(at 127 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81cc5e64-a546-435d-864c-2d5dd3bfb8ef")
+		)
+		(instances
+			(project "VXDash_Connectors"
+				(path "/ab7fe2a8-21c6-4fbd-85af-cbc3a22ae1d9"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 81.28 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "e31fc855-2132-4880-99bf-f71b0e3ff30d")
 		(property "Reference" "J2"
