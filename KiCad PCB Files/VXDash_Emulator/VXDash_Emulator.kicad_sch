@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Main architecture")
-		(date "2025-09-19")
-		(rev "0.1.2")
+		(date "2025-09-28")
+		(rev "0.2.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
@@ -5886,6 +5886,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 261.62) (xy 151.13 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36237ec8-fb30-4576-9f61-b0d253cf8ea3")
+	)
+	(wire
+		(pts
 			(xy 35.56 96.52) (xy 35.56 99.06)
 		)
 		(stroke
@@ -5913,16 +5923,6 @@
 			(type default)
 		)
 		(uuid "378982ca-a98c-4a36-8f1a-3300834a11c5")
-	)
-	(wire
-		(pts
-			(xy 144.78 261.62) (xy 151.13 261.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38e36ff7-9037-4b7b-8536-8d8c508bfdd4")
 	)
 	(wire
 		(pts
@@ -7393,6 +7393,16 @@
 			(type default)
 		)
 		(uuid "b1baf2b2-42dc-4fca-86fb-8ec14deca5bd")
+	)
+	(wire
+		(pts
+			(xy 142.24 261.62) (xy 142.24 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3471a21-7f37-4642-8868-39f000d7a8db")
 	)
 	(wire
 		(pts
@@ -9300,6 +9310,28 @@
 			)
 		)
 	)
+	(global_label "+3V3"
+		(shape input)
+		(at 142.24 259.08 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "62904fd0-c79f-4485-859c-e22833836d65")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 251.669 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AIRBAG_ActLO"
 		(shape input)
 		(at 35.56 172.72 180)
@@ -10146,7 +10178,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "034baae4-dc91-4440-a530-d115b9bcc213")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR013"
 			(at 187.96 281.94 0)
 			(effects
 				(font
@@ -10196,7 +10228,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR021")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10593,7 +10625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b2db3b0-5227-462d-affa-7b954dcc8545")
-		(property "Reference" "R24"
+		(property "Reference" "R25"
 			(at 302.26 89.154 90)
 			(effects
 				(font
@@ -10708,7 +10740,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R24")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -10723,7 +10755,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0b64f5dd-dd5c-4e91-8b0f-ef71eba1ef85")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 156.464 263.906 0)
 			(effects
 				(font
@@ -10809,7 +10841,7 @@
 		(instances
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -11024,7 +11056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14c4bd55-1095-4e99-ba05-eb2f6cce2b69")
-		(property "Reference" "R40"
+		(property "Reference" "R41"
 			(at 373.38 198.1199 0)
 			(effects
 				(font
@@ -11141,7 +11173,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R40")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -11379,7 +11411,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "232c23c5-96bf-46f9-8f3e-6fa5267c18e0")
-		(property "Reference" "R29"
+		(property "Reference" "R30"
 			(at 302.26 133.604 90)
 			(effects
 				(font
@@ -11494,7 +11526,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R29")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -11764,7 +11796,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2da05aea-38cf-4d0c-bc71-3023b06d8080")
-		(property "Reference" "R23"
+		(property "Reference" "R24"
 			(at 302.26 80.264 90)
 			(effects
 				(font
@@ -11879,7 +11911,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R23")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -11894,7 +11926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30f4f2be-a8ba-4ad6-9177-237cc8f2813a")
-		(property "Reference" "R32"
+		(property "Reference" "R33"
 			(at 302.26 160.274 90)
 			(effects
 				(font
@@ -12009,7 +12041,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R32")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12166,7 +12198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "336e637d-1b5c-4bc0-a61a-9012aac46d66")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR018"
 			(at 288.29 53.34 0)
 			(effects
 				(font
@@ -12216,7 +12248,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR016")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12231,7 +12263,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ef119b4-cc72-4861-9e85-c053c9f1de9d")
-		(property "Reference" "R27"
+		(property "Reference" "R28"
 			(at 302.26 115.824 90)
 			(effects
 				(font
@@ -12346,7 +12378,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R27")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -12444,7 +12476,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "45216de6-7b38-463c-b8a1-db06879bc64b")
-		(property "Reference" "R21"
+		(property "Reference" "R22"
 			(at 302.26 62.484 90)
 			(effects
 				(font
@@ -12559,7 +12591,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R21")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -12658,7 +12690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47ecd388-2b48-4f62-86d8-76ac47eecb02")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 139.7 113.03 0)
 			(effects
 				(font
@@ -12708,7 +12740,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -13167,7 +13199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d54f9a5-ffac-421d-b91a-c16c5e082185")
-		(property "Reference" "R18"
+		(property "Reference" "R19"
 			(at 275.59 154.9399 0)
 			(effects
 				(font
@@ -13284,7 +13316,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R18")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -13300,7 +13332,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4da3de20-28ba-487f-9e52-b792fec5a1e1")
-		(property "Reference" "H2"
+		(property "Reference" "H1"
 			(at 190.5 261.6199 0)
 			(effects
 				(font
@@ -13367,7 +13399,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "H2")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -13762,7 +13794,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "XFCN"
+		(property "MFT" "Würth Elektronik"
 			(at 236.22 266.446 0)
 			(effects
 				(font
@@ -13771,7 +13803,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "PZ254V-12-4P"
+		(property "MFT_PN" "61300211121"
 			(at 233.934 267.97 0)
 			(effects
 				(font
@@ -13780,20 +13812,22 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C492419"
+		(property "LCSC" "C2915055"
 			(at 233.68 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "LCSC alt" "C492419"
+		(property "LCSC alt" "C492401"
 			(at 233.68 271.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14025,6 +14059,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C2937625"
@@ -14034,6 +14069,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14063,7 +14099,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66a1d7f8-626a-4806-9240-544ed0af5b67")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR010"
 			(at 142.24 181.61 0)
 			(effects
 				(font
@@ -14114,7 +14150,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR08")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -14129,7 +14165,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "66e2ec39-f710-48ef-bd35-de788fda2417")
-		(property "Reference" "R31"
+		(property "Reference" "R32"
 			(at 302.26 151.384 90)
 			(effects
 				(font
@@ -14244,7 +14280,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R31")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14260,7 +14296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "671fc48f-718a-4eea-be43-845acba5de93")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR012"
 			(at 187.96 273.05 0)
 			(effects
 				(font
@@ -14310,7 +14346,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR022")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -14397,6 +14433,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C2937625"
@@ -14406,6 +14443,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -14544,7 +14582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f3c8850-eb38-46e6-ba7c-0410907fe5eb")
-		(property "Reference" "R37"
+		(property "Reference" "R38"
 			(at 365.7599 27.94 0)
 			(effects
 				(font
@@ -14661,7 +14699,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R37")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -14809,7 +14847,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74df7ec2-59a6-41f3-b100-8004786cd80e")
-		(property "Reference" "R35"
+		(property "Reference" "R36"
 			(at 302.26 186.944 90)
 			(effects
 				(font
@@ -14924,7 +14962,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R35")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -15348,7 +15386,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6545bb-7522-4d2b-8ed0-5e5cf66a01dd")
-		(property "Reference" "R28"
+		(property "Reference" "R29"
 			(at 302.26 124.714 90)
 			(effects
 				(font
@@ -15463,7 +15501,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R28")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -15478,7 +15516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7cf228d5-d42c-4bfd-9b95-b19d07ea01ed")
-		(property "Reference" "R36"
+		(property "Reference" "R37"
 			(at 302.26 195.834 90)
 			(effects
 				(font
@@ -15593,7 +15631,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R36")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -15606,9 +15644,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "83db6a8b-35f2-4269-8b42-d83c239b4963")
-		(property "Reference" "R17"
+		(property "Reference" "R18"
 			(at 228.6 154.9399 0)
 			(effects
 				(font
@@ -15725,7 +15763,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15740,7 +15778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "843a4592-5af5-47d8-8255-a9eed127dee9")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR020"
 			(at 368.3 166.37 0)
 			(effects
 				(font
@@ -15791,7 +15829,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR017")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16113,7 +16151,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90c025f2-1c62-4238-93e6-dc4c1b2396f5")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR019"
 			(at 298.45 224.79 0)
 			(effects
 				(font
@@ -16164,7 +16202,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR088")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -16180,7 +16218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945d6df2-26ec-46e8-83ab-0717c8b9788c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 138.43 34.29 0)
 			(effects
 				(font
@@ -16230,7 +16268,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16246,7 +16284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97d5de7d-d314-4c3e-952e-e4d356607a59")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 190.5 53.34 0)
 			(effects
 				(font
@@ -16296,7 +16334,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -16444,7 +16482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "99ba2eb1-8efa-4435-9c66-bdc0830b84a0")
-		(property "Reference" "R33"
+		(property "Reference" "R34"
 			(at 302.26 169.164 90)
 			(effects
 				(font
@@ -16559,7 +16597,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R33")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -16981,7 +17019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a59de093-809d-4795-89cc-76150c12e755")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 302.26 142.494 90)
 			(effects
 				(font
@@ -17096,7 +17134,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -17111,7 +17149,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5fccd67-3919-4ac3-bdc1-9a3b37dc3401")
-		(property "Reference" "R25"
+		(property "Reference" "R26"
 			(at 302.26 98.044 90)
 			(effects
 				(font
@@ -17226,7 +17264,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R25")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -17239,9 +17277,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a6b087a6-a285-4f27-8961-e72e485322cc")
-		(property "Reference" "R134"
+		(property "Reference" "R17"
 			(at 220.98 157.4801 0)
 			(effects
 				(font
@@ -17358,7 +17396,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R134")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -17456,7 +17494,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7a45b22-3764-48bb-adb8-971412f94432")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 302.26 106.934 90)
 			(effects
 				(font
@@ -17571,7 +17609,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -17586,7 +17624,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9f41f40-9b06-44ec-8e75-8c2b4c532f54")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR021"
 			(at 377.19 105.41 0)
 			(effects
 				(font
@@ -17637,7 +17675,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR018")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17940,6 +17978,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "LCSC alt" "C2937625"
@@ -17949,6 +17988,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -18635,7 +18675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c420857c-0fe9-4077-817e-0d95588b214a")
-		(property "Reference" "R39"
+		(property "Reference" "R40"
 			(at 365.76 96.5199 0)
 			(effects
 				(font
@@ -18752,7 +18792,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R39")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -18768,7 +18808,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c4f85d21-feeb-42fa-a445-3adc1797b894")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 265.43 182.88 0)
 			(effects
 				(font
@@ -18856,7 +18896,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -18871,7 +18911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9d5c39c-2ced-4d53-abf4-88f4c63ecd9a")
-		(property "Reference" "R34"
+		(property "Reference" "R35"
 			(at 302.26 178.054 90)
 			(effects
 				(font
@@ -18986,7 +19026,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R34")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -19068,7 +19108,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbdd924d-7bfc-469a-9bb2-eaa52866ea88")
-		(property "Reference" "R20"
+		(property "Reference" "R21"
 			(at 290.83 31.7499 0)
 			(effects
 				(font
@@ -19185,7 +19225,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R20")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -19333,7 +19373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7b4afa4-3823-4d40-891e-3cc750dbed6b")
-		(property "Reference" "R19"
+		(property "Reference" "R20"
 			(at 275.59 182.88 90)
 			(effects
 				(font
@@ -19448,73 +19488,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 261.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d87b4fe9-951d-4746-b482-c70add9b8cde")
-		(property "Reference" "#PWR020"
-			(at 144.78 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.8559 268.6971 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57c99b62-0b24-4bc9-a766-13d8c0685496")
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR020")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -19638,7 +19612,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Amphenol ICC (FCI)"
+		(property "MFT" "XFCN"
 			(at 124.206 14.732 0)
 			(effects
 				(font
@@ -19647,7 +19621,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "10129383-904001BLF"
+		(property "MFT_PN" "PZ254V-12-4P"
 			(at 124.206 17.018 0)
 			(effects
 				(font
@@ -19656,7 +19630,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C492419"
 			(at 123.19 25.4 0)
 			(effects
 				(font
@@ -19664,7 +19638,7 @@
 				)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC alt" "C492419"
 			(at 123.19 25.4 0)
 			(effects
 				(font
@@ -19703,7 +19677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcfe77eb-119f-47bf-b8ef-6c49cc154a39")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 224.79 266.7 0)
 			(effects
 				(font
@@ -19753,7 +19727,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19769,7 +19743,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e4ad6f9f-9777-4f33-851c-7ab2583bec22")
-		(property "Reference" "H1"
+		(property "Reference" "H2"
 			(at 190.5 270.5099 0)
 			(effects
 				(font
@@ -19836,7 +19810,7 @@
 		(instances
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "H1")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -20115,7 +20089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec9e3e26-f309-408a-a7d4-1887e54f7ab9")
-		(property "Reference" "R41"
+		(property "Reference" "R42"
 			(at 382.27 198.1199 0)
 			(effects
 				(font
@@ -20232,7 +20206,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R41")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -20554,7 +20528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f13aa5aa-eeff-4bb5-903c-fe8f3612d478")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 217.17 53.34 0)
 			(effects
 				(font
@@ -20604,7 +20578,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20619,7 +20593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6d2972b-ff10-4376-b158-7ed7f157a6e4")
-		(property "Reference" "R22"
+		(property "Reference" "R23"
 			(at 302.26 71.374 90)
 			(effects
 				(font
@@ -20734,7 +20708,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R22")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -20750,7 +20724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ea568a-e767-41bd-b373-0389b8c37b3e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 273.05 176.53 0)
 			(effects
 				(font
@@ -20800,7 +20774,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21081,7 +21055,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe559473-1c15-4d35-82fd-c7f13b4a7a4f")
-		(property "Reference" "R38"
+		(property "Reference" "R39"
 			(at 365.7599 53.34 0)
 			(effects
 				(font
@@ -21198,7 +21172,7 @@
 		(instances
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R38")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -21837,10 +21811,10 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 255 174 13 1.0000)
 		)
-		(uuid "4c8f6e1b-ce8b-424f-b5f8-6db24f1ac57e")
-		(property "Sheetname" "NMOSFET Shifter10"
+		(uuid "6b0d5bcc-21c7-44cb-a08b-9c867d47e9cc")
+		(property "Sheetname" "NMOSFET Shifter Hi Power1"
 			(at 40.64 231.6984 0)
 			(effects
 				(font
@@ -21849,7 +21823,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+		(property "Sheetfile" "FET_Active_Hi_HP.kicad_sch"
 			(at 40.64 238.0746 0)
 			(effects
 				(font
@@ -21861,7 +21835,7 @@
 		)
 		(pin "LL_input" input
 			(at 63.5 234.95 0)
-			(uuid "ae42b116-603c-4d43-ac53-1faefa1d63bb")
+			(uuid "e48714c5-7b84-422a-82b1-7e72e2fce14d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21871,7 +21845,7 @@
 		)
 		(pin "~{HL output}" input
 			(at 40.64 234.95 180)
-			(uuid "1e1fdfba-2339-4941-bbb7-a2e2743487a4")
+			(uuid "3536ce28-1f58-49a8-ab34-21c101e9a261")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21944,69 +21918,6 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "27")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 40.64 276.86)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8789b34c-e66b-4b0d-ae37-4c0850dda3dd")
-		(property "Sheetname" "NMOSFET Shifter"
-			(at 40.64 276.1484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
-			(at 40.64 282.5246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "LL_input" input
-			(at 63.5 279.4 0)
-			(uuid "9be401b8-a44f-46a6-ac15-216ac5663ef8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{HL output}" input
-			(at 40.64 279.4 180)
-			(uuid "1e0df82d-f166-4232-b3e4-f9d5c31e4a5d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "37")
 				)
 			)
 		)
@@ -22337,10 +22248,10 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(color 87 255 11 1.0000)
 		)
-		(uuid "9ac5267b-3ee0-4de0-9a47-03837d492fd4")
-		(property "Sheetname" "NMOSFET Shifter15"
+		(uuid "a0f41e00-1deb-40ba-8044-6b1fa376dab8")
+		(property "Sheetname" "PMOSFET Shifter Hi Power1"
 			(at 40.64 187.2484 0)
 			(effects
 				(font
@@ -22349,7 +22260,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
+		(property "Sheetfile" "PFET_Active_Hi_HP.kicad_sch"
 			(at 40.64 193.6246 0)
 			(effects
 				(font
@@ -22361,7 +22272,7 @@
 		)
 		(pin "LL_input" input
 			(at 63.5 190.5 0)
-			(uuid "952f2267-88c0-4cf3-8dfc-a5643e16ee84")
+			(uuid "90882eae-3032-4371-b096-0b91777b78c1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22369,9 +22280,9 @@
 				(justify right)
 			)
 		)
-		(pin "~{HL output}" input
+		(pin "HL output" input
 			(at 40.64 190.5 180)
-			(uuid "a183b861-fc3b-4c51-910b-012d23fa85a5")
+			(uuid "ea7a0d4c-87ef-42c4-8dc1-6aa301444084")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23014,6 +22925,69 @@
 		)
 	)
 	(sheet
+		(at 40.64 276.86)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 87 255 11 1.0000)
+		)
+		(uuid "dd7e7838-3061-42e3-8bdd-4d6f62d6c4b0")
+		(property "Sheetname" "PMOSFET Shifter Hi Power"
+			(at 40.64 276.1484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PFET_Active_Hi_HP.kicad_sch"
+			(at 40.64 282.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 63.5 279.4 0)
+			(uuid "a96292db-7e9a-44f2-bf7c-d4529352ac14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HL output" input
+			(at 40.64 279.4 180)
+			(uuid "231342c6-f418-4ccd-82d5-7c1b9a3c8712")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "19")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 40.64 241.3)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
@@ -23145,69 +23119,6 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 40.64 259.08)
-		(size 22.86 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e68f0948-e1f7-480d-a92a-427cd9d1d2cb")
-		(property "Sheetname" "NMOSFET Shifter2"
-			(at 40.64 258.3684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "FET_Active_Hi.kicad_sch"
-			(at 40.64 264.7446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "LL_input" input
-			(at 63.5 261.62 0)
-			(uuid "953957ff-9a7c-48be-913d-53a101c8baeb")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "~{HL output}" input
-			(at 40.64 261.62 180)
-			(uuid "fd934a58-2c42-4a92-aa42-9188b9a990be")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "VXDash_Emulator"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "4")
 				)
 			)
 		)
@@ -23393,6 +23304,69 @@
 			(project "VXDash_Emulator"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "35")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 259.08)
+		(size 22.86 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 174 13 1.0000)
+		)
+		(uuid "f8b9a0a3-d2f1-4858-9afb-722a2e7a63c1")
+		(property "Sheetname" "NMOSFET Shifter Hi Power"
+			(at 40.64 258.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FET_Active_Hi_HP.kicad_sch"
+			(at 40.64 264.7446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "LL_input" input
+			(at 63.5 261.62 0)
+			(uuid "a3406f36-2b44-4d67-a0c7-91196ac21684")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{HL output}" input
+			(at 40.64 261.62 180)
+			(uuid "5a3ce4fd-0e29-49b7-950a-3b641bce06ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash_Emulator"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "4")
 				)
 			)
 		)

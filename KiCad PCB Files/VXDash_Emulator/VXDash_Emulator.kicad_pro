@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|136578000|64522000|1113834d-6609-4433-bc2e-48c259bd9965|775a3f68-3f25-49a1-af5c-d0966e5b5913",
+          ""
+        ],
+        [
+          "courtyards_overlap|136578000|69094000|775a3f68-3f25-49a1-af5c-d0966e5b5913|a2c7f7f3-d287-4ca9-990f-b66c97a79e5d",
+          ""
+        ],
+        [
+          "courtyards_overlap|143485000|119705000|775a3f68-3f25-49a1-af5c-d0966e5b5913|866bde59-e1e0-41a5-8f4d-1c997ccbd0a2",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -919,8 +932,8 @@
       "NMOSFET Shifter1"
     ],
     [
-      "e68f0948-e1f7-480d-a92a-427cd9d1d2cb",
-      "NMOSFET Shifter2"
+      "f8b9a0a3-d2f1-4858-9afb-722a2e7a63c1",
+      "NMOSFET Shifter Hi Power"
     ],
     [
       "15e05ecd-f0ab-4c25-a1ce-0533be5c70d0",
@@ -951,8 +964,8 @@
       "NMOSFET Shifter9"
     ],
     [
-      "4c8f6e1b-ce8b-424f-b5f8-6db24f1ac57e",
-      "NMOSFET Shifter10"
+      "6b0d5bcc-21c7-44cb-a08b-9c867d47e9cc",
+      "NMOSFET Shifter Hi Power1"
     ],
     [
       "afcc6447-8c71-4693-af89-d9fd82a517b8",
@@ -971,12 +984,16 @@
       "NMOSFET Shifter14"
     ],
     [
-      "9ac5267b-3ee0-4de0-9a47-03837d492fd4",
-      "NMOSFET Shifter15"
+      "a0f41e00-1deb-40ba-8044-6b1fa376dab8",
+      "PMOSFET Shifter Hi Power1"
     ],
     [
       "21f2fd69-aa93-4550-8877-dde4aa3e5582",
       "3V3_SMPS"
+    ],
+    [
+      "dd7e7838-3061-42e3-8bdd-4d6f62d6c4b0",
+      "PMOSFET Shifter Hi Power"
     ],
     [
       "c746c763-2420-4404-abc7-30293d130f49",
@@ -1045,10 +1062,6 @@
     [
       "49352c7e-cf6a-451f-a720-6b398a62ee29",
       "Switchable Resistor 16"
-    ],
-    [
-      "8789b34c-e66b-4b0d-ae37-4c0850dda3dd",
-      "NMOSFET Shifter"
     ]
   ],
   "text_variables": {}
