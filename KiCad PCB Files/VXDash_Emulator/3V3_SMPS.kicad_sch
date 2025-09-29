@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Main architecture")
-		(date "2025-09-19")
-		(rev "0.1.2")
+		(date "2025-09-28")
+		(rev "0.2.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 		(comment 2 "https://cadlab.io/projects/vxdash")
@@ -1667,7 +1667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16a8805a-e4f0-471b-af17-dab1ce6b74f7")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR069"
 			(at 124.46 93.98 0)
 			(effects
 				(font
@@ -1717,7 +1717,7 @@
 		(instances
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
-					(reference "#PWR050")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -2000,7 +2000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38001393-d825-40a0-900c-bb33629744d7")
-		(property "Reference" "R94"
+		(property "Reference" "R141"
 			(at 162.56 76.1999 0)
 			(effects
 				(font
@@ -2126,7 +2126,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
-					(reference "R94")
+					(reference "R141")
 					(unit 1)
 				)
 			)
@@ -2284,7 +2284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c37dd8d-04c7-4898-b4a4-72d61208ffcc")
-		(property "Reference" "R93"
+		(property "Reference" "R140"
 			(at 162.56 64.7699 0)
 			(effects
 				(font
@@ -2410,7 +2410,7 @@
 		(instances
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
-					(reference "R93")
+					(reference "R140")
 					(unit 1)
 				)
 			)
@@ -2426,7 +2426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "609ac43e-250b-47d9-bbc1-c70e93df87aa")
-		(property "Reference" "R91"
+		(property "Reference" "R138"
 			(at 91.44 62.2299 0)
 			(effects
 				(font
@@ -2552,7 +2552,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
-					(reference "R91")
+					(reference "R138")
 					(unit 1)
 				)
 			)
@@ -2999,7 +2999,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6c00aad-1302-4635-903e-8539651354bc")
-		(property "Reference" "R92"
+		(property "Reference" "R139"
 			(at 91.44 74.9299 0)
 			(effects
 				(font
@@ -3125,7 +3125,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/21f2fd69-aa93-4550-8877-dde4aa3e5582"
-					(reference "R92")
+					(reference "R139")
 					(unit 1)
 				)
 			)
