@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -483,6 +483,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -990,6 +991,24 @@
           "label": "DCR",
           "name": "DCR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "If",
+          "name": "If",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -1155,6 +1174,10 @@
       "POWER INPUT"
     ],
     [
+      "befc6912-58aa-49dc-b5e3-6f92b4eb9c47",
+      "5V_SMPS_AUX"
+    ],
+    [
       "2e212a69-c846-4621-91af-cd3a20f77307",
       "USBC"
     ],
@@ -1163,5 +1186,7 @@
       "IB CAN XCVR"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PCB_REV": "2A"
+  }
 }

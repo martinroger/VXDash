@@ -1614,10 +1614,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "62278ecb-1c9d-4216-89bd-dc824f0c31e2")
+			(uuid "99b5507b-c4ab-43db-8e23-0da04cd40bba")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "#PWR07")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "#PWR022")
 					(unit 1)
@@ -1734,14 +1738,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 157.48 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "0fd9dacd-da92-4755-ac7c-e6a2e7718bf1")
+			(uuid "a28c7614-3141-4d92-b064-34cc290b5ba8")
 		)
 		(pin "2"
-			(uuid "24d61867-e817-4cad-bdbe-4a3cf2b67c7e")
+			(uuid "2d72015b-8ed8-4c8d-8b6b-0cfb08c05c61")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C5")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C16")
 					(unit 1)
@@ -1858,14 +1902,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 90.17 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "01826e78-178c-4ff1-b1af-c5cfb0fdad07")
+			(uuid "7239b2da-5a75-43de-94e6-33257ac277d7")
 		)
 		(pin "2"
-			(uuid "23bbbd8e-55bd-4f86-bb68-c0a091b39bdf")
+			(uuid "351021d1-d3d3-4988-8050-9ebbdccc7d41")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C3")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C14")
 					(unit 1)
@@ -1981,14 +2065,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "f9815a8b-7913-47f1-bc93-c503137dd8fa")
+			(uuid "0e3be9e6-1a1a-425d-a0fd-00de84408665")
 		)
 		(pin "1"
-			(uuid "83eeea03-b145-4f89-a968-1e0f1b95528e")
+			(uuid "333897fc-3e7e-4d45-ba3c-dd6ece651bc2")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C52")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C19")
 					(unit 1)
@@ -2104,14 +2228,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 181.61 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "b9d0700a-950c-4a5f-9e6c-68322feb4ad6")
+			(uuid "eb79d36a-2dc9-4a05-8ede-fd1bf7303349")
 		)
 		(pin "1"
-			(uuid "f595cd5c-3993-4fe8-9eb7-02689921a2e8")
+			(uuid "4b566bff-d810-4f5e-84f3-5e06e729281c")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C51")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C18")
 					(unit 1)
@@ -2199,26 +2363,66 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
-			(uuid "2a4c5c5b-6646-46b5-8c6b-719084c6b768")
+			(uuid "f1492368-1032-4934-aa40-86b9741d065a")
 		)
 		(pin "3"
-			(uuid "cd4f385e-4a92-411c-834f-95dca285bf02")
+			(uuid "50e81938-229f-44ef-a09a-42645dc6c30f")
 		)
 		(pin "5"
-			(uuid "363f4c36-ee01-466b-894c-a62e2e1c2124")
+			(uuid "c44f124e-d0fc-405a-b179-13c2f15aa252")
 		)
 		(pin "1"
-			(uuid "6506d751-d2b1-4592-9394-eb46a77b5fe4")
+			(uuid "8644aa41-a904-47cb-86c0-c4ed714aabd8")
 		)
 		(pin "4"
-			(uuid "8fa30bbc-d0db-4309-8918-a56f53e2ca5d")
+			(uuid "e3c6ff7b-b98c-4433-b3b2-c67a4e446c63")
 		)
 		(pin "2"
-			(uuid "fe55c8bb-9405-47eb-ab19-38a967a786d5")
+			(uuid "7ed2d23e-2d41-40a2-9861-0adab86e4eb1")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "IC5")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "IC2")
 					(unit 1)
@@ -2334,14 +2538,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 74.93 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "a37229e1-e741-4789-85f7-7089bfd0d1e2")
+			(uuid "a2f199f5-8c01-4005-9edc-5276c877661d")
 		)
 		(pin "2"
-			(uuid "628e7e84-8924-4b79-9682-8a192ef919b7")
+			(uuid "90e55b01-fc95-4043-959f-a11532b4ec2a")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "R81")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "R7")
 					(unit 1)
@@ -2465,14 +2709,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 142.24 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "ab8ac864-be81-4499-9465-8b5446c23f3e")
+			(uuid "13d094ce-01bb-4c3a-b659-c85c199f3705")
 		)
 		(pin "1"
-			(uuid "f4458e30-cc35-4178-87bc-fb1c9cc82fb6")
+			(uuid "470afc12-95da-40d9-be40-dd94082721e8")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "L3")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "L1")
 					(unit 1)
@@ -2587,14 +2871,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 129.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 129.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 129.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 129.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "3ab7f74e-5ab4-4175-a68a-b14067baf964")
+			(uuid "427c6d1e-97b2-4cf4-a3c1-36ed779e9af8")
 		)
 		(pin "2"
-			(uuid "80f9947d-58ad-46dc-85e5-6ca791026fee")
+			(uuid "f294d67e-8ea0-4e56-9b6f-49cd837a51d4")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C4")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C15")
 					(unit 1)
@@ -2711,14 +3035,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 173.99 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "93884656-f509-4951-b077-8d6e05e1c79c")
+			(uuid "02c56ee5-5385-4ede-bf86-a0cf8984c016")
 		)
 		(pin "2"
-			(uuid "938ce4dc-d5aa-4a23-acda-5a18f3b46c5e")
+			(uuid "83218a7c-2e2b-4316-804c-37801d82079c")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C6")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C17")
 					(unit 1)
@@ -2835,14 +3199,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "903fb699-77b7-4d1a-a147-3ab2552c2452")
+			(uuid "5467c28c-9377-4dd7-9dce-501868b985ec")
 		)
 		(pin "2"
-			(uuid "5d40a6be-165a-4cff-92f5-7df2cfdb47e5")
+			(uuid "18a7739c-63e4-4989-a4e5-cbb46a35d728")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "R84")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "R10")
 					(unit 1)
@@ -2959,14 +3363,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 82.55 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "885f25a3-aa32-4cc8-b3ae-87dbe718979d")
+			(uuid "97a718d0-4684-426c-8b29-96e5a108e7f3")
 		)
 		(pin "2"
-			(uuid "eb89d105-057e-4d56-9b73-a71c0586ee1a")
+			(uuid "9a5c95a2-98d3-4892-b6c8-c97d9dbfcef5")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "C2")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "C13")
 					(unit 1)
@@ -3084,14 +3528,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 100.33 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "b32eb975-a85f-4fb8-be3e-b57dcbca978a")
+			(uuid "7f3438ea-cfb4-4648-b4ac-0c3b201851dd")
 		)
 		(pin "2"
-			(uuid "81d0ab64-4349-4991-8537-8a295a1ca73f")
+			(uuid "e047c800-5f3a-4462-8ff4-84fe07e93d8d")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "R82")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "R8")
 					(unit 1)
@@ -3208,14 +3692,54 @@
 				(hide yes)
 			)
 		)
+		(property "MANUFACTURER" ""
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 148.59 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "35c04ee0-3679-4d69-9b29-090adfc8369b")
+			(uuid "445c7fb7-4f86-4197-929e-f5668ef86585")
 		)
 		(pin "2"
-			(uuid "22fd8407-5131-4948-9db6-4badc4ea2e45")
+			(uuid "ae96026e-b370-45c5-9939-25593f7e7721")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/befc6912-58aa-49dc-b5e3-6f92b4eb9c47"
+					(reference "R83")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/e4c69d46-7a64-435d-9e3a-d73acbe7ec2b"
 					(reference "R9")
 					(unit 1)
