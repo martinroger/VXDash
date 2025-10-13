@@ -4852,16 +4852,6 @@
 		)
 		(uuid "602028a6-dcf2-4087-8287-cc8376d5c7db")
 	)
-	(text "For additional current sink.\nOEM fault detection cheat."
-		(exclude_from_sim no)
-		(at 516.89 267.462 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "81519135-89f1-40bf-aded-73dd31c8f601")
-	)
 	(text "NOTA BENE :\nLeft and right indicators seem to have complementary behaviours. \nTelltale comes on if they are in opposite polarities.\nActual hi/low activity to be confirmed, as well as in HAZARDS position"
 		(exclude_from_sim no)
 		(at 127.254 113.03 0)
@@ -5039,10 +5029,10 @@
 		)
 		(uuid "7d9f8a22-9f2e-4525-9322-b0dfe8431808")
 	)
-	(text_box "Load emulators : \nCheck how it works for the left/right/hazard telltale"
+	(text_box "Add necessary for LTS and RTS"
 		(exclude_from_sim no)
-		(at 425.45 332.74 0)
-		(size 151.13 21.59)
+		(at 518.16 264.16 0)
+		(size 35.56 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5125,10 +5115,10 @@
 		)
 		(uuid "cadee594-7ec1-4fe9-9feb-c3ac1f76220a")
 	)
-	(text_box "Display connectors"
+	(text_box "Load emulators"
 		(exclude_from_sim no)
 		(at 422.91 247.65 0)
-		(size 156.21 109.22)
+		(size 156.21 91.44)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -9276,6 +9266,437 @@
 			(type default)
 		)
 		(uuid "fe67edd4-8294-45f3-85e8-5974ec994e00")
+	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0.0254)
+				(type solid)
+			)
+		)
+		(column_widths 20.32 48.26)
+		(row_heights 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "Telltale"
+				(exclude_from_sim no)
+				(at 500.38 340.36 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f382569c-fee4-471b-af49-5bf3c2077b7e")
+			)
+			(table_cell "OEM sink current @ 13V battery"
+				(exclude_from_sim no)
+				(at 520.7 340.36 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1911864b-05dc-45e7-94a8-b0cafa9fc662")
+			)
+			(table_cell "Brake"
+				(exclude_from_sim no)
+				(at 500.38 342.9 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a36dd49a-f346-465e-983d-1230c9a9f98f")
+			)
+			(table_cell "17mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 342.9 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "19d9bffb-1473-4498-bf66-7cd86bcbaa64")
+			)
+			(table_cell "Parking brake"
+				(exclude_from_sim no)
+				(at 500.38 345.44 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "855899ab-e09b-4fde-a4e0-cb5f2110eb3e")
+			)
+			(table_cell "17mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 345.44 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "47f9e4f4-432f-4e94-ae85-1cce00d52844")
+			)
+			(table_cell "Oil alarm"
+				(exclude_from_sim no)
+				(at 500.38 347.98 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ef098d77-a22f-4a80-9e24-368ee96b3dbb")
+			)
+			(table_cell "17mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 347.98 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9720c613-f397-4486-9e27-6e275a31b860")
+			)
+			(table_cell "Airbag"
+				(exclude_from_sim no)
+				(at 500.38 350.52 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "80260877-c9ab-4af9-8064-4d8e963cec44")
+			)
+			(table_cell "17mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 350.52 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "90cc702a-9b8c-4b98-8fdc-638b40feae0c")
+			)
+			(table_cell "CEL"
+				(exclude_from_sim no)
+				(at 500.38 353.06 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b8ef439a-e74f-4772-9e9f-2922850547be")
+			)
+			(table_cell "17mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 353.06 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4c2dd3b8-78d4-442e-b9ac-2d2a43251f19")
+			)
+			(table_cell "Low coolant"
+				(exclude_from_sim no)
+				(at 500.38 355.6 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "17695f65-31c1-4268-b508-705c03517309")
+			)
+			(table_cell "2mA (active high, amplified)"
+				(exclude_from_sim no)
+				(at 520.7 355.6 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "510f7045-9797-43de-82a9-17fcb07197ad")
+			)
+			(table_cell "ABS"
+				(exclude_from_sim no)
+				(at 500.38 358.14 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1c042497-2e00-4eae-bc2c-1359e5985c6f")
+			)
+			(table_cell "70mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 358.14 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "408edb9f-f027-4998-ba53-ab0efd75f395")
+			)
+			(table_cell "High beams"
+				(exclude_from_sim no)
+				(at 500.38 360.68 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "65d5f687-bb02-4503-85b4-23b209ab3a91")
+			)
+			(table_cell "10mA (active high)"
+				(exclude_from_sim no)
+				(at 520.7 360.68 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eed9dbec-e193-4ba3-9687-23fb5bdf66f6")
+			)
+			(table_cell "Alternator"
+				(exclude_from_sim no)
+				(at 500.38 363.22 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3567ddaa-ad48-460e-8b68-1ec1d60c44be")
+			)
+			(table_cell "125mA (active low)"
+				(exclude_from_sim no)
+				(at 520.7 363.22 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b476fb35-653b-4a18-aa6a-264100bd4ad8")
+			)
+			(table_cell "Left turn signal"
+				(exclude_from_sim no)
+				(at 500.38 365.76 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0206e5b9-e3f8-4cb5-b7df-c82ede49d9b5")
+			)
+			(table_cell "50mA active high if RTS low, sunk by RTS"
+				(exclude_from_sim no)
+				(at 520.7 365.76 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1b12dd7b-fc2f-4777-abdf-a8847d7e1dea")
+			)
+			(table_cell "Right turn signal"
+				(exclude_from_sim no)
+				(at 500.38 368.3 0)
+				(size 20.32 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6297351f-648b-4bde-87bf-1a00609212fd")
+			)
+			(table_cell "50mA actuve high if LTS low, sunk by LTS"
+				(exclude_from_sim no)
+				(at 520.7 368.3 0)
+				(size 48.26 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5be34374-cfb7-49e8-bab6-eea85069f7c7")
+			)
+		)
 	)
 	(label "speed"
 		(at 135.89 165.1 0)
@@ -24420,7 +24841,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -25453,7 +25874,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
