@@ -9,6 +9,192 @@
 		(rev "${PCB_REV}")
 	)
 	(lib_symbols
+		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Open"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Open_0_1"
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Open_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "VXDash_diodes:D_Schottky"
 			(pin_numbers
 				(hide yes)
@@ -372,7 +558,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 78.74) (xy 124.46 82.55)
+			(xy 124.46 80.01) (xy 124.46 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d94d17e-e222-4a7b-9f87-17504e190929")
+	)
+	(wire
+		(pts
+			(xy 124.46 68.58) (xy 124.46 72.39)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +608,7 @@
 	)
 	(hierarchical_label "V+"
 		(shape bidirectional)
-		(at 124.46 78.74 90)
+		(at 124.46 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -442,7 +638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80f8ad75-5f10-4565-9da6-e5a304f65542")
-		(property "Reference" "R94"
+		(property "Reference" "R98"
 			(at 121.92 97.028 90)
 			(effects
 				(font
@@ -569,15 +765,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4029d03-7ab7-42de-9530-a8244564e290")
+			(uuid "3a7e8047-ce85-42d9-be81-dc04925823fb")
 		)
 		(pin "2"
-			(uuid "931b9780-bb8b-431a-b04f-fb914eecc7ec")
+			(uuid "a6fb638c-67c4-412d-8a35-61135b8f60e5")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
+					(reference "R120")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
+					(reference "R117")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
+					(reference "R111")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
+					(reference "R98")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
+					(reference "R123")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
+					(reference "R126")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
+					(reference "R114")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
 					(reference "R94")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
+					(reference "R108")
 					(unit 1)
 				)
 			)
@@ -593,7 +821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82898d46-6900-4576-908e-0b33b777adb8")
-		(property "Reference" "R96"
+		(property "Reference" "R107"
 			(at 121.92 117.348 90)
 			(effects
 				(font
@@ -720,15 +948,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4ed3c32-8359-4ea1-a945-8a12b227d0de")
+			(uuid "c8484281-a54c-4ccf-aeff-1c210928fa79")
 		)
 		(pin "2"
-			(uuid "afcaa7d5-da81-4607-9baf-b12d61f573b0")
+			(uuid "c593bf84-0908-407b-aab6-8de7adf982f1")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
+					(reference "R122")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
+					(reference "R119")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
+					(reference "R113")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
+					(reference "R107")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
+					(reference "R125")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
+					(reference "R128")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
+					(reference "R116")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
 					(reference "R96")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
+					(reference "R110")
 					(unit 1)
 				)
 			)
@@ -744,7 +1004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4c403d7-c80e-428d-856a-287a9b304888")
-		(property "Reference" "R95"
+		(property "Reference" "R106"
 			(at 121.92 107.188 90)
 			(effects
 				(font
@@ -871,15 +1131,47 @@
 			)
 		)
 		(pin "1"
-			(uuid "089ab647-0e46-40a9-a2cc-daff29709dde")
+			(uuid "e7993dee-5b0f-4466-a89b-e251cf4211d2")
 		)
 		(pin "2"
-			(uuid "fe1494b1-18d0-4032-9746-c9cd5a1c4adb")
+			(uuid "59d5249e-5ac6-49a7-a66b-46c228277cda")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
+					(reference "R121")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
+					(reference "R118")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
+					(reference "R112")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
+					(reference "R106")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
+					(reference "R124")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
+					(reference "R127")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
+					(reference "R115")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
 					(reference "R95")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
+					(reference "R109")
 					(unit 1)
 				)
 			)
@@ -896,7 +1188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad691388-8233-4987-9fe2-b907ba687d8f")
-		(property "Reference" "D22"
+		(property "Reference" "D23"
 			(at 118.11 86.6775 0)
 			(effects
 				(font
@@ -1003,15 +1295,149 @@
 			)
 		)
 		(pin "2"
-			(uuid "fcf2ee84-a22d-4d61-81fc-3053c219dfeb")
+			(uuid "089bb5c2-968a-406c-b6f5-0215e45a8653")
 		)
 		(pin "1"
-			(uuid "5f21e98c-8c5c-4c9d-a6da-5a0b6f4e53c0")
+			(uuid "094b40b3-9952-4d00-919d-98cc4ee69840")
 		)
 		(instances
 			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
+					(reference "D28")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
+					(reference "D25")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
+					(reference "D29")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
+					(reference "D30")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
+					(reference "D26")
+					(unit 1)
+				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
 					(reference "D22")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 124.46 76.2 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df8dcdd8-68c3-4307-a1b7-df7450b17e07")
+		(property "Reference" "JP3"
+			(at 127 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "EN LOAD EMU"
+			(at 127 77.4699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 124.46 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "305fb9c7-61db-4df5-a29b-af04123de886")
+		)
+		(pin "1"
+			(uuid "88b46c9f-a984-4eca-871e-1d3f3af652b9")
+		)
+		(instances
+			(project ""
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
+					(reference "JP9")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
+					(reference "JP8")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
+					(reference "JP6")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
+					(reference "JP3")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
+					(reference "JP10")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
+					(reference "JP11")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
+					(reference "JP7")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
+					(reference "JP4")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
