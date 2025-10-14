@@ -67,6 +67,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "N/A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Header_VX220_RightAngle_0_1"
 			(rectangle
 				(start -16.51 -1.27)
@@ -629,10 +656,37 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3020560"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "USB4105-GF-A_0_0"
 			(rectangle
-				(start -15.24 -25.4)
-				(end 15.24 12.7)
+				(start -15.24 12.7)
+				(end 15.24 -25.4)
 				(stroke
 					(width 0.254)
 					(type default)
