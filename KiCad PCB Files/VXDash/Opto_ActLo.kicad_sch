@@ -630,6 +630,26 @@
 		)
 		(uuid "9ee1103d-7d35-456d-a1ef-d257a6f9c46c")
 	)
+	(text_box "Single channel alternative : LiteOn LTV-817S"
+		(exclude_from_sim no)
+		(at 123.19 115.57 0)
+		(size 52.07 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "caea4b0f-80f2-4ba9-a34c-13d8657cfa20")
+	)
 	(junction
 		(at 154.94 97.79)
 		(diameter 0)
@@ -850,7 +870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 153.162 91.44 90)
 			(effects
 				(font
@@ -859,7 +879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -904,7 +924,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -913,7 +933,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-0710KL"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -967,7 +987,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -992,6 +1012,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 154.94 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1069,7 +1113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 130.302 91.44 90)
 			(effects
 				(font
@@ -1078,7 +1122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-078K2L-Yageo-datasheet-164759695.pdf"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1123,7 +1167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1132,7 +1176,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-078K2L"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1186,7 +1230,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114637"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -1211,6 +1255,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 132.08 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1484,7 +1552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22454766"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1493,7 +1561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC alt" "C125121"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1509,6 +1577,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 144.78 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

@@ -765,6 +765,275 @@
         "name": "BOM",
         "sort_asc": true,
         "sort_field": "Reference"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Voltage",
+            "name": "Voltage",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Dielectric",
+            "name": "Dielectric",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Power",
+            "name": "Power",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFT",
+            "name": "MFT",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFT_PN",
+            "name": "MFT_PN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "ALT_MFT_PN_1",
+            "name": "ALT_MFT_PN_1",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC",
+            "name": "LCSC",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC alt",
+            "name": "LCSC alt",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "JLCPCB",
+            "name": "JLCPCB",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Height",
+            "name": "Height",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Tolerance",
+            "name": "Tolerance",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Type",
+            "name": "Type",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Tol",
+            "name": "Tol",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Isat",
+            "name": "Isat",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Irated",
+            "name": "Irated",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vbr",
+            "name": "Vbr",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vwm",
+            "name": "Vwm",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Ippm",
+            "name": "Ippm",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PARTREV",
+            "name": "PARTREV",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser Part Number",
+            "name": "Mouser Part Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "STANDARD",
+            "name": "STANDARD",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MANUFACTURER",
+            "name": "MANUFACTURER",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Instructions/Notes",
+            "name": "Instructions/Notes",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Name",
+            "name": "Manufacturer_Name",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Arrow Price/Stock",
+            "name": "Arrow Price/Stock",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Part_Number",
+            "name": "Manufacturer_Part_Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Arrow Part Number",
+            "name": "Arrow Part Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser Price/Stock",
+            "name": "Mouser Price/Stock",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MAXIMUM_PACKAGE_HEIGHT",
+            "name": "MAXIMUM_PACKAGE_HEIGHT",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DCR",
+            "name": "DCR",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pin",
+            "name": "Sim.Pin",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vf",
+            "name": "Vf",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "If",
+            "name": "If",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "Review preset",
+        "sort_asc": true,
+        "sort_field": "Reference"
       }
     ],
     "bom_settings": {
@@ -789,7 +1058,61 @@
           "show": true
         },
         {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": true
+        },
+        {
           "group_by": true,
+          "label": "Power",
+          "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MFT",
+          "name": "MFT",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "MFT_PN",
+          "name": "MFT_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MFT_PN_1",
+          "name": "ALT_MFT_PN_1",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC alt",
+          "name": "LCSC alt",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -819,12 +1142,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Dielectric",
-          "name": "Dielectric",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Height",
           "name": "Height",
@@ -835,12 +1152,6 @@
           "label": "Tolerance",
           "name": "Tolerance",
           "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": true
         },
         {
           "group_by": false,
@@ -855,33 +1166,15 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Type",
           "name": "Type",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "MFT_PN",
-          "name": "MFT_PN",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Power",
-          "name": "Power",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Tol",
           "name": "Tol",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFT",
-          "name": "MFT",
           "show": true
         },
         {
@@ -913,12 +1206,6 @@
           "label": "Ippm",
           "name": "Ippm",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ALT_MFT_PN_1",
-          "name": "ALT_MFT_PN_1",
-          "show": true
         },
         {
           "group_by": false,

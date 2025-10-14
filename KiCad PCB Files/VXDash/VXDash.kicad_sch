@@ -5157,7 +5157,7 @@
 		)
 		(uuid "5b6b288f-4b94-4955-9fa2-41a578e73e92")
 	)
-	(text_box "TODO and TOCHECK: \n- Check actual active high/low behaviour for the side indicators, and case of dash disconnection/hazards\n- Find suitable push buttons for SW1 SW2\n- Test points\n- Check things are in the project library\n"
+	(text_box "TODO and TOCHECK: \n- Any interest in replacing Optos with 4 channels versions like LTV-847S (https://www.lcsc.com/datasheet/C10794.pdf) ?"
 		(exclude_from_sim no)
 		(at 215.9 289.56 0)
 		(size 198.12 13.97)
@@ -5420,6 +5420,12 @@
 		(uuid "451f6f67-3be7-4adf-9db8-55ccfbf8211c")
 	)
 	(junction
+		(at 504.19 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "478465c6-830c-4519-89b5-3946d0688cb4")
+	)
+	(junction
 		(at 285.75 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5474,6 +5480,12 @@
 		(uuid "6ef3461b-54ac-480a-81b6-9b14f8c015c1")
 	)
 	(junction
+		(at 504.19 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a530245-0ee4-4409-9fd8-5584fd524e9a")
+	)
+	(junction
 		(at 149.86 323.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5508,6 +5520,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af381911-d708-49eb-bd64-49b603dbd4ab")
+	)
+	(junction
+		(at 504.19 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2b70120-0585-4c8f-9fac-d22a96067ad7")
 	)
 	(junction
 		(at 570.23 307.34)
@@ -5574,6 +5592,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f742b098-5fe1-4f73-9e1f-32b41e5e408d")
+	)
+	(junction
+		(at 504.19 226.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8db374a-151b-4507-8a07-1922503d5ce4")
 	)
 	(junction
 		(at 302.26 48.26)
@@ -6123,6 +6147,16 @@
 	)
 	(wire
 		(pts
+			(xy 504.19 226.06) (xy 504.19 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "200cce2e-96c6-4489-b009-9b3fa623ad99")
+	)
+	(wire
+		(pts
 			(xy 356.87 59.69) (xy 356.87 63.5)
 		)
 		(stroke
@@ -6190,6 +6224,16 @@
 			(type default)
 		)
 		(uuid "2371d8f3-b8a5-406f-b9f1-1492bda0bebf")
+	)
+	(wire
+		(pts
+			(xy 508 223.52) (xy 504.19 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24e7da69-0299-495f-95d7-2dd99140827c")
 	)
 	(wire
 		(pts
@@ -6413,7 +6457,7 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 224.79) (xy 514.35 224.79)
+			(xy 528.32 224.79) (xy 529.59 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7053,7 +7097,7 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 224.79) (xy 505.46 224.79)
+			(xy 504.19 224.79) (xy 520.7 224.79)
 		)
 		(stroke
 			(width 0)
@@ -7323,6 +7367,16 @@
 	)
 	(wire
 		(pts
+			(xy 508 215.9) (xy 508 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65758784-7482-4a23-86f7-cbe0a18fa7b6")
+	)
+	(wire
+		(pts
 			(xy 285.75 125.73) (xy 297.18 125.73)
 		)
 		(stroke
@@ -7383,7 +7437,7 @@
 	)
 	(wire
 		(pts
-			(xy 514.35 224.79) (xy 514.35 226.06)
+			(xy 529.59 224.79) (xy 529.59 226.06)
 		)
 		(stroke
 			(width 0)
@@ -7470,6 +7524,16 @@
 			(type default)
 		)
 		(uuid "6ccd3974-2029-436b-b129-db7a496cfe42")
+	)
+	(wire
+		(pts
+			(xy 508 226.06) (xy 504.19 226.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d0f6cc8-e98d-4d38-90a2-04bd6f8ed078")
 	)
 	(wire
 		(pts
@@ -8183,16 +8247,6 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 223.52) (xy 504.19 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0dd851f-78fb-4920-98fb-4c7b5fc1eaf4")
-	)
-	(wire
-		(pts
 			(xy 119.38 280.67) (xy 119.38 247.65)
 		)
 		(stroke
@@ -8310,6 +8364,16 @@
 			(type default)
 		)
 		(uuid "a6da8314-0496-419d-9896-4e9dac753da5")
+	)
+	(wire
+		(pts
+			(xy 504.19 223.52) (xy 504.19 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a81019f3-ccc4-415d-a7d1-1c3ba869a3ea")
 	)
 	(wire
 		(pts
@@ -8610,6 +8674,16 @@
 			(type default)
 		)
 		(uuid "be25bcf3-8655-45ab-9d4d-ea84efbd2d45")
+	)
+	(wire
+		(pts
+			(xy 508 233.68) (xy 508 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bec3baf4-4db7-4ff9-83fc-7a64fb4b7e96")
 	)
 	(wire
 		(pts
@@ -9083,16 +9157,6 @@
 	)
 	(wire
 		(pts
-			(xy 504.19 224.79) (xy 504.19 226.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de0d8033-bdc8-4aae-849a-4b60d23f8527")
-	)
-	(wire
-		(pts
 			(xy 151.13 86.36) (xy 153.67 86.36)
 		)
 		(stroke
@@ -9100,6 +9164,16 @@
 			(type default)
 		)
 		(uuid "de307a0a-4493-41cd-a0d9-72ccae496f12")
+	)
+	(wire
+		(pts
+			(xy 508 214.63) (xy 504.19 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de30fdcd-e929-4a8d-8470-034dd1b0d868")
 	)
 	(wire
 		(pts
@@ -9400,6 +9474,16 @@
 			(type default)
 		)
 		(uuid "efb78897-717f-4486-8728-4af197764047")
+	)
+	(wire
+		(pts
+			(xy 508 234.95) (xy 504.19 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efce2303-8a8b-4aff-b152-932b82f9763a")
 	)
 	(wire
 		(pts
@@ -13355,7 +13439,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 514.35 226.06 0)
+		(at 529.59 226.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13363,7 +13447,7 @@
 		(dnp no)
 		(uuid "01a6a7a0-a23c-464d-9ba9-139c97260cb2")
 		(property "Reference" "#PWR021"
-			(at 514.35 232.41 0)
+			(at 529.59 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13372,7 +13456,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 516.89 228.6 0)
+			(at 532.13 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13380,7 +13464,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 514.35 226.06 0)
+			(at 529.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13389,7 +13473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 514.35 226.06 0)
+			(at 529.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13398,7 +13482,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 514.35 226.06 0)
+			(at 529.59 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13519,7 +13603,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 184.15 172.72 90)
 			(effects
 				(font
@@ -13546,7 +13630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -13555,7 +13639,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -13616,7 +13700,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 184.15 172.72 0)
 			(effects
 				(font
@@ -13641,6 +13725,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 184.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 184.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 184.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13692,7 +13800,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2937625.pdf"
 			(at 360.68 325.12 0)
 			(effects
 				(font
@@ -13755,6 +13863,60 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 360.68 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 360.68 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 360.68 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2937625 "
+			(at 360.68 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "XFCN"
+			(at 360.68 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "PZ254V-11-03P"
+			(at 360.68 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c96f14f-1c28-47f8-84f2-475594d3565c")
 		)
@@ -13809,7 +13971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -13827,7 +13989,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -13836,7 +13998,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -13917,7 +14079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -13942,6 +14104,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 54.61 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 54.61 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 54.61 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14070,6 +14256,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 99.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "cbebdbb4-ba49-47b1-926b-ada8b6ae9fd8")
 		)
@@ -14161,7 +14371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/0805W8F0000T5E-Royal-Ohm-datasheet-165785611.pdf"
 			(at 514.35 187.96 0)
 			(effects
 				(font
@@ -14188,7 +14398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "125mW"
 			(at 523.24 185.42 90)
 			(effects
 				(font
@@ -14205,7 +14415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Royal Ohm"
 			(at 514.35 187.96 0)
 			(effects
 				(font
@@ -14214,7 +14424,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "0805W8F0000T5E"
 			(at 514.35 187.96 0)
 			(effects
 				(font
@@ -14268,7 +14478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17477"
 			(at 514.35 187.96 0)
 			(effects
 				(font
@@ -14293,6 +14503,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 514.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 514.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 514.35 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14347,7 +14581,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-074K7L-Yageo-datasheet-103092701.pdf"
 			(at 473.71 50.8 0)
 			(effects
 				(font
@@ -14392,7 +14626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 473.71 50.8 0)
 			(effects
 				(font
@@ -14401,7 +14635,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-074K7L"
 			(at 473.71 50.8 0)
 			(effects
 				(font
@@ -14455,7 +14689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C99782"
 			(at 473.71 50.8 0)
 			(effects
 				(font
@@ -14480,6 +14714,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 473.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 473.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 473.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14581,7 +14839,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 383.286 77.724 90)
 			(effects
 				(font
@@ -14599,7 +14857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07270RL-Yageo-datasheet-103092701.pdf"
 			(at 382.27 74.93 0)
 			(effects
 				(font
@@ -14644,7 +14902,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 382.27 74.93 0)
 			(effects
 				(font
@@ -14653,7 +14911,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 382.27 74.93 0)
 			(effects
 				(font
@@ -14698,7 +14956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137754"
 			(at 382.27 74.93 0)
 			(effects
 				(font
@@ -14723,6 +14981,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 382.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 382.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 382.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14760,7 +15042,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60R"
+		(property "Value" "120R"
 			(at 501.65 229.8699 0)
 			(effects
 				(font
@@ -14778,7 +15060,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114245.pdf"
 			(at 504.19 229.87 0)
 			(effects
 				(font
@@ -14806,7 +15088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "125mW"
 			(at 501.65 232.4099 0)
 			(effects
 				(font
@@ -14824,7 +15106,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 504.19 229.87 0)
 			(effects
 				(font
@@ -14833,7 +15115,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0805FR-07120RL"
 			(at 504.19 229.87 0)
 			(effects
 				(font
@@ -14887,7 +15169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114245"
 			(at 504.19 229.87 0)
 			(effects
 				(font
@@ -14912,6 +15194,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 504.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 504.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 504.19 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -14964,7 +15270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 245.11 326.39 0)
 			(effects
 				(font
@@ -14982,7 +15288,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 245.11 326.39 0)
 			(effects
 				(font
@@ -14991,7 +15297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 245.11 326.39 0)
 			(effects
 				(font
@@ -15071,7 +15377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 245.11 326.39 0)
 			(effects
 				(font
@@ -15096,6 +15402,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 245.11 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 245.11 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 245.11 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15148,7 +15478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 280.67 326.39 0)
 			(effects
 				(font
@@ -15166,7 +15496,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 280.67 326.39 0)
 			(effects
 				(font
@@ -15175,7 +15505,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 280.67 326.39 0)
 			(effects
 				(font
@@ -15255,7 +15585,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 280.67 326.39 0)
 			(effects
 				(font
@@ -15282,6 +15612,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 280.67 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 280.67 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 280.67 326.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2b120f75-2c79-44cb-b09b-886a24519c76")
 		)
@@ -15302,7 +15656,7 @@
 		(at 359.41 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15352,6 +15706,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 359.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 359.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 359.41 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f563fcf2-8183-4e08-bef4-96075d6042ca")
 		)
@@ -15384,7 +15762,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "60R"
+		(property "Value" "120R"
 			(at 501.65 219.7099 0)
 			(effects
 				(font
@@ -15402,7 +15780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114245.pdf"
 			(at 504.19 219.71 0)
 			(effects
 				(font
@@ -15429,7 +15807,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "125mW"
 			(at 501.65 222.2499 0)
 			(effects
 				(font
@@ -15447,7 +15825,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 504.19 219.71 0)
 			(effects
 				(font
@@ -15456,7 +15834,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0805FR-07120RL"
 			(at 504.19 219.71 0)
 			(effects
 				(font
@@ -15510,7 +15888,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114245"
 			(at 504.19 219.71 0)
 			(effects
 				(font
@@ -15537,6 +15915,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 504.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 504.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 504.19 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0ff6f866-7cb9-4e8b-958d-379b0026c5e5")
 		)
@@ -15557,7 +15959,7 @@
 		(at 359.41 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15605,6 +16007,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 359.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 359.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 359.41 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15655,7 +16081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -15673,7 +16099,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -15682,7 +16108,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -15763,7 +16189,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 29.21 153.67 0)
 			(effects
 				(font
@@ -15788,6 +16214,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 29.21 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15839,7 +16289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 182.88 140.97 90)
 			(effects
 				(font
@@ -15866,7 +16316,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 182.88 140.97 0)
 			(effects
 				(font
@@ -15875,7 +16325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 182.88 140.97 0)
 			(effects
 				(font
@@ -15936,7 +16386,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 182.88 140.97 0)
 			(effects
 				(font
@@ -15961,6 +16411,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 182.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 182.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 182.88 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16015,7 +16489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -16042,7 +16516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "100mW"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -16060,7 +16534,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -16069,7 +16543,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-0710KL"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -16123,7 +16597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 226.06 140.97 0)
 			(effects
 				(font
@@ -16148,6 +16622,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16281,7 +16779,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C152458"
 			(at 553.72 259.08 0)
 			(effects
 				(font
@@ -16306,6 +16804,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 553.72 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 553.72 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 553.72 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16407,7 +16929,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 534.416 270.764 90)
 			(effects
 				(font
@@ -16425,7 +16947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C309610.pdf"
 			(at 533.4 267.97 0)
 			(effects
 				(font
@@ -16470,7 +16992,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 533.4 267.97 0)
 			(effects
 				(font
@@ -16479,7 +17001,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC2512FK-7W100RL"
 			(at 533.4 267.97 0)
 			(effects
 				(font
@@ -16524,7 +17046,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309610"
 			(at 533.4 267.97 0)
 			(effects
 				(font
@@ -16549,6 +17071,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 533.4 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 533.4 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 533.4 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16600,7 +17146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 182.88 156.21 90)
 			(effects
 				(font
@@ -16627,7 +17173,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 182.88 156.21 0)
 			(effects
 				(font
@@ -16636,7 +17182,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 182.88 156.21 0)
 			(effects
 				(font
@@ -16697,7 +17243,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 182.88 156.21 0)
 			(effects
 				(font
@@ -16722,6 +17268,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 182.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 182.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 182.88 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16810,7 +17380,7 @@
 		(at 400.05 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -16860,6 +17430,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 400.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 400.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 400.05 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "0b3b01de-ba05-4eaa-a45e-54a4fd2012d0")
 		)
@@ -16906,7 +17500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 389.89 44.45 90)
 			(effects
 				(font
@@ -16933,7 +17527,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 389.89 44.45 0)
 			(effects
 				(font
@@ -16942,7 +17536,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 389.89 44.45 0)
 			(effects
 				(font
@@ -17003,7 +17597,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 389.89 44.45 0)
 			(effects
 				(font
@@ -17028,6 +17622,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 389.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 389.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 389.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17063,7 +17681,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 175.006 143.764 90)
 			(effects
 				(font
@@ -17081,7 +17699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07270RL-Yageo-datasheet-103092701.pdf"
 			(at 173.99 140.97 0)
 			(effects
 				(font
@@ -17126,7 +17744,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 173.99 140.97 0)
 			(effects
 				(font
@@ -17135,7 +17753,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 173.99 140.97 0)
 			(effects
 				(font
@@ -17180,7 +17798,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137754"
 			(at 173.99 140.97 0)
 			(effects
 				(font
@@ -17205,6 +17823,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 173.99 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17306,7 +17948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 544.576 261.874 90)
 			(effects
 				(font
@@ -17324,7 +17966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C877742.pdf"
 			(at 543.56 259.08 0)
 			(effects
 				(font
@@ -17369,7 +18011,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 543.56 259.08 0)
 			(effects
 				(font
@@ -17378,7 +18020,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC2512FK-07150RL"
 			(at 543.56 259.08 0)
 			(effects
 				(font
@@ -17423,7 +18065,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C877742"
 			(at 543.56 259.08 0)
 			(effects
 				(font
@@ -17448,6 +18090,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 543.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 543.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 543.56 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17499,7 +18165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 391.16 74.93 90)
 			(effects
 				(font
@@ -17526,7 +18192,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 391.16 74.93 0)
 			(effects
 				(font
@@ -17535,7 +18201,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 391.16 74.93 0)
 			(effects
 				(font
@@ -17596,7 +18262,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 391.16 74.93 0)
 			(effects
 				(font
@@ -17621,6 +18287,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 391.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 391.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 391.16 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -17675,7 +18365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 285.75 130.81 0)
 			(effects
 				(font
@@ -17693,7 +18383,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 285.75 130.81 0)
 			(effects
 				(font
@@ -17702,7 +18392,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 285.75 130.81 0)
 			(effects
 				(font
@@ -17783,7 +18473,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 285.75 130.81 0)
 			(effects
 				(font
@@ -17808,6 +18498,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 285.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 285.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 285.75 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -17880,6 +18594,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 267.97 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 267.97 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 267.97 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "605fcca2-0d17-4a47-a5c4-f95d5db1ad26")
 		)
@@ -17928,7 +18666,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 534.416 261.874 90)
 			(effects
 				(font
@@ -17946,7 +18684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C309610.pdf"
 			(at 533.4 259.08 0)
 			(effects
 				(font
@@ -17991,7 +18729,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 533.4 259.08 0)
 			(effects
 				(font
@@ -18000,7 +18738,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC2512FK-7W100RL"
 			(at 533.4 259.08 0)
 			(effects
 				(font
@@ -18045,7 +18783,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309610"
 			(at 533.4 259.08 0)
 			(effects
 				(font
@@ -18070,6 +18808,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 533.4 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 533.4 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 533.4 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18089,7 +18851,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 509.27 224.79 90)
+		(at 524.51 224.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18099,7 +18861,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f950e9b-7eac-4502-aa2b-c482a0e3a195")
 		(property "Reference" "C12"
-			(at 509.27 214.63 90)
+			(at 524.51 214.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18107,7 +18869,7 @@
 			)
 		)
 		(property "Value" "4n7"
-			(at 509.27 217.17 90)
+			(at 524.51 217.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18115,7 +18877,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 513.08 225.7552 0)
+			(at 528.32 225.7552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18123,8 +18885,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 509.27 224.79 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106218.pdf"
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18133,7 +18895,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 509.27 224.79 0)
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18141,8 +18903,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
-			(at 509.27 224.79 0)
+		(property "MFT" "Yageo"
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18150,8 +18912,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
-			(at 509.27 224.79 0)
+		(property "MFT_PN" "CC0603KRX7R9BB472"
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18160,7 +18922,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 509.27 224.79 0)
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18169,7 +18931,7 @@
 			)
 		)
 		(property "Tol" "10%"
-			(at 509.27 224.79 0)
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18178,7 +18940,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 509.27 219.71 90)
+			(at 524.51 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18186,7 +18948,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 509.27 224.79 90)
+			(at 524.51 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,7 +18957,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 509.27 224.79 90)
+			(at 524.51 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18204,7 +18966,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 509.27 224.79 90)
+			(at 524.51 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18213,7 +18975,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 509.27 224.79 90)
+			(at 524.51 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18222,7 +18984,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 509.27 224.79 90)
+			(at 524.51 224.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18230,8 +18992,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
-			(at 509.27 224.79 0)
+		(property "LCSC" "C106218"
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18240,7 +19002,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 509.27 224.79 0)
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18249,12 +19011,36 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 509.27 224.79 0)
+			(at 524.51 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 524.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 524.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 524.51 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18336,13 +19122,45 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "DT15-4P"
+		(property "MFT_PN" "DTF13-4P"
 			(at 546.1 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 546.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 546.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 546.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C7470975"
+			(at 546.1 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18400,7 +19218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/0805W8F0000T5E-Royal-Ohm-datasheet-165785611.pdf"
 			(at 514.35 157.48 0)
 			(effects
 				(font
@@ -18427,7 +19245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "125mW"
 			(at 523.24 154.94 90)
 			(effects
 				(font
@@ -18444,7 +19262,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Royal Ohm"
 			(at 514.35 157.48 0)
 			(effects
 				(font
@@ -18453,7 +19271,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "0805W8F0000T5E"
 			(at 514.35 157.48 0)
 			(effects
 				(font
@@ -18507,7 +19325,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17477"
 			(at 514.35 157.48 0)
 			(effects
 				(font
@@ -18532,6 +19350,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 514.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 514.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 514.35 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18575,7 +19417,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 245.11 317.5 0)
 			(effects
 				(font
@@ -18584,7 +19426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/MJTP1250-APEM-datasheet-68366765.pdf"
 			(at 245.11 317.5 0)
 			(effects
 				(font
@@ -18647,6 +19489,78 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 245.11 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 245.11 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 245.11 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT_MFT_PN_1" "MJTP1250"
+			(at 245.11 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C500068"
+			(at 245.11 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" "C6301337"
+			(at 245.11 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "XKB Connectivity"
+			(at 245.11 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "TC-1101T-C-B-B"
+			(at 245.11 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17065be8-13ff-41cc-9b13-76dfe8fc1d55")
 		)
@@ -18698,7 +19612,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -18716,7 +19630,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -18725,7 +19639,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -18806,7 +19720,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 41.91 153.67 0)
 			(effects
 				(font
@@ -18831,6 +19745,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 41.91 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18948,7 +19886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2937625.pdf"
 			(at 401.32 325.12 0)
 			(effects
 				(font
@@ -19003,6 +19941,60 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 401.32 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 401.32 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 401.32 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 401.32 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2937625 "
+			(at 401.32 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "XFCN"
+			(at 401.32 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "PZ254V-11-03P"
 			(at 401.32 325.12 0)
 			(effects
 				(font
@@ -19065,7 +20057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/0805W8F0000T5E-Royal-Ohm-datasheet-165785611.pdf"
 			(at 273.05 119.38 0)
 			(effects
 				(font
@@ -19092,7 +20084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "125mW"
 			(at 275.59 121.9199 0)
 			(effects
 				(font
@@ -19110,7 +20102,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Royal Ohm"
 			(at 273.05 119.38 0)
 			(effects
 				(font
@@ -19119,7 +20111,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "0805W8F0000T5E"
 			(at 273.05 119.38 0)
 			(effects
 				(font
@@ -19173,7 +20165,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C17477"
 			(at 273.05 119.38 0)
 			(effects
 				(font
@@ -19200,6 +20192,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 273.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 273.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 273.05 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "48a868cf-d0a6-427e-9cbe-047180d8f60f")
 		)
@@ -19220,7 +20236,7 @@
 		(at 359.41 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -19270,6 +20286,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 359.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 359.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 359.41 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "ede5d140-fe6b-4e21-bf60-4e2efa5ad97f")
 		)
@@ -19300,7 +20340,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "620"
+		(property "Value" "620R"
 			(at 382.016 62.484 90)
 			(effects
 				(font
@@ -19318,7 +20358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07620RL-Yageo-datasheet-103092701.pdf"
 			(at 381 59.69 0)
 			(effects
 				(font
@@ -19363,7 +20403,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 381 59.69 0)
 			(effects
 				(font
@@ -19372,7 +20412,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07620RL"
 			(at 381 59.69 0)
 			(effects
 				(font
@@ -19417,7 +20457,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137695"
 			(at 381 59.69 0)
 			(effects
 				(font
@@ -19442,6 +20482,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 381 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 381 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 381 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19510,6 +20574,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 158.75 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19605,7 +20693,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 54.61 153.67 0)
 			(effects
 				(font
@@ -19623,7 +20711,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 54.61 153.67 0)
 			(effects
 				(font
@@ -19632,7 +20720,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 54.61 153.67 0)
 			(effects
 				(font
@@ -19713,7 +20801,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 54.61 153.67 0)
 			(effects
 				(font
@@ -19738,6 +20826,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 54.61 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -19791,7 +20903,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -19809,7 +20921,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -19818,7 +20930,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -19899,7 +21011,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -19924,6 +21036,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 41.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 41.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 41.91 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20116,7 +21252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20143,7 +21279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "100mW"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20161,7 +21297,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20170,7 +21306,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-0710KL"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20224,7 +21360,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 373.38 205.74 0)
 			(effects
 				(font
@@ -20249,6 +21385,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 373.38 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 373.38 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 373.38 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20449,7 +21609,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C152458"
 			(at 523.24 267.97 0)
 			(effects
 				(font
@@ -20474,6 +21634,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 523.24 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 523.24 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 523.24 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20574,7 +21758,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 175.006 159.004 90)
 			(effects
 				(font
@@ -20592,7 +21776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07270RL-Yageo-datasheet-103092701.pdf"
 			(at 173.99 156.21 0)
 			(effects
 				(font
@@ -20637,7 +21821,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 173.99 156.21 0)
 			(effects
 				(font
@@ -20646,7 +21830,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 173.99 156.21 0)
 			(effects
 				(font
@@ -20691,7 +21875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137754"
 			(at 173.99 156.21 0)
 			(effects
 				(font
@@ -20716,6 +21900,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 173.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 173.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 173.99 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20817,7 +22025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 148.336 352.044 90)
 			(effects
 				(font
@@ -20835,7 +22043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07270RL-Yageo-datasheet-103092701.pdf"
 			(at 147.32 349.25 0)
 			(effects
 				(font
@@ -20880,7 +22088,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 147.32 349.25 0)
 			(effects
 				(font
@@ -20889,7 +22097,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 147.32 349.25 0)
 			(effects
 				(font
@@ -20934,7 +22142,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137754"
 			(at 147.32 349.25 0)
 			(effects
 				(font
@@ -20959,6 +22167,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 147.32 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 147.32 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 147.32 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21205,7 +22437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
 			(at 280.67 317.5 0)
 			(effects
 				(font
@@ -21214,7 +22446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/MJTP1250-APEM-datasheet-68366765.pdf"
 			(at 280.67 317.5 0)
 			(effects
 				(font
@@ -21277,6 +22509,78 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ALT_MFT_PN_1" "MJTP1250"
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C500068"
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" "C6301337"
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "XKB Connectivity"
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "TC-1101T-C-B-B"
+			(at 280.67 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2c242f08-4105-4b4e-bcdb-41da97b6e340")
 		)
@@ -21297,7 +22601,7 @@
 		(at 321.31 321.31 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -21329,7 +22633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2691448.pdf"
 			(at 321.31 321.31 0)
 			(effects
 				(font
@@ -21384,6 +22688,60 @@
 			)
 		)
 		(property "STANDARD" ""
+			(at 321.31 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 321.31 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 321.31 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 321.31 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2691448"
+			(at 321.31 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "XFCN"
+			(at 321.31 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "PZ254V-11-04P"
 			(at 321.31 321.31 0)
 			(effects
 				(font
@@ -21450,7 +22808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
 			(at 381 205.74 0)
 			(effects
 				(font
@@ -21477,7 +22835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "250mW"
+		(property "Power" "100mW"
 			(at 381 205.74 0)
 			(effects
 				(font
@@ -21495,7 +22853,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 381 205.74 0)
 			(effects
 				(font
@@ -21504,7 +22862,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-0710KL"
 			(at 381 205.74 0)
 			(effects
 				(font
@@ -21558,7 +22916,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 381 205.74 0)
 			(effects
 				(font
@@ -21583,6 +22941,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 381 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 381 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 381 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -21782,7 +23164,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C152458"
 			(at 448.31 271.78 0)
 			(effects
 				(font
@@ -21807,6 +23189,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 448.31 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 448.31 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 448.31 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21861,7 +23267,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C59782.pdf"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -21879,7 +23285,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -21888,7 +23294,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B105KO8NNNC"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -21969,7 +23375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C59782"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -21994,6 +23400,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 226.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22029,7 +23459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 468.376 274.574 90)
 			(effects
 				(font
@@ -22047,7 +23477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C877742.pdf"
 			(at 467.36 271.78 0)
 			(effects
 				(font
@@ -22092,7 +23522,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 467.36 271.78 0)
 			(effects
 				(font
@@ -22101,7 +23531,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC2512FK-07150RL"
 			(at 467.36 271.78 0)
 			(effects
 				(font
@@ -22146,7 +23576,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C877742"
 			(at 467.36 271.78 0)
 			(effects
 				(font
@@ -22171,6 +23601,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 467.36 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 467.36 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 467.36 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22222,7 +23676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 156.21 349.25 90)
 			(effects
 				(font
@@ -22249,7 +23703,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 156.21 349.25 0)
 			(effects
 				(font
@@ -22258,7 +23712,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 156.21 349.25 0)
 			(effects
 				(font
@@ -22319,7 +23773,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 156.21 349.25 0)
 			(effects
 				(font
@@ -22344,6 +23798,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 156.21 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 156.21 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 156.21 349.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -22526,6 +24004,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 99.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A11"
 			(uuid "79b08106-88d4-45c6-bf67-2063ed55fc4b")
 		)
@@ -22625,7 +24127,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "150R"
 			(at 544.576 270.764 90)
 			(effects
 				(font
@@ -22643,7 +24145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C877742.pdf"
 			(at 543.56 267.97 0)
 			(effects
 				(font
@@ -22688,7 +24190,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 543.56 267.97 0)
 			(effects
 				(font
@@ -22697,7 +24199,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC2512FK-07150RL"
 			(at 543.56 267.97 0)
 			(effects
 				(font
@@ -22742,7 +24244,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C877742"
 			(at 543.56 267.97 0)
 			(effects
 				(font
@@ -22767,6 +24269,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 543.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 543.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 543.56 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22934,7 +24460,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "15R"
 			(at 478.536 274.574 90)
 			(effects
 				(font
@@ -22952,7 +24478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C137386.pdf"
 			(at 477.52 271.78 0)
 			(effects
 				(font
@@ -22997,7 +24523,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 477.52 271.78 0)
 			(effects
 				(font
@@ -23006,7 +24532,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC1206FR-0715RL"
 			(at 477.52 271.78 0)
 			(effects
 				(font
@@ -23051,7 +24577,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137386"
 			(at 477.52 271.78 0)
 			(effects
 				(font
@@ -23076,6 +24602,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 477.52 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 477.52 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 477.52 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -23258,6 +24808,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 486.41 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 486.41 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 486.41 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "46047d51-05da-4410-94ba-4c1dafaa0ca1")
 		)
@@ -23375,7 +24949,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -23393,7 +24967,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -23402,7 +24976,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -23483,7 +25057,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -23508,6 +25082,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 29.21 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 29.21 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 29.21 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24000,6 +25598,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 297.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 297.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 297.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "10a462c9-f7ac-4936-805e-8886c039224d")
 		)
@@ -24137,7 +25759,7 @@
 		(at 405.13 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -24185,6 +25807,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 405.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 405.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 405.13 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24315,7 +25961,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C152458"
 			(at 448.31 262.89 0)
 			(effects
 				(font
@@ -24340,6 +25986,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 448.31 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 448.31 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 448.31 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -24476,6 +26146,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 330.2 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 330.2 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 330.2 377.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -24677,7 +26371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 154.94 261.62 0)
 			(effects
 				(font
@@ -24695,7 +26389,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 154.94 261.62 0)
 			(effects
 				(font
@@ -24704,7 +26398,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 154.94 261.62 0)
 			(effects
 				(font
@@ -24785,7 +26479,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 154.94 261.62 0)
 			(effects
 				(font
@@ -24810,6 +26504,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 154.94 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 154.94 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 154.94 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -24995,7 +26713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -25013,7 +26731,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -25022,7 +26740,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10B104KB8NNWC"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -25103,7 +26821,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C16194176"
 			(at 90.17 152.4 0)
 			(effects
 				(font
@@ -25128,6 +26846,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 90.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25218,11 +26960,221 @@
 		)
 	)
 	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 508 219.71 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d47ca720-f2e8-4003-abd7-606c3855c83a")
+		(property "Reference" "R136"
+			(at 510.54 217.1699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120R"
+			(at 510.54 219.7099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 509.778 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114245.pdf"
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "125mW"
+			(at 510.54 222.2499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Type" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0805FR-07120RL"
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114245"
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 508 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1950b718-29cc-41d1-86aa-bb5266b64a98")
+		)
+		(pin "2"
+			(uuid "bd69f4ab-50de-41b4-92d4-d3daa378fe72")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 170.18 285.75 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -25270,6 +27222,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 170.18 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 170.18 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 170.18 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25379,6 +27355,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 486.41 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 486.41 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 486.41 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25546,7 +27546,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "100R"
 			(at 458.216 265.684 90)
 			(effects
 				(font
@@ -25564,7 +27564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C309610.pdf"
 			(at 457.2 262.89 0)
 			(effects
 				(font
@@ -25609,7 +27609,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 457.2 262.89 0)
 			(effects
 				(font
@@ -25618,7 +27618,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC2512FK-7W100RL"
 			(at 457.2 262.89 0)
 			(effects
 				(font
@@ -25663,7 +27663,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309610"
 			(at 457.2 262.89 0)
 			(effects
 				(font
@@ -25688,6 +27688,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 457.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 457.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 457.2 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25871,7 +27895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
 			(at 389.89 59.69 90)
 			(effects
 				(font
@@ -25898,7 +27922,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Lite-On"
 			(at 389.89 59.69 0)
 			(effects
 				(font
@@ -25907,7 +27931,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "LTST-C190KFKT"
 			(at 389.89 59.69 0)
 			(effects
 				(font
@@ -25968,7 +27992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C157740"
 			(at 389.89 59.69 0)
 			(effects
 				(font
@@ -25993,6 +28017,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 389.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 389.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 389.89 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -26095,7 +28143,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15"
+		(property "Value" "15R"
 			(at 458.216 274.574 90)
 			(effects
 				(font
@@ -26113,7 +28161,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C137386.pdf"
 			(at 457.2 271.78 0)
 			(effects
 				(font
@@ -26158,7 +28206,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 457.2 271.78 0)
 			(effects
 				(font
@@ -26167,7 +28215,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC1206FR-0715RL"
 			(at 457.2 271.78 0)
 			(effects
 				(font
@@ -26212,7 +28260,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137386"
 			(at 457.2 271.78 0)
 			(effects
 				(font
@@ -26239,6 +28287,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 457.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 457.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 457.2 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e5128840-fe2a-4194-a2a3-ab90a9b6f3f6")
 		)
@@ -26259,7 +28331,7 @@
 		(at 293.37 78.74 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -26309,6 +28381,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 293.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 293.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 293.37 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4e865d2-20c4-40ab-91bd-971bf47353f0")
 		)
@@ -26339,7 +28435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "270"
+		(property "Value" "270R"
 			(at 176.276 175.514 90)
 			(effects
 				(font
@@ -26357,7 +28453,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07270RL-Yageo-datasheet-103092701.pdf"
 			(at 175.26 172.72 0)
 			(effects
 				(font
@@ -26402,7 +28498,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 175.26 172.72 0)
 			(effects
 				(font
@@ -26411,7 +28507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07270RL"
 			(at 175.26 172.72 0)
 			(effects
 				(font
@@ -26456,7 +28552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137754"
 			(at 175.26 172.72 0)
 			(effects
 				(font
@@ -26481,6 +28577,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 175.26 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26535,7 +28655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-074K7L-Yageo-datasheet-103092701.pdf"
 			(at 482.6 50.8 0)
 			(effects
 				(font
@@ -26580,7 +28700,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 482.6 50.8 0)
 			(effects
 				(font
@@ -26589,7 +28709,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-074K7L"
 			(at 482.6 50.8 0)
 			(effects
 				(font
@@ -26643,7 +28763,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C99782"
 			(at 482.6 50.8 0)
 			(effects
 				(font
@@ -26668,6 +28788,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 482.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 482.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 482.6 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26722,7 +28866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://datasheet.octopart.com/CL10A106KP8NNNC-Samsung-Electro-Mechanics-datasheet-8324245.pdf"
 			(at 273.05 130.81 0)
 			(effects
 				(font
@@ -26740,7 +28884,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Samsung Electro-Mechanics"
 			(at 273.05 130.81 0)
 			(effects
 				(font
@@ -26749,7 +28893,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "CL10A106KP8NNNC"
 			(at 273.05 130.81 0)
 			(effects
 				(font
@@ -26830,7 +28974,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19702"
 			(at 273.05 130.81 0)
 			(effects
 				(font
@@ -26839,7 +28983,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC alt" "C6119842"
 			(at 273.05 130.81 0)
 			(effects
 				(font
@@ -26855,6 +28999,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 273.05 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -26999,6 +29167,51 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Texas Instruments"
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "TCA9555PWR"
+			(at 149.86 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "22"
 			(uuid "fa37fa58-2b87-42a4-81ba-b8cbe29804f7")
 		)
@@ -27098,7 +29311,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "620"
+		(property "Value" "620R"
 			(at 382.016 47.244 90)
 			(effects
 				(font
@@ -27116,7 +29329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07620RL-Yageo-datasheet-103092701.pdf"
 			(at 381 44.45 0)
 			(effects
 				(font
@@ -27161,7 +29374,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 381 44.45 0)
 			(effects
 				(font
@@ -27170,7 +29383,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-07620RL"
 			(at 381 44.45 0)
 			(effects
 				(font
@@ -27215,7 +29428,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137695"
 			(at 381 44.45 0)
 			(effects
 				(font
@@ -27242,6 +29455,30 @@
 				(hide yes)
 			)
 		)
+		(property "Ippm" ""
+			(at 381 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 381 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 381 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "626440d5-e31e-497b-b9d6-c3dbe8c06c15")
 		)
@@ -27252,6 +29489,219 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 508 229.87 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb74a21f-829f-4047-8285-c7e185ebb53b")
+		(property "Reference" "R137"
+			(at 510.54 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120R"
+			(at 510.54 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 509.778 229.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C114245.pdf"
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 510.54 227.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Power" "125mW"
+			(at 510.54 232.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Type" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0805FR-07120RL"
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114245"
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 508 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb3635ba-d005-45a0-bc39-b9cffd4e079e")
+		)
+		(pin "2"
+			(uuid "b5d945c4-087c-4a1b-b312-28af6bc1a582")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R137")
 					(unit 1)
 				)
 			)

@@ -609,6 +609,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Single channel alternative : LiteOn LTV-817S"
+		(exclude_from_sim no)
+		(at 120.65 115.57 0)
+		(size 52.07 5.08)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dd5e0a92-7387-4c21-bf2f-ba9d015b83d1")
+	)
 	(text_box "Assume 50% CTR w.c.\nVf = 1.2V @1mA\nLowest battery = 10V\n\nCircuit CTR:\nIf = (10V-1.2V)/1mA = 8.8k. \nLower closest 8k2 = 1.07mA\nIc = 3.3/10k = 330uA\nCTRc = 0.33/1.07 = 30.8%\n\nOpto is always in saturation\n"
 		(exclude_from_sim no)
 		(at 116.84 48.26 0)
@@ -935,7 +955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C22454766"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -944,7 +964,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" ""
+		(property "LCSC alt" "C125121"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -960,6 +980,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 138.43 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1035,7 +1079,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 148.082 86.36 90)
 			(effects
 				(font
@@ -1044,7 +1088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1089,7 +1133,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1098,7 +1142,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-0710KL"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1152,7 +1196,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C98220"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1177,6 +1221,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 149.86 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -1337,7 +1405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.222 86.36 90)
 			(effects
 				(font
@@ -1346,7 +1414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-078K2L-Yageo-datasheet-164759695.pdf"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -1391,7 +1459,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" ""
+		(property "MFT" "Yageo"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -1400,7 +1468,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" ""
+		(property "MFT_PN" "RC0603FR-078K2L"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -1454,7 +1522,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C114637"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -1479,6 +1547,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 127 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
