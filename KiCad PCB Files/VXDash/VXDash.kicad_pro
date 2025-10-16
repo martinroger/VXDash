@@ -598,7 +598,9 @@
       "version": 4
     },
     "net_colors": {
-      "GND": "rgb(0, 255, 0)"
+      "+3V3": "rgb(255, 178, 0)",
+      "GND": "rgb(0, 255, 0)",
+      "Protected_12V": "rgb(254, 0, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
