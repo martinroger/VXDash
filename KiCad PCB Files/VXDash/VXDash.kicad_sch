@@ -5073,6 +5073,17 @@
 		)
 		(uuid "602028a6-dcf2-4087-8287-cc8376d5c7db")
 	)
+	(text "Add 2P JST PH for the 3v3 and 5V internal reconnections ?"
+		(exclude_from_sim no)
+		(at 335.026 93.726 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "a4101b94-ed27-4c56-bb75-6ca3a13cf723")
+	)
 	(text "Rationale is to have :\n- latched\n- low profile\n- somewhat easy to DIY crimp with OTC pincers\n- 2A/pin (overkill)"
 		(exclude_from_sim no)
 		(at 359.156 368.046 0)
@@ -10325,7 +10336,7 @@
 		)
 		(uuid "0a495a5b-fb0d-4152-bc92-85c8b5372729")
 	)
-	(label "usb_dn"
+	(label "USB_DN"
 		(at 351.79 157.48 0)
 		(effects
 			(font
@@ -10756,7 +10767,7 @@
 		)
 		(uuid "82aaee86-f36b-494f-83d4-16d39ecd8df1")
 	)
-	(label "usb_dp"
+	(label "USB_DP"
 		(at 351.79 154.94 0)
 		(effects
 			(font

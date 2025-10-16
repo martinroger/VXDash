@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.1524,
+          "width": 0.1524
         }
       ],
       "drc_exclusions": [],
@@ -125,8 +130,8 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.15,
+        "min_clearance": 0.1524,
+        "min_connection": 0.1524,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
@@ -138,7 +143,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1524,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
         "solder_mask_to_copper_clearance": 0.075,
@@ -190,6 +195,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1524,
         0.2,
         0.3,
         0.5,
@@ -231,6 +237,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": true
@@ -590,14 +600,7 @@
     "net_colors": {
       "GND": "rgb(0, 255, 0)"
     },
-    "netclass_assignments": {
-      "/usb_dn": [
-        "10mil"
-      ],
-      "/usb_dp": [
-        "10mil"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
