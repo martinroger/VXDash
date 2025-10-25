@@ -5677,10 +5677,6 @@
 		(uuid "1503fc6a-6fef-4b20-a1dc-1dcedb92889e")
 	)
 	(no_connect
-		(at 525.78 69.85)
-		(uuid "1590cb00-a4e3-42f4-83ba-7443bcce7918")
-	)
-	(no_connect
 		(at 251.46 170.18)
 		(uuid "29892b1e-70cf-47c8-acf3-87fd3c3e31a8")
 	)
@@ -5699,10 +5695,6 @@
 	(no_connect
 		(at 127 172.72)
 		(uuid "84922cfb-d2e4-468c-8503-5a2fe75d9a8f")
-	)
-	(no_connect
-		(at 525.78 67.31)
-		(uuid "9827e658-7d41-4dd2-b618-a34050edb173")
 	)
 	(no_connect
 		(at 152.4 54.61)
@@ -6563,16 +6555,6 @@
 			(type default)
 		)
 		(uuid "36502890-9f65-4f3f-a751-3ea34bb66cd0")
-	)
-	(wire
-		(pts
-			(xy 525.78 69.85) (xy 523.24 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "367dc96a-a440-4f9d-aba0-adfe8ee1694b")
 	)
 	(wire
 		(pts
@@ -7946,7 +7928,7 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 67.31) (xy 523.24 67.31)
+			(xy 523.24 67.31) (xy 543.56 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8003,6 +7985,16 @@
 			(type default)
 		)
 		(uuid "8916ecae-2306-49ba-a894-330bfbdc11de")
+	)
+	(wire
+		(pts
+			(xy 543.56 69.85) (xy 543.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "898f0e5e-1244-4708-a04c-19406e32a9ac")
 	)
 	(wire
 		(pts
@@ -9853,6 +9845,16 @@
 			(type default)
 		)
 		(uuid "fe67edd4-8294-45f3-85e8-5974ec994e00")
+	)
+	(wire
+		(pts
+			(xy 523.24 69.85) (xy 543.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe9af8ee-3bd1-4593-957e-c35867ceb3ac")
 	)
 	(table
 		(column_count 2)
@@ -15898,6 +15900,73 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 543.56 67.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cf63530-a94c-44cb-8fbc-0a68f5b0da99")
+		(property "Reference" "TP9"
+			(at 548.64 66.0399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vsense1"
+			(at 548.64 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 543.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 543.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df9c3e16-32de-4912-9617-0ba6bb3f545c")
+		)
+		(instances
+			(project ""
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -28283,6 +28352,73 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 543.56 72.39 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da963b92-cd7c-436c-8fd5-0a12d12329f7")
+		(property "Reference" "TP10"
+			(at 548.64 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Vsense2"
+			(at 548.64 73.6599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 543.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 543.56 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 543.56 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "477227c6-2f54-4b38-9af1-6c1ae372246e")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
