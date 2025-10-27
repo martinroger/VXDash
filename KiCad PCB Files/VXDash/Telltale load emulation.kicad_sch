@@ -5,8 +5,11 @@
 	(uuid "aacc1055-7096-4e68-bc2f-1aa3914ccd36")
 	(paper "A4")
 	(title_block
-		(date "2025-08-10")
-		(rev "${PCB_REV}")
+		(title "Telltale Load Emulator 17mA")
+		(date "2025-10-27")
+		(rev "1.0")
+		(company "Alex Miller & Martin Roger")
+		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
 		(symbol "Jumper:SolderJumper_2_Open"

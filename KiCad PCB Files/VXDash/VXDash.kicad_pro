@@ -543,13 +543,14 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3048,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Large",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3048,
         "via_diameter": 0.6,
@@ -560,6 +561,7 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.6,
@@ -577,13 +579,14 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.508,
         "line_style": 0,
         "microvia_diameter": 0.8,
         "microvia_drill": 0.4,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "via_diameter": 0.8,
@@ -591,18 +594,22 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.381,
+        "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "USB DP",
         "pcb_color": "rgb(255, 230, 63)",
-        "priority": 0,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.6,
-        "via_drill": 0.3
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -1359,7 +1366,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
