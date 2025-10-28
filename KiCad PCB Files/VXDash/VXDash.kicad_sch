@@ -7358,6 +7358,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 397.51) (xy 86.36 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5998c6d2-58a3-46ae-b721-db78bd868f85")
+	)
+	(wire
+		(pts
 			(xy 309.88 369.57) (xy 325.12 369.57)
 		)
 		(stroke
@@ -7978,7 +7988,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 398.78) (xy 27.94 401.32)
+			(xy 27.94 397.51) (xy 27.94 401.32)
 		)
 		(stroke
 			(width 0)
@@ -7995,6 +8005,16 @@
 			(type default)
 		)
 		(uuid "810637f9-1e86-4d9a-8fd9-f6840abfd7b1")
+	)
+	(wire
+		(pts
+			(xy 132.08 397.51) (xy 132.08 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f01f1a-f76f-4e72-ac09-640960e5ac62")
 	)
 	(wire
 		(pts
@@ -8829,6 +8849,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 397.51) (xy 46.99 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65a73a7-7bd6-42d2-8e74-2403c030c422")
+	)
+	(wire
+		(pts
 			(xy 392.43 44.45) (xy 394.97 44.45)
 		)
 		(stroke
@@ -9359,6 +9389,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 397.51) (xy 67.31 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc73792-2e18-48ea-9c58-3f12ad47a41d")
+	)
+	(wire
+		(pts
 			(xy 58.42 229.87) (xy 53.34 229.87)
 		)
 		(stroke
@@ -9566,6 +9606,16 @@
 			(type default)
 		)
 		(uuid "e5050b50-f748-4797-8103-d81804144a2a")
+	)
+	(wire
+		(pts
+			(xy 107.95 397.51) (xy 107.95 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51b7ca9-98e4-407a-9626-b3d5c79f83ef")
 	)
 	(wire
 		(pts
@@ -14706,6 +14756,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 132.08 394.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "12176280-0f06-4d88-9948-63d441008024")
+		(property "Reference" "H7"
+			(at 134.62 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_center"
+			(at 134.62 394.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 132.08 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 132.08 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "448bb712-3e13-4ab7-bbcc-06c8f7f7dcef")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VXDash_passives:Res")
 		(at 473.71 50.8 180)
 		(unit 1)
@@ -17237,6 +17354,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 107.95 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bc82c6f-f565-4c9f-a57c-7a121ecad992")
+		(property "Reference" "#PWR093"
+			(at 107.95 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.728 405.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 107.95 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05bd5446-4ddf-4eb2-81df-0896e357293c")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 325.12 328.93 0)
 		(unit 1)
@@ -17322,6 +17505,73 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 46.99 394.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "2e67644f-c3d2-4d25-b746-764cdeb957ce")
+		(property "Reference" "H3"
+			(at 49.53 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_mid_left"
+			(at 49.53 394.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 46.99 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 46.99 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "befa65e9-4311-4926-8fc6-a587eadf2819")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -22730,6 +22980,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 67.31 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e2a406c-e7fc-41dd-abf9-d0196d8dfdc8")
+		(property "Reference" "#PWR091"
+			(at 67.31 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 69.088 405.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6efd808a-9b81-48df-8ad1-b383b20e64d9")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VXDash_passives:Res")
 		(at 407.67 205.74 0)
 		(unit 1)
@@ -23989,6 +24305,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 132.08 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83a0d56c-600a-4989-b882-495db5f7e5c5")
+		(property "Reference" "#PWR094"
+			(at 132.08 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.858 405.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f2f97ac-af0c-405e-89ea-442906bd17d2")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
 		(at 226.06 153.67 0)
 		(mirror x)
@@ -24402,16 +24784,16 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 27.94 396.24 0)
+		(at 27.94 394.97 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "898b3783-dce1-42bc-bc41-1b4ef1d3f3c8")
 		(property "Reference" "H1"
-			(at 30.48 393.6999 0)
+			(at 30.48 392.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24419,8 +24801,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole_Pad"
-			(at 30.48 396.2399 0)
+		(property "Value" "MH_top_right"
+			(at 30.48 394.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24428,8 +24810,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_TopOnly"
-			(at 27.94 396.24 0)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 27.94 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24438,7 +24820,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 27.94 396.24 0)
+			(at 27.94 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24447,7 +24829,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 27.94 396.24 0)
+			(at 27.94 394.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26107,6 +26489,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 46.99 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a62bfb6b-7b9a-4834-b637-872c6443a7af")
+		(property "Reference" "#PWR090"
+			(at 46.99 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.768 405.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 46.99 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "20f660c2-d398-4f10-9c3b-a67cd95dd76e")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 29.21 161.29 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27624,6 +28072,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 67.31 394.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "c7332bb5-0cb0-4b08-84eb-de68fde95257")
+		(property "Reference" "H4"
+			(at 69.85 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_mid_right"
+			(at 69.85 394.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 67.31 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 67.31 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a27de8c-744c-4de5-a1a8-3138e47f2229")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 325.12 322.58 0)
 		(unit 1)
@@ -28860,6 +29375,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 86.36 401.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1f0d7b5-e751-40ef-b3ed-7ada39a430cf")
+		(property "Reference" "#PWR092"
+			(at 86.36 407.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.138 405.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 401.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55233812-bce5-4349-94bf-42e0a44cb6ab")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 394.97 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28919,6 +29500,73 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 107.95 394.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "e335185e-a5a3-44b5-8e96-571d6bf3303b")
+		(property "Reference" "H6"
+			(at 110.49 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_bottom_right"
+			(at 110.49 394.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 107.95 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 107.95 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "832bf667-9448-4bfe-a6a1-3ffd102eb2f8")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -29742,6 +30390,73 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 86.36 394.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ebde6791-9c2b-46a2-af06-2e3304e06b8b")
+		(property "Reference" "H5"
+			(at 88.9 392.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MH_bottom_left"
+			(at 88.9 394.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.5mm_Pad_Via"
+			(at 86.36 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 86.36 394.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11b0e7ee-f49d-495d-bb74-a142dbb03f0a")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "H5")
 					(unit 1)
 				)
 			)

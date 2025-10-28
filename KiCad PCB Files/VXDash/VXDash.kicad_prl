@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 19,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -21,7 +21,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": false,
+      "lockedItems": true,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -29,8 +29,22 @@
       "vias": true,
       "zones": true
     },
-    "visible_items": [],
-    "visible_layers": "0000000_aa8800f7",
+    "visible_items": [
+      "vias",
+      "footprint_text",
+      "ratsnest",
+      "grid",
+      "footprints_front",
+      "footprints_back",
+      "tracks",
+      "drc_errors",
+      "drawing_sheet",
+      "pads",
+      "zones",
+      "drc_warnings",
+      "shapes"
+    ],
+    "visible_layers": "00000000_00000000_00000000_aa0000df",
     "zone_display_mode": 0
   },
   "git": {
@@ -40,7 +54,7 @@
   },
   "meta": {
     "filename": "VXDash.kicad_prl",
-    "version": 3
+    "version": 5
   },
   "net_inspector_panel": {
     "col_hidden": [

@@ -113,7 +113,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -517,7 +517,7 @@
   },
   "meta": {
     "filename": "VXDash.kicad_pro",
-    "version": 1
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -532,6 +532,7 @@
         "microvia_drill": 0.3,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1524,
         "via_diameter": 0.6,
@@ -542,13 +543,13 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3048,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Large",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.3048,
         "via_diameter": 0.6,
@@ -559,13 +560,13 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Medium",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
         "via_diameter": 0.6,
@@ -576,13 +577,13 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.2032,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.508,
         "line_style": 0,
         "microvia_diameter": 0.8,
         "microvia_drill": 0.4,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.762,
         "via_diameter": 0.8,
@@ -593,13 +594,13 @@
         "bus_width": 12,
         "clearance": 0.1524,
         "diff_pair_gap": 0.254,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.381,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "USB DP",
         "pcb_color": "rgb(255, 230, 63)",
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.381,
         "via_diameter": 0.6,
@@ -608,7 +609,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": {
       "+3V3": "rgb(255, 178, 0)",
@@ -643,7 +644,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "VXDash.step",
+      "step": "VXDash_intermediate.step",
       "svg": "",
       "vrml": ""
     },
