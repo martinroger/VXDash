@@ -652,7 +652,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}-${CURRENT_DATE}-v${REVISION}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -1081,7 +1081,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Voltage",
           "name": "Voltage",
           "show": true
@@ -1099,13 +1099,13 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MFT",
           "name": "MFT",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MFT_PN",
           "name": "MFT_PN",
           "show": true
@@ -1117,7 +1117,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
@@ -1135,7 +1135,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
@@ -1144,7 +1144,7 @@
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1323,7 +1323,7 @@
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
