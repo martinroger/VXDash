@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Main architecture")
-		(date "2025-10-27")
-		(rev "2.0-proto")
+		(date "2025-12-06")
+		(rev "2.0-proto-B")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -31716,7 +31716,7 @@
 				(justify right)
 			)
 		)
-		(pin "BATTERY_IN" input
+		(pin "MEAS_12V_IN" input
 			(at 523.24 62.23 0)
 			(uuid "a61a40b1-8f57-43ae-8973-ef284807c389")
 			(effects

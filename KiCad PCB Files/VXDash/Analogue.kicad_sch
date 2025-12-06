@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Analog circuit")
-		(date "2025-10-27")
-		(rev "1.5")
+		(date "2025-12-06")
+		(rev "2.0-proto-B")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -2029,7 +2029,7 @@
 		)
 		(uuid "7ed53720-ef10-4874-9cc4-e544de425131")
 	)
-	(hierarchical_label "BATTERY_IN"
+	(hierarchical_label "MEAS_12V_IN"
 		(shape input)
 		(at 335.28 139.7 0)
 		(effects
