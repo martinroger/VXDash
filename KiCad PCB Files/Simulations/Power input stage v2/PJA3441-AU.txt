@@ -1,0 +1,58 @@
+***********************************************************************
+***********           PANJIT International Inc.             ***********
+***********************************************************************
+*Jun 04, 2021                                                         *
+*                                                                     *
+*This SPICE Model describes the characteristics of a typical device   *
+*and does not respresent the specification. Designer should refer to  *
+*the same type name data sheet for specification limits.              *
+***********************************************************************
+*$
+.SUBCKT  PJA3441-AU  D  G  S
+Rg     G    1t    1
+EVgs 3 2t  TABLE { V(S, 1t) }
++ (
++  (0, 0)
++  (0.50, 0.50)
++  (1.00, 0.90)
++  (1.50, 1.40)
++  (2.00, 1.50)
++  (2.50, 2.30)
++  (3.00, 3.30)
++  (4.00, 4.35)
++  (4.50, 4.55)
++  (5.00, 4.75)
++  (6.00, 4.95)
++  (7.00, 5.15)
++  (8.00, 5.30)
++  (9.00, 5.40)
++  (10.0, 5.45)
++  (12.0, 5.45))
+EVgst 1 2t value = {6e-4*limit(v(2t,3),-5,0)*limit((temp-25),-80,125)}
+M1      2    1    3    3    DMOS    L=1u   W=1u
+.MODEL DMOS PMOS (
++  VTO = -1.25
++   KP = 3.5
++   RB = 4.321e-2
++LEVEL =3)
+Cgs    1t    3    4.18e-10
+Rd      D    4    4e-3 tc=8e-3,5e-5
+Dds     4    3    DDS
+.MODEL     DDS    D(IS=7.407E-11 N=1.298 RS=4e-2 eg=0.9 CJO=6.082e-11 M=0.3511 VJ=0.1776)
+Dbody   D    3    DBODY
+.MODEL   DBODY    D(IS=7.407E-11 N=1.298 RS=4e-2 eg=0.9 BV=44 TBV1=7e-4 TT=25n)
+Ra      4    2    5e-3
+Rs      3    5    5e-3
+Ls      5    S    0.001n
+M2     1t    8    6    6   INTER
+E2      8    6    4    1t   2
+.MODEL   INTER    PMOS(VTO=0  KP=10   LEVEL=1)
+Cgdmax  7    4    2.5e-11
+Rcgd    7    4    10meg
+Dgd     4    6    DGD
+Rdgd    4    6    10meg
+.MODEL     DGD    D(M=0.71  CJO=2.851e-10   VJ=0.34)
+M3      7    9    1t    1t   INTER
+E3      9    1t    4    1t   -2
+.ENDS
+*$

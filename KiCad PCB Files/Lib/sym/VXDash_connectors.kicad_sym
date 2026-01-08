@@ -67,6 +67,33 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "N/A"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "Header_VX220_RightAngle_0_1"
 			(rectangle
 				(start -16.51 -1.27)
@@ -497,9 +524,9 @@
 			)
 		)
 		(symbol "Header_VX220_RightAngle_1_1"
-			(text_box "A1 - 12V 7.5A FB8\nA2 - 0V\nA3 - Ignition 12V 10A FB7\nA4 - RPM frequency\nA5 - Speed frequency\nA6 - Water temperature PWM\nA7 - Fuel level resistance\nA8 - Unknown\nA9 - High beam active high\nA10 - Alternator active low\nA11 - Indicator left active high\nA12 - Indicator right active low\nB1 - Brake fluid level active low\nB2 - Parking brake switch active low\nB3 - Oil pressure switch active low\nB4 - Airbag active low\nB5 - ECU/Immobiliser active low\nB6 - Low beam active low\nB7 - Alarm\nB8 - Unknown\nB9 - Dash Button active low\nB10 - Coolant level active high\nB11 - Door switch active low\nB12 - ABS active low\n\n"
-				(at -22.86 -36.83 0)
-				(size 44.45 -50.8)
+			(text_box "A1 - 12V 7.5A FB8\nA2 - 0V\nA3 - Ignition 12V 10A FB7\nA4 - RPM frequency\nA5 - Speed frequency\nA6 - Water temperature PWM\nA7 - Fuel level resistance\nA8 - Unknown\nA9 - High beam active high\nA10 - Alternator active low\nA11 - Indicator left active high, sink in A12\nA12 - Indicator right active high, sink in A11\nB1 - Brake fluid level active low\nB2 - Parking brake switch active low\nB3 - Oil pressure switch active low\nB4 - Airbag active low\nB5 - ECU/Immobiliser active low\nB6 - Low beam active low\nB7 - Alarm\nB8 - Unknown\nB9 - Dash Button active low\nB10 - Coolant level active high\nB11 - Door switch active low\nB12 - ABS active low\n\n"
+				(at -24.13 -36.83 0)
+				(size 48.26 -50.8)
 				(margins 1.016 1.016 1.016 1.016)
 				(stroke
 					(width 0)
@@ -629,10 +656,37 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3020560"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "USB4105-GF-A_0_0"
 			(rectangle
-				(start -15.24 -25.4)
-				(end 15.24 12.7)
+				(start -15.24 12.7)
+				(end 15.24 -25.4)
 				(stroke
 					(width 0.254)
 					(type default)
