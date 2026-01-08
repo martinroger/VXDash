@@ -1,6 +1,6 @@
 ![A cryptic front view of the proto assembly](img/Control%20assy%20(5).png)
 
-# VX Dash <a href="https://www.buymeacoffee.com/magicmartin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+# VX Dash
 
 ## What is it ?
 VX-Dash, also known as the "Binocle", is an effort to provide a restomodded instrument cluster to the Vauxhall VX220 and Opel Speedster, with additional customisable capabilities such as shift lights, dual mode brightness levels and extra sensors support.
