@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.5,
-          "width": 1.5
+          "drill": 3.5,
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1524
         }
       },
       "diff_pair_dimensions": [
@@ -56,6 +56,16 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1524,
+          "via_gap": 0.1524,
+          "width": 0.1524
+        },
+        {
+          "gap": 0.254,
+          "via_gap": 0.254,
+          "width": 0.381
         }
       ],
       "drc_exclusions": [],
@@ -103,7 +113,7 @@
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -125,11 +135,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
-        "min_connection": 0.15,
+        "min_clearance": 0.1524,
+        "min_connection": 0.1524,
         "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.1524,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -138,10 +148,10 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
+        "min_track_width": 0.1524,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.075,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -149,7 +159,7 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
@@ -190,12 +200,14 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.3,
-        0.5,
-        0.7,
-        1.0,
-        2.0
+        0.1524,
+        0.2032,
+        0.254,
+        0.381,
+        0.508,
+        0.762,
+        1.016,
+        1.524
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,6 +243,10 @@
         {
           "diameter": 0.6,
           "drill": 0.3
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": true
@@ -483,6 +499,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -506,10 +523,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
@@ -517,67 +534,75 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.1524,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "line_style": 0,
-        "name": "10mil",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.6,
-        "microvia_drill": 0.3,
-        "name": "Fine",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.3048,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
         "name": "Large",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.3048,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.2,
-        "diff_pair_width": 0.2,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.6,
         "microvia_drill": 0.3,
+        "name": "Medium",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2032,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.508,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.762,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.381,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "USB DP",
+        "pcb_color": "rgb(255, 230, 63)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 2.0,
+        "track_width": 0.381,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -587,16 +612,11 @@
       "version": 4
     },
     "net_colors": {
-      "GND": "rgb(0, 255, 0)"
+      "+3V3": "rgb(255, 178, 0)",
+      "GND": "rgb(0, 255, 0)",
+      "Protected_12V": "rgb(254, 0, 255)"
     },
-    "netclass_assignments": {
-      "/usb_dn": [
-        "10mil"
-      ],
-      "/usb_dp": [
-        "10mil"
-      ]
-    },
+    "netclass_assignments": null,
     "netclass_patterns": [
       {
         "netclass": "Power",
@@ -609,6 +629,10 @@
       {
         "netclass": "Power",
         "pattern": "CONV_5V+"
+      },
+      {
+        "netclass": "USB DP",
+        "pattern": "*USB_*"
       }
     ]
   },
@@ -620,7 +644,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "VXDash.step",
+      "step": "VXDash_2.0-alpha.step",
       "svg": "",
       "vrml": ""
     },
@@ -628,7 +652,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "${PROJECTNAME}-${CURRENT_DATE}-v${REVISION}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -764,6 +788,275 @@
         "name": "BOM",
         "sort_asc": true,
         "sort_field": "Reference"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Voltage",
+            "name": "Voltage",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Dielectric",
+            "name": "Dielectric",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Power",
+            "name": "Power",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFT",
+            "name": "MFT",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "MFT_PN",
+            "name": "MFT_PN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "ALT_MFT_PN_1",
+            "name": "ALT_MFT_PN_1",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC",
+            "name": "LCSC",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC alt",
+            "name": "LCSC alt",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "JLCPCB",
+            "name": "JLCPCB",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Height",
+            "name": "Height",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Tolerance",
+            "name": "Tolerance",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Type",
+            "name": "Type",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "Tol",
+            "name": "Tol",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Isat",
+            "name": "Isat",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Irated",
+            "name": "Irated",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vbr",
+            "name": "Vbr",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vwm",
+            "name": "Vwm",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Ippm",
+            "name": "Ippm",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PARTREV",
+            "name": "PARTREV",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser Part Number",
+            "name": "Mouser Part Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "STANDARD",
+            "name": "STANDARD",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MANUFACTURER",
+            "name": "MANUFACTURER",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Instructions/Notes",
+            "name": "Instructions/Notes",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Name",
+            "name": "Manufacturer_Name",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Arrow Price/Stock",
+            "name": "Arrow Price/Stock",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Part_Number",
+            "name": "Manufacturer_Part_Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Arrow Part Number",
+            "name": "Arrow Part Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser Price/Stock",
+            "name": "Mouser Price/Stock",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MAXIMUM_PACKAGE_HEIGHT",
+            "name": "MAXIMUM_PACKAGE_HEIGHT",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DCR",
+            "name": "DCR",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Sim.Pin",
+            "name": "Sim.Pin",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Vf",
+            "name": "Vf",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "If",
+            "name": "If",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "include_excluded_from_bom": true,
+        "name": "Review preset",
+        "sort_asc": true,
+        "sort_field": "Reference"
       }
     ],
     "bom_settings": {
@@ -785,6 +1078,60 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Dielectric",
+          "name": "Dielectric",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Power",
+          "name": "Power",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFT",
+          "name": "MFT",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MFT_PN",
+          "name": "MFT_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "ALT_MFT_PN_1",
+          "name": "ALT_MFT_PN_1",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "LCSC alt",
+          "name": "LCSC alt",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
           "show": true
         },
         {
@@ -818,12 +1165,6 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "Dielectric",
-          "name": "Dielectric",
-          "show": true
-        },
-        {
           "group_by": false,
           "label": "Height",
           "name": "Height",
@@ -834,12 +1175,6 @@
           "label": "Tolerance",
           "name": "Tolerance",
           "show": false
-        },
-        {
-          "group_by": true,
-          "label": "Voltage",
-          "name": "Voltage",
-          "show": true
         },
         {
           "group_by": false,
@@ -854,33 +1189,15 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Type",
           "name": "Type",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "MFT_PN",
-          "name": "MFT_PN",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "Power",
-          "name": "Power",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Tol",
           "name": "Tol",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "MFT",
-          "name": "MFT",
           "show": true
         },
         {
@@ -912,12 +1229,6 @@
           "label": "Ippm",
           "name": "Ippm",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "ALT_MFT_PN_1",
-          "name": "ALT_MFT_PN_1",
-          "show": true
         },
         {
           "group_by": false,
@@ -990,11 +1301,29 @@
           "label": "DCR",
           "name": "DCR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Vf",
+          "name": "Vf",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "If",
+          "name": "If",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "include_excluded_from_bom": true,
+      "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
@@ -1033,7 +1362,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
@@ -1155,13 +1484,55 @@
       "POWER INPUT"
     ],
     [
+      "befc6912-58aa-49dc-b5e3-6f92b4eb9c47",
+      "5V_SMPS_AUX"
+    ],
+    [
+      "4bab7c39-fd42-485a-81cd-a9344806a473",
+      "Telltale 17mA load emulator1"
+    ],
+    [
       "2e212a69-c846-4621-91af-cd3a20f77307",
       "USBC"
     ],
     [
+      "f6a0526c-9744-4299-a9e0-7c6c6edc1dea",
+      "Telltale 17mA load emulator"
+    ],
+    [
       "14b92d06-2854-413c-a3d0-402c2486556d",
       "IB CAN XCVR"
+    ],
+    [
+      "faea5b42-9883-4023-a2b6-ee13ab121663",
+      "Telltale 17mA load emulator2"
+    ],
+    [
+      "324b46ea-148d-441b-a0ad-60f2fd80ee4a",
+      "Telltale 17mA load emulator3"
+    ],
+    [
+      "c9760672-840b-4ec5-b8f0-2bb78ba3f136",
+      "Telltale 17mA load emulator4"
+    ],
+    [
+      "1b84b493-1cbb-4c35-9a21-eabcbb8e266d",
+      "Telltale 17mA load emulator5"
+    ],
+    [
+      "18d6f35d-7c07-47fb-929e-70cc5274aa47",
+      "Telltale 17mA load emulator6"
+    ],
+    [
+      "5d40fbfb-4c97-44f2-bf74-0302a0de1f21",
+      "Telltale 17mA load emulator7"
+    ],
+    [
+      "7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa",
+      "Telltale 17mA load emulator8"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "PCB_REV": "2A"
+  }
 }
