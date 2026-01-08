@@ -1,4 +1,4 @@
-![A cryptic front view of the proto assembly](img/Control%20assy%20(5).png)
+![A cryptic front view of the proto assembly](img/Control%20assy.png)
 
 # VX Dash <a href="https://www.buymeacoffee.com/magicmartin" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
@@ -7,7 +7,7 @@ VX-Dash, also known as the "Binocle", is an effort to provide a restomodded inst
 
 This hardware is published under a [strongly reciprocal CERN license](LICENSE.md), meaning that while it can be reused for commercial projects, sources have to remain open, modifications have to be explicitely documented, and no warranty or liability is provided.
 
-![An exploded view of the proto assembly](img/Control%20assy.png)
+![An exploded view of the proto assembly](img/Control%20assy%20(2).png)
 
 The objectives are to make this as economical as possible, and future-proofed, in order to avoid rare components or unreasonable price. To meet such objectives, modularity is key, as well as using popular development platforms, such as the excellent ESP32-S3.
 
