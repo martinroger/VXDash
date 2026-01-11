@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Ignition and power protection")
-		(date "2025-12-06")
+		(date "2026-01-08")
 		(rev "2.0-proto-B")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
@@ -2790,16 +2790,6 @@
 			(justify left bottom)
 		)
 		(uuid "4f2546fa-d730-48aa-98cb-31e48547de0c")
-	)
-	(label "Power_Fused"
-		(at 101.6 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9b21bee4-d61f-4637-815a-03a53e9272db")
 	)
 	(hierarchical_label "Power_On{slash}~{Off}"
 		(shape input)

@@ -6,7 +6,7 @@
 	(paper "A2")
 	(title_block
 		(title "Main architecture")
-		(date "2025-12-06")
+		(date "2026-01-08")
 		(rev "2.0-proto-B")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
@@ -5667,6 +5667,12 @@
 		(uuid "8a2c15d0-dffd-43f4-a443-a276b5465bc6")
 	)
 	(junction
+		(at 248.92 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b7d9d78-1eb9-4ebf-a6af-93629b8a16ee")
+	)
+	(junction
 		(at 403.86 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6165,6 +6171,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 63.5) (xy 251.46 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ae0a01-bfcc-458b-aab4-14bb39c40a42")
+	)
+	(wire
+		(pts
 			(xy 476.25 162.56) (xy 480.06 162.56)
 		)
 		(stroke
@@ -6504,6 +6520,16 @@
 			(type default)
 		)
 		(uuid "2951a63f-7e6a-40b8-82a5-30d6060cab54")
+	)
+	(wire
+		(pts
+			(xy 248.92 50.8) (xy 251.46 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a00a563-40a4-44a5-bcd1-bbee7a3c7d9b")
 	)
 	(wire
 		(pts
@@ -6907,16 +6933,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 50.8) (xy 251.46 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cbc69c0-2edf-42b6-acb5-231ae78d9b56")
-	)
-	(wire
-		(pts
 			(xy 322.58 379.73) (xy 325.12 379.73)
 		)
 		(stroke
@@ -7225,6 +7241,16 @@
 			(type default)
 		)
 		(uuid "52dc92f6-6176-4661-8160-c8f7d412f901")
+	)
+	(wire
+		(pts
+			(xy 242.57 50.8) (xy 248.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5353146f-8a3c-4278-8bb1-93d52257a563")
 	)
 	(wire
 		(pts
@@ -8599,6 +8625,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 68.58) (xy 251.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c0bc29-62e7-4b62-b1d1-c45903291b7f")
+	)
+	(wire
+		(pts
 			(xy 53.34 336.55) (xy 58.42 336.55)
 		)
 		(stroke
@@ -8856,6 +8892,16 @@
 			(type default)
 		)
 		(uuid "b65a73a7-7bd6-42d2-8e74-2403c030c422")
+	)
+	(wire
+		(pts
+			(xy 246.38 66.04) (xy 251.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67266bb-e0f8-48ad-8363-773c5cd84a84")
 	)
 	(wire
 		(pts
@@ -9679,7 +9725,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 48.26) (xy 251.46 48.26)
+			(xy 242.57 48.26) (xy 251.46 48.26)
 		)
 		(stroke
 			(width 0)
@@ -9836,6 +9882,16 @@
 			(type default)
 		)
 		(uuid "f182bdaf-5e9a-4457-b0cc-7a63bb6461f0")
+	)
+	(wire
+		(pts
+			(xy 248.92 50.8) (xy 248.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f450db22-b24e-419f-bd19-bcf6061a9078")
 	)
 	(wire
 		(pts
@@ -11487,7 +11543,7 @@
 	)
 	(global_label "IGNITION_ActHI"
 		(shape input)
-		(at 248.92 50.8 180)
+		(at 242.57 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11497,7 +11553,7 @@
 		)
 		(uuid "1234675e-a7bd-430d-9b1f-baff6b95a503")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.6579 50.7206 0)
+			(at 226.3079 50.7206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11520,6 +11576,28 @@
 		(uuid "171d7bb1-4246-457e-8781-884d3855a990")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 59.2726 44.3706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L_BEAM_ActHI"
+		(shape input)
+		(at 246.38 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "196033f9-e364-45ca-9d1d-d6839a3d67d0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 229.3116 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12367,7 +12445,7 @@
 	)
 	(global_label "BATT12V+"
 		(shape input)
-		(at 248.92 48.26 180)
+		(at 242.57 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12377,7 +12455,7 @@
 		)
 		(uuid "66240add-a7cb-41f2-80ff-0deea0836b7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.1331 48.1806 0)
+			(at 230.7831 48.1806 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12774,6 +12852,28 @@
 		(uuid "8e4247b2-b067-443a-81c4-59dd22234ab2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 136.4013 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DOOR_ActLO"
+		(shape input)
+		(at 246.38 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9071bc0e-bfa9-4f72-8523-77248729abfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 232.5369 68.5006 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32784,6 +32884,78 @@
 		)
 	)
 	(sheet
+		(at 251.46 60.96)
+		(size 20.32 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 194 194 1.0000)
+		)
+		(uuid "5b5cb60b-918e-4900-b9de-f94039ba0001")
+		(property "Sheetname" "Buzzer"
+			(at 251.46 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Buzzer.kicad_sch"
+			(at 251.46 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Ign" input
+			(at 251.46 63.5 180)
+			(uuid "fa121e09-6c29-4f7c-ba13-8de9f6d50904")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{Door}" input
+			(at 251.46 68.58 180)
+			(uuid "a02d3903-6881-4a59-ac33-d59d6fa52974")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Low_Beams" input
+			(at 251.46 66.04 180)
+			(uuid "47fe2499-9cfb-4e2c-92c9-8feeaad80bd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "39")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 527.05 304.8)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
@@ -33210,7 +33382,7 @@
 	)
 	(sheet
 		(at 251.46 45.72)
-		(size 34.29 7.62)
+		(size 34.29 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -33234,7 +33406,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Input.kicad_sch"
-			(at 251.46 53.9246 0)
+			(at 251.46 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
