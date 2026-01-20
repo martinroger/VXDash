@@ -12,12 +12,9 @@
 		(comment 2 "https://cadlab.io/projects/vxdash")
 	)
 	(lib_symbols
-		(symbol "VXDash_diodes:TVS_Uni"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Device:D_Schottky_Dual_Series_AKC_Split"
 			(pin_names
-				(offset 1.016)
+				(offset 0.762)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -31,7 +28,7 @@
 					)
 				)
 			)
-			(property "Value" "TVS_Uni"
+			(property "Value" "D_Schottky_Dual_Series_AKC_Split"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -40,7 +37,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -5.08 0)
+				(at -2.54 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -48,8 +45,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
-				(at -1.27 0 0)
+			(property "Datasheet" "~"
+				(at -2.54 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -57,16 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unidirectional TVS protection diode"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFT" ""
+			(property "Description" "Dual Schottky diode, anode/cathode/center"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,7 +63,15 @@
 					(hide yes)
 				)
 			)
-			(property "MFT_PN" ""
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -84,55 +80,30 @@
 					(hide yes)
 				)
 			)
-			(property "Vwm" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "D_Schottky_Dual_Series_AKC_Split_0_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
-					(hide yes)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
 				)
 			)
-			(property "Vbr" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Ippm" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS unidirectional voltage protection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D_* *diode*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TVS_Uni_0_1"
+			(symbol "D_Schottky_Dual_Series_AKC_Split_1_1"
 				(polyline
 					(pts
-						(xy -0.762 1.27) (xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27) (xy -1.27 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -144,7 +115,19 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 1.016) (xy 1.778 1.27) (xy 1.27 1.27) (xy 1.27 -1.27) (xy 0.762 -1.27) (xy 0.762 -1.016)
 					)
 					(stroke
 						(width 0.254)
@@ -154,12 +137,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "TVS_Uni_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -174,10 +155,48 @@
 						)
 					)
 				)
+			)
+			(symbol "D_Schottky_Dual_Series_AKC_Split_2_1"
+				(polyline
+					(pts
+						(xy -1.778 1.016) (xy -1.778 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.762 -1.27) (xy -0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "A2"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -652,9 +671,29 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "Clamp diodes"
+		(exclude_from_sim no)
+		(at 118.11 64.77 0)
+		(size 19.05 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1a6fa115-6f90-4da6-b017-7932de9273eb")
+	)
 	(text_box "Place near ADC\n~16kHz RC"
 		(exclude_from_sim no)
-		(at 168.91 83.82 0)
+		(at 140.97 64.77 0)
 		(size 27.94 27.94)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -672,115 +711,59 @@
 		)
 		(uuid "c5efaad3-7240-43b6-ad4b-8a49d0ce0cbb")
 	)
-	(text_box "5.5V in = 3.3V out. \n250k total impedance shouldn't load sensors too much."
-		(exclude_from_sim no)
-		(at 104.14 97.79 0)
-		(size 38.1 15.24)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e40b93ef-2d97-4594-830b-980bd9d8b794")
-	)
 	(junction
-		(at 121.92 77.47)
+		(at 133.35 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "031d89f9-1437-49eb-8308-c083aca09f77")
+		(uuid "1844ae81-8269-4004-883a-22e017d1ee64")
 	)
 	(junction
-		(at 146.05 96.52)
+		(at 133.35 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c8a4c3b-3828-4427-90d4-acc983c177ac")
+		(uuid "690c0cca-4821-4804-8c27-751e28344578")
 	)
 	(junction
-		(at 121.92 87.63)
+		(at 109.22 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "89de254b-054e-4617-ba06-8e3f34613f85")
+		(uuid "93ef1642-7058-4820-a13a-b94a8a3a1bc1")
 	)
 	(junction
-		(at 128.27 77.47)
+		(at 109.22 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c0caa7ab-2986-461c-b74b-926433df12e4")
+		(uuid "d17ddd94-ee14-49ad-8336-6077c40c95fc")
 	)
 	(junction
-		(at 146.05 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e47858dc-addb-45ac-8882-969cdd789a09")
-	)
-	(junction
-		(at 180.34 96.52)
+		(at 152.4 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eff60058-762b-4545-9a0a-ec22bf11090b")
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 146.05 109.22)
+			(xy 152.4 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a0a266b-6111-4fd0-b68a-68dd72aca54a")
+		(uuid "107bf91c-8e77-482f-b3d7-6bf7b42b1889")
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 170.18 96.52)
+			(xy 133.35 86.36) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19126a31-e59d-4731-9ea6-1d15c3b1851d")
+		(uuid "2de26dbb-7e94-46c1-ad59-04551e6833af")
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 128.27 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22acbd6c-d3b4-4dc5-baa4-366e4143dd19")
-	)
-	(wire
-		(pts
-			(xy 121.92 77.47) (xy 128.27 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33a4739b-cd88-44df-8f32-0aea76c897d7")
-	)
-	(wire
-		(pts
-			(xy 128.27 77.47) (xy 146.05 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fd05d13-9d24-4d81-b329-d267da19e842")
-	)
-	(wire
-		(pts
-			(xy 120.65 77.47) (xy 121.92 77.47)
+			(xy 107.95 77.47) (xy 109.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -790,17 +773,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 82.55) (xy 146.05 77.47)
+			(xy 133.35 62.23) (xy 133.35 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57605f6f-159f-4c57-b91f-fa2d8fac4089")
+		(uuid "58bedc65-569c-4f8d-a682-6807cdf5008a")
 	)
 	(wire
 		(pts
-			(xy 121.92 86.36) (xy 121.92 87.63)
+			(xy 109.22 86.36) (xy 109.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -810,17 +793,27 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 90.17) (xy 146.05 96.52)
+			(xy 152.4 90.17) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73352339-3214-4a44-8e9c-989839f9a706")
+		(uuid "632d7552-ad97-46e9-b08d-ed052d2d3f37")
 	)
 	(wire
 		(pts
-			(xy 177.8 96.52) (xy 180.34 96.52)
+			(xy 109.22 77.47) (xy 133.35 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7733a3-8ddf-4d19-8551-d9ddad2fa8f6")
+	)
+	(wire
+		(pts
+			(xy 149.86 77.47) (xy 152.4 77.47)
 		)
 		(stroke
 			(width 0)
@@ -830,7 +823,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 78.74) (xy 128.27 77.47)
+			(xy 109.22 78.74) (xy 109.22 77.47)
 		)
 		(stroke
 			(width 0)
@@ -840,17 +833,27 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 109.22) (xy 180.34 113.03)
+			(xy 133.35 76.2) (xy 133.35 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93b45a04-5872-424b-9537-1d66d860ab1b")
+		(uuid "8e50e77e-5bfc-4133-ae28-99b50599c328")
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 182.88 96.52)
+			(xy 133.35 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3ffcc3-def9-427b-9191-2e2f10eef87c")
+	)
+	(wire
+		(pts
+			(xy 152.4 77.47) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -860,47 +863,27 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 87.63) (xy 121.92 88.9)
+			(xy 133.35 77.47) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "badaafdc-a886-4527-9311-928f3626a09f")
+		(uuid "ab98dd26-2132-4d52-b979-a78390228af2")
 	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 146.05 101.6)
+			(xy 109.22 93.98) (xy 109.22 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c294c610-9ae5-49de-b1a0-24bdb948a475")
+		(uuid "ce83322a-99d3-493b-8242-e8998192d86b")
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 146.05 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9902912-f394-45f0-af8d-98f0060995ea")
-	)
-	(wire
-		(pts
-			(xy 121.92 78.74) (xy 121.92 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e084f58c-7678-416d-a60e-279cea45b96a")
-	)
-	(wire
-		(pts
-			(xy 180.34 96.52) (xy 180.34 101.6)
+			(xy 152.4 77.47) (xy 152.4 82.55)
 		)
 		(stroke
 			(width 0)
@@ -910,17 +893,17 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 87.63) (xy 128.27 86.36)
+			(xy 109.22 93.98) (xy 133.35 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7c75f64-db1c-4339-b437-cc524c138730")
+		(uuid "f63874f8-d5b3-4ad8-90f8-bddc5ca0d3d1")
 	)
 	(wire
 		(pts
-			(xy 111.76 77.47) (xy 113.03 77.47)
+			(xy 99.06 77.47) (xy 100.33 77.47)
 		)
 		(stroke
 			(width 0)
@@ -928,19 +911,9 @@
 		)
 		(uuid "f81af166-bc5c-41aa-9269-db36babe4351")
 	)
-	(wire
-		(pts
-			(xy 146.05 113.03) (xy 180.34 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fba44199-1a5a-446b-b7ee-c422d63cae82")
-	)
 	(hierarchical_label "Analog_IN"
 		(shape input)
-		(at 111.76 77.47 180)
+		(at 99.06 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -949,9 +922,20 @@
 		)
 		(uuid "20278ad1-84f0-46c7-9812-8cf846e35ffb")
 	)
+	(hierarchical_label "V_SUPPLY"
+		(shape input)
+		(at 133.35 62.23 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3fbc713-e65e-46f2-8751-266cb718bc0c")
+	)
 	(hierarchical_label "Analog_OUT"
 		(shape output)
-		(at 182.88 96.52 0)
+		(at 154.94 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -962,7 +946,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 173.99 96.52 90)
+		(at 146.05 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -971,7 +955,7 @@
 		(fields_autoplaced yes)
 		(uuid "1329a6ac-646d-4f2f-a7af-6455313cc2dd")
 		(property "Reference" "R45"
-			(at 173.99 90.17 90)
+			(at 146.05 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +963,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 173.99 92.71 90)
+			(at 146.05 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +971,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 173.99 98.298 90)
+			(at 146.05 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -996,7 +980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +989,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,7 +998,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1007,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,7 +1016,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1041,7 +1025,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1050,7 +1034,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 173.99 96.52 0)
+			(at 146.05 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,44 +1070,35 @@
 		)
 	)
 	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 146.05 105.41 180)
-		(unit 1)
+		(lib_id "Device:D_Schottky_Dual_Series_AKC_Split")
+		(at 133.35 72.39 90)
+		(mirror x)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b540ccf-63f9-4d04-921d-d3d4ce7a8b14")
-		(property "Reference" "R44"
-			(at 148.59 104.1399 0)
+		(uuid "1967c40b-817d-48ce-b9af-13162d5fc20d")
+		(property "Reference" "D1"
+			(at 130.81 70.8659 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "150k"
-			(at 148.59 106.6799 0)
+		(property "Value" "BAV199"
+			(at 130.81 73.4059 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 147.828 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 105.41 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 135.89 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1131,8 +1106,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.05 105.41 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30232.pdf"
+			(at 135.89 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1140,159 +1115,48 @@
 				(hide yes)
 			)
 		)
-		(property "Tol" "1%"
-			(at 146.05 105.41 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center. Low leakage current"
+			(at 133.35 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Power" "100mW"
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" ""
-			(at 146.05 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f0bd18f-e05c-4bea-9246-205d4000c15a")
 		)
 		(pin "2"
-			(uuid "e20f2406-f28a-41ef-9f0e-91a9a97f0ed5")
+			(uuid "a2b79525-e008-4a6c-a888-b9c3cea7dcfb")
 		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "R58")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "R48")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "R44")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "68678fbb-b101-4dda-b9b0-45810e171c28")
-		(property "Reference" "#PWR037"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "1565b689-7c2c-410d-b29f-70dc8876264e")
 		)
 		(pin "1"
-			(uuid "77a632da-42bc-406c-990d-716fc3d62765")
+			(uuid "61a1f915-3c73-4c6e-aabe-79e0831be4e1")
 		)
 		(instances
-			(project "VXDash"
+			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "#PWR049")
-					(unit 1)
+					(reference "D3")
+					(unit 2)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "#PWR039")
-					(unit 1)
+					(reference "D2")
+					(unit 2)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "#PWR037")
-					(unit 1)
+					(reference "D1")
+					(unit 2)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "#PWR051")
-					(unit 1)
+					(reference "D4")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 116.84 77.47 90)
+		(at 104.14 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1301,7 +1165,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a502365-ba6d-42a2-9a89-657602704977")
 		(property "Reference" "R42"
-			(at 116.84 71.12 90)
+			(at 104.14 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1309,7 +1173,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 116.84 73.66 90)
+			(at 104.14 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1181,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 116.84 79.248 90)
+			(at 104.14 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1326,7 +1190,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,7 +1199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1208,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1353,7 +1217,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1226,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1235,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1244,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 116.84 77.47 0)
+			(at 104.14 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1281,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 180.34 105.41 180)
+		(at 152.4 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1426,7 +1290,7 @@
 		(fields_autoplaced yes)
 		(uuid "9151ab82-73db-4c45-9220-3536f931b060")
 		(property "Reference" "C23"
-			(at 184.15 102.8699 0)
+			(at 156.21 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1299,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 184.15 105.4099 0)
+			(at 156.21 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1444,7 +1308,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.3748 101.6 0)
+			(at 151.4348 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1453,7 +1317,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 180.34 105.41 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1462,7 +1326,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 105.41 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1335,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 180.34 105.41 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1344,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 180.34 105.41 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1353,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 180.34 105.41 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1498,7 +1362,7 @@
 			)
 		)
 		(property "Tol" "10%"
-			(at 180.34 105.41 0)
+			(at 152.4 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1371,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 184.15 107.9499 0)
+			(at 156.21 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1543,17 +1407,16 @@
 		)
 	)
 	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 146.05 86.36 0)
+		(lib_id "Device:D_Schottky_Dual_Series_AKC_Split")
+		(at 133.35 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4b51911-474d-4a78-a608-6e6f93b99539")
-		(property "Reference" "R43"
-			(at 148.59 85.0899 0)
+		(uuid "b86f2d03-1d6e-4358-9acc-22cb76e378ab")
+		(property "Reference" "D1"
+			(at 130.81 81.0259 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,8 +1424,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 148.59 87.6299 0)
+		(property "Value" "BAV199"
+			(at 130.81 83.5659 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,8 +1433,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 144.272 86.36 90)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,8 +1442,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 146.05 86.36 0)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30232.pdf"
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1588,82 +1451,40 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 146.05 86.36 0)
+		(property "Description" "Dual Schottky diode, anode/cathode/center. Low leakage current"
+			(at 133.35 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Tol" "1%"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" ""
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" ""
-			(at 146.05 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9246b139-19eb-418b-87c8-f804b8b6d391")
 		)
 		(pin "2"
-			(uuid "b4371ec9-deaf-4196-a4bc-6008ecbc21d2")
+			(uuid "a2b79525-e008-4a6c-a888-b9c3cea7dcfb")
+		)
+		(pin "3"
+			(uuid "1565b689-7c2c-410d-b29f-70dc8876264e")
+		)
+		(pin "1"
+			(uuid "61a1f915-3c73-4c6e-aabe-79e0831be4e1")
 		)
 		(instances
-			(project "VXDash"
+			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "R57")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "R47")
+					(reference "D2")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "R43")
+					(reference "D1")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "R61")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1671,16 +1492,15 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 128.27 82.55 180)
+		(at 109.22 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d3734785-32ca-4529-98ee-9332d8e40474")
 		(property "Reference" "C22"
-			(at 132.08 80.0099 0)
+			(at 113.03 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1509,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 132.08 82.5499 0)
+			(at 113.03 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1518,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127.3048 78.74 0)
+			(at 108.2548 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 82.55 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 128.27 82.55 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1545,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 128.27 82.55 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1734,7 +1554,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 128.27 82.55 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +1563,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 128.27 82.55 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1752,7 +1572,7 @@
 			)
 		)
 		(property "Tol" "10%"
-			(at 128.27 82.55 0)
+			(at 109.22 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,7 +1581,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 132.08 85.0899 0)
+			(at 113.03 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1798,7 +1618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 88.9 0)
+		(at 109.22 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1807,7 +1627,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7eac5e4-bfb8-401b-964e-8c93404ccce8")
 		(property "Reference" "#PWR036"
-			(at 121.92 95.25 0)
+			(at 109.22 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1816,7 +1636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 93.98 0)
+			(at 109.22 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 88.9 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1833,7 +1653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 88.9 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1842,7 +1662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 88.9 0)
+			(at 109.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1869,134 +1689,6 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
 					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_diodes:TVS_Uni")
-		(at 121.92 82.55 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2b776e0-3b83-4a4f-a066-ffc3b827f0d5")
-		(property "Reference" "D1"
-			(at 119.38 81.2799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5.5V"
-			(at 119.38 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering"
-			(at 127 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tsd05.pdf?ts=1695321159953&ref_url=https%253A%252F%252Fwww.ti.com%252Fsitesearch%252Fen-us%252Fdocs%252Funiversalsearch.tsp%253FlangPref%253Den-US%2526searchTerm%253DTSD05DYFR%2526nr%253D3"
-			(at 121.92 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unidirectional TVS protection diode"
-			(at 116.84 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "TI"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "TSD05DYFR"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vwm" "5.5V"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vbr" "6V"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" "60A"
-			(at 121.92 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "70f077a0-bcdf-45ce-a08b-13a29cee4caf")
-		)
-		(pin "1"
-			(uuid "19d2c566-3e32-4526-82fa-f6972c8e1455")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5a426090-a212-448a-a415-b266d8e90572"
-					(reference "D4")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/5c960f8f-bf80-41bc-a879-992c50d29f1d"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/7a015d8c-0bfa-4a16-bdcd-1d17833caee2"
-					(reference "D1")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/86e99c99-fb11-4ded-8b94-444f84514f75"
-					(reference "D5")
 					(unit 1)
 				)
 			)

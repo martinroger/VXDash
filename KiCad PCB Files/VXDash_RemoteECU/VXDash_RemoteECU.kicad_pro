@@ -607,6 +607,7 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -1098,14 +1099,6 @@
       "Root"
     ],
     [
-      "ca8265c0-1f59-4074-84ad-ae7ddbcd9ebc",
-      "Opto Act Hi1"
-    ],
-    [
-      "ad0c1184-6555-44ba-919d-de3fd8cc209a",
-      "Opto Act Lo1"
-    ],
-    [
       "dc9f18a6-856d-4175-9fbd-d6bbcc89eb0a",
       "3V3_SMPS"
     ],
@@ -1119,11 +1112,7 @@
     ],
     [
       "088344ab-0087-41b9-ba15-1cbc38cf2c06",
-      "Opto Act Hi"
-    ],
-    [
-      "67fb424f-5314-4c27-af1b-a82602305e49",
-      "Opto Act Lo"
+      "Opto 2High 2Low"
     ],
     [
       "11c95b80-6877-4331-900f-61afaaa4bc98",
@@ -1156,10 +1145,6 @@
     [
       "367fd9a9-6a47-4f5e-94da-7163cefdc48e",
       "Rsensing_Pair2"
-    ],
-    [
-      "cc05830a-15d9-41d6-80b0-3286fa1b8a0e",
-      "Rsensing_Pair3"
     ],
     [
       "14b92d06-2854-413c-a3d0-402c2486556d",
