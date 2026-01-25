@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Main architecture")
-		(date "2025-12-06")
-		(rev "2.0-proto-B")
+		(date "2026-01-25")
+		(rev "2.0-proto-MB")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -5179,17 +5179,6 @@
 		)
 		(uuid "602028a6-dcf2-4087-8287-cc8376d5c7db")
 	)
-	(text "Add 2P JST PH for the 3v3 and 5V internal reconnections ?"
-		(exclude_from_sim no)
-		(at 335.026 93.726 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "a4101b94-ed27-4c56-bb75-6ca3a13cf723")
-	)
 	(text "Rationale is to have :\n- latched\n- low profile\n- somewhat easy to DIY crimp with OTC pincers\n- 2A/pin (overkill)"
 		(exclude_from_sim no)
 		(at 359.156 368.046 0)
@@ -5313,28 +5302,6 @@
 			(justify left top)
 		)
 		(uuid "5b6b288f-4b94-4955-9fa2-41a578e73e92")
-	)
-	(text_box "TODO and TOCHECK: \n- Any interest in replacing Optos with 4 channels versions like LTV-847S (https://www.lcsc.com/datasheet/C10794.pdf) ?"
-		(exclude_from_sim no)
-		(at 215.9 289.56 0)
-		(size 198.12 13.97)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 4 6 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 2 1)
-			)
-			(justify left top)
-		)
-		(uuid "5f0da5eb-f346-44f7-86bc-05f58b87c74d")
 	)
 	(text_box "ESP32 S3 module integration guidelines : \n- 90Ohm DP target for the USB, no crossing other signals\n- Capacitor buttons are optional\n- 10K pullup to EN with 1uF cap as per dev kit C 1.1 implementation\n- Reserved GPIOs (do not use) : 26->32\n- Strapping IOs : 0-3-45-46\n"
 		(exclude_from_sim no)
@@ -13954,9 +13921,9 @@
 		(at 184.15 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "07bd344b-ae8c-4f79-b4ab-558c6bd25443")
 		(property "Reference" "D18"
 			(at 184.15 176.784 0)
@@ -14164,7 +14131,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "22p"
 			(at 57.15 193.04 0)
 			(effects
 				(font
@@ -14182,7 +14149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
+		(property "Datasheet" "http://datasheet.octopart.com/C0603C220K5RACTU-KEMET-datasheet-137357759.pdf"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -14200,7 +14167,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
+		(property "MFT" "KEMET"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -14209,7 +14176,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "CL10B104KB8NNWC"
+		(property "MFT_PN" "C0603C220K5RACTU"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -14290,7 +14257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16194176"
+		(property "LCSC" "C22409299"
 			(at 54.61 191.77 0)
 			(effects
 				(font
@@ -15172,9 +15139,9 @@
 		(at 382.27 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "18c66f29-42e0-4b69-aede-4845154bff0c")
 		(property "Reference" "R101"
 			(at 384.048 72.39 90)
@@ -16740,9 +16707,9 @@
 		(at 29.21 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "27f2e987-6d19-465d-92d2-cafda3c08a00")
 		(property "Reference" "C56"
 			(at 31.75 157.48 0)
@@ -16950,9 +16917,9 @@
 		(at 182.88 140.97 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2a8f2205-0bb8-4205-a0f1-64ee2938cc32")
 		(property "Reference" "D16"
 			(at 182.88 145.034 0)
@@ -18031,9 +17998,9 @@
 		(at 182.88 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "370a95e5-f193-47e0-b91b-becead997116")
 		(property "Reference" "D17"
 			(at 182.88 160.274 0)
@@ -18385,9 +18352,9 @@
 		(at 389.89 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3ed785e4-a20b-49c5-af2d-585d2fea535c")
 		(property "Reference" "D13"
 			(at 389.89 48.514 0)
@@ -18582,9 +18549,9 @@
 		(at 173.99 140.97 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3fe6a192-8915-4201-8c3d-72e3ab85c231")
 		(property "Reference" "R103"
 			(at 175.768 138.43 90)
@@ -19050,9 +19017,9 @@
 		(at 391.16 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "486f4084-5c45-4a7b-a35c-e9f8ede811ea")
 		(property "Reference" "D14"
 			(at 391.16 78.994 0)
@@ -20529,9 +20496,9 @@
 		(at 41.91 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "515b351b-3ac4-40ea-978a-772947d38f74")
 		(property "Reference" "C61"
 			(at 44.45 157.48 0)
@@ -20805,7 +20772,7 @@
 		(at 401.32 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(uuid "595eac90-999e-4714-acf3-d08dcf8a9c32")
@@ -21275,9 +21242,9 @@
 		(at 381 59.69 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "59c2317b-b8dc-43de-9583-6ec0250abadb")
 		(property "Reference" "R89"
 			(at 382.778 57.15 90)
@@ -21634,9 +21601,9 @@
 		(at 54.61 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5bcf9dbd-56c8-4e6d-827c-1fb87b7afaba")
 		(property "Reference" "C62"
 			(at 57.15 157.48 0)
@@ -21857,7 +21824,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "22p"
 			(at 44.45 193.04 0)
 			(effects
 				(font
@@ -21875,7 +21842,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
+		(property "Datasheet" "http://datasheet.octopart.com/C0603C220K5RACTU-KEMET-datasheet-137357759.pdf"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -21893,7 +21860,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
+		(property "MFT" "KEMET"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -21902,7 +21869,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "CL10B104KB8NNWC"
+		(property "MFT_PN" "C0603C220K5RACTU"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -21983,7 +21950,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16194176"
+		(property "LCSC" "C22409299"
 			(at 41.91 191.77 0)
 			(effects
 				(font
@@ -22717,9 +22684,9 @@
 		(at 173.99 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "66ef578a-1b8a-4573-b4fb-d1b5508bb0a1")
 		(property "Reference" "R104"
 			(at 175.768 153.67 90)
@@ -23261,9 +23228,9 @@
 		(at 147.32 349.25 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "733aeb55-837e-4cb2-872d-cfd483a6fe50")
 		(property "Reference" "R102"
 			(at 149.098 346.71 90)
@@ -24854,9 +24821,9 @@
 		(at 156.21 349.25 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "899a7411-e8aa-4f60-bfdd-001d549ec612")
 		(property "Reference" "D15"
 			(at 156.21 353.314 0)
@@ -26229,7 +26196,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "22p"
 			(at 31.75 193.04 0)
 			(effects
 				(font
@@ -26247,7 +26214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
+		(property "Datasheet" "http://datasheet.octopart.com/C0603C220K5RACTU-KEMET-datasheet-137357759.pdf"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -26265,7 +26232,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
+		(property "MFT" "KEMET"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -26274,7 +26241,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "CL10B104KB8NNWC"
+		(property "MFT_PN" "C0603C220K5RACTU"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -26355,7 +26322,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16194176"
+		(property "LCSC" "C22409299"
 			(at 29.21 191.77 0)
 			(effects
 				(font
@@ -29643,9 +29610,9 @@
 		(at 389.89 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e41e17e4-37eb-4303-a316-4c6245f90f25")
 		(property "Reference" "D19"
 			(at 389.89 63.754 0)
@@ -30199,9 +30166,9 @@
 		(at 175.26 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e94317e7-a2da-47ea-9f48-849b5e25ef9e")
 		(property "Reference" "R105"
 			(at 177.038 170.18 90)
@@ -31142,9 +31109,9 @@
 		(at 381 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eef41f5e-9277-4b79-a6bd-199b938b9598")
 		(property "Reference" "R100"
 			(at 382.778 41.91 90)
@@ -31757,7 +31724,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "22")
 				)
@@ -31820,7 +31787,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "19")
 				)
@@ -31932,7 +31899,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "30")
 				)
@@ -31943,9 +31910,9 @@
 		(at 527.05 294.64)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -31994,7 +31961,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "35")
 				)
@@ -32005,7 +31972,7 @@
 		(at 527.05 284.48)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -32056,7 +32023,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "34")
 				)
@@ -32119,7 +32086,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "3")
 				)
@@ -32182,7 +32149,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "18")
 				)
@@ -32245,7 +32212,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "8")
 				)
@@ -32308,7 +32275,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "5")
 				)
@@ -32400,7 +32367,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "29")
 				)
@@ -32411,9 +32378,9 @@
 		(at 444.5 313.69)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -32462,7 +32429,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "32")
 				)
@@ -32525,7 +32492,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "16")
 				)
@@ -32588,7 +32555,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "11")
 				)
@@ -32651,7 +32618,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "9")
 				)
@@ -32714,7 +32681,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "15")
 				)
@@ -32725,9 +32692,9 @@
 		(at 444.5 293.37)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -32776,7 +32743,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "28")
 				)
@@ -32787,9 +32754,9 @@
 		(at 527.05 304.8)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -32838,7 +32805,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "36")
 				)
@@ -32901,7 +32868,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "13")
 				)
@@ -32964,7 +32931,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "7")
 				)
@@ -33027,7 +32994,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "6")
 				)
@@ -33038,7 +33005,7 @@
 		(at 527.05 314.96)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -33089,7 +33056,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "37")
 				)
@@ -33201,7 +33168,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "21")
 				)
@@ -33274,7 +33241,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "26")
 				)
@@ -33337,7 +33304,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "4")
 				)
@@ -33410,7 +33377,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "27")
 				)
@@ -33473,7 +33440,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "14")
 				)
@@ -33484,9 +33451,9 @@
 		(at 444.5 323.85)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -33535,7 +33502,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "33")
 				)
@@ -33598,7 +33565,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "17")
 				)
@@ -33671,7 +33638,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "2")
 				)
@@ -33734,7 +33701,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "12")
 				)
@@ -33797,7 +33764,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "10")
 				)
@@ -33808,9 +33775,9 @@
 		(at 444.5 283.21)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -33859,7 +33826,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "30")
 				)
@@ -33870,9 +33837,9 @@
 		(at 444.5 303.53)
 		(size 36.83 3.81)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -33921,7 +33888,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "31")
 				)
@@ -34033,7 +34000,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "25")
 				)

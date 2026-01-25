@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Analog circuit")
-		(date "2025-12-06")
-		(rev "2.0-proto-B")
+		(date "2026-01-25")
+		(rev "2.0-proto-MB")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -5050,7 +5050,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
 					(page "20")
 				)
@@ -5061,9 +5061,9 @@
 		(at 185.42 173.99)
 		(size 29.21 8.89)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5113,7 +5113,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
 					(page "23")
 				)
@@ -5124,9 +5124,9 @@
 		(at 185.42 186.69)
 		(size 29.21 8.89)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -5176,7 +5176,7 @@
 			)
 		)
 		(instances
-			(project "VXDash"
+			(project "VXDash_MinBuild"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
 					(page "24")
 				)
