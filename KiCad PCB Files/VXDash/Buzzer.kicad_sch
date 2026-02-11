@@ -2,45 +2,205 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "aacc1055-7096-4e68-bc2f-1aa3914ccd36")
+	(uuid "a8063999-6cee-4b21-b2d9-5e2ff223620c")
 	(paper "A4")
 	(title_block
-		(title "Telltale Load Emulator 17mA")
+		(title "Buzzer")
 		(date "2026-01-08")
 		(rev "2.0-proto-C")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
+		(symbol "Device:Buzzer"
+			(pin_names
+				(offset 0.0254)
 				(hide yes)
 			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BZ"
+				(at 3.81 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Buzzer"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -0.635 2.54 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Buzzer, polarized"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz resonator ceramic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Buzzer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Buzzer_0_1"
+				(polyline
+					(pts
+						(xy -1.651 1.905) (xy -1.143 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.397 2.159) (xy -1.397 1.651)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.175)
+					(mid 3.1612 0)
+					(end 0 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 -3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Buzzer_1_1"
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
 				(hide yes)
 			)
-			(exclude_from_sim yes)
-			(in_bom no)
+			(exclude_from_sim no)
+			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 5.08 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -57,7 +217,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Solder Jumper, 2-pole, open"
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
 				(at 0 0 0)
 				(effects
 					(font
@@ -66,7 +226,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "solder jumper SPST"
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -75,19 +235,22 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
+			(symbol "Q_PMOS_GSD_0_1"
 				(polyline
 					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -97,10 +260,22 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -109,10 +284,45 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -121,10 +331,10 @@
 						(type outline)
 					)
 				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
 					(stroke
 						(width 0)
 						(type default)
@@ -133,10 +343,20 @@
 						(type none)
 					)
 				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
 					(stroke
 						(width 0)
 						(type default)
@@ -147,7 +367,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
 					)
 					(stroke
 						(width 0)
@@ -158,11 +402,11 @@
 					)
 				)
 			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -178,9 +422,27 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "B"
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -592,839 +854,227 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Approximately calculated for 17mA drop at 13V feed\nVf @20mA is approximately 0.38V\nVf @10mA is approximately 0.35V\n\n13-0.38 = 12,62V and 12.62/742 = 17mA\n13-0.35 = 12.65V and 12.65/742 = 17,04mA"
+	(text_box "BUZZER ON when\nIGNITION == Low, DOOR == Low (open), Low Beams == High\n\nLow beams - Fed by the low beam lights relay. Either 12V or floating(extra ~20mA is negligible to drive a buzzer)\n\n\n\n\nIgn - Taken from main power/ignition control FET gate control (pulldown on POWER_INPUT sch).\n\n\n\n\n~{Door} - Only low if door is open, else pulled up to 12V via interior lamp or floating."
 		(exclude_from_sim no)
-		(at 135.128 95.25 0)
+		(at 43.18 80.01 0)
+		(size 107.95 34.29)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "a7f44e00-1e21-448b-abe6-42b0ac84c789")
+		(uuid "786e4288-1621-439d-8100-52aeed179e6e")
 	)
-	(wire
-		(pts
-			(xy 124.46 119.38) (xy 124.46 125.73)
-		)
+	(text_box "Self-driven sounder. Typically ~20-50mA.\n9.5mm height."
+		(exclude_from_sim no)
+		(at 208.28 99.06 0)
+		(size 24.13 7.62)
+		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
-		(uuid "401063ec-1c81-4c29-ad17-4917b613f97a")
-	)
-	(wire
-		(pts
-			(xy 124.46 80.01) (xy 124.46 82.55)
+		(fill
+			(type none)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d94d17e-e222-4a7b-9f87-17504e190929")
-	)
-	(wire
-		(pts
-			(xy 124.46 68.58) (xy 124.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74248281-18e6-42e0-93c0-d23bc5ca511e")
-	)
-	(wire
-		(pts
-			(xy 124.46 90.17) (xy 124.46 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f9553c1-3d04-4b70-96c8-cf28184067e4")
-	)
-	(wire
-		(pts
-			(xy 124.46 99.06) (xy 124.46 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c90c1056-1329-4987-a12c-c382fa3748dd")
-	)
-	(wire
-		(pts
-			(xy 124.46 109.22) (xy 124.46 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2a64dfa-1da4-468c-956b-632bb44d0572")
-	)
-	(hierarchical_label "V+"
-		(shape bidirectional)
-		(at 124.46 68.58 90)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left top)
 		)
-		(uuid "583100dd-7677-4642-b6a4-fe503e3fdba8")
+		(uuid "8a2af59a-5467-4cbf-948f-b331ea22a284")
 	)
-	(hierarchical_label "V-"
-		(shape bidirectional)
-		(at 124.46 125.73 270)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 191.77 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15eace93-34dc-447e-b56a-88bd1a6659d1")
+	)
+	(wire
+		(pts
+			(xy 191.77 105.41) (xy 194.31 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25a95dd3-3901-44ab-acc0-e359f52067fe")
+	)
+	(wire
+		(pts
+			(xy 165.1 97.79) (xy 167.64 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d489267-e784-429b-a180-dcfbd8c70b3d")
+	)
+	(wire
+		(pts
+			(xy 175.26 97.79) (xy 176.53 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "645bfe8d-135f-49cb-ab91-744cc39a9ebd")
+	)
+	(wire
+		(pts
+			(xy 181.61 86.36) (xy 182.88 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8889567d-5d4f-4c03-9b30-406d38efc589")
+	)
+	(wire
+		(pts
+			(xy 191.77 86.36) (xy 190.5 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96674d7f-a91f-40ab-9380-062f4ca8469c")
+	)
+	(wire
+		(pts
+			(xy 191.77 105.41) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a663fed8-6650-4b1e-944f-72bef279d575")
+	)
+	(wire
+		(pts
+			(xy 191.77 96.52) (xy 191.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4bbe1e1-5399-495b-8390-1ceabd73084e")
+	)
+	(wire
+		(pts
+			(xy 165.1 110.49) (xy 191.77 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26c3691-7fdf-457c-b27f-7cc5653fe17d")
+	)
+	(wire
+		(pts
+			(xy 176.53 97.79) (xy 176.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ae2737-c6a8-423f-a8ab-d5954f160b93")
+	)
+	(wire
+		(pts
+			(xy 165.1 86.36) (xy 171.45 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daa42343-72a7-4a6f-94d6-49d939c15f67")
+	)
+	(wire
+		(pts
+			(xy 194.31 100.33) (xy 191.77 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d21869-b6a4-4499-9901-240a36838efb")
+	)
+	(hierarchical_label "Ign"
+		(shape input)
+		(at 165.1 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "62c3c145-8ea4-48a8-8ca2-760f802586a5")
+		(uuid "4cb998ca-a967-449c-baa9-0588aa38fafb")
+	)
+	(hierarchical_label "Low_Beams"
+		(shape input)
+		(at 165.1 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d614e12-2a98-4bb1-9f91-cabb2ff6e240")
+	)
+	(hierarchical_label "~{Door}"
+		(shape input)
+		(at 165.1 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9624ff04-f6ba-4652-812d-43eb7d358b4f")
 	)
 	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 124.46 95.25 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "80f8ad75-5f10-4565-9da6-e5a304f65542")
-		(property "Reference" "R98"
-			(at 121.92 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680R"
-			(at 127.254 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
-			(at 126.238 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C163351.pdf"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "500mW"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC1210FR-07680RL"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 124.46 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 124.46 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 124.46 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 124.46 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C163351"
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vbr" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vwm" ""
-			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3a7e8047-ce85-42d9-be81-dc04925823fb")
-		)
-		(pin "2"
-			(uuid "a6fb638c-67c4-412d-8a35-61135b8f60e5")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
-					(reference "R120")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
-					(reference "R117")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
-					(reference "R111")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
-					(reference "R98")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
-					(reference "R123")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
-					(reference "R126")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
-					(reference "R114")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
-					(reference "R94")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
-					(reference "R108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 124.46 115.57 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "82898d46-6900-4576-908e-0b33b777adb8")
-		(property "Reference" "R107"
-			(at 121.92 117.348 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "15R"
-			(at 127.254 116.586 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 126.238 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C128059.pdf"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-0715RL"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 124.46 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 124.46 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 124.46 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 124.46 115.57 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C128059"
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vbr" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vwm" ""
-			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c8484281-a54c-4ccf-aeff-1c210928fa79")
-		)
-		(pin "2"
-			(uuid "c593bf84-0908-407b-aab6-8de7adf982f1")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
-					(reference "R122")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
-					(reference "R119")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
-					(reference "R113")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
-					(reference "R107")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
-					(reference "R125")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
-					(reference "R128")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
-					(reference "R116")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
-					(reference "R96")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
-					(reference "R110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 124.46 105.41 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4c403d7-c80e-428d-856a-287a9b304888")
-		(property "Reference" "R106"
-			(at 121.92 107.188 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47R"
-			(at 127.254 106.426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 126.238 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C114623.pdf"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-0747RL"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 124.46 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 124.46 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 124.46 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 124.46 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C114623"
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vbr" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vwm" ""
-			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7993dee-5b0f-4466-a89b-e251cf4211d2")
-		)
-		(pin "2"
-			(uuid "59d5249e-5ac6-49a7-a66b-46c228277cda")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
-					(reference "R121")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
-					(reference "R118")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
-					(reference "R112")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
-					(reference "R106")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
-					(reference "R124")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
-					(reference "R127")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
-					(reference "R115")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
-					(reference "R95")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
-					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_diodes:D_Schottky")
-		(at 124.46 86.36 270)
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 176.53 88.9 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad691388-8233-4987-9fe2-b907ba687d8f")
-		(property "Reference" "D23"
-			(at 118.11 86.6775 0)
+		(uuid "2a5ca125-6118-4c22-915d-95d880ee2f30")
+		(property "Reference" "Q8"
+			(at 176.53 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "BAT54"
-			(at 120.65 86.6775 0)
+		(property "Value" "PJA3441"
+			(at 176.53 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54t1-d.pdf"
-			(at 124.46 86.36 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 179.07 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1432,8 +1082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
-			(at 124.46 86.36 0)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/PJA3441.pdf?srsltid=AfmBOorcXQifrwfHYhMWRYHvs2fEGINIyw20eErdW3fOG6z6g98X7-Kb"
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,8 +1091,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "OnSemi"
-			(at 124.46 86.36 0)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1450,8 +1100,17 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "BAT54T1G"
-			(at 124.46 86.36 0)
+		(property "MFT" "Panjit"
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "PJA3441_R1_00001"
+			(at 176.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1460,7 +1119,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 124.46 86.36 90)
+			(at 176.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1469,7 +1128,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 124.46 86.36 90)
+			(at 176.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1137,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 124.46 86.36 90)
+			(at 176.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1487,7 +1146,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 124.46 86.36 90)
+			(at 176.53 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1155,177 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 124.46 86.36 90)
+			(at 176.53 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vbr" ""
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vwm" ""
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C313504"
+			(at 176.53 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "debca898-0983-4bdd-8de2-1709f9f0072d")
+		)
+		(pin "2"
+			(uuid "0204be4c-1d06-434a-9be6-544f8f40241c")
+		)
+		(pin "3"
+			(uuid "1e8d6e0c-8795-4cf1-960f-2539004a7f9f")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b5cb60b-918e-4900-b9de-f94039ba0001"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:D_Schottky")
+		(at 186.69 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "837ba898-e6bb-4dda-9b92-5f1fcf0c3123")
+		(property "Reference" "D33"
+			(at 187.0075 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAT54"
+			(at 187.0075 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/bat54t1-d.pdf"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Schottky diode"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "OnSemi"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "BAT54T1G"
+			(at 186.69 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 186.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 186.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 186.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 186.69 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 186.69 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1334,7 @@
 			)
 		)
 		(property "LCSC" "C152458"
-			(at 124.46 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1343,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 124.46 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1352,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 124.46 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1532,7 +1361,7 @@
 			)
 		)
 		(property "Ippm" ""
-			(at 124.46 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1540,7 +1369,7 @@
 			)
 		)
 		(property "Vbr" ""
-			(at 124.46 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1548,7 +1377,7 @@
 			)
 		)
 		(property "Vwm" ""
-			(at 124.46 86.36 0)
+			(at 186.69 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1556,91 +1385,49 @@
 			)
 		)
 		(pin "2"
-			(uuid "089bb5c2-968a-406c-b6f5-0215e45a8653")
+			(uuid "3ae0b8ac-7fe1-40b8-b906-83cab49a2833")
 		)
 		(pin "1"
-			(uuid "094b40b3-9952-4d00-919d-98cc4ee69840")
+			(uuid "74c07392-35a4-470b-a611-7f0d789ef1e2")
 		)
 		(instances
 			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
-					(reference "D28")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
-					(reference "D27")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
-					(reference "D25")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
-					(reference "D23")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
-					(reference "D29")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
-					(reference "D30")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
-					(reference "D26")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
-					(reference "D22")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
-					(reference "D24")
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b5cb60b-918e-4900-b9de-f94039ba0001"
+					(reference "D33")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 124.46 76.2 90)
+		(lib_id "VXDash_passives:Res")
+		(at 171.45 97.79 90)
+		(mirror x)
 		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df8dcdd8-68c3-4307-a1b7-df7450b17e07")
-		(property "Reference" "JP3"
-			(at 127 74.9299 90)
+		(uuid "9edf4f39-585b-4646-ac3c-f0b9d2c30d6a")
+		(property "Reference" "R141"
+			(at 171.45 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "EN LOAD EMU"
-			(at 127 77.4699 90)
+		(property "Value" "10k"
+			(at 171.45 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 76.2 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 171.45 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,8 +1435,134 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 124.46 76.2 0)
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0603FR-0710KL"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 171.45 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1658,7 +1571,7 @@
 			)
 		)
 		(property "Ippm" ""
-			(at 124.46 76.2 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1666,7 +1579,7 @@
 			)
 		)
 		(property "Vbr" ""
-			(at 124.46 76.2 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,55 +1587,262 @@
 			)
 		)
 		(property "Vwm" ""
-			(at 124.46 76.2 0)
+			(at 171.45 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
+		(pin "1"
+			(uuid "4eae3c1a-276b-462e-b114-6f0514b6686d")
+		)
 		(pin "2"
-			(uuid "305fb9c7-61db-4df5-a29b-af04123de886")
+			(uuid "c42ab183-35f7-40af-90e0-efd74d1de274")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b5cb60b-918e-4900-b9de-f94039ba0001"
+					(reference "R141")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 191.77 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9cdc062-5b6b-4ecf-a1c4-f46f84958d72")
+		(property "Reference" "R140"
+			(at 194.31 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 194.31 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.992 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C107702.pdf"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "125mW"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0805FR-0722RL"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107702"
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 191.77 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "60a4c23e-9b6b-49ef-9bbc-8006598139a0")
 		)
 		(pin "1"
-			(uuid "88b46c9f-a984-4eca-871e-1d3f3af652b9")
+			(uuid "32d00f17-abe6-4276-b997-2b331aa29bdf")
 		)
 		(instances
 			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/18d6f35d-7c07-47fb-929e-70cc5274aa47"
-					(reference "JP9")
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b5cb60b-918e-4900-b9de-f94039ba0001"
+					(reference "R140")
 					(unit 1)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/1b84b493-1cbb-4c35-9a21-eabcbb8e266d"
-					(reference "JP8")
-					(unit 1)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Buzzer")
+		(at 196.85 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e60b8a00-0779-4987-9e0e-d6e865ac6a20")
+		(property "Reference" "BZ1"
+			(at 200.66 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/324b46ea-148d-441b-a0ad-60f2fd80ee4a"
-					(reference "JP6")
-					(unit 1)
+				(justify left)
+			)
+		)
+		(property "Value" "Buzzer"
+			(at 200.66 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4bab7c39-fd42-485a-81cd-a9344806a473"
-					(reference "JP3")
-					(unit 1)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+			(at 196.215 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5d40fbfb-4c97-44f2-bf74-0302a0de1f21"
-					(reference "JP10")
-					(unit 1)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49246932.pdf"
+			(at 196.215 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa"
-					(reference "JP11")
-					(unit 1)
+				(hide yes)
+			)
+		)
+		(property "Description" "Buzzer, polarized"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c9760672-840b-4ec5-b8f0-2bb78ba3f136"
-					(reference "JP7")
-					(unit 1)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49246932"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/f6a0526c-9744-4299-a9e0-7c6c6edc1dea"
-					(reference "JP4")
-					(unit 1)
+				(hide yes)
+			)
+		)
+		(property "MFT" "XHXDZ"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/faea5b42-9883-4023-a2b6-ee13ab121663"
-					(reference "JP5")
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "TMB12A12"
+			(at 196.85 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa72be5-b269-48b0-a70f-4dd2e4295169")
+		)
+		(pin "2"
+			(uuid "83524417-5935-4137-ac71-b5cacffc9ce4")
+		)
+		(instances
+			(project ""
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/5b5cb60b-918e-4900-b9de-f94039ba0001"
+					(reference "BZ1")
 					(unit 1)
 				)
 			)
