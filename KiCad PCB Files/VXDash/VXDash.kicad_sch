@@ -5473,7 +5473,7 @@
 		(uuid "12de7256-f885-47e3-acae-1b9c12ab5977")
 	)
 	(junction
-		(at 250.19 322.58)
+		(at 246.38 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1be6f47b-2eb2-4c7c-af2f-0470e88f922f")
@@ -5503,7 +5503,7 @@
 		(uuid "3408bba5-0cf4-470f-909e-c856fdd4c88a")
 	)
 	(junction
-		(at 240.03 322.58)
+		(at 236.22 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34e6bb10-9416-4e15-b365-cec8d13274b1")
@@ -5545,7 +5545,13 @@
 		(uuid "4a91bd7b-fef8-41a7-ada9-48dfb50f8987")
 	)
 	(junction
-		(at 285.75 322.58)
+		(at 274.32 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fecaecb-c1d6-4afb-a187-bdb95a4e57a5")
+	)
+	(junction
+		(at 285.75 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5179576f-6e04-4a58-ba78-1b6763b75275")
@@ -5731,7 +5737,7 @@
 		(uuid "fdc88566-94ac-45c3-9ec4-d1dfbaa12249")
 	)
 	(junction
-		(at 275.59 322.58)
+		(at 275.59 325.12)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdcb01e4-5d21-4e22-a1c7-43409cb9f120")
@@ -6117,6 +6123,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 323.85) (xy 274.32 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fecd635-09d0-4016-812f-9938c01f6ce7")
+	)
+	(wire
+		(pts
 			(xy 392.43 59.69) (xy 394.97 59.69)
 		)
 		(stroke
@@ -6265,6 +6281,16 @@
 			(type default)
 		)
 		(uuid "1a25a2ed-3fbd-4efb-8aa8-429b1529ab88")
+	)
+	(wire
+		(pts
+			(xy 274.32 314.96) (xy 274.32 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a6bce22-9c9c-4ea4-9688-b7dc59dc6bc8")
 	)
 	(wire
 		(pts
@@ -6769,7 +6795,7 @@
 	)
 	(wire
 		(pts
-			(xy 275.59 326.39) (xy 275.59 322.58)
+			(xy 275.59 328.93) (xy 275.59 325.12)
 		)
 		(stroke
 			(width 0)
@@ -7170,6 +7196,16 @@
 	)
 	(wire
 		(pts
+			(xy 274.32 325.12) (xy 275.59 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51e8434e-2756-4898-b7cf-8658a9360b71")
+	)
+	(wire
+		(pts
 			(xy 41.91 144.78) (xy 41.91 149.86)
 		)
 		(stroke
@@ -7290,7 +7326,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 322.58) (xy 240.03 322.58)
+			(xy 231.14 322.58) (xy 236.22 322.58)
 		)
 		(stroke
 			(width 0)
@@ -7300,7 +7336,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 326.39) (xy 250.19 322.58)
+			(xy 246.38 326.39) (xy 246.38 322.58)
 		)
 		(stroke
 			(width 0)
@@ -7430,7 +7466,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 326.39) (xy 275.59 326.39)
+			(xy 276.86 328.93) (xy 275.59 328.93)
 		)
 		(stroke
 			(width 0)
@@ -7460,7 +7496,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 326.39) (xy 250.19 326.39)
+			(xy 245.11 326.39) (xy 246.38 326.39)
 		)
 		(stroke
 			(width 0)
@@ -8100,7 +8136,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 322.58) (xy 285.75 322.58)
+			(xy 290.83 325.12) (xy 285.75 325.12)
 		)
 		(stroke
 			(width 0)
@@ -8370,7 +8406,7 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 326.39) (xy 285.75 326.39)
+			(xy 284.48 328.93) (xy 285.75 328.93)
 		)
 		(stroke
 			(width 0)
@@ -8501,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 322.58) (xy 290.83 330.2)
+			(xy 290.83 325.12) (xy 290.83 332.74)
 		)
 		(stroke
 			(width 0)
@@ -8601,7 +8637,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 322.58) (xy 275.59 322.58)
+			(xy 271.78 325.12) (xy 274.32 325.12)
 		)
 		(stroke
 			(width 0)
@@ -9281,7 +9317,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 322.58) (xy 240.03 326.39)
+			(xy 236.22 322.58) (xy 236.22 326.39)
 		)
 		(stroke
 			(width 0)
@@ -9581,7 +9617,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 326.39) (xy 285.75 322.58)
+			(xy 285.75 328.93) (xy 285.75 325.12)
 		)
 		(stroke
 			(width 0)
@@ -9601,7 +9637,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 326.39) (xy 240.03 326.39)
+			(xy 237.49 326.39) (xy 236.22 326.39)
 		)
 		(stroke
 			(width 0)
@@ -9781,7 +9817,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 322.58) (xy 256.54 322.58)
+			(xy 246.38 322.58) (xy 252.73 322.58)
 		)
 		(stroke
 			(width 0)
@@ -9931,7 +9967,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 322.58) (xy 256.54 327.66)
+			(xy 252.73 322.58) (xy 252.73 327.66)
 		)
 		(stroke
 			(width 0)
@@ -10943,7 +10979,7 @@
 		(uuid "82bcbaf0-04f5-4838-b93e-6566ceaf5e4c")
 	)
 	(label "esp32_enable"
-		(at 234.95 322.58 180)
+		(at 231.14 322.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11389,7 +11425,7 @@
 	)
 	(global_label "BOOT_IO0"
 		(shape output)
-		(at 271.78 322.58 180)
+		(at 271.78 325.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11399,7 +11435,7 @@
 		)
 		(uuid "07d040bd-df18-4660-aab4-8a772eff8b9a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 260.438 322.58 0)
+			(at 260.438 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13160,6 +13196,28 @@
 		(uuid "b9b7d338-d24c-4dae-9546-f4f6ee47023c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 182.6711 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 274.32 314.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba0611f8-dcd3-4fbc-a0a6-c0795b47b998")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.32 307.549 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15850,7 +15908,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 245.11 326.39 90)
+		(at 241.3 326.39 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15859,7 +15917,7 @@
 		(dnp no)
 		(uuid "1c181ee4-a237-4cb5-8dcc-6cd3ad69f470")
 		(property "Reference" "C9"
-			(at 245.11 336.55 90)
+			(at 241.3 336.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +15925,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 245.11 334.01 90)
+			(at 241.3 334.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15875,7 +15933,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 248.92 327.3552 0)
+			(at 245.11 327.3552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15884,7 +15942,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15893,7 +15951,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15902,7 +15960,7 @@
 			)
 		)
 		(property "MFT" "Samsung Electro-Mechanics"
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15911,7 +15969,7 @@
 			)
 		)
 		(property "MFT_PN" "CL10B104KB8NNWC"
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15920,7 +15978,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15929,7 +15987,7 @@
 			)
 		)
 		(property "Tol" "10%"
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15938,7 +15996,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 245.11 331.47 90)
+			(at 241.3 331.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15946,7 +16004,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 245.11 326.39 90)
+			(at 241.3 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15955,7 +16013,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 245.11 326.39 90)
+			(at 241.3 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15964,7 +16022,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 245.11 326.39 90)
+			(at 241.3 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15973,7 +16031,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 245.11 326.39 90)
+			(at 241.3 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15982,7 +16040,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 245.11 326.39 90)
+			(at 241.3 326.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15991,7 +16049,7 @@
 			)
 		)
 		(property "LCSC" "C16194176"
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16000,7 +16058,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16009,7 +16067,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16018,7 +16076,7 @@
 			)
 		)
 		(property "Ippm" ""
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16026,7 +16084,7 @@
 			)
 		)
 		(property "Vbr" ""
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16034,7 +16092,7 @@
 			)
 		)
 		(property "Vwm" ""
-			(at 245.11 326.39 0)
+			(at 241.3 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16125,7 +16183,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 280.67 326.39 270)
+		(at 280.67 328.93 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16134,6 +16192,14 @@
 		(dnp no)
 		(uuid "20550be3-071b-4d1d-b92f-c72ae2ea98fd")
 		(property "Reference" "C11"
+			(at 280.67 339.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
 			(at 280.67 336.55 90)
 			(effects
 				(font
@@ -16141,16 +16207,8 @@
 				)
 			)
 		)
-		(property "Value" "100n"
-			(at 280.67 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 276.86 325.4248 0)
+			(at 276.86 327.9648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16158,8 +16216,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
-			(at 280.67 326.39 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C100042.pdf"
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16168,7 +16226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16176,8 +16234,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
-			(at 280.67 326.39 0)
+		(property "MFT" "Yageo"
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16185,8 +16243,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "CL10B104KB8NNWC"
-			(at 280.67 326.39 0)
+		(property "MFT_PN" "CC0603KRX7R9BB103"
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16195,7 +16253,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16204,7 +16262,7 @@
 			)
 		)
 		(property "Tol" "10%"
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16213,7 +16271,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 280.67 331.47 90)
+			(at 280.67 334.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16221,7 +16279,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 280.67 326.39 90)
+			(at 280.67 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16230,7 +16288,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 280.67 326.39 90)
+			(at 280.67 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16239,7 +16297,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 280.67 326.39 90)
+			(at 280.67 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16248,7 +16306,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 280.67 326.39 90)
+			(at 280.67 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16257,7 +16315,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 280.67 326.39 90)
+			(at 280.67 328.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16265,8 +16323,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16194176"
-			(at 280.67 326.39 0)
+		(property "LCSC" "C100042"
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16275,7 +16333,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16284,7 +16342,7 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16293,7 +16351,7 @@
 			)
 		)
 		(property "Ippm" ""
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16301,7 +16359,7 @@
 			)
 		)
 		(property "Vbr" ""
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16309,7 +16367,7 @@
 			)
 		)
 		(property "Vwm" ""
-			(at 280.67 326.39 0)
+			(at 280.67 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20397,7 +20455,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 245.11 322.58 0)
+		(at 241.3 322.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20406,7 +20464,7 @@
 		(fields_autoplaced yes)
 		(uuid "50f6e612-eff6-4d77-9064-753ec89024a9")
 		(property "Reference" "SW1"
-			(at 245.11 314.96 0)
+			(at 241.3 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20414,7 +20472,7 @@
 			)
 		)
 		(property "Value" "RESET"
-			(at 245.11 317.5 0)
+			(at 241.3 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20422,7 +20480,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
-			(at 245.11 317.5 0)
+			(at 241.3 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20431,7 +20489,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheet.octopart.com/MJTP1250-APEM-datasheet-68366765.pdf"
-			(at 245.11 317.5 0)
+			(at 241.3 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20440,7 +20498,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20449,7 +20507,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20458,7 +20516,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20467,7 +20525,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +20534,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20485,7 +20543,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20494,7 +20552,7 @@
 			)
 		)
 		(property "Ippm" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20503,7 +20561,7 @@
 			)
 		)
 		(property "Vbr" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20512,7 +20570,7 @@
 			)
 		)
 		(property "Vwm" ""
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20521,7 +20579,7 @@
 			)
 		)
 		(property "ALT_MFT_PN_1" "MJTP1250"
-			(at 245.11 309.88 0)
+			(at 241.3 309.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20530,7 +20588,7 @@
 			)
 		)
 		(property "LCSC" "C500068"
-			(at 245.11 322.58 0)
+			(at 241.3 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20539,7 +20597,7 @@
 			)
 		)
 		(property "LCSC alt" "C6301337"
-			(at 245.11 312.42 0)
+			(at 241.3 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20548,7 +20606,7 @@
 			)
 		)
 		(property "MFT" "XKB Connectivity"
-			(at 245.11 314.96 0)
+			(at 241.3 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20557,7 +20615,7 @@
 			)
 		)
 		(property "MFT_PN" "TC-1101T-C-B-B"
-			(at 245.11 317.5 0)
+			(at 241.3 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22179,7 +22237,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 290.83 330.2 0)
+		(at 290.83 332.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22187,7 +22245,7 @@
 		(dnp no)
 		(uuid "616894f1-0415-42b4-a54a-d32044ff5587")
 		(property "Reference" "#PWR017"
-			(at 290.83 336.55 0)
+			(at 290.83 339.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22196,7 +22254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 290.83 334.01 0)
+			(at 290.83 336.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22205,7 +22263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 290.83 330.2 0)
+			(at 290.83 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22214,7 +22272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 330.2 0)
+			(at 290.83 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22223,7 +22281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 290.83 330.2 0)
+			(at 290.83 332.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23718,7 +23776,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 280.67 322.58 0)
+		(at 280.67 325.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23727,7 +23785,7 @@
 		(fields_autoplaced yes)
 		(uuid "783b6615-4dec-40ae-a5ff-09820d5a608b")
 		(property "Reference" "SW2"
-			(at 280.67 314.96 0)
+			(at 280.67 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23735,7 +23793,7 @@
 			)
 		)
 		(property "Value" "BOOT"
-			(at 280.67 317.5 0)
+			(at 280.67 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23743,7 +23801,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_1P1T_6x3.5mm_H5.0_APEM_MJTP1250"
-			(at 280.67 317.5 0)
+			(at 280.67 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23752,7 +23810,7 @@
 			)
 		)
 		(property "Datasheet" "http://datasheet.octopart.com/MJTP1250-APEM-datasheet-68366765.pdf"
-			(at 280.67 317.5 0)
+			(at 280.67 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23761,7 +23819,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23770,7 +23828,7 @@
 			)
 		)
 		(property "Tolerance" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23779,7 +23837,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23788,7 +23846,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23797,7 +23855,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23806,7 +23864,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23815,7 +23873,7 @@
 			)
 		)
 		(property "Ippm" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23824,7 +23882,7 @@
 			)
 		)
 		(property "Vbr" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23833,7 +23891,7 @@
 			)
 		)
 		(property "Vwm" ""
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23842,7 +23900,7 @@
 			)
 		)
 		(property "ALT_MFT_PN_1" "MJTP1250"
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23851,7 +23909,7 @@
 			)
 		)
 		(property "LCSC" "C500068"
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23860,7 +23918,7 @@
 			)
 		)
 		(property "LCSC alt" "C6301337"
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23869,7 +23927,7 @@
 			)
 		)
 		(property "MFT" "XKB Connectivity"
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23878,7 +23936,7 @@
 			)
 		)
 		(property "MFT_PN" "TC-1101T-C-B-B"
-			(at 280.67 322.58 0)
+			(at 280.67 325.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24114,7 +24172,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 256.54 327.66 0)
+		(at 252.73 327.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24122,7 +24180,7 @@
 		(dnp no)
 		(uuid "7e3b34b9-6a90-4d68-abb8-7246e3737111")
 		(property "Reference" "#PWR014"
-			(at 256.54 334.01 0)
+			(at 252.73 334.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24131,7 +24189,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 258.318 331.724 0)
+			(at 254.508 331.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24140,7 +24198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 327.66 0)
+			(at 252.73 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24149,7 +24207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 327.66 0)
+			(at 252.73 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24158,7 +24216,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 327.66 0)
+			(at 252.73 327.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26125,6 +26183,217 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "#PWR077")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 274.32 320.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98401c7a-64bf-4d9b-ad43-a6235466b290")
+		(property "Reference" "R142"
+			(at 271.78 318.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 271.78 321.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 276.098 320.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-0710KL-Yageo-datasheet-141265859.pdf"
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0603FR-0710KL"
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 274.32 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad540b97-59b2-4659-81f2-42c36266e847")
+		)
+		(pin "2"
+			(uuid "a6f03683-2bb5-47d0-91ab-8f490fb5d28f")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "R142")
 					(unit 1)
 				)
 			)
