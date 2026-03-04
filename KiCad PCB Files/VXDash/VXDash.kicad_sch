@@ -7916,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 323.85 270.51) (xy 328.93 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79398547-d2ac-4879-bc81-c49df2dc5c5e")
+	)
+	(wire
+		(pts
 			(xy 149.86 83.82) (xy 152.4 83.82)
 		)
 		(stroke
@@ -8664,6 +8674,16 @@
 			(type default)
 		)
 		(uuid "a6da8314-0496-419d-9896-4e9dac753da5")
+	)
+	(wire
+		(pts
+			(xy 323.85 266.7) (xy 328.93 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6fcbf7d-0aa6-447a-b9bf-3e3e9640666f")
 	)
 	(wire
 		(pts
@@ -9984,6 +10004,16 @@
 			(type default)
 		)
 		(uuid "fb010604-f010-4596-9e71-a4fa18076cf6")
+	)
+	(wire
+		(pts
+			(xy 323.85 262.89) (xy 328.93 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc09fca8-857c-4513-af23-fad493e5b904")
 	)
 	(wire
 		(pts
@@ -12545,6 +12575,28 @@
 			)
 		)
 	)
+	(global_label "WATER_T_PWM"
+		(shape input)
+		(at 323.85 270.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e47bb15-5bca-4d1e-ae12-18c37e4a5a94")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 308.5168 270.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ABS_ActLO"
 		(shape output)
 		(at 167.64 78.74 0)
@@ -13223,6 +13275,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RPM_HALL"
+		(shape input)
+		(at 323.85 262.89 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc16af7e-f5cf-40a2-85e4-13f3b2b2f940")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 312.0026 262.8106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPEED_HALL"
+		(shape input)
+		(at 323.85 266.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c013a8da-c4db-4408-b88e-f65065b067ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 310.0286 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14265,9 +14361,9 @@
 		(at 54.61 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "0c1e610d-4def-4526-9c4c-ecf1fb823047")
 		(property "Reference" "C55"
 			(at 57.15 195.58 0)
@@ -14475,9 +14571,9 @@
 		(at 99.06 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0d7c3028-70b4-46d2-abd6-016d8dd07905")
 		(property "Reference" "IC1"
@@ -16120,8 +16216,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1cf63530-a94c-44cb-8fbc-0a68f5b0da99")
 		(property "Reference" "TP9"
@@ -16854,9 +16950,9 @@
 		(at 29.21 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "27f2e987-6d19-465d-92d2-cafda3c08a00")
 		(property "Reference" "C56"
 			(at 31.75 157.48 0)
@@ -20643,9 +20739,9 @@
 		(at 41.91 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "515b351b-3ac4-40ea-978a-772947d38f74")
 		(property "Reference" "C61"
 			(at 44.45 157.48 0)
@@ -21748,9 +21844,9 @@
 		(at 54.61 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5bcf9dbd-56c8-4e6d-827c-1fb87b7afaba")
 		(property "Reference" "C62"
 			(at 57.15 157.48 0)
@@ -21958,9 +22054,9 @@
 		(at 41.91 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "5e6cba75-df6b-4414-afd8-c64d796c4f89")
 		(property "Reference" "C54"
 			(at 44.45 195.58 0)
@@ -26541,9 +26637,9 @@
 		(at 29.21 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "9f22aca0-e2f6-4cdf-8c52-b6059e15f640")
 		(property "Reference" "C53"
 			(at 31.75 195.58 0)
@@ -28559,9 +28655,9 @@
 		(at 90.17 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
 		(uuid "d094b3a3-84fb-4017-8e5b-eef672fa57c4")
 		(property "Reference" "C1"
 			(at 92.71 156.21 0)
@@ -29279,8 +29375,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "da963b92-cd7c-436c-8fd5-0a12d12329f7")
 		(property "Reference" "TP10"
@@ -33489,6 +33585,108 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "37")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 328.93 257.81)
+		(size 46.99 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8872bad8-1662-451f-b166-b664b39e4cee")
+		(property "Sheetname" "Pulsed signals processing"
+			(at 328.93 257.0984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pulsed_sig_proc.kicad_sch"
+			(at 328.93 283.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "rpm_in" input
+			(at 328.93 262.89 180)
+			(uuid "d0a927b7-dae6-47e2-a5e0-0c681c11ff7a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "rpm_out" output
+			(at 375.92 262.89 0)
+			(uuid "9e58d61a-362a-4b04-94c1-f39ce831846a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "speed_in" input
+			(at 328.93 266.7 180)
+			(uuid "9f5be583-35af-4b65-9528-2c7c6aba0783")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "speed_out" output
+			(at 375.92 266.7 0)
+			(uuid "72f02d11-ff5b-4259-84a7-1be745dff5eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "water_in" input
+			(at 328.93 270.51 180)
+			(uuid "b008ae16-9cf9-47dd-874c-ff3c0ca05496")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "water_out" output
+			(at 375.92 270.51 0)
+			(uuid "bf130238-5196-408a-adab-59d92e37615a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "40")
 				)
 			)
 		)
