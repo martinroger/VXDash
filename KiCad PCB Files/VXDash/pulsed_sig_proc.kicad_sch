@@ -1973,7 +1973,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "10kOhm for diode protection\nForms a RC filter\nCut-off frequency : \n- For 1nF -> 16kHz\n- For 10nF -> 1.6kHz"
+	(text "10kOhm for diode protection\nForms a RC filter\nCut-off frequency : \n- For 1nF -> 16kHz\n- For 10nF -> 1.6kHz\n\n1nF and below seems preferable to avoid distortion "
 		(exclude_from_sim no)
 		(at 56.896 168.148 0)
 		(effects
@@ -5519,7 +5519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 60.96 110.4962 0)
 			(effects
 				(font
@@ -5864,7 +5864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "1n"
 			(at 60.96 153.6762 0)
 			(effects
 				(font
