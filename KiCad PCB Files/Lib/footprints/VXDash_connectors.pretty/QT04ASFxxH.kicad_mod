@@ -77,8 +77,8 @@
 		(uuid "c508565c-8925-4f72-beef-568b7aa3ecfd")
 	)
 	(fp_line
-		(start -8.25 -3.5)
-		(end -8.25 -9)
+		(start -9 -3.5)
+		(end -9 -9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -87,8 +87,8 @@
 		(uuid "78631d8a-5c4b-422a-9aad-88e7b6971e14")
 	)
 	(fp_line
-		(start -8.25 -3.5)
-		(end -6.75 -3.5)
+		(start -9 -3.5)
+		(end -7.5 -3.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -97,8 +97,8 @@
 		(uuid "c5b89fc4-e283-495e-86e0-569b7679def1")
 	)
 	(fp_line
-		(start -6.75 -3.5)
-		(end -6.75 -9)
+		(start -7.5 -3.5)
+		(end -7.5 -9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -107,8 +107,8 @@
 		(uuid "02175781-fe47-4daa-a2fb-51c114cff689")
 	)
 	(fp_line
-		(start -3.25 -9)
-		(end -3.25 -3.25)
+		(start -3.75 -9)
+		(end -3.75 -3.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -117,8 +117,8 @@
 		(uuid "0d7be038-9748-4b5c-be1a-391fff1b0181")
 	)
 	(fp_line
-		(start -3.25 -3.25)
-		(end -1.75 -3.25)
+		(start -3.75 -3.25)
+		(end -2.25 -3.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -127,8 +127,8 @@
 		(uuid "81b1668c-7737-4d2a-93cf-e63a1108f42a")
 	)
 	(fp_line
-		(start -1.75 -3.25)
-		(end -1.75 -9)
+		(start -2.25 -3.25)
+		(end -2.25 -9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -137,8 +137,8 @@
 		(uuid "69e5731b-189e-40de-98f0-f5f70206c000")
 	)
 	(fp_line
-		(start 1.75 -3.25)
-		(end 1.75 -9)
+		(start 1.25 -3.25)
+		(end 1.25 -9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -147,8 +147,8 @@
 		(uuid "21195b77-238c-42ac-b992-19367d332c4d")
 	)
 	(fp_line
-		(start 1.75 -3.25)
-		(end 3.25 -3.25)
+		(start 1.25 -3.25)
+		(end 2.75 -3.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -157,8 +157,8 @@
 		(uuid "73f2c2c9-18e9-44bf-ba1e-36eb7cfd385d")
 	)
 	(fp_line
-		(start 3.25 -3.25)
-		(end 3.25 -9)
+		(start 2.75 -3.25)
+		(end 2.75 -9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -167,8 +167,8 @@
 		(uuid "755200fd-94c8-4e1c-b66f-71e10da8b003")
 	)
 	(fp_line
-		(start 6.75 -9)
-		(end 6.75 -3.25)
+		(start 6.25 -9)
+		(end 6.25 -3.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -177,8 +177,8 @@
 		(uuid "afe9305e-64fa-4887-89dc-6ca709ab16e5")
 	)
 	(fp_line
-		(start 6.75 -3.25)
-		(end 8.25 -3.25)
+		(start 6.25 -3.25)
+		(end 7.75 -3.25)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -187,8 +187,8 @@
 		(uuid "f097bfca-a2c3-4772-8f39-5eea737ea2eb")
 	)
 	(fp_line
-		(start 8.25 -3.25)
-		(end 8.25 -9)
+		(start 7.75 -3.25)
+		(end 7.75 -9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -263,7 +263,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -7.5 -1.32)
+		(at -8.05 -1.32)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -272,7 +272,7 @@
 		(uuid "20047940-3e04-4300-bb9d-d555cf4079d8")
 	)
 	(pad "2" thru_hole circle
-		(at -2.5 -1.32)
+		(at -3.05 -1.32)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -281,7 +281,7 @@
 		(uuid "0a537354-c38d-4d85-8841-5f45afdd91a2")
 	)
 	(pad "3" thru_hole circle
-		(at 2.5 -1.32)
+		(at 1.95 -1.32)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -290,7 +290,7 @@
 		(uuid "dd7fa9e2-f201-4096-96b2-bcc19ce48acd")
 	)
 	(pad "4" thru_hole circle
-		(at 7.5 -1.32)
+		(at 6.95 -1.32)
 		(size 3 3)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -299,4 +299,15 @@
 		(uuid "ec149b39-994b-4082-870c-62065b2bb13e")
 	)
 	(embedded_fonts no)
+	(model "E:/Electronics/Libraries/3D/Connectors/Amphenol_QT04ASBxxHxxG.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

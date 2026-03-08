@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "VXDash RemoteECU")
-		(date "2025-08-08")
+		(date "2026-01-25")
 		(rev "Proto A")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
@@ -765,7 +765,7 @@
 	)
 	(text "Voltage spike protection.\nAutomotive 12V supply can \nsee spikes >60V due to \nload-dump, etc.\n\nVaristor\n18V max working,\n24V max clamping \n250A."
 		(exclude_from_sim no)
-		(at 63.5 100.33 0)
+		(at 50.8 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -786,10 +786,10 @@
 		(uuid "da228e5b-f5ef-4602-bf39-cb4984818fb9")
 	)
 	(junction
-		(at 107.95 92.71)
+		(at 161.29 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1d0a1d78-b841-4e08-ab08-6ebd41f9f515")
+		(uuid "55ed7be4-16f4-418a-8804-6d1ad3dc4f2f")
 	)
 	(junction
 		(at 119.38 92.71)
@@ -826,6 +826,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9f55592-ffee-43fc-bf57-e9487e4fce70")
+	)
+	(junction
+		(at 107.95 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e64b7390-0284-48f6-a4cf-70932de6ed0a")
 	)
 	(junction
 		(at 132.08 92.71)
@@ -868,16 +874,6 @@
 			(type default)
 		)
 		(uuid "0c0e7efb-74c4-4bf3-a767-9c665ab39029")
-	)
-	(wire
-		(pts
-			(xy 107.95 92.71) (xy 107.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e76e5a3-0523-4f57-a6a8-e9176e306200")
 	)
 	(wire
 		(pts
@@ -938,6 +934,16 @@
 			(type default)
 		)
 		(uuid "6b5eccef-c14e-4f6a-968a-1caf8bbaa5ca")
+	)
+	(wire
+		(pts
+			(xy 92.71 92.71) (xy 107.95 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "825f403c-8d7a-4d99-999c-4aaf5e8fdd40")
 	)
 	(wire
 		(pts
@@ -1008,6 +1014,16 @@
 			(type default)
 		)
 		(uuid "bbd625bd-da2e-4f57-8675-d97bba00f198")
+	)
+	(wire
+		(pts
+			(xy 161.29 92.71) (xy 161.29 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c72752f4-f4ac-446f-85b2-fc7d3f411778")
 	)
 	(wire
 		(pts
@@ -1089,6 +1105,17 @@
 		)
 		(uuid "9b21bee4-d61f-4637-815a-03a53e9272db")
 	)
+	(hierarchical_label "Power_0V"
+		(shape input)
+		(at 92.71 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1045375a-6bf9-4321-aa20-7a26b7813530")
+	)
 	(hierarchical_label "Power_Protected"
 		(shape output)
 		(at 166.37 74.93 0)
@@ -1122,7 +1149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "521f185f-3810-49f8-ad63-c807d91422a4")
-		(property "Reference" "C10"
+		(property "Reference" "C15"
 			(at 115.57 81.2799 0)
 			(effects
 				(font
@@ -1140,7 +1167,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 120.3452 80.01 0)
 			(effects
 				(font
@@ -1221,7 +1248,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "C10")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -1238,7 +1265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63e42ebb-a5cf-48c1-9eeb-4de9068274ee")
-		(property "Reference" "C9"
+		(property "Reference" "C18"
 			(at 157.48 81.2799 0)
 			(effects
 				(font
@@ -1256,7 +1283,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 162.2552 80.01 0)
 			(effects
 				(font
@@ -1337,7 +1364,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "C9")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -1345,15 +1372,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 93.98 0)
+		(at 161.29 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "70fe318d-426d-4b24-8a36-82c5e77dd1f9")
-		(property "Reference" "#PWR06"
-			(at 107.95 100.33 0)
+		(property "Reference" "#PWR015"
+			(at 161.29 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1389,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 106.68 97.79 0)
+			(at 160.02 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1398,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 93.98 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 93.98 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 93.98 0)
+			(at 161.29 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,7 +1436,7 @@
 			)
 			(project "DashSpy"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "#PWR06")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -1425,7 +1452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74e30467-aa02-485b-a767-a8ede42f501e")
-		(property "Reference" "R3"
+		(property "Reference" "R18"
 			(at 138.43 68.58 90)
 			(effects
 				(font
@@ -1477,7 +1504,7 @@
 		(instances
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "R3")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1494,7 +1521,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c79d6c-95af-4703-948a-b6c3b40d8e3e")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 146.05 81.2799 0)
 			(effects
 				(font
@@ -1512,7 +1539,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 150.8252 80.01 0)
 			(effects
 				(font
@@ -1593,7 +1620,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "C8")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1609,7 +1636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c967cf89-ba3d-4d4d-a8b6-23928d7e8b04")
-		(property "Reference" "R4"
+		(property "Reference" "R21"
 			(at 138.43 86.36 90)
 			(effects
 				(font
@@ -1661,7 +1688,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "R4")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -1677,7 +1704,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d35e3443-c457-40c7-aa1c-1d469b3c21a5")
-		(property "Reference" "F2"
+		(property "Reference" "F1"
 			(at 99.06 69.85 90)
 			(effects
 				(font
@@ -1748,7 +1775,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "F2")
+					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -1765,7 +1792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de873ee6-7cd2-473e-b4d6-87e05f60c897")
-		(property "Reference" "C6"
+		(property "Reference" "C16"
 			(at 128.27 81.2799 0)
 			(effects
 				(font
@@ -1783,7 +1810,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 133.0452 80.01 0)
 			(effects
 				(font
@@ -1870,7 +1897,7 @@
 			)
 			(project "DashSpy"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/c2d4aa4f-5950-4a72-b3dc-55b93ec0e74f"
-					(reference "C6")
+					(reference "C16")
 					(unit 1)
 				)
 			)

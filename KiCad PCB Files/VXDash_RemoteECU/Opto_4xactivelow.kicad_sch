@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "VXDash RemoteECU")
-		(date "2025-08-08")
+		(date "2026-01-25")
 		(rev "Proto A")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
@@ -809,10 +809,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Assume 50% CTR w.c.\nVf = 1.2V @1mA\nLowest battery = 10V\n\nCircuit CTR:\nIf = (10V-1.2V)/1mA = 8.8k. \nLower closest 8k2 = 1.07mA\nIc = 3.3/10k = 330uA\nCTRc = 0.33/1.07 = 30.8%\n\nOpto is always in saturation\n"
+	(text_box "Active-low input optoisolators. Inputs to chassis 0V.\n\nAssume 50% CTR w.c.\nVf = 1.2V @1mA\nLowest battery = 10V\n\nCircuit CTR:\nIf = (10V-1.2V)/1mA = 8.8k. \nLower closest 8k2 = 1.07mA\nIc = 3.3/10k = 330uA\nCTRc = 0.33/1.07 = 30.8%\n\nOpto is always in saturation\n"
 		(exclude_from_sim no)
-		(at 113.03 15.24 0)
-		(size 31.75 25.4)
+		(at 15.24 15.24 0)
+		(size 66.04 35.56)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -863,16 +863,6 @@
 			(type default)
 		)
 		(uuid "00215662-3dbc-431d-8819-5db50f19b6aa")
-	)
-	(wire
-		(pts
-			(xy 123.19 68.58) (xy 127 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00da4b55-08e0-4ced-802c-af62b905626c")
 	)
 	(wire
 		(pts
@@ -1246,6 +1236,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 99.06) (xy 127 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf0c87e8-95c9-48cd-a765-6e8f36a952ea")
+	)
+	(wire
+		(pts
 			(xy 123.19 63.5) (xy 123.19 57.15)
 		)
 		(stroke
@@ -1296,26 +1296,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 73.66) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e231b83c-a7d9-429f-a689-e4ff8ee6a919")
-	)
-	(wire
-		(pts
-			(xy 123.19 104.14) (xy 123.19 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5af2428-c8d0-44f3-9902-f7ee7117446b")
-	)
-	(wire
-		(pts
 			(xy 146.05 166.37) (xy 146.05 161.29)
 		)
 		(stroke
@@ -1326,16 +1306,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 99.06) (xy 127 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9100f29-02d3-4c32-aa99-16633381f6ce")
-	)
-	(wire
-		(pts
 			(xy 146.05 109.22) (xy 146.05 110.49)
 		)
 		(stroke
@@ -1343,6 +1313,16 @@
 			(type default)
 		)
 		(uuid "f35f0455-a3ef-4c34-8e37-7217d847d89f")
+	)
+	(wire
+		(pts
+			(xy 115.57 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6446c40-15f3-4abe-ac8e-d897158a1a75")
 	)
 	(wire
 		(pts
@@ -1376,7 +1356,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "3V3"
 		(shape bidirectional)
 		(at 153.67 78.74 0)
 		(fields_autoplaced yes)
@@ -1398,7 +1378,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "3V3"
 		(shape bidirectional)
 		(at 153.67 109.22 0)
 		(fields_autoplaced yes)
@@ -1420,7 +1400,51 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "Protected_12V"
+		(shape input)
+		(at 115.57 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6ae5c602-768e-44a2-a4c7-54860451030d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.6924 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Protected_12V"
+		(shape input)
+		(at 115.57 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "71ec94ee-7bb5-4ca5-ad43-1cfa3d389c77")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.6924 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
 		(shape bidirectional)
 		(at 153.67 140.97 0)
 		(fields_autoplaced yes)
@@ -1442,7 +1466,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "3V3"
 		(shape bidirectional)
 		(at 153.67 48.26 0)
 		(fields_autoplaced yes)
@@ -1508,9 +1532,9 @@
 		)
 		(uuid "1323e10f-b365-49cb-92fc-af3783457c9b")
 	)
-	(hierarchical_label "HL_Input2"
+	(hierarchical_label "~{HL_Input2}"
 		(shape input)
-		(at 115.57 78.74 180)
+		(at 115.57 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1541,9 +1565,9 @@
 		)
 		(uuid "81494e5c-0376-4c2b-b926-336726bce0d4")
 	)
-	(hierarchical_label "HL_Input1"
+	(hierarchical_label "~{HL_Input1}"
 		(shape input)
-		(at 115.57 48.26 180)
+		(at 115.57 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1584,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22e66e85-24cf-4d25-b04c-a3c96d8e3b9d")
-		(property "Reference" "R?"
+		(property "Reference" "R25"
 			(at 148.59 52.0699 0)
 			(effects
 				(font
@@ -1602,7 +1626,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.272 53.34 90)
 			(effects
 				(font
@@ -1683,7 +1707,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R?")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -1699,7 +1723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244e0705-24cc-4e8a-ad79-882ef69fcfeb")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 134.62 118.11 0)
 			(effects
 				(font
@@ -1791,9 +1815,9 @@
 			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd1")
 		)
 		(instances
-			(project ""
+			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -1809,7 +1833,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "341c3690-49b0-46a2-8d02-ed0278610821")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 134.62 149.86 0)
 			(effects
 				(font
@@ -1853,57 +1877,57 @@
 			)
 		)
 		(pin "5"
-			(uuid "e921076e-1bb9-448c-8364-1511318ad4b5")
+			(uuid "e921076e-1bb9-448c-8364-1511318ad4b6")
 		)
 		(pin "8"
-			(uuid "762b9d10-7783-4961-ac63-66d82bc0240b")
+			(uuid "762b9d10-7783-4961-ac63-66d82bc0240c")
 		)
 		(pin "16"
-			(uuid "ef1cb900-b415-44c5-bd4c-bc000c573381")
+			(uuid "ef1cb900-b415-44c5-bd4c-bc000c573382")
 		)
 		(pin "7"
-			(uuid "3b54a6d6-2328-472e-8751-0e30504eee6d")
+			(uuid "3b54a6d6-2328-472e-8751-0e30504eee6e")
 		)
 		(pin "15"
-			(uuid "c75a31d2-5e2f-4244-8887-e40c0f1d2726")
+			(uuid "c75a31d2-5e2f-4244-8887-e40c0f1d2727")
 		)
 		(pin "1"
-			(uuid "9a891793-f416-4a42-8882-429fb7057833")
+			(uuid "9a891793-f416-4a42-8882-429fb7057834")
 		)
 		(pin "6"
-			(uuid "e42e2644-f7d5-4d70-9fc2-beb5d7c4caec")
+			(uuid "e42e2644-f7d5-4d70-9fc2-beb5d7c4caed")
 		)
 		(pin "13"
-			(uuid "bdd4c29d-05f3-453d-a687-fb73f1d16a71")
+			(uuid "bdd4c29d-05f3-453d-a687-fb73f1d16a72")
 		)
 		(pin "14"
-			(uuid "122133f2-dbb8-4ab0-873d-11f78f62a104")
+			(uuid "122133f2-dbb8-4ab0-873d-11f78f62a105")
 		)
 		(pin "11"
-			(uuid "2b7f174d-5581-4f66-87ec-70a54d0fbd0d")
+			(uuid "2b7f174d-5581-4f66-87ec-70a54d0fbd0e")
 		)
 		(pin "3"
-			(uuid "bcb7692b-66d4-4357-b337-49d3350a4d7b")
+			(uuid "bcb7692b-66d4-4357-b337-49d3350a4d7c")
 		)
 		(pin "2"
-			(uuid "83bad6a6-9fd7-40a8-9c14-61bcd7bfa677")
+			(uuid "83bad6a6-9fd7-40a8-9c14-61bcd7bfa678")
 		)
 		(pin "12"
-			(uuid "2cd6c188-c7ff-495f-8abd-2a5e0c1c7104")
+			(uuid "2cd6c188-c7ff-495f-8abd-2a5e0c1c7105")
 		)
 		(pin "10"
-			(uuid "b69ead5b-b9cc-401d-83bb-230abc91b32a")
+			(uuid "b69ead5b-b9cc-401d-83bb-230abc91b32b")
 		)
 		(pin "9"
-			(uuid "f439bfef-13a4-4898-9c11-c0ca9dcbb046")
+			(uuid "f439bfef-13a4-4898-9c11-c0ca9dcbb047")
 		)
 		(pin "4"
-			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd1")
+			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd2")
 		)
 		(instances
-			(project ""
+			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "U1")
+					(reference "U2")
 					(unit 4)
 				)
 			)
@@ -1919,7 +1943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45651980-d8d9-4cf8-bc57-c1d3bef6a4a9")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 134.62 87.63 0)
 			(effects
 				(font
@@ -1963,57 +1987,57 @@
 			)
 		)
 		(pin "5"
-			(uuid "e921076e-1bb9-448c-8364-1511318ad4b5")
+			(uuid "e921076e-1bb9-448c-8364-1511318ad4b7")
 		)
 		(pin "8"
-			(uuid "762b9d10-7783-4961-ac63-66d82bc0240b")
+			(uuid "762b9d10-7783-4961-ac63-66d82bc0240d")
 		)
 		(pin "16"
-			(uuid "ef1cb900-b415-44c5-bd4c-bc000c573381")
+			(uuid "ef1cb900-b415-44c5-bd4c-bc000c573383")
 		)
 		(pin "7"
-			(uuid "3b54a6d6-2328-472e-8751-0e30504eee6d")
+			(uuid "3b54a6d6-2328-472e-8751-0e30504eee6f")
 		)
 		(pin "15"
-			(uuid "c75a31d2-5e2f-4244-8887-e40c0f1d2726")
+			(uuid "c75a31d2-5e2f-4244-8887-e40c0f1d2728")
 		)
 		(pin "1"
-			(uuid "9a891793-f416-4a42-8882-429fb7057833")
+			(uuid "9a891793-f416-4a42-8882-429fb7057835")
 		)
 		(pin "6"
-			(uuid "e42e2644-f7d5-4d70-9fc2-beb5d7c4caec")
+			(uuid "e42e2644-f7d5-4d70-9fc2-beb5d7c4caee")
 		)
 		(pin "13"
-			(uuid "bdd4c29d-05f3-453d-a687-fb73f1d16a71")
+			(uuid "bdd4c29d-05f3-453d-a687-fb73f1d16a73")
 		)
 		(pin "14"
-			(uuid "122133f2-dbb8-4ab0-873d-11f78f62a104")
+			(uuid "122133f2-dbb8-4ab0-873d-11f78f62a106")
 		)
 		(pin "11"
-			(uuid "2b7f174d-5581-4f66-87ec-70a54d0fbd0d")
+			(uuid "2b7f174d-5581-4f66-87ec-70a54d0fbd0f")
 		)
 		(pin "3"
-			(uuid "bcb7692b-66d4-4357-b337-49d3350a4d7b")
+			(uuid "bcb7692b-66d4-4357-b337-49d3350a4d7d")
 		)
 		(pin "2"
-			(uuid "83bad6a6-9fd7-40a8-9c14-61bcd7bfa677")
+			(uuid "83bad6a6-9fd7-40a8-9c14-61bcd7bfa679")
 		)
 		(pin "12"
-			(uuid "2cd6c188-c7ff-495f-8abd-2a5e0c1c7104")
+			(uuid "2cd6c188-c7ff-495f-8abd-2a5e0c1c7106")
 		)
 		(pin "10"
-			(uuid "b69ead5b-b9cc-401d-83bb-230abc91b32a")
+			(uuid "b69ead5b-b9cc-401d-83bb-230abc91b32c")
 		)
 		(pin "9"
-			(uuid "f439bfef-13a4-4898-9c11-c0ca9dcbb046")
+			(uuid "f439bfef-13a4-4898-9c11-c0ca9dcbb048")
 		)
 		(pin "4"
-			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd1")
+			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd3")
 		)
 		(instances
-			(project ""
+			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "U1")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -2029,7 +2053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d4751dd-8293-4364-86db-eb266b637be7")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR020"
 			(at 146.05 172.72 0)
 			(effects
 				(font
@@ -2080,7 +2104,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "#PWR014")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -2096,7 +2120,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "805dcd74-2cd4-4df6-a2b3-5ab98f557f68")
-		(property "Reference" "R11"
+		(property "Reference" "R28"
 			(at 148.59 113.0299 0)
 			(effects
 				(font
@@ -2114,7 +2138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.272 114.3 90)
 			(effects
 				(font
@@ -2195,7 +2219,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R11")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2211,7 +2235,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "815ee86c-e003-48bc-a85c-b1b51aef0fca")
-		(property "Reference" "U1"
+		(property "Reference" "U2"
 			(at 134.62 57.15 0)
 			(effects
 				(font
@@ -2255,57 +2279,57 @@
 			)
 		)
 		(pin "5"
-			(uuid "e921076e-1bb9-448c-8364-1511318ad4b5")
+			(uuid "e921076e-1bb9-448c-8364-1511318ad4b8")
 		)
 		(pin "8"
-			(uuid "762b9d10-7783-4961-ac63-66d82bc0240b")
+			(uuid "762b9d10-7783-4961-ac63-66d82bc0240e")
 		)
 		(pin "16"
-			(uuid "ef1cb900-b415-44c5-bd4c-bc000c573381")
+			(uuid "ef1cb900-b415-44c5-bd4c-bc000c573384")
 		)
 		(pin "7"
-			(uuid "3b54a6d6-2328-472e-8751-0e30504eee6d")
+			(uuid "3b54a6d6-2328-472e-8751-0e30504eee70")
 		)
 		(pin "15"
-			(uuid "c75a31d2-5e2f-4244-8887-e40c0f1d2726")
+			(uuid "c75a31d2-5e2f-4244-8887-e40c0f1d2729")
 		)
 		(pin "1"
-			(uuid "9a891793-f416-4a42-8882-429fb7057833")
+			(uuid "9a891793-f416-4a42-8882-429fb7057836")
 		)
 		(pin "6"
-			(uuid "e42e2644-f7d5-4d70-9fc2-beb5d7c4caec")
+			(uuid "e42e2644-f7d5-4d70-9fc2-beb5d7c4caef")
 		)
 		(pin "13"
-			(uuid "bdd4c29d-05f3-453d-a687-fb73f1d16a71")
+			(uuid "bdd4c29d-05f3-453d-a687-fb73f1d16a74")
 		)
 		(pin "14"
-			(uuid "122133f2-dbb8-4ab0-873d-11f78f62a104")
+			(uuid "122133f2-dbb8-4ab0-873d-11f78f62a107")
 		)
 		(pin "11"
-			(uuid "2b7f174d-5581-4f66-87ec-70a54d0fbd0d")
+			(uuid "2b7f174d-5581-4f66-87ec-70a54d0fbd10")
 		)
 		(pin "3"
-			(uuid "bcb7692b-66d4-4357-b337-49d3350a4d7b")
+			(uuid "bcb7692b-66d4-4357-b337-49d3350a4d7e")
 		)
 		(pin "2"
-			(uuid "83bad6a6-9fd7-40a8-9c14-61bcd7bfa677")
+			(uuid "83bad6a6-9fd7-40a8-9c14-61bcd7bfa67a")
 		)
 		(pin "12"
-			(uuid "2cd6c188-c7ff-495f-8abd-2a5e0c1c7104")
+			(uuid "2cd6c188-c7ff-495f-8abd-2a5e0c1c7107")
 		)
 		(pin "10"
-			(uuid "b69ead5b-b9cc-401d-83bb-230abc91b32a")
+			(uuid "b69ead5b-b9cc-401d-83bb-230abc91b32d")
 		)
 		(pin "9"
-			(uuid "f439bfef-13a4-4898-9c11-c0ca9dcbb046")
+			(uuid "f439bfef-13a4-4898-9c11-c0ca9dcbb049")
 		)
 		(pin "4"
-			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd1")
+			(uuid "2d2c2b41-c389-4f8a-9145-899636a30cd4")
 		)
 		(instances
-			(project ""
+			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2321,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88dab4a2-c951-41c8-a501-ae42f2824430")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR019"
 			(at 146.05 140.97 0)
 			(effects
 				(font
@@ -2372,7 +2396,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "#PWR015")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -2388,7 +2412,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "979bc80c-eea9-455c-88a2-f378ffad3069")
-		(property "Reference" "R9"
+		(property "Reference" "R27"
 			(at 148.59 82.5499 0)
 			(effects
 				(font
@@ -2406,7 +2430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.272 83.82 90)
 			(effects
 				(font
@@ -2487,7 +2511,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R9")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -2503,7 +2527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a35b37e0-b66b-4c51-928f-5957d82432e8")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR018"
 			(at 146.05 110.49 0)
 			(effects
 				(font
@@ -2554,7 +2578,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "#PWR013")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -2570,7 +2594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a598ee63-9a59-4adf-9f0b-acfc31b3fe83")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR017"
 			(at 146.05 80.01 0)
 			(effects
 				(font
@@ -2621,7 +2645,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "#PWR?")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -2637,7 +2661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac6f5aee-f5d8-4ffc-aec6-9ec88fe1733c")
-		(property "Reference" "R10"
+		(property "Reference" "R29"
 			(at 125.73 116.8399 0)
 			(effects
 				(font
@@ -2655,7 +2679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.412 118.11 90)
 			(effects
 				(font
@@ -2832,7 +2856,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R10")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2872,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea487f6-00d3-49c0-8f85-c65507028927")
-		(property "Reference" "R12"
+		(property "Reference" "R31"
 			(at 125.73 148.5899 0)
 			(effects
 				(font
@@ -2866,7 +2890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 121.412 149.86 90)
 			(effects
 				(font
@@ -3043,7 +3067,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R12")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -3059,7 +3083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2a6b19e-ee01-442c-8419-af6fc98024eb")
-		(property "Reference" "R?"
+		(property "Reference" "R24"
 			(at 125.73 52.0699 0)
 			(effects
 				(font
@@ -3158,7 +3182,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R?")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -3174,7 +3198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba86ecb9-f6c1-488b-a97c-a8e1d8e2b887")
-		(property "Reference" "R8"
+		(property "Reference" "R26"
 			(at 125.73 82.5499 0)
 			(effects
 				(font
@@ -3273,141 +3297,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d8a9eb15-a2cd-4756-9eae-f9f1b4148664")
-		(property "Reference" "#PWR07"
-			(at 123.19 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b34b90ad-a61e-4169-8f4b-4ad4b9d1f71c")
-		)
-		(instances
-			(project "VXDash_RemoteECU"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 123.19 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e0bfa16b-e45e-4f3f-ba25-df0cec28909b")
-		(property "Reference" "#PWR?"
-			(at 123.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 125.73 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "695ed241-ed72-445c-861d-c323ba422267")
-		)
-		(instances
-			(project "VXDash_RemoteECU"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "#PWR?")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -3423,7 +3313,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f11ac32c-aee4-4b36-80c1-58bc9eac6ab6")
-		(property "Reference" "R13"
+		(property "Reference" "R30"
 			(at 148.59 144.7799 0)
 			(effects
 				(font
@@ -3441,7 +3331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 144.272 146.05 90)
 			(effects
 				(font
@@ -3522,7 +3412,7 @@
 		(instances
 			(project "VXDash_RemoteECU"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/088344ab-0087-41b9-ba15-1cbc38cf2c06"
-					(reference "R13")
+					(reference "R30")
 					(unit 1)
 				)
 			)

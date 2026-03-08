@@ -5,10 +5,8 @@
 	(uuid "c6d28adb-d270-46fa-91ca-086e241c3638")
 	(paper "A4")
 	(title_block
-		(title "A1S Mini Board")
-		(date "2025-03-30")
-		(rev "0.3.0")
-		(company "Martin Roger")
+		(date "2026-01-25")
+		(rev "Proto A")
 	)
 	(lib_symbols
 		(symbol "DIY:USB4105-GF-A"
@@ -736,405 +734,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "VXDash_diodes:1N5819HW-7-F"
-			(pin_names
-				(offset 0.762)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 11.43 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "1N5819HW-7-F"
-				(at 11.43 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123"
-				(at 11.43 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-				(at 11.43 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123"
-				(at 11.43 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Height" "1.45"
-				(at 11.43 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MFT" "Diodes Incorporated"
-				(at 11.43 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MFT_PN" "1N5819HW-7-F"
-				(at 11.43 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "621-1N5819HW-F"
-				(at 11.43 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"
-				(at 11.43 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "1N5819HW-7-F"
-				(at 11.43 -20.32 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5819hw-7-f/diodes-incorporated?utm_currency=USD&region=nac"
-				(at 11.43 -22.86 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(symbol "1N5819HW-7-F_0_0"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "1N5819HW-7-F_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "VXDash_passives:Cap_MLCC"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Cap_MLCC"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ceremic capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Voltage" "50V"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Tol" "10%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Dielectric" "X7R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFT" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MFT_PN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor mlcc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Cap_MLCC_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Cap_MLCC_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "VXDash_passives:Res"
 			(pin_numbers
 				(hide yes)
@@ -1308,56 +907,46 @@
 		)
 	)
 	(junction
-		(at 105.41 78.74)
+		(at 175.26 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2afd98bf-a38b-49cb-8bb4-b540c3909ad5")
+	)
+	(junction
+		(at 182.88 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53ee197c-ea62-4c5d-95d2-f364650a856c")
+	)
+	(junction
+		(at 175.26 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6aaba72c-4e15-492a-b759-38422b86e1eb")
 	)
 	(junction
-		(at 113.03 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8237e0d5-c9be-46b3-828f-27f4cbe7b989")
-	)
-	(junction
-		(at 113.03 68.58)
+		(at 182.88 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0bee443-7205-436d-a3ed-f8a052520a9c")
 	)
 	(junction
-		(at 105.41 76.2)
+		(at 175.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4ab0b2f-da2f-43e0-860f-727bc8d59df5")
 	)
-	(junction
-		(at 184.15 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f436b7b7-eeeb-49fc-bbe0-f06c2ad86655")
-	)
 	(no_connect
-		(at 64.77 60.96)
+		(at 134.62 78.74)
 		(uuid "93797f33-cf43-47ae-bde6-f8ae9a26e326")
 	)
 	(no_connect
-		(at 105.41 63.5)
+		(at 175.26 81.28)
 		(uuid "b51348ea-8e4f-4daf-ac4e-3e452727efbc")
 	)
 	(wire
 		(pts
-			(xy 176.53 33.02) (xy 184.15 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224f6946-6fe3-4a51-b256-3954248391ae")
-	)
-	(wire
-		(pts
-			(xy 62.23 53.34) (xy 64.77 53.34)
+			(xy 132.08 71.12) (xy 134.62 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1367,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 115.57) (xy 118.11 119.38)
+			(xy 187.96 133.35) (xy 187.96 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1377,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 71.12) (xy 113.03 71.12)
+			(xy 175.26 88.9) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1387,7 +976,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 95.25) (xy 115.57 105.41)
+			(xy 185.42 118.11) (xy 185.42 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1397,7 +986,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 55.88) (xy 64.77 55.88)
+			(xy 118.11 73.66) (xy 134.62 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1407,17 +996,17 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 59.69) (xy 184.15 74.93)
+			(xy 182.88 88.9) (xy 182.88 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a2ce033-f0b1-415d-98f9-81184faa2b03")
+		(uuid "47dd9b69-ad87-4fac-a341-18f7b2641077")
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 105.41 78.74)
+			(xy 175.26 93.98) (xy 175.26 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1427,7 +1016,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 48.26) (xy 113.03 48.26)
+			(xy 182.88 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b4965c-e56c-4fc1-a174-e9c0b19494c5")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 182.88 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1437,7 +1036,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 105.41 81.28)
+			(xy 175.26 96.52) (xy 175.26 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1447,17 +1046,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 33.02) (xy 161.29 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c649e2b-a8df-4bd3-a614-caef7bfa2dfc")
-	)
-	(wire
-		(pts
-			(xy 46.99 58.42) (xy 64.77 58.42)
+			(xy 118.11 76.2) (xy 134.62 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1467,7 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 113.03 68.58)
+			(xy 175.26 86.36) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1477,7 +1066,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 55.88) (xy 130.81 55.88)
+			(xy 198.12 73.66) (xy 200.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1487,17 +1076,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 78.74) (xy 113.03 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b1408db-4159-4f72-a9a7-06ff79f3afed")
-	)
-	(wire
-		(pts
-			(xy 105.41 55.88) (xy 120.65 55.88)
+			(xy 175.26 73.66) (xy 190.5 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1507,17 +1086,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 33.02) (xy 190.5 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92050e2d-7c16-459e-ae02-55986b1cd6a3")
-	)
-	(wire
-		(pts
-			(xy 120.65 100.33) (xy 120.65 105.41)
+			(xy 190.5 118.11) (xy 190.5 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1527,7 +1096,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 100.33) (xy 118.11 105.41)
+			(xy 187.96 118.11) (xy 187.96 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1537,7 +1106,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 50.8) (xy 113.03 50.8)
+			(xy 175.26 68.58) (xy 182.88 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1547,17 +1116,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 33.02) (xy 184.15 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d90e10c1-bef4-4df2-aa57-46832c9b3a60")
-	)
-	(wire
-		(pts
-			(xy 113.03 68.58) (xy 120.65 68.58)
+			(xy 182.88 86.36) (xy 190.5 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1567,7 +1126,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 60.96) (xy 113.03 60.96)
+			(xy 175.26 78.74) (xy 182.88 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1577,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 58.42) (xy 113.03 58.42)
+			(xy 175.26 76.2) (xy 182.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1587,7 +1146,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 68.58) (xy 113.03 71.12)
+			(xy 182.88 86.36) (xy 182.88 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1597,7 +1156,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 73.66) (xy 105.41 76.2)
+			(xy 175.26 91.44) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1607,7 +1166,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 54.61 53.34)
+			(xy 118.11 71.12) (xy 124.46 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1617,7 +1176,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape passive)
-		(at 113.03 48.26 0)
+		(at 182.88 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1626,31 +1185,9 @@
 		)
 		(uuid "0e15c999-e7f6-48d0-a313-cfa7d96fa89c")
 	)
-	(hierarchical_label "VCC_5V"
-		(shape passive)
-		(at 190.5 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "11bedd14-58e2-487f-91b2-f0e11e3a8ccb")
-	)
-	(hierarchical_label "GND"
-		(shape passive)
-		(at 184.15 74.93 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e25ce1d-f386-46a7-a4bb-f61dc0c1c8b1")
-	)
 	(hierarchical_label "USB_DN"
 		(shape passive)
-		(at 113.03 60.96 0)
+		(at 182.88 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1661,7 +1198,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 118.11 119.38 270)
+		(at 187.96 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1672,7 +1209,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 120.65 68.58 0)
+		(at 190.5 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1683,7 +1220,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape passive)
-		(at 113.03 50.8 0)
+		(at 182.88 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1692,20 +1229,9 @@
 		)
 		(uuid "8892e499-4c2f-45b6-b191-ee19d7a16326")
 	)
-	(hierarchical_label "VBUS"
-		(shape passive)
-		(at 148.59 33.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8ac50b67-d001-45ba-8f0b-cc3dfc842318")
-	)
 	(hierarchical_label "USB_DP"
 		(shape passive)
-		(at 113.03 58.42 0)
+		(at 182.88 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1716,7 +1242,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 130.81 55.88 0)
+		(at 200.66 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1727,7 +1253,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape passive)
-		(at 118.11 100.33 90)
+		(at 187.96 118.11 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1738,7 +1264,7 @@
 	)
 	(hierarchical_label "USB_DN"
 		(shape passive)
-		(at 46.99 58.42 180)
+		(at 118.11 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1749,7 +1275,7 @@
 	)
 	(hierarchical_label "VBUS"
 		(shape passive)
-		(at 115.57 95.25 90)
+		(at 185.42 118.11 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1760,7 +1286,7 @@
 	)
 	(hierarchical_label "USB_DN"
 		(shape passive)
-		(at 120.65 100.33 90)
+		(at 190.5 118.11 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1771,7 +1297,7 @@
 	)
 	(hierarchical_label "USB_DP"
 		(shape passive)
-		(at 26.67 55.88 180)
+		(at 118.11 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1782,7 +1308,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 48.26 53.34 180)
+		(at 118.11 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1791,170 +1317,9 @@
 		)
 		(uuid "fed237ff-ca0b-4932-b7b8-daaa26b3df6f")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 35.56 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "726a43bc-4562-48b5-b4bd-e302bac7fecd")
-		(property "Netclass" "10mil"
-			(at 36.1696 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 53.34 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ceeb22bc-8a03-4cc7-8929-8cbee2ffad68")
-		(property "Netclass" "10mil"
-			(at 53.9496 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 113.03 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "01471bb2-c911-4b6f-8475-975bdd808206")
-		(property "Reference" "R71"
-			(at 115.57 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0"
-			(at 115.57 76.1999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.252 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" ""
-			(at 113.03 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ab5806c1-e850-4598-9605-e49b5db66516")
-		)
-		(pin "2"
-			(uuid "57ce8c3f-a858-419b-9807-077d36dd0c17")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(symbol
 		(lib_id "DIY:USB4105-GF-A")
-		(at 85.09 58.42 0)
+		(at 154.94 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1962,8 +1327,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0f7cd647-f895-495b-810b-45ba79af6943")
-		(property "Reference" "J5"
-			(at 85.09 40.64 0)
+		(property "Reference" "J12"
+			(at 154.94 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1971,15 +1336,15 @@
 			)
 		)
 		(property "Value" "USB4105-GF-A"
-			(at 85.09 43.18 0)
+			(at 154.94 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "DIY:GCT_USB4105-GF-A"
-			(at 85.09 58.42 0)
+		(property "Footprint" "VXDash_connectors:GCT_USB4105-GF-A"
+			(at 154.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1989,7 +1354,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/5492/USB4105.pdf"
-			(at 85.09 58.42 0)
+			(at 154.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,83 +1363,7 @@
 			)
 		)
 		(property "Description" "CONN RCP USB2.0 TYP C 24P SMD RA"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "B4"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "3.31 mm"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "GCT"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "GCT"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "USB4105-GF-A"
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Instructions/Notes" ""
-			(at 85.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 85.09 58.42 0)
+			(at 154.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2143,196 +1432,7 @@
 			)
 			(project "a1s-mini"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_diodes:1N5819HW-7-F")
-		(at 176.53 33.02 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "747c773e-167b-435c-aaeb-4f78d72f2bc2")
-		(property "Reference" "D10"
-			(at 168.91 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N5819HW-7-F"
-			(at 168.91 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 165.1 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/1N5819HW.pdf"
-			(at 165.1 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode Schottky 1A 40V SOD123 Diodes Inc 1N5819HW-7-F, SMT Schottky Diode, 40V 1A, 2-Pin SOD-123"
-			(at 165.1 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.45"
-			(at 165.1 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 165.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1N5819HW-7-F"
-			(at 165.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "621-1N5819HW-F"
-			(at 165.1 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/1N5819HW-7-F?qs=NQ47qNm99eDyWTEd07miYA%3D%3D"
-			(at 165.1 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "1N5819HW-7-F"
-			(at 165.1 12.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/1n5819hw-7-f/diodes-incorporated?utm_currency=USD&region=nac"
-			(at 165.1 10.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Instructions/Notes" ""
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Diodes Incorporated"
-			(at 165.1 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "1N5819HW-7-F"
-			(at 165.1 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5937497f-7032-41bc-aaa4-96e45ab66b2d")
-		)
-		(pin "2"
-			(uuid "81e5f1fd-533a-4f34-afa5-eacdd1d53096")
-		)
-		(instances
-			(project "a1s-mini"
-				(path "/473bba75-08f8-4c6c-a9b2-aa3e95e63a5e/53d69b61-aed6-4e37-bc10-846d5fa685f3"
-					(reference "D10")
-					(unit 1)
-				)
-				(path "/473bba75-08f8-4c6c-a9b2-aa3e95e63a5e/8323e6d2-76cd-4fc3-8c0e-fe203cb9f4bf"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-			(project "a1s-mini"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "D10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2340,7 +1440,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 124.46 55.88 90)
+		(at 194.31 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2348,8 +1448,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9356911b-41d4-49f5-a390-e54a3ff5cacb")
-		(property "Reference" "R73"
-			(at 124.46 49.53 90)
+		(property "Reference" "R41"
+			(at 194.31 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,15 +1457,15 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 124.46 52.07 90)
+			(at 194.31 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 57.658 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 194.31 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2374,7 +1474,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2383,7 +1483,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2392,7 +1492,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +1501,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +1510,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +1519,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +1528,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 124.46 55.88 0)
+			(at 194.31 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +1545,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "R73")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -2453,7 +1553,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 58.42 53.34 90)
+		(at 128.27 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2461,8 +1561,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cfaf2b9-8606-4821-8136-af3f0fd240a1")
-		(property "Reference" "R72"
-			(at 58.42 46.99 90)
+		(property "Reference" "R40"
+			(at 128.27 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2470,15 +1570,15 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 58.42 49.53 90)
+			(at 128.27 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 58.42 55.118 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 128.27 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2487,7 +1587,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2496,7 +1596,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2505,7 +1605,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,7 +1614,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2523,7 +1623,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +1632,7 @@
 			)
 		)
 		(property "MFT" ""
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2541,7 +1641,7 @@
 			)
 		)
 		(property "MFT_PN" ""
-			(at 58.42 53.34 0)
+			(at 128.27 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2558,168 +1658,7 @@
 		(instances
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "R72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 184.15 55.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1d8cb7c-1bcc-4ef4-aa7f-5a5f6678cf0b")
-		(property "Reference" "C12"
-			(at 187.96 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10u"
-			(at 187.96 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 183.1848 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ceremic capacitor"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Samsung Electro-Mechanics"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL10A106KP8NNNC"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Instructions/Notes" ""
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" "SMD"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "10V"
-			(at 187.96 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tol" "10%"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" ""
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" ""
-			(at 184.15 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa1e71ef-a38c-4fdc-a824-f21262135a4a")
-		)
-		(pin "2"
-			(uuid "4071fe0f-a3ca-420f-87e7-bee1f87419b7")
-		)
-		(instances
-			(project "a1s-mini"
-				(path "/473bba75-08f8-4c6c-a9b2-aa3e95e63a5e/53d69b61-aed6-4e37-bc10-846d5fa685f3"
-					(reference "C12")
-					(unit 1)
-				)
-				(path "/473bba75-08f8-4c6c-a9b2-aa3e95e63a5e/8323e6d2-76cd-4fc3-8c0e-fe203cb9f4bf"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-			(project "a1s-mini"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "C12")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2727,7 +1666,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:SP0503BAHT")
-		(at 118.11 110.49 0)
+		(at 187.96 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2735,8 +1674,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f741de64-30d5-46b7-8d64-9a8c73f36988")
-		(property "Reference" "D7"
-			(at 124.46 109.855 0)
+		(property "Reference" "D2"
+			(at 194.31 127.635 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2745,7 +1684,7 @@
 			)
 		)
 		(property "Value" "SP0503BAHTG"
-			(at 124.46 112.395 0)
+			(at 194.31 130.175 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2754,7 +1693,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
-			(at 123.825 111.76 0)
+			(at 193.675 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2764,7 +1703,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf"
-			(at 121.285 107.315 0)
+			(at 191.135 125.095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2773,7 +1712,7 @@
 			)
 		)
 		(property "Description" "TVS DIODE 5.5VWM 8.5VC SOT1434"
-			(at 118.11 110.49 0)
+			(at 187.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2782,7 +1721,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Littelfuse Inc"
-			(at 118.11 110.49 0)
+			(at 187.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2791,7 +1730,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SP0503BAHTG"
-			(at 118.11 110.49 0)
+			(at 187.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2800,7 +1739,7 @@
 			)
 		)
 		(property "Instructions/Notes" ""
-			(at 118.11 110.49 0)
+			(at 187.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2809,7 +1748,7 @@
 			)
 		)
 		(property "Type" "SMD"
-			(at 118.11 110.49 0)
+			(at 187.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +1781,7 @@
 			)
 			(project "a1s-mini"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/11c95b80-6877-4331-900f-61afaaa4bc98"
-					(reference "D7")
+					(reference "D2")
 					(unit 1)
 				)
 			)
