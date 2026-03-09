@@ -7886,7 +7886,7 @@
 	)
 	(wire
 		(pts
-			(xy 541.02 129.54) (xy 535.94 129.54)
+			(xy 541.02 129.54) (xy 538.48 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10067,16 +10067,6 @@
 		)
 		(uuid "55113a36-1a8d-4472-a4ac-ed4912edcdaa")
 	)
-	(label "IGNITION_ActHI"
-		(at 535.94 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "59dce369-e46f-4a8f-a9c1-7d17071805c2")
-	)
 	(label "CAN_rx"
 		(at 353.06 208.28 0)
 		(effects
@@ -11737,6 +11727,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IGNITION_ActHI"
+		(shape input)
+		(at 538.48 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6fdbadff-ec36-4d1a-9eeb-4ed721b3076f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 522.2997 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
