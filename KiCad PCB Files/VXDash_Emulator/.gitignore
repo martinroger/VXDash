@@ -24,4 +24,6 @@ _autosave-*
 *.xml
 *.csv
 /*-backups
-/production/backups/*
+
+# Production files
+/production/*

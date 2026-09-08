@@ -7,7 +7,7 @@
 	(title_block
 		(title "3V3 SMPS")
 		(date "2026-01-08")
-		(rev "2.0-proto-C")
+		(rev "0.3.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -1952,6 +1952,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "AP62200WU-7"
+			(at 124.46 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "c9336fd1-ce5a-4043-a428-eb054a389520")
 		)
@@ -1984,7 +1993,7 @@
 		(at 168.91 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp yes)
 		(fields_autoplaced yes)
@@ -2173,6 +2182,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "C0402C220J5GAC7411"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2386,6 +2404,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "RC0603FR-0724KL"
+			(at 160.02 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0c131c6a-1ceb-4d04-bc63-d6b601113103")
 		)
@@ -2595,6 +2622,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "CL31B106KAHNNNE"
+			(at 99.06 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2808,6 +2844,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "RC0603FR-0775KL"
+			(at 160.02 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a0253d58-8cb4-44ab-b51c-40b938746970")
 		)
@@ -3017,6 +3062,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "RC0603FR-07820KL"
+			(at 88.9 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3229,6 +3283,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "CL31B226KPHNNNE"
+			(at 200.66 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "00d7bcfa-07ca-4b89-9ce1-d2cfdae6aff7")
 		)
@@ -3437,6 +3500,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "CL31B226KPHNNNE"
+			(at 193.04 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3657,6 +3729,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "NRS5030T3R3MMGJ"
+			(at 153.67 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "95f56cdc-4b4c-48eb-954b-89e3303920b6")
 		)
@@ -3866,6 +3947,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "RC0603FR-07120KL"
+			(at 88.9 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4079,6 +4169,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "CL10B104KB8NNWC"
+			(at 106.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e8b3747-7498-4bf5-96b6-184ae7f972c6")
 		)
@@ -4286,6 +4385,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "CL10B104KB8NNWC"
+			(at 140.97 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4497,6 +4605,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "CL10B104KB8NNWC"
+			(at 185.42 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

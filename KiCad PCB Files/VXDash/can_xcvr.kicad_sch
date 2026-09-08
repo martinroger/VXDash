@@ -7,7 +7,7 @@
 	(title_block
 		(title "Main architecture")
 		(date "2026-01-08")
-		(rev "2.0-proto-C")
+		(rev "0.3.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -1372,6 +1372,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "CL10B104KB8NNWC"
+			(at 111.76 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb6ca397-a153-4aa1-a7ae-cb50774596dd")
 		)
@@ -1588,6 +1597,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "0805W8F0000T5E"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1809,6 +1827,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "CL10B104KB8NNWC"
+			(at 144.78 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e04dcd5b-f0f8-4190-8636-216d32e4e98b")
 		)
@@ -2028,6 +2055,15 @@
 				)
 			)
 		)
+		(property "AISLER_MPN" "CL31B226KPHNNNE"
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0f17473e-c942-4f59-897c-024d3a2fd1e3")
 		)
@@ -2226,6 +2262,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "AISLER_MPN" "ATA6561-GAQW"
+			(at 125.73 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "4"

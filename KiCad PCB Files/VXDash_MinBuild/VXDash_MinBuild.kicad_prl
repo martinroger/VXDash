@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -37,7 +37,6 @@
       "grid",
       "footprints_front",
       "footprints_back",
-      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -47,7 +46,7 @@
       "drc_exclusions",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_a20000b5",
+    "visible_layers": "00000000_00000000_0000000a_02000025",
     "zone_display_mode": 0
   },
   "git": {
@@ -56,7 +55,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "VXDash.kicad_prl",
+    "filename": "VXDash_MinBuild.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
@@ -89,18 +88,18 @@
       11
     ],
     "col_widths": [
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10,
-      10
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
@@ -127,7 +126,7 @@
       "otherItems": true,
       "pins": true,
       "symbols": true,
-      "text": true,
+      "text": false,
       "wires": true
     }
   }
