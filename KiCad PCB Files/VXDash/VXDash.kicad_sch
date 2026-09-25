@@ -6,8 +6,8 @@
 	(paper "A2")
 	(title_block
 		(title "Main architecture")
-		(date "2026-03-05")
-		(rev "0.3.0")
+		(date "2026-09-23")
+		(rev "0.4.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -5051,12 +5051,6 @@
 		(uuid "f3e09d63-6109-4474-a677-cb4666d3a25f")
 	)
 	(junction
-		(at 570.23 317.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "12de7256-f885-47e3-acae-1b9c12ab5977")
-	)
-	(junction
 		(at 246.38 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5127,12 +5121,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fecaecb-c1d6-4afb-a187-bdb95a4e57a5")
-	)
-	(junction
-		(at 285.75 325.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5179576f-6e04-4a58-ba78-1b6763b75275")
 	)
 	(junction
 		(at 509.27 134.62)
@@ -5231,18 +5219,6 @@
 		(uuid "b2b70120-0585-4c8f-9fac-d22a96067ad7")
 	)
 	(junction
-		(at 570.23 307.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b32faa25-bf6e-4c8c-8f8e-dfe2cae17d4b")
-	)
-	(junction
-		(at 570.23 297.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8facc77-41ce-403b-9aee-75a629d9c980")
-	)
-	(junction
 		(at 359.41 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5295,12 +5271,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fdc88566-94ac-45c3-9ec4-d1dfbaa12249")
-	)
-	(junction
-		(at 275.59 325.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fdcb01e4-5d21-4e22-a1c7-43409cb9f120")
 	)
 	(no_connect
 		(at 342.9 203.2)
@@ -5382,16 +5352,6 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 306.07) (xy 485.14 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0103d976-27c0-43e3-93a0-51cfcac537e7")
-	)
-	(wire
-		(pts
 			(xy 81.28 354.33) (xy 121.92 354.33)
 		)
 		(stroke
@@ -5449,6 +5409,16 @@
 			(type default)
 		)
 		(uuid "030dbb68-7730-42af-bf37-a7e5a5f79adf")
+	)
+	(wire
+		(pts
+			(xy 149.86 88.9) (xy 152.4 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "042aca6e-42e2-4db3-a40e-2aaf21ea8ad5")
 	)
 	(wire
 		(pts
@@ -5603,16 +5573,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 93.98) (xy 167.64 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0db3bd7b-72da-414f-8c12-3f7748e9530b")
-	)
-	(wire
-		(pts
 			(xy 342.9 175.26) (xy 353.06 175.26)
 		)
 		(stroke
@@ -5754,16 +5714,6 @@
 	)
 	(wire
 		(pts
-			(xy 481.33 295.91) (xy 485.14 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "165ec67b-f4a4-47a2-a13e-621b53d69d06")
-	)
-	(wire
-		(pts
 			(xy 499.11 125.73) (xy 510.54 125.73)
 		)
 		(stroke
@@ -5834,16 +5784,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 81.28) (xy 167.64 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ea5b766-7715-4115-8074-a17b2d81bf74")
-	)
-	(wire
-		(pts
 			(xy 186.69 172.72) (xy 193.04 172.72)
 		)
 		(stroke
@@ -5874,16 +5814,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 93.98) (xy 152.4 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2099c68b-e759-4a7a-8e16-1e9a050a7835")
-	)
-	(wire
-		(pts
 			(xy 342.9 167.64) (xy 353.06 167.64)
 		)
 		(stroke
@@ -5891,16 +5821,6 @@
 			(type default)
 		)
 		(uuid "20add94a-72a1-4035-ad3c-b62a7b48ca83")
-	)
-	(wire
-		(pts
-			(xy 563.88 307.34) (xy 570.23 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "212d2250-8939-4ec9-82ea-422dd28f775c")
 	)
 	(wire
 		(pts
@@ -5982,16 +5902,6 @@
 			(type default)
 		)
 		(uuid "26f0c2b5-d37e-4b15-90ab-af240dfad5f0")
-	)
-	(wire
-		(pts
-			(xy 481.33 285.75) (xy 485.14 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27cf5e33-bc06-41b0-bf54-5bec6ef6c13e")
 	)
 	(wire
 		(pts
@@ -6265,16 +6175,6 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 287.02) (xy 570.23 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384eda76-07dd-4ae7-845b-8565c3482479")
-	)
-	(wire
-		(pts
 			(xy 482.6 55.88) (xy 490.22 55.88)
 		)
 		(stroke
@@ -6282,26 +6182,6 @@
 			(type default)
 		)
 		(uuid "3881e884-88a4-4e23-abe0-8c995ffbe39e")
-	)
-	(wire
-		(pts
-			(xy 275.59 328.93) (xy 275.59 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "38df2e59-d4db-43b8-8703-ec55af279a61")
-	)
-	(wire
-		(pts
-			(xy 441.96 284.48) (xy 444.5 284.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39417d07-e978-4bb2-8a76-35e878a68273")
 	)
 	(wire
 		(pts
@@ -6405,6 +6285,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 83.82) (xy 167.64 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c57402d-01d3-40a7-9a14-c1ccae868e88")
+	)
+	(wire
+		(pts
 			(xy 322.58 379.73) (xy 325.12 379.73)
 		)
 		(stroke
@@ -6422,6 +6312,16 @@
 			(type default)
 		)
 		(uuid "3dc444b6-d75c-463c-b9fc-060911f1db2e")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 167.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd093aa-7837-4f67-9df1-df3769bb74ef")
 	)
 	(wire
 		(pts
@@ -6462,16 +6362,6 @@
 			(type default)
 		)
 		(uuid "42491856-c41d-4a68-8d82-673f72dd1a91")
-	)
-	(wire
-		(pts
-			(xy 524.51 306.07) (xy 527.05 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42ccf91b-a262-4103-9190-ae9f7f03eb6a")
 	)
 	(wire
 		(pts
@@ -6676,16 +6566,6 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 307.34) (xy 570.23 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525a3d43-dc61-469f-902c-3622053cbbcb")
-	)
-	(wire
-		(pts
 			(xy 242.57 50.8) (xy 248.92 50.8)
 		)
 		(stroke
@@ -6693,16 +6573,6 @@
 			(type default)
 		)
 		(uuid "5353146f-8a3c-4278-8bb1-93d52257a563")
-	)
-	(wire
-		(pts
-			(xy 481.33 326.39) (xy 485.14 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53bce50f-5957-4388-9873-756e32d04fa0")
 	)
 	(wire
 		(pts
@@ -6926,16 +6796,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 328.93) (xy 275.59 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f539d2a-8b7c-47b5-a41e-3d803ee9590e")
-	)
-	(wire
-		(pts
 			(xy 121.92 278.13) (xy 121.92 238.76)
 		)
 		(stroke
@@ -7016,16 +6876,6 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 317.5) (xy 570.23 317.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64583f6f-e137-432d-af3e-ab367d8a8bec")
-	)
-	(wire
-		(pts
 			(xy 53.34 274.32) (xy 58.42 274.32)
 		)
 		(stroke
@@ -7083,16 +6933,6 @@
 			(type default)
 		)
 		(uuid "66c5831b-6be9-46a1-af18-32b29fac3ba9")
-	)
-	(wire
-		(pts
-			(xy 563.88 287.02) (xy 570.23 287.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66eb59d3-7e2c-4b68-8e0e-3a50e14733c0")
 	)
 	(wire
 		(pts
@@ -7206,16 +7046,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 88.9) (xy 152.4 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "703d2443-7ca2-4109-9fc5-8e8db8ac0a88")
-	)
-	(wire
-		(pts
 			(xy 71.12 46.99) (xy 74.93 46.99)
 		)
 		(stroke
@@ -7243,26 +7073,6 @@
 			(type default)
 		)
 		(uuid "71828a09-5f51-42fa-b730-8eaded92482e")
-	)
-	(wire
-		(pts
-			(xy 158.75 349.25) (xy 161.29 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "726a17c7-56c5-422a-a405-f93c398da976")
-	)
-	(wire
-		(pts
-			(xy 165.1 91.44) (xy 167.64 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7284ffa4-fedd-4d3d-9772-0bc7485c9c0b")
 	)
 	(wire
 		(pts
@@ -7296,16 +7106,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 295.91) (xy 527.05 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "78827471-9be0-4216-bea5-da242a31a8eb")
-	)
-	(wire
-		(pts
 			(xy 260.35 379.73) (xy 262.89 379.73)
 		)
 		(stroke
@@ -7333,16 +7133,6 @@
 			(type default)
 		)
 		(uuid "79398547-d2ac-4879-bc81-c49df2dc5c5e")
-	)
-	(wire
-		(pts
-			(xy 149.86 83.82) (xy 152.4 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d21965-0d08-43b1-9155-b2f327dbc0c8")
 	)
 	(wire
 		(pts
@@ -7393,16 +7183,6 @@
 			(type default)
 		)
 		(uuid "7be681b0-299e-468c-bd76-a9de3aa44a17")
-	)
-	(wire
-		(pts
-			(xy 441.96 294.64) (xy 444.5 294.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be754e8-3061-4c4d-938b-0fc39f6fc819")
 	)
 	(wire
 		(pts
@@ -7556,6 +7336,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "874b774d-65c9-482f-ab5e-82e534aa2e41")
+	)
+	(wire
+		(pts
 			(xy 166.37 156.21) (xy 170.18 156.21)
 		)
 		(stroke
@@ -7613,16 +7403,6 @@
 			(type default)
 		)
 		(uuid "8b026bf7-c045-4043-a2e0-404398582bb8")
-	)
-	(wire
-		(pts
-			(xy 524.51 316.23) (xy 527.05 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c040307-b43e-4af9-ad57-e6625ff5b95a")
 	)
 	(wire
 		(pts
@@ -7796,13 +7576,13 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 328.93) (xy 285.75 328.93)
+			(xy 149.86 93.98) (xy 152.4 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "969eb4b6-7662-4e39-8ecb-09ecf7981f29")
+		(uuid "96dbe1ac-0fae-48ad-91f3-d06a1e30217d")
 	)
 	(wire
 		(pts
@@ -7813,16 +7593,6 @@
 			(type default)
 		)
 		(uuid "96ff51cf-9cb8-4209-b527-375c4593a8c9")
-	)
-	(wire
-		(pts
-			(xy 149.86 86.36) (xy 152.4 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97027100-dcd4-4505-84f9-131715147906")
 	)
 	(wire
 		(pts
@@ -8057,6 +7827,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 86.36) (xy 167.64 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a78143af-6762-4a21-8566-d683c9aecf37")
+	)
+	(wire
+		(pts
 			(xy 504.19 223.52) (xy 504.19 224.79)
 		)
 		(stroke
@@ -8097,16 +7877,6 @@
 	)
 	(wire
 		(pts
-			(xy 570.23 297.18) (xy 570.23 307.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa7b1c4b-1637-4b20-928c-1d569c3e0fc6")
-	)
-	(wire
-		(pts
 			(xy 474.98 125.73) (xy 480.06 125.73)
 		)
 		(stroke
@@ -8124,16 +7894,6 @@
 			(type default)
 		)
 		(uuid "ad33df1d-6fd4-4065-b8a4-64ab70a6c664")
-	)
-	(wire
-		(pts
-			(xy 441.96 325.12) (xy 444.5 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad8ce1e8-b605-44b8-98ec-77a82e42de25")
 	)
 	(wire
 		(pts
@@ -8164,6 +7924,16 @@
 			(type default)
 		)
 		(uuid "ae72de1a-30e9-443b-a243-606e6f976372")
+	)
+	(wire
+		(pts
+			(xy 149.86 86.36) (xy 152.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0bde6d8-555a-4e9b-96c2-95fb3f91f084")
 	)
 	(wire
 		(pts
@@ -8274,6 +8044,16 @@
 			(type default)
 		)
 		(uuid "b8079cc6-7666-436a-8873-45bdac77e04f")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 152.4 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c33997-8750-40a4-b69a-e7f57bfead66")
 	)
 	(wire
 		(pts
@@ -8407,16 +8187,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 349.25) (xy 143.51 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4a616c2-095f-4013-b77c-1007b15ed951")
-	)
-	(wire
-		(pts
 			(xy 297.18 223.52) (xy 297.18 229.87)
 		)
 		(stroke
@@ -8457,13 +8227,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 91.44) (xy 152.4 91.44)
+			(xy 165.1 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb2ccf37-bd17-4ffc-bfe3-4b8c5344712f")
+		(uuid "ca31a9c5-4279-43ef-8cde-b626877d9cf5")
 	)
 	(wire
 		(pts
@@ -8597,16 +8367,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 86.36) (xy 167.64 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d59ab64f-3bc0-4712-8411-e0a1d5c454e4")
-	)
-	(wire
-		(pts
 			(xy 467.36 60.96) (xy 490.22 60.96)
 		)
 		(stroke
@@ -8704,16 +8464,6 @@
 			(type default)
 		)
 		(uuid "d9c865d2-1b0b-457a-b5e8-1bf57a0b12d8")
-	)
-	(wire
-		(pts
-			(xy 151.13 349.25) (xy 153.67 349.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9cbae4b-0d7e-441b-ac66-57a316a287e2")
 	)
 	(wire
 		(pts
@@ -8867,16 +8617,6 @@
 	)
 	(wire
 		(pts
-			(xy 441.96 304.8) (xy 444.5 304.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e16c389a-c9ae-476e-842d-67af616449fe")
-	)
-	(wire
-		(pts
 			(xy 474.98 187.96) (xy 480.06 187.96)
 		)
 		(stroke
@@ -8894,6 +8634,16 @@
 			(type default)
 		)
 		(uuid "e24a482a-0668-4726-8322-d68c4a7553f4")
+	)
+	(wire
+		(pts
+			(xy 149.86 83.82) (xy 152.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a86ff0-d395-48f0-82b2-566be2334959")
 	)
 	(wire
 		(pts
@@ -8924,16 +8674,6 @@
 			(type default)
 		)
 		(uuid "e359c956-098a-4a9f-9466-379b4cf90a41")
-	)
-	(wire
-		(pts
-			(xy 285.75 328.93) (xy 285.75 325.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e470f292-8bb8-4578-b400-72eea044b046")
 	)
 	(wire
 		(pts
@@ -8984,16 +8724,6 @@
 			(type default)
 		)
 		(uuid "e59bf8bc-e1e0-463a-ac5e-596aa1326eac")
-	)
-	(wire
-		(pts
-			(xy 570.23 317.5) (xy 570.23 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5e3c88f-28a1-4ca4-ae6f-6fdc8896fed4")
 	)
 	(wire
 		(pts
@@ -9067,16 +8797,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 88.9) (xy 167.64 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf18619-2b39-41f7-983a-451d474bb4fd")
-	)
-	(wire
-		(pts
 			(xy 342.9 218.44) (xy 353.06 218.44)
 		)
 		(stroke
@@ -9137,16 +8857,6 @@
 	)
 	(wire
 		(pts
-			(xy 563.88 297.18) (xy 570.23 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef7a31eb-f606-4a42-bb86-5a7961c7d6df")
-	)
-	(wire
-		(pts
 			(xy 508 234.95) (xy 504.19 234.95)
 		)
 		(stroke
@@ -9154,6 +8864,16 @@
 			(type default)
 		)
 		(uuid "efce2303-8a8b-4aff-b152-932b82f9763a")
+	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 167.64 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f024d55f-94c2-440e-afb1-3d22eaa5199d")
 	)
 	(wire
 		(pts
@@ -9187,16 +8907,6 @@
 	)
 	(wire
 		(pts
-			(xy 524.51 285.75) (xy 527.05 285.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f458834a-4aff-4f0f-ada8-e6ded3dd40f3")
-	)
-	(wire
-		(pts
 			(xy 177.8 156.21) (xy 180.34 156.21)
 		)
 		(stroke
@@ -9204,16 +8914,6 @@
 			(type default)
 		)
 		(uuid "f4ab34e2-b533-4fcd-b59e-6aa6ac3160ab")
-	)
-	(wire
-		(pts
-			(xy 165.1 83.82) (xy 167.64 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f59153f9-691b-4adb-b775-0b29d3e826fa")
 	)
 	(wire
 		(pts
@@ -10361,16 +10061,6 @@
 		)
 		(uuid "a51768cf-2f25-4bc8-80be-aaa18cbfc4d9")
 	)
-	(label "expander_INT"
-		(at 161.29 349.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af014d28-fb12-4d35-af4e-a4c7cc3e5f5c")
-	)
 	(label "SPARE_A8"
 		(at 52.07 54.61 180)
 		(effects
@@ -10699,7 +10389,7 @@
 	)
 	(global_label "L_BEAM_ActHI"
 		(shape output)
-		(at 149.86 88.9 180)
+		(at 149.86 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10709,7 +10399,7 @@
 		)
 		(uuid "0b2985eb-213f-4781-b228-e36c1ad4f7ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7685 88.9 0)
+			(at 134.7685 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,22 +10521,22 @@
 	)
 	(global_label "H_BEAM_ActHI"
 		(shape output)
-		(at 149.86 93.98 180)
+		(at 167.64 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1972a6ee-8314-4f40-ba81-1cd6009f0ba8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.4661 93.98 0)
+			(at 183.0339 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10897,7 +10587,7 @@
 	)
 	(global_label "DOOR_ActLO"
 		(shape output)
-		(at 167.64 81.28 0)
+		(at 167.64 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10907,7 +10597,7 @@
 		)
 		(uuid "1d34493e-d9dc-4975-8f62-70f07bc42424")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 181.4011 81.28 0)
+			(at 181.4011 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,28 +10937,6 @@
 			)
 		)
 	)
-	(global_label "COOLANT_ActHI"
-		(shape input)
-		(at 524.51 316.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "3684ce82-3b13-4b02-bc13-2731f3839b1b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 508.0274 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BTN_ActLO"
 		(shape output)
 		(at 127 57.15 0)
@@ -11423,28 +11091,6 @@
 			)
 		)
 	)
-	(global_label "L_BEAM_ActHI"
-		(shape input)
-		(at 524.51 285.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f7fba23-4b84-4413-b70b-394169dddacc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 507.4416 285.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ALTERN_ActLO"
 		(shape output)
 		(at 71.12 59.69 180)
@@ -11511,28 +11157,6 @@
 			)
 		)
 	)
-	(global_label "Protected_12V"
-		(shape input)
-		(at 441.96 304.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "572b733e-93e1-4c91-9aa5-94137859b519")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.0824 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "AIRBAG_ActLO"
 		(shape input)
 		(at 53.34 265.43 180)
@@ -11557,7 +11181,7 @@
 	)
 	(global_label "ALTERN_ActLO"
 		(shape output)
-		(at 167.64 93.98 0)
+		(at 167.64 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11567,7 +11191,7 @@
 		)
 		(uuid "65455589-755e-46e1-80f4-e52053180d49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 183.0339 93.98 0)
+			(at 183.0339 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11667,7 +11291,7 @@
 	)
 	(global_label "CEL_ActLO"
 		(shape output)
-		(at 149.86 86.36 180)
+		(at 149.86 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11677,7 +11301,7 @@
 		)
 		(uuid "6c515abb-6f37-40dd-97ae-defcb27238e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.8528 86.36 0)
+			(at 137.8528 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11777,7 +11401,7 @@
 	)
 	(global_label "AIRBAG_ActLO"
 		(shape output)
-		(at 149.86 83.82 180)
+		(at 149.86 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11787,34 +11411,12 @@
 		)
 		(uuid "719f340c-bcb5-41c4-b842-fd2532ce5971")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.7079 83.82 0)
+			(at 134.7079 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OIL_ALRM_ActLO"
-		(shape input)
-		(at 485.14 306.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75b6ff76-8b4d-40b8-9891-1dab300bc52d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 502.5512 305.9906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -11837,28 +11439,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ALARM_ActHI"
-		(shape input)
-		(at 524.51 295.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7fc1e7c3-c09d-4235-b916-8baf290d8f05")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 510.4465 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12061,28 +11641,6 @@
 			)
 		)
 	)
-	(global_label "PARK_ActLO"
-		(shape input)
-		(at 485.14 295.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9367a156-ac52-4bd8-97be-49b69e8e0206")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 498.6807 295.8306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "L_TURN_ActHI"
 		(shape input)
 		(at 53.34 336.55 180)
@@ -12096,28 +11654,6 @@
 		(uuid "961aeb4b-c3fb-4581-bf9f-74461da50fba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.2269 336.4706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "+3V3"
-		(shape input)
-		(at 139.7 349.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "96a16f9f-2cbf-4a82-8f6b-0b2b976d76b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.289 349.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,28 +11725,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Protected_12V"
-		(shape input)
-		(at 441.96 294.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a829ec5f-6482-412a-9b0a-349175966bc6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.0824 294.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -12349,7 +11863,7 @@
 	)
 	(global_label "L_TURN_ActHI"
 		(shape output)
-		(at 167.64 91.44 0)
+		(at 167.64 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12359,7 +11873,7 @@
 		)
 		(uuid "b9b7d338-d24c-4dae-9546-f4f6ee47023c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.6711 91.44 0)
+			(at 182.6711 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,28 +11949,6 @@
 			)
 		)
 	)
-	(global_label "BRAKE_ActLO"
-		(shape input)
-		(at 485.14 285.75 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c4207d33-25fb-47c8-9e1b-1cd5babcbbf2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 499.8298 285.6706 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "+5V_AUX"
 		(shape output)
 		(at 359.41 63.5 0)
@@ -12514,50 +12006,6 @@
 		(uuid "d00b4ec1-c705-4399-8a9e-a7162859739e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 575.0255 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "H_BEAM_ActHI"
-		(shape input)
-		(at 524.51 306.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d128fb15-6ab9-4825-b19f-faad31d01b73")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 509.034 305.9906 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CEL_ActLO"
-		(shape input)
-		(at 485.14 326.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d26c1f60-59a2-4a71-9980-d14c1aebd36f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 497.1472 326.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12743,28 +12191,6 @@
 			)
 		)
 	)
-	(global_label "Protected_12V"
-		(shape input)
-		(at 441.96 325.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e351d7be-5798-4897-be95-762903c40970")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.0824 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CAN_L"
 		(shape bidirectional)
 		(at 510.54 137.16 0)
@@ -12809,28 +12235,6 @@
 			)
 		)
 	)
-	(global_label "Protected_12V"
-		(shape input)
-		(at 441.96 284.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9e01686-30e0-4f4e-85ab-325b27aa35ac")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 426.0824 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "COOLANT_ActHI"
 		(shape input)
 		(at 53.34 327.66 180)
@@ -12855,22 +12259,22 @@
 	)
 	(global_label "OIL_ALRM_ActLO"
 		(shape output)
-		(at 167.64 83.82 0)
+		(at 149.86 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ea4bf9f9-eca9-4d9d-b20d-6b81de746f85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9692 83.82 0)
+			(at 132.5308 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -12987,7 +12391,7 @@
 	)
 	(global_label "ALARM_ActHI"
 		(shape output)
-		(at 149.86 91.44 180)
+		(at 149.86 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12997,7 +12401,7 @@
 		)
 		(uuid "f542e7cc-9f85-459e-973a-340834169374")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.7965 91.44 0)
+			(at 135.7965 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +12435,7 @@
 	)
 	(global_label "R_TURN_ActHI"
 		(shape output)
-		(at 167.64 86.36 0)
+		(at 167.64 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13041,7 +12445,7 @@
 		)
 		(uuid "f644407a-2959-40f0-a14f-c9ea34f85770")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.913 86.36 0)
+			(at 182.913 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13233,7 +12637,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "07bd344b-ae8c-4f79-b4ab-558c6bd25443")
 		(property "Reference" "D18"
@@ -15025,223 +14429,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 280.67 328.93 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "20550be3-071b-4d1d-b92f-c72ae2ea98fd")
-		(property "Reference" "C11"
-			(at 280.67 339.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10n"
-			(at 280.67 336.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 276.86 327.9648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C100042.pdf"
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "CC0603KRX7R9BB103"
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "10%"
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 280.67 334.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Tolerance" ""
-			(at 280.67 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 280.67 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 280.67 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 280.67 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 280.67 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C100042"
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" ""
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vbr" ""
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vwm" ""
-			(at 280.67 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB103"
-			(at 280.67 328.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b120f75-2c79-44cb-b09b-886a24519c76")
-		)
-		(pin "2"
-			(uuid "57763c51-7d81-44e4-91c8-fe4799760eb5")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 403.86 213.36 0)
 		(unit 1)
@@ -15734,7 +14921,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "2a8f2205-0bb8-4205-a0f1-64ee2938cc32")
 		(property "Reference" "D16"
@@ -16869,7 +16056,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "370a95e5-f193-47e0-b91b-becead997116")
 		(property "Reference" "D17"
@@ -17447,7 +16634,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "3fe6a192-8915-4201-8c3d-72e3ab85c231")
 		(property "Reference" "R103"
@@ -20967,7 +20154,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "66ef578a-1b8a-4573-b4fb-d1b5508bb0a1")
 		(property "Reference" "R104"
@@ -21518,216 +20705,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "R139")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 147.32 349.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "733aeb55-837e-4cb2-872d-cfd483a6fe50")
-		(property "Reference" "R102"
-			(at 149.098 346.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "270R"
-			(at 148.336 352.044 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 147.32 351.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07270RL-Yageo-datasheet-103092701.pdf"
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-07270RL"
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 147.32 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 147.32 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 147.32 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 147.32 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C137754"
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vbr" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vwm" ""
-			(at 147.32 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07270RL"
-			(at 147.32 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4142d0d7-5631-4e3f-be05-6349d5d65faf")
-		)
-		(pin "2"
-			(uuid "fd8c3ad5-b2aa-42d1-b0fd-301657979d92")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "R102")
 					(unit 1)
 				)
 			)
@@ -23103,212 +22080,6 @@
 			(project ""
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_diodes:LED_Small")
-		(at 156.21 349.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(uuid "899a7411-e8aa-4f60-bfdd-001d549ec612")
-		(property "Reference" "D15"
-			(at 156.21 353.314 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EXP_INT_ON"
-			(at 156.464 355.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 156.21 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheet.octopart.com/LTST-C190KFKT-Lite-On-datasheet-26684741.pdf"
-			(at 156.21 349.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Lite-On"
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "LTST-C190KFKT"
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vf" "2V"
-			(at 156.21 346.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "If" "5mA"
-			(at 156.21 344.678 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C157740"
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ippm" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vbr" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Vwm" ""
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "AISLER_MPN" "LTST-C190KFKT"
-			(at 156.21 349.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b30da8e1-1448-4c2b-af76-abe385d3404c")
-		)
-		(pin "1"
-			(uuid "7708dd2f-ce6d-45c2-bf49-a97b9ed92cb8")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -26110,72 +24881,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 570.23 320.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c5e86a50-af83-47d4-ab99-465ad82dc5cb")
-		(property "Reference" "#PWR08"
-			(at 570.23 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 570.23 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 570.23 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 570.23 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 570.23 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5316177-193d-4fae-8561-9da30984134a")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 67.31 394.97 0)
 		(unit 1)
@@ -28130,7 +26835,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "e94317e7-a2da-47ea-9f48-849b5e25ef9e")
 		(property "Reference" "R105"
@@ -29942,130 +28647,6 @@
 		)
 	)
 	(sheet
-		(at 527.05 294.64)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "18d6f35d-7c07-47fb-929e-70cc5274aa47")
-		(property "Sheetname" "Telltale 17mA load emulator6"
-			(at 527.05 293.9284 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 527.05 299.0346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 527.05 295.91 180)
-			(uuid "563fb58b-98fa-434f-b254-2794d8950fc0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 563.88 297.18 0)
-			(uuid "4b7ac846-ee98-42bc-ac2b-5efff559fb9f")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "35")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 527.05 284.48)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "1b84b493-1cbb-4c35-9a21-eabcbb8e266d")
-		(property "Sheetname" "Telltale 17mA load emulator5"
-			(at 527.05 283.7684 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 527.05 288.8746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 527.05 285.75 180)
-			(uuid "b0796a15-5f2f-47b7-8bff-6b298932d47c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 563.88 287.02 0)
-			(uuid "77e8d24c-27cf-49d6-9450-f68337d8a97e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "34")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 58.42 254)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
@@ -30724,68 +29305,6 @@
 		)
 	)
 	(sheet
-		(at 444.5 293.37)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4bab7c39-fd42-485a-81cd-a9344806a473")
-		(property "Sheetname" "Telltale 17mA load emulator1"
-			(at 444.5 292.6584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 444.5 297.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 444.5 294.64 180)
-			(uuid "f0d60849-c9d2-4d0f-8f6a-86a167ea06b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 481.33 295.91 0)
-			(uuid "4478864b-c733-44a1-9c76-794da20b3b98")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "28")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 251.46 60.96)
 		(size 20.32 10.16)
 		(exclude_from_sim no)
@@ -30853,68 +29372,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "39")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 527.05 304.8)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5d40fbfb-4c97-44f2-bf74-0302a0de1f21")
-		(property "Sheetname" "Telltale 17mA load emulator7"
-			(at 527.05 304.0884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 527.05 309.1946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 527.05 306.07 180)
-			(uuid "fe58dea8-daae-4b1f-9535-7d660107e089")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 563.88 307.34 0)
-			(uuid "5f03db94-7331-4ac8-a06a-ba5458d43516")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "36")
 				)
 			)
 		)
@@ -31104,68 +29561,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 527.05 314.96)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "7cc5947d-fe31-4edc-9ec9-bd0d4f2c04aa")
-		(property "Sheetname" "Telltale 17mA load emulator8"
-			(at 527.05 314.2484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 527.05 319.3546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 527.05 316.23 180)
-			(uuid "df3ba013-8dea-4ad7-8495-2783f07f9d40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 563.88 317.5 0)
-			(uuid "bc8297a7-fbe4-462c-a0d0-3aaa38baa869")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "37")
 				)
 			)
 		)
@@ -31657,68 +30052,6 @@
 		)
 	)
 	(sheet
-		(at 444.5 323.85)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c9760672-840b-4ec5-b8f0-2bb78ba3f136")
-		(property "Sheetname" "Telltale 17mA load emulator4"
-			(at 444.5 323.1384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 444.5 328.2446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 444.5 325.12 180)
-			(uuid "831a5b7c-a18c-4c54-a17f-8465960d8f56")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 481.33 326.39 0)
-			(uuid "7fa94b45-65f0-470f-8d0d-54a5ac6ea326")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "33")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 58.42 245.11)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
@@ -31976,130 +30309,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 444.5 283.21)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "f6a0526c-9744-4299-a9e0-7c6c6edc1dea")
-		(property "Sheetname" "Telltale 17mA load emulator"
-			(at 444.5 282.4984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 444.5 287.6046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 444.5 284.48 180)
-			(uuid "5741061b-7179-4870-8251-65af2d8a76f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 481.33 285.75 0)
-			(uuid "d0771337-2f02-4b19-8954-69f5c5fbb8d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "30")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 444.5 303.53)
-		(size 36.83 3.81)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "faea5b42-9883-4023-a2b6-ee13ab121663")
-		(property "Sheetname" "Telltale 17mA load emulator2"
-			(at 444.5 302.8184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Telltale load emulation.kicad_sch"
-			(at 444.5 307.9246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "V+" bidirectional
-			(at 444.5 304.8 180)
-			(uuid "0bf49418-0151-4e2e-981d-bf7a7b6ac6bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V-" bidirectional
-			(at 481.33 306.07 0)
-			(uuid "d0733ddb-2e7c-4a66-a0d9-46e1d1a693f0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(page "31")
 				)
 			)
 		)
