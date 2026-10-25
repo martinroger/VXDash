@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "Analog circuit")
-		(date "2026-03-05")
-		(rev "0.3.0")
+		(date "2026-10-25")
+		(rev "0.4.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
@@ -514,192 +514,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1339,12 +1153,6 @@
 		(uuid "04b4baa7-70d5-4a76-9733-e904a657e387")
 	)
 	(junction
-		(at 167.64 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "08a23ae1-78a8-4176-aa9a-0af9f938aad3")
-	)
-	(junction
 		(at 160.02 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1438,6 +1246,10 @@
 		(at 217.17 147.32)
 		(uuid "e536cfd3-6517-43e0-ba29-bc9f54a91789")
 	)
+	(no_connect
+		(at 165.1 173.99)
+		(uuid "f719b792-775e-4dfd-ada7-aad8f13cee16")
+	)
 	(wire
 		(pts
 			(xy 144.78 176.53) (xy 143.51 176.53)
@@ -1497,16 +1309,6 @@
 			(type default)
 		)
 		(uuid "105637bd-1889-4757-a9c2-dcb7ec04763a")
-	)
-	(wire
-		(pts
-			(xy 165.1 173.99) (xy 170.18 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114d0417-020b-4e3a-b836-d776effec014")
 	)
 	(wire
 		(pts
@@ -1600,16 +1402,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 190.5) (xy 224.79 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3470cb93-0d84-4314-b010-d8c4b4ab2744")
-	)
-	(wire
-		(pts
 			(xy 328.93 152.4) (xy 341.63 152.4)
 		)
 		(stroke
@@ -1617,16 +1409,6 @@
 			(type default)
 		)
 		(uuid "34d31425-9648-4914-8096-318e2acc8b2a")
-	)
-	(wire
-		(pts
-			(xy 167.64 190.5) (xy 185.42 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36563bce-66ba-4bd0-bac2-5218704fa1d3")
 	)
 	(wire
 		(pts
@@ -1700,16 +1482,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 177.8) (xy 224.79 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f134907-6113-4886-9a6b-d99642adbb2b")
-	)
-	(wire
-		(pts
 			(xy 154.94 182.88) (xy 154.94 181.61)
 		)
 		(stroke
@@ -1740,16 +1512,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 190.5) (xy 167.64 195.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d813596-5369-461f-8fde-752797b02150")
-	)
-	(wire
-		(pts
 			(xy 314.96 172.72) (xy 314.96 175.26)
 		)
 		(stroke
@@ -1760,16 +1522,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 173.99) (xy 170.18 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76ed0e6e-de93-40f7-af6b-ad6fb273d161")
-	)
-	(wire
-		(pts
 			(xy 143.51 182.88) (xy 154.94 182.88)
 		)
 		(stroke
@@ -1777,16 +1529,6 @@
 			(type default)
 		)
 		(uuid "7deb9425-6e55-402c-a58b-2da2a7b0321b")
-	)
-	(wire
-		(pts
-			(xy 167.64 203.2) (xy 167.64 205.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fad009e-fb3c-4903-a6cc-11f054c14de7")
 	)
 	(wire
 		(pts
@@ -1807,16 +1549,6 @@
 			(type default)
 		)
 		(uuid "867932e9-dea9-4099-a9f5-1971d0292260")
-	)
-	(wire
-		(pts
-			(xy 167.64 176.53) (xy 167.64 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8860ebcf-cbff-49fe-896b-cadef683425f")
 	)
 	(wire
 		(pts
@@ -2080,23 +1812,13 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 176.53) (xy 167.64 176.53)
+			(xy 165.1 176.53) (xy 170.18 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e6bc9744-b44b-4fa9-adaf-da2fb73833c4")
-	)
-	(wire
-		(pts
-			(xy 170.18 177.8) (xy 185.42 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea148726-1729-4c92-b4b3-44a8bbae036e")
 	)
 	(wire
 		(pts
@@ -2168,26 +1890,6 @@
 		)
 		(uuid "2b5144de-fca9-4515-9a0f-431222645104")
 	)
-	(label "v_adc_2"
-		(at 181.61 190.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "39ac2b54-5f72-4480-b50a-cf82d534acaf")
-	)
-	(label "v_adc_1"
-		(at 181.61 177.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8081adae-25a8-4297-8b35-6fd2b7540ae0")
-	)
 	(label "v_ref"
 		(at 250.19 110.49 0)
 		(effects
@@ -2218,17 +1920,6 @@
 			(justify left)
 		)
 		(uuid "018eb53b-0205-4ed3-9e43-8a03d5c517e5")
-	)
-	(hierarchical_label "V_SENSOR_IN_2"
-		(shape input)
-		(at 224.79 190.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ca67636-cfad-4311-ad27-8a7c83fc9d99")
 	)
 	(hierarchical_label "R_SENSOR_IN_1"
 		(shape input)
@@ -2274,25 +1965,14 @@
 		)
 		(uuid "bb01d2fc-cd2b-47a3-8a00-0c984a0f9b91")
 	)
-	(hierarchical_label "V_SENSOR_IN_1"
+	(hierarchical_label "V_SUPPLY"
 		(shape input)
-		(at 224.79 177.8 0)
+		(at 170.18 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
-		)
-		(uuid "c40176c5-395c-4602-b2e0-b1f26c093ffd")
-	)
-	(hierarchical_label "V_SUPPLY"
-		(shape input)
-		(at 167.64 205.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
 		)
 		(uuid "e1e02157-cb6e-4c7d-a203-eff6702174de")
 	)
@@ -2306,85 +1986,6 @@
 			(justify right)
 		)
 		(uuid "ee0cb814-d92a-4fc4-bdb6-84f72074e3ff")
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 167.64 199.39 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0b63047e-ddb2-490e-8d81-1b0bcb0ac409")
-		(property "Reference" "JP12"
-			(at 170.18 198.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3v3 VREF"
-			(at 170.18 200.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 167.64 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 167.64 199.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" ""
-			(at 167.64 199.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "978b769e-041c-44c7-b9b2-76819f976f0a")
-		)
-		(pin "1"
-			(uuid "e270a6dc-c3c6-4891-a8f4-20210c348f38")
-		)
-		(instances
-			(project ""
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
-					(reference "JP12")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
@@ -5472,132 +5073,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
 					(page "20")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 185.42 173.99)
-		(size 29.21 8.89)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 171 169 1.0000)
-		)
-		(uuid "5a426090-a212-448a-a415-b266d8e90572")
-		(property "Sheetname" "AnalogV_Divider3"
-			(at 185.42 173.2784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AnalogV_Divider.kicad_sch"
-			(at 185.42 183.4646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Analog_OUT" output
-			(at 185.42 177.8 180)
-			(uuid "2d26685a-7c13-43d2-b281-487255c9b4a8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog_IN" input
-			(at 214.63 177.8 0)
-			(uuid "429a62c9-ccd4-4aee-883a-cd9a06b8d28e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
-					(page "23")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 185.42 186.69)
-		(size 29.21 8.89)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 171 169 1.0000)
-		)
-		(uuid "86e99c99-fb11-4ded-8b94-444f84514f75")
-		(property "Sheetname" "AnalogV_Divider4"
-			(at 185.42 185.9784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "AnalogV_Divider.kicad_sch"
-			(at 185.42 196.1646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "Analog_OUT" output
-			(at 185.42 190.5 180)
-			(uuid "9162960f-9590-44b5-90e1-a0a4a641f5b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Analog_IN" input
-			(at 214.63 190.5 0)
-			(uuid "12c35708-e648-4147-a85e-c195f8e5e410")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
-					(page "24")
 				)
 			)
 		)
