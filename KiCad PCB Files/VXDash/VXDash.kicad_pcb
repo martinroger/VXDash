@@ -50161,7 +50161,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "0ZRB0250FF1E"
+		(property "Value" "30R250UPR"
 			(at 2.6 -5.4 0)
 			(layer "B.Fab")
 			(uuid "353aad99-f32f-4785-a0f6-5b7e3d36ab94")
@@ -50173,7 +50173,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.belfuse.com/resources/datasheets/circuitprotection/ds-cp-0zrb-series.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C207101.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50201,7 +50201,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT" "Bel Fuse"
+		(property "MFT" "Littelfuse"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50215,7 +50215,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT_PN" "0ZRB0250FF1E"
+		(property "MFT_PN" "30R250UPR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50341,7 +50341,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3761262"
+		(property "LCSC" "C207101"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50355,7 +50355,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC alt" "C207101"
+		(property "LCSC alt" "C3761262"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50369,7 +50369,7 @@
 				(justify mirror)
 			)
 		)
-		(property "AISLER_MPN" "0ZRB0250FF1E"
+		(property "AISLER_MPN" "30R250UPR"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50381,6 +50381,21 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "ALT_MFT_PN_1" "0ZRB0250FF1E"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "611ef183-83cd-44ae-931f-a1d01f3e8989")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+				(hide yes)
 			)
 		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
@@ -81983,7 +81998,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1588.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C100040.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -82023,7 +82038,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C100040"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -82037,7 +82052,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
+		(property "MFT" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -82051,7 +82066,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT_PN" " CL10B102KB8NNNC"
+		(property "MFT_PN" "CC0603KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -82079,7 +82094,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC alt" "C100040"
+		(property "LCSC alt" "C1588"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -82093,7 +82108,7 @@
 				(justify mirror)
 			)
 		)
-		(property "AISLER_MPN" " CL10B102KB8NNNC"
+		(property "AISLER_MPN" "CC0603KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -82105,6 +82120,21 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "ALT_MFT_PN_1" "CL10B102KB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e199d09c-2276-41fb-a724-dcd44143b072")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+				(hide yes)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -100290,7 +100320,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1588.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C100040.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -100330,7 +100360,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C100040"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -100344,7 +100374,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
+		(property "MFT" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -100358,7 +100388,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT_PN" " CL10B102KB8NNNC"
+		(property "MFT_PN" "CC0603KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -100386,7 +100416,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC alt" "C100040"
+		(property "LCSC alt" "C1588"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -100400,7 +100430,7 @@
 				(justify mirror)
 			)
 		)
-		(property "AISLER_MPN" " CL10B102KB8NNNC"
+		(property "AISLER_MPN" "CC0603KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -100412,6 +100442,21 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "ALT_MFT_PN_1" "CL10B102KB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cd2a8d15-76c7-488c-9a38-36b2c473417a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+				(hide yes)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -104913,6 +104958,21 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC alt" "C15157"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "be8bd076-ece7-40d0-9d3d-310577b5e6a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+				(hide yes)
+			)
+		)
 		(property ki_fp_filters "RV_* Varistor*")
 		(path "/a87a9e87-7d8f-4fc6-ad53-8bc7de93c011/eecbece2-8897-47ea-823c-b0873e77bbb3")
 		(sheetname "/POWER INPUT/")
@@ -105312,7 +105372,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C1588.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C100040.pdf"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -105352,7 +105412,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1588"
+		(property "LCSC" "C100040"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -105366,7 +105426,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT" "Samsung Electro-Mechanics"
+		(property "MFT" "Yageo"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -105380,7 +105440,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFT_PN" " CL10B102KB8NNNC"
+		(property "MFT_PN" "CC0603KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -105408,7 +105468,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC alt" "C100040"
+		(property "LCSC alt" "C1588"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -105422,7 +105482,7 @@
 				(justify mirror)
 			)
 		)
-		(property "AISLER_MPN" " CL10B102KB8NNNC"
+		(property "AISLER_MPN" "CC0603KRX7R9BB102"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -105434,6 +105494,21 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "ALT_MFT_PN_1" "CL10B102KB8NNNC"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "783a5331-ae23-4c1f-b176-f15c0f83fdfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+				(hide yes)
 			)
 		)
 		(property ki_fp_filters "C_*")
@@ -106426,6 +106501,21 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
+			)
+		)
+		(property "LCSC alt" "C5184243"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1bef2402-771d-4e3d-9971-f40c8dda2c6c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+				(hide yes)
 			)
 		)
 		(path "/2e212a69-c846-4621-91af-cd3a20f77307/0f7cd647-f895-495b-810b-45ba79af6943")
@@ -116498,7 +116588,7 @@
 				(justify mirror)
 			)
 		)
-		(property "ALT_MFT_PN_1" " CD40106BM96"
+		(property "ALT_MFT_PN_1" "CD40106BM96"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
