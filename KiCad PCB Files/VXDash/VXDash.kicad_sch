@@ -1110,6 +1110,235 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Memory_NVRAM:FM24CL16B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FM24CL16B"
+				(at 6.35 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-FM24CL16B_16-Kbit_(2_K_8)_Serial_(I2C)_F-RAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec99cb241e9"
+				(at -5.08 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16Kb serial FRAM nonvolatile Memory, SOIC-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "FRAM I2C Serial 3.6V FRAM NVRAM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "FM24CL16B_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "FM24CL16B_1_1"
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "WP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -4458,7 +4687,7 @@
 		)
 		(uuid "dcc89601-8e84-4646-af34-488d7e19cb8d")
 	)
-	(text_box "Sensors"
+	(text_box "Sensors and FRAM"
 		(exclude_from_sim no)
 		(at 439.42 24.13 0)
 		(size 127 77.47)
@@ -4645,6 +4874,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b7d9d78-1eb9-4ebf-a6af-93629b8a16ee")
+	)
+	(junction
+		(at 480.06 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c2d1ee6-2c5e-485b-bb30-04a18c11f576")
+	)
+	(junction
+		(at 480.06 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9687e3a3-d9f4-420d-869b-c74c459bb71b")
 	)
 	(junction
 		(at 403.86 213.36)
@@ -6004,6 +6245,16 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 92.71) (xy 490.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523a9200-8e40-473a-a442-20fc68cffb90")
+	)
+	(wire
+		(pts
 			(xy 242.57 50.8) (xy 248.92 50.8)
 		)
 		(stroke
@@ -6274,6 +6525,16 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 92.71) (xy 480.06 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61f41ae5-92f4-4e98-81b2-0bbf608898e1")
+	)
+	(wire
+		(pts
 			(xy 408.94 142.24) (xy 408.94 144.78)
 		)
 		(stroke
@@ -6291,6 +6552,16 @@
 			(type default)
 		)
 		(uuid "62ef0f1f-b1d1-4f46-994f-760136115f02")
+	)
+	(wire
+		(pts
+			(xy 449.58 88.9) (xy 449.58 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6348445b-b747-40ff-a4be-b0de877d6605")
 	)
 	(wire
 		(pts
@@ -6381,6 +6652,16 @@
 			(type default)
 		)
 		(uuid "675974d1-0f6d-4c3a-b4df-ed4f7b2c029e")
+	)
+	(wire
+		(pts
+			(xy 471.17 72.39) (xy 480.06 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67fe8edb-07fa-444f-a237-1723bf1d0dcf")
 	)
 	(wire
 		(pts
@@ -6604,6 +6885,16 @@
 	)
 	(wire
 		(pts
+			(xy 480.06 77.47) (xy 449.58 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b54b28c-795b-4434-8d84-a77e8648dd97")
+	)
+	(wire
+		(pts
 			(xy 123.19 64.77) (xy 127 64.77)
 		)
 		(stroke
@@ -6711,6 +7002,16 @@
 			(type default)
 		)
 		(uuid "8429b107-14d1-4213-8ed0-a32c435bd941")
+	)
+	(wire
+		(pts
+			(xy 480.06 72.39) (xy 480.06 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84538216-7766-454d-8569-86cf081c2d41")
 	)
 	(wire
 		(pts
@@ -6994,6 +7295,16 @@
 	)
 	(wire
 		(pts
+			(xy 490.22 87.63) (xy 490.22 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b808133-2203-4c55-9e4b-68f7af0ee91a")
+	)
+	(wire
+		(pts
 			(xy 132.08 308.61) (xy 116.84 308.61)
 		)
 		(stroke
@@ -7032,6 +7343,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "9c7baddf-df9b-44df-b3ea-455d7244300e")
+	)
+	(wire
+		(pts
+			(xy 490.22 85.09) (xy 497.84 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d395b0f-c4bd-4f01-8295-632e9e37fb45")
 	)
 	(wire
 		(pts
@@ -7645,6 +7966,16 @@
 	)
 	(wire
 		(pts
+			(xy 449.58 92.71) (xy 480.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e3997f-5bad-4ab5-b3b4-3c92b463d494")
+	)
+	(wire
+		(pts
 			(xy 124.46 316.23) (xy 124.46 363.22)
 		)
 		(stroke
@@ -7812,6 +8143,16 @@
 			(type default)
 		)
 		(uuid "dc00aa9b-8cb6-44fb-9532-c3eb9df6e693")
+	)
+	(wire
+		(pts
+			(xy 449.58 77.47) (xy 449.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc83ccc0-9a2a-4030-a07f-0b464e9cc37a")
 	)
 	(wire
 		(pts
@@ -8182,6 +8523,16 @@
 			(type default)
 		)
 		(uuid "f733b800-3b5e-4bad-a788-b03b689cab0d")
+	)
+	(wire
+		(pts
+			(xy 490.22 82.55) (xy 497.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e4ebbf-7cb5-419d-8d92-08f318f85212")
 	)
 	(wire
 		(pts
@@ -8895,6 +9246,16 @@
 		)
 		(uuid "3f26de7e-78ad-401d-8878-e09181fabe5b")
 	)
+	(label "SCL"
+		(at 497.84 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42528c2d-a981-4cdc-8108-d32597b9c7b7")
+	)
 	(label "RD_RXD"
 		(at 322.58 384.81 180)
 		(effects
@@ -9288,6 +9649,16 @@
 			(justify right bottom)
 		)
 		(uuid "a51768cf-2f25-4bc8-80be-aaa18cbfc4d9")
+	)
+	(label "SDA"
+		(at 497.84 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ade7f128-ae75-48f1-91b9-6ae436319d11")
 	)
 	(label "SPARE_A8"
 		(at 52.07 54.61 180)
@@ -10547,6 +10918,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape input)
+		(at 471.17 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8b3a50e3-a771-4ed5-8b8b-4843eb4460bd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 463.1048 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14519,7 +14912,7 @@
 			(uuid "0b3b01de-ba05-4eaa-a45e-54a4fd2012d0")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "TP1")
 					(unit 1)
@@ -15509,7 +15902,7 @@
 			(uuid "faaf72ea-c38c-4f30-97ee-37c2176d743f")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "J11")
 					(unit 1)
@@ -18414,7 +18807,7 @@
 			(uuid "6ebeccf6-13ce-4353-b02b-db6783f6b91e")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "SW2")
 					(unit 1)
@@ -18894,6 +19287,94 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_NVRAM:FM24CL16B")
+		(at 480.06 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d6465a-fe9a-415b-aff1-750e0d4fc3e5")
+		(property "Reference" "U21"
+			(at 471.17 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FM24CL16B"
+			(at 471.17 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 480.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-FM24CL16B_16-Kbit_(2_K_8)_Serial_(I2C)_F-RAM-DataSheet-v13_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ec99cb241e9"
+			(at 474.98 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16Kb serial FRAM nonvolatile Memory, SOIC-8"
+			(at 480.06 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6dbe8323-014b-41d9-9962-854e0741d683")
+		)
+		(pin "7"
+			(uuid "889a6208-b259-4773-8f72-ecce83ebc897")
+		)
+		(pin "6"
+			(uuid "549339a1-9536-4e4d-be39-535ab63314e0")
+		)
+		(pin "5"
+			(uuid "ddc5233f-9439-4008-9e50-a29cf952a35f")
+		)
+		(pin "4"
+			(uuid "98f8193f-a95c-4c51-bdde-eccddb39c328")
+		)
+		(pin "8"
+			(uuid "b800ab35-e29c-4653-9476-fd05c878e591")
+		)
+		(pin "2"
+			(uuid "febb0d5a-e070-4f17-8bca-c441a8507968")
+		)
+		(pin "3"
+			(uuid "f99b12a2-b305-48ce-bae8-fdf64a04f08e")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "U21")
 					(unit 1)
 				)
 			)
@@ -19463,7 +19944,7 @@
 			(uuid "ece0a170-ac41-4f0e-835a-6253bab185f3")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "H1")
 					(unit 1)
@@ -20893,7 +21374,7 @@
 			(uuid "deabf47f-5221-42cf-af2d-c7245e072626")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "JP1")
 					(unit 1)
@@ -21401,7 +21882,7 @@
 			(uuid "97eddf7f-7e18-4ae8-9a50-f4ba1ec9b944")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "U2")
 					(unit 1)
@@ -21705,9 +22186,9 @@
 		(at 162.56 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b0901c7e-3d91-4d58-b2f5-305e78f7a27f")
 		(property "Reference" "J2"
@@ -21768,7 +22249,7 @@
 			(uuid "88b34b8a-84b1-47d9-a58d-c64a9d2aab00")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "J2")
 					(unit 1)
@@ -22586,6 +23067,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 480.06 95.25 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c996ac5d-c85f-47e8-8bdb-dc08b6099892")
+		(property "Reference" "#PWR01"
+			(at 480.06 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 480.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 480.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 480.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 480.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2080d96-1b47-4203-95ab-70ad996443d2")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 149.86 323.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22961,7 +23509,7 @@
 			(uuid "691be490-e634-4553-bb35-d676290be81c")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "TP3")
 					(unit 1)
@@ -24182,6 +24730,226 @@
 		)
 	)
 	(symbol
+		(lib_id "VXDash_passives:Cap_MLCC")
+		(at 449.58 85.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8846121-4f3a-4024-9edb-e5391accadae")
+		(property "Reference" "C1"
+			(at 453.39 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 453.39 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 448.6148 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Samsung Electro-Mechanics"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "CL10B104KB8NNWC"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "10%"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 453.39 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Tolerance" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16194176"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ippm" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vbr" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Vwm" ""
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "AISLER_MPN" "CL10B104KB8NNWC"
+			(at 449.58 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a80ae47-18ce-449f-b6f5-1887161df961")
+		)
+		(pin "2"
+			(uuid "9f2bf920-8610-4247-9eec-43bd3ef1758c")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 293.37 78.74 180)
 		(unit 1)
@@ -25051,7 +25819,7 @@
 			(uuid "428f5a14-0196-45af-926c-121389f28e06")
 		)
 		(instances
-			(project ""
+			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
 					(reference "U1")
 					(unit 1)
