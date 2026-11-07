@@ -113,7 +113,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "CAN transceiver"
+			(property "AISLER_MPN" "ATA6561-GAQW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -122,7 +122,7 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" "ATA6561-GAQW"
+			(property "ki_keywords" "CAN transceiver"
 				(at 0 0 0)
 				(effects
 					(font
@@ -240,7 +240,22 @@
 						)
 					)
 				)
-				(pin output line
+			)
+			(symbol "ATA6561_0_1"
+				(rectangle
+					(start -7.62 0)
+					(end 7.62 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ATA6561_1_0"
+				(pin bidirectional line
 					(at 10.16 -6.35 180)
 					(length 2.54)
 					(name "CAN_H"
@@ -258,7 +273,7 @@
 						)
 					)
 				)
-				(pin output line
+				(pin bidirectional line
 					(at 10.16 -8.89 180)
 					(length 2.54)
 					(name "CAN_L"
@@ -274,19 +289,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(symbol "ATA6561_0_1"
-				(rectangle
-					(start -7.62 0)
-					(end 7.62 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -419,6 +421,15 @@
 					(hide yes)
 				)
 			)
+			(property "AISLER_MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor mlcc"
 				(at 0 0 0)
 				(effects
@@ -429,15 +440,6 @@
 				)
 			)
 			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "AISLER_MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -639,6 +641,15 @@
 					(hide yes)
 				)
 			)
+			(property "AISLER_MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -649,15 +660,6 @@
 				)
 			)
 			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "AISLER_MPN" ""
 				(at 0 0 0)
 				(effects
 					(font
