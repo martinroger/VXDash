@@ -12,7 +12,7 @@
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
-		(symbol "VXDash_ICs:DPC817"
+		(symbol "VXDash_ICs:LTV-817S"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -24,7 +24,7 @@
 					)
 				)
 			)
-			(property "Value" "DPC817"
+			(property "Value" "LTV-817S"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -41,7 +41,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DPC817-Series.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Lite-On-LTV-817S-TA1-A_C22113.pdf"
 				(at -8.89 7.62 0)
 				(effects
 					(font
@@ -59,7 +59,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFT" "Diodes Inc"
+			(property "MFT" "Lite-On"
 				(at 0 0 90)
 				(effects
 					(font
@@ -68,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFT_PN" "DPC817S-B-TR"
+			(property "MFT_PN" "LTV-817S-TA1-B"
 				(at 0 0 90)
 				(effects
 					(font
@@ -77,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(property "ALT_MFT_PN_1" "DPC817S-C-TR"
+			(property "ALT_MFT_PN_1" "DPC817S-B-TR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C22454766"
+			(property "LCSC" "C109226"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC alt" "C109226"
+			(property "LCSC alt" "C22454766"
 				(at 0 0 0)
 				(effects
 					(font
@@ -113,7 +113,7 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" "DPC817S-B-TR"
+			(property "AISLER_MPN" "LTV-817S-TA1-B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -140,7 +140,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DPC817_1_1"
+			(symbol "LTV-817S_1_1"
 				(rectangle
 					(start -5.08 3.81)
 					(end 5.08 -3.81)
@@ -902,7 +902,7 @@
 		(uuid "88a54cbf-9693-4d12-9cc5-c2a780eedd10")
 	)
 	(symbol
-		(lib_id "VXDash_ICs:DPC817")
+		(lib_id "VXDash_ICs:LTV-817S")
 		(at 138.43 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -919,7 +919,7 @@
 				)
 			)
 		)
-		(property "Value" "DPC817"
+		(property "Value" "LTV-817S"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -936,7 +936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DPC817-Series.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Lite-On-LTV-817S-TA1-A_C22113.pdf"
 			(at 129.54 91.44 0)
 			(effects
 				(font
@@ -954,7 +954,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Diodes Inc"
+		(property "MFT" "Lite-On"
 			(at 138.43 99.06 90)
 			(effects
 				(font
@@ -963,7 +963,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "DPC817S-B-TR"
+		(property "MFT_PN" "LTV-817S-TA1-B"
 			(at 138.43 99.06 90)
 			(effects
 				(font
@@ -972,7 +972,7 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_MFT_PN_1" "DPC817S-C-TR"
+		(property "ALT_MFT_PN_1" "DPC817S-B-TR"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -981,7 +981,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C22454766"
+		(property "LCSC" "C109226"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -990,7 +990,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" "C109226"
+		(property "LCSC alt" "C22454766"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "DPC817S-B-TR"
+		(property "AISLER_MPN" "LTV-817S-TA1-B"
 			(at 138.43 99.06 0)
 			(effects
 				(font
