@@ -4,3 +4,13 @@
 *.raw
 *.FCBak
 
+
+# KiCad per-user state, caches and locks
+*.kicad_prl
+fp-info-cache
+~*.lck
+*-backups/
+*.bak
+
+# akcli working state
+.akcli/
