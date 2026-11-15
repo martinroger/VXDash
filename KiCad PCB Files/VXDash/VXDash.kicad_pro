@@ -1177,7 +1177,7 @@
           "group_by": false,
           "label": "AISLER_MPN",
           "name": "AISLER_MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1321,6 +1321,18 @@
           "group_by": false,
           "label": "If",
           "name": "If",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB extended",
+          "name": "JLCPCB extended",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Recommended JLCPCB",
+          "name": "Recommended JLCPCB",
           "show": false
         }
       ],
