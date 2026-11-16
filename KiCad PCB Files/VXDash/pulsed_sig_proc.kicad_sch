@@ -3542,7 +3542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 100kΩ ±1% 100mW 0603"
 			(at 180.34 147.32 0)
 			(effects
 				(font
@@ -3623,7 +3623,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 180.34 147.32 0)
 			(effects
 				(font
@@ -3632,16 +3632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25803"
-			(at 180.34 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07100KL"
+		(property "PBX_PN" "RC0603FR-07100KL"
 			(at 180.34 147.32 0)
 			(effects
 				(font
@@ -3775,7 +3766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -3856,7 +3847,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -3865,25 +3856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 255.27 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -4100,33 +4073,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C23162"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-074K7L"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ca7fa731-8b18-4c3b-81db-c7fee406e1cb")
 		)
@@ -4186,16 +4132,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -4222,25 +4159,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -4267,7 +4186,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 73.66 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 73.66 91.44 0)
 			(effects
 				(font
@@ -4440,7 +4368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" "Dual Schottky diode series 30V 200mA SOT-323"
 			(at 45.72 50.8 0)
 			(effects
 				(font
@@ -4458,25 +4386,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 45.72 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C78606"
-			(at 45.72 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C78606"
+		(property "JLCPCB" "C78606"
 			(at 45.72 50.8 90)
 			(effects
 				(font
@@ -4503,8 +4413,26 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "BAT54SW,115"
-			(at 45.72 50.8 90)
+		(property "LCSC alt" ""
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Nexperia"
+			(at 45.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "BAT54SW,115"
+			(at 45.72 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,33 +4585,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 119.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C23162"
-			(at 119.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-074K7L"
-			(at 119.38 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f6080f51-f6f2-4dff-afb3-5c01b262581d")
 		)
@@ -4743,16 +4644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 73.66 134.62 0)
 			(effects
 				(font
@@ -4779,25 +4671,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 73.66 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 73.66 134.62 0)
 			(effects
 				(font
@@ -4824,7 +4698,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 73.66 134.62 0)
 			(effects
 				(font
@@ -4928,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 10kΩ ±1% 100mW 0603"
 			(at 73.66 105.41 0)
 			(effects
 				(font
@@ -5009,7 +4892,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 73.66 105.41 0)
 			(effects
 				(font
@@ -5018,17 +4901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25804"
+		(property "PBX_PN" "RC0603FR-0710KL"
 			(at 73.66 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
-			(at 73.66 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,16 +5101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -5263,25 +5128,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 88.9 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -5308,7 +5155,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 88.9 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 88.9 50.8 0)
 			(effects
 				(font
@@ -5561,33 +5417,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 119.38 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C25804"
-			(at 119.38 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
-			(at 119.38 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "90ed2e38-8f18-4048-80ce-4fa00faaabd8")
 		)
@@ -5648,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -5729,7 +5558,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -5738,25 +5567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 182.88 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 182.88 80.01 0)
 			(effects
 				(font
@@ -5826,7 +5637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High Speed CMOS Logic Hex Non-Inverting Buffers"
+		(property "Description" "Hex non-inverting buffer 74HC SOIC-16"
 			(at 252.73 92.71 0)
 			(effects
 				(font
@@ -5882,7 +5693,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C131932"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -5891,7 +5702,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C131932"
+		(property "PBX_MFT" "Texas Instruments"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -5900,16 +5711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C131932"
-			(at 228.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CD74HC4050M96"
+		(property "PBX_PN" "CD74HC4050M96"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -6022,7 +5824,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" "Dual Schottky diode series 30V 200mA SOT-323"
 			(at 45.72 91.44 0)
 			(effects
 				(font
@@ -6040,25 +5842,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 45.72 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C78606"
-			(at 45.72 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C78606"
+		(property "JLCPCB" "C78606"
 			(at 45.72 91.44 90)
 			(effects
 				(font
@@ -6085,8 +5869,26 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "BAT54SW,115"
-			(at 45.72 91.44 90)
+		(property "LCSC alt" ""
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Nexperia"
+			(at 45.72 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "BAT54SW,115"
+			(at 45.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,16 +5958,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 88.9 134.62 0)
 			(effects
 				(font
@@ -6192,25 +5985,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 88.9 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 88.9 134.62 0)
 			(effects
 				(font
@@ -6237,7 +6012,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 88.9 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 88.9 134.62 0)
 			(effects
 				(font
@@ -6424,33 +6208,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C25804"
-			(at 119.38 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
-			(at 119.38 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f2571434-6501-444e-85cd-08a175d27ad3")
 		)
@@ -6593,33 +6350,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C23162"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-074K7L"
-			(at 119.38 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b7c956a4-1567-409d-99e2-5ff78133359a")
 		)
@@ -6747,16 +6477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 269.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 269.24 45.72 0)
 			(effects
 				(font
@@ -6783,25 +6504,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 269.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 269.24 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 269.24 45.72 0)
 			(effects
 				(font
@@ -6828,7 +6531,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 269.24 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 269.24 45.72 0)
 			(effects
 				(font
@@ -6998,7 +6710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 10kΩ ±1% 100mW 0603"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -7079,7 +6791,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 73.66 148.59 0)
 			(effects
 				(font
@@ -7088,17 +6800,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25804"
+		(property "PBX_PN" "RC0603FR-0710KL"
 			(at 73.66 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
-			(at 73.66 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7167,7 +6870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 100kΩ ±1% 100mW 0603"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -7248,7 +6951,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -7257,16 +6960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25803"
-			(at 198.12 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07100KL"
+		(property "PBX_PN" "RC0603FR-07100KL"
 			(at 198.12 147.32 0)
 			(effects
 				(font
@@ -7334,16 +7028,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -7370,25 +7055,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 88.9 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -7415,7 +7082,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 88.9 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 88.9 91.44 0)
 			(effects
 				(font
@@ -7518,7 +7194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick film resistor 100Ω ±1% 100mW 0603"
 			(at 185.42 100.33 0)
 			(effects
 				(font
@@ -7537,24 +7213,6 @@
 			)
 		)
 		(property "JLCPCB" "C22775"
-			(at 185.42 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" ""
-			(at 185.42 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C22775"
 			(at 185.42 100.33 90)
 			(effects
 				(font
@@ -7590,8 +7248,26 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "FRC0603F1000TS"
-			(at 185.42 100.33 90)
+		(property "LCSC alt" ""
+			(at 185.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "FOJAN"
+			(at 185.42 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "FRC0603F1000TS"
+			(at 185.42 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,16 +7334,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Hex Schmitt trigger inverter"
-			(at 73.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CD40106BM96"
+		(property "Description" "Hex Schmitt trigger inverter CD4000 SOP-14"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -7694,25 +7361,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 73.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C443841"
-			(at 73.66 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C38184"
+		(property "JLCPCB" "C443841"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -7739,7 +7388,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "HCF40106YM013TR"
+		(property "PBX_MFT" "STMicroelectronics"
+			(at 73.66 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "HCF40106YM013TR"
 			(at 73.66 50.8 0)
 			(effects
 				(font
@@ -7843,7 +7501,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 10kΩ ±1% 100mW 0603"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -7924,7 +7582,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 74.93 64.77 0)
 			(effects
 				(font
@@ -7933,17 +7591,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25804"
+		(property "PBX_PN" "RC0603FR-0710KL"
 			(at 74.93 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
-			(at 74.93 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8078,7 +7727,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "MLCC 1nF 50V X7R ±10% 0603"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -8150,7 +7799,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -8159,25 +7808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C1588"
-			(at 58.42 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB102"
-			(at 58.42 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B102KB8NNNC"
+		(property "PBX_PN" "CC0603KRX7R9BB102"
 			(at 58.42 109.22 0)
 			(effects
 				(font
@@ -8380,7 +8011,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+		(property "Description" "Dual Schottky diode series 30V 200mA SOT-323"
 			(at 46.99 134.62 0)
 			(effects
 				(font
@@ -8398,25 +8029,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
-			(at 46.99 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C78606"
-			(at 46.99 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C78606"
+		(property "JLCPCB" "C78606"
 			(at 46.99 134.62 90)
 			(effects
 				(font
@@ -8443,8 +8056,26 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "BAT54SW,115"
-			(at 46.99 134.62 90)
+		(property "LCSC alt" ""
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Nexperia"
+			(at 46.99 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "BAT54SW,115"
+			(at 46.99 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8513,7 +8144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick film resistor 100Ω ±1% 100mW 0603"
 			(at 177.8 105.41 0)
 			(effects
 				(font
@@ -8532,24 +8163,6 @@
 			)
 		)
 		(property "JLCPCB" "C22775"
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" ""
-			(at 177.8 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C22775"
 			(at 177.8 105.41 0)
 			(effects
 				(font
@@ -8585,8 +8198,26 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "FRC0603F1000TS"
-			(at 177.8 105.41 90)
+		(property "LCSC alt" ""
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "FOJAN"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "FRC0603F1000TS"
+			(at 177.8 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8736,33 +8367,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 119.38 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C25804"
-			(at 119.38 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
-			(at 119.38 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "0d689ed6-6c07-47f6-bef2-b314068288f1")
 		)
@@ -8821,7 +8425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "Thick film resistor 100Ω ±1% 100mW 0603"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -8840,24 +8444,6 @@
 			)
 		)
 		(property "JLCPCB" "C22775"
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" ""
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C22775"
 			(at 191.77 95.25 0)
 			(effects
 				(font
@@ -8893,8 +8479,26 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "FRC0603F1000TS"
-			(at 191.77 95.25 90)
+		(property "LCSC alt" ""
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "FOJAN"
+			(at 191.77 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "FRC0603F1000TS"
+			(at 191.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8963,7 +8567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "MLCC 1nF 50V X7R ±10% 0603"
 			(at 59.69 68.58 0)
 			(effects
 				(font
@@ -9035,7 +8639,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 59.69 68.58 0)
 			(effects
 				(font
@@ -9044,25 +8648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C1588"
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB102"
-			(at 59.69 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B102KB8NNNC"
+		(property "PBX_PN" "CC0603KRX7R9BB102"
 			(at 59.69 68.58 0)
 			(effects
 				(font
@@ -9329,7 +8915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "MLCC 1nF 50V X7R ±10% 0603"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -9401,7 +8987,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -9410,25 +8996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C1588"
-			(at 58.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB102"
-			(at 58.42 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B102KB8NNNC"
+		(property "PBX_PN" "CC0603KRX7R9BB102"
 			(at 58.42 152.4 0)
 			(effects
 				(font
@@ -9498,7 +9066,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 100kΩ ±1% 100mW 0603"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -9579,7 +9147,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 215.9 147.32 0)
 			(effects
 				(font
@@ -9588,16 +9156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25803"
-			(at 215.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07100KL"
+		(property "PBX_PN" "RC0603FR-07100KL"
 			(at 215.9 147.32 0)
 			(effects
 				(font

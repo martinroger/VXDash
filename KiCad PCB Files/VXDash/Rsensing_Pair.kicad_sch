@@ -2501,33 +2501,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 198.12 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C21190"
-			(at 198.12 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 198.12 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "10bb5b20-18ca-4339-900e-d9544173b5f5")
 		)
@@ -2643,33 +2616,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C152458"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 212.09 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a67e1f63-22f4-4474-99a3-670ca74d4b73")
 		)
@@ -2731,7 +2677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 18Ω ±1% 100mW 0603"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2803,7 +2749,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C321765"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2812,7 +2758,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C245924"
+		(property "PBX_MFT" "Yageo Group"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2821,16 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C245924"
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0718RL"
+		(property "PBX_PN" "RC0603FR-0718RL"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2898,7 +2835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -2979,7 +2916,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -2988,17 +2925,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21190"
+		(property "PBX_PN" "RC0603FR-071KL"
 			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 72.39 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,33 +3041,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
-			(at 209.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C155244"
-			(at 209.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "DMP3099L-7"
-			(at 209.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8bcff733-2091-4b38-879b-4a0ab813c3a9")
 		)
@@ -3202,7 +3103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 250mW 1206"
 			(at 97.79 114.3 0)
 			(effects
 				(font
@@ -3282,7 +3183,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 97.79 114.3 0)
 			(effects
 				(font
@@ -3291,17 +3192,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C4410"
+		(property "PBX_PN" "RC1206FR-071KL"
 			(at 97.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC1206FR-071KL"
-			(at 97.79 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3328,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 6.8Ω ±1% 100mW 0603"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3508,7 +3400,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23214"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3517,7 +3409,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C23214"
+		(property "PBX_MFT" "Uniroyal"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3526,16 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23214"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF680KT5E"
+		(property "PBX_PN" "0603WAF680KT5E"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3605,7 +3488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 0Ω ±1% 100mW 0603"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -3686,7 +3569,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Royal Ohm"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -3695,16 +3578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21189"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF0000T5E"
+		(property "PBX_PN" "0603WAF0000T5E"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -3840,7 +3714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 6.8Ω ±1% 100mW 0603"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3912,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23214"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3921,7 +3795,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C23214"
+		(property "PBX_MFT" "Uniroyal"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3930,16 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23214"
-			(at 227.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF680KT5E"
+		(property "PBX_PN" "0603WAF680KT5E"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -4009,7 +3874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode 30V 200mA SOD-123"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4018,7 +3883,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "OnSemi"
+		(property "MFT" "onsemi"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4054,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C7502705"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4063,7 +3928,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
+		(property "PBX_MFT" "onsemi"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4072,17 +3937,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C152458"
+		(property "PBX_PN" "BAT54T1G"
 			(at 86.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 86.36 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" "MLCC 33nF 50V X7R ±10% 0603"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -4232,7 +4088,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -4241,16 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21117"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB333"
+		(property "PBX_PN" "CC0603KRX7R9BB333"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -4318,7 +4165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
+		(property "Description" "Op amp dual zero-drift RRIO 1.8-5.5V MSOP-8"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -4327,7 +4174,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Diode Inc"
+		(property "MFT" "Diodes Inc"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -4363,7 +4210,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C527573"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -4372,7 +4219,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C5948553"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -4381,25 +4228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C527573"
-			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "AS2333M8-13"
-			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "TLV2333IDGKR"
+		(property "PBX_PN" "AS2333M8-13"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -4487,7 +4316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
+		(property "Description" "Op amp dual zero-drift RRIO 1.8-5.5V MSOP-8"
 			(at 54.61 78.74 0)
 			(effects
 				(font
@@ -4496,7 +4325,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Diode Inc"
+		(property "MFT" "Diodes Inc"
 			(at 54.61 73.66 0)
 			(effects
 				(font
@@ -4532,7 +4361,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C527573"
 			(at 54.61 96.52 0)
 			(effects
 				(font
@@ -4541,7 +4370,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C5948553"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 54.61 96.52 0)
 			(effects
 				(font
@@ -4550,25 +4379,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C527573"
-			(at 54.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "AS2333M8-13"
-			(at 54.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "TLV2333IDGKR"
+		(property "PBX_PN" "AS2333M8-13"
 			(at 54.61 96.52 0)
 			(effects
 				(font
@@ -4737,33 +4548,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C21117"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB333"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b1b32093-0948-4cda-91df-5d851246c35e")
 		)
@@ -4823,7 +4607,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -4904,7 +4688,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -4913,17 +4697,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21190"
+		(property "PBX_PN" "RC0603FR-071KL"
 			(at 195.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 195.58 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 160Ω ±1% 100mW 0603"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5064,7 +4839,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22814"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5073,7 +4848,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C185369"
+		(property "PBX_MFT" "Yageo Group"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5082,16 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C185369"
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07160RL"
+		(property "PBX_PN" "RC0603FR-07160RL"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5162,7 +4928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "P-MOSFET 30V 3.8A 99mR@4.5V SOT-23"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5198,7 +4964,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C155244"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5207,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
+		(property "LCSC alt" ""
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5216,7 +4982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C155244"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5225,7 +4991,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "DMP3099L-7"
+		(property "PBX_PN" "DMP3099L-7"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5352,33 +5118,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
-			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C152458"
-			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 231.14 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cb0b7450-4c09-41bb-8457-9ace433b41d5")
 		)
@@ -5440,7 +5179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -5521,7 +5260,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -5530,25 +5269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 30.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 30.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -5618,7 +5339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 0Ω ±1% 100mW 0603"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -5699,7 +5420,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Royal Ohm"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -5708,16 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21189"
-			(at 86.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF0000T5E"
+		(property "PBX_PN" "0603WAF0000T5E"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -5825,33 +5537,6 @@
 			)
 		)
 		(property "JLCPCB" ""
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" "C155244"
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C155244"
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "DMP3099L-7"
 			(at 209.55 96.52 0)
 			(effects
 				(font
@@ -6002,33 +5687,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 223.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C4410"
-			(at 223.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC1206FR-071KL"
-			(at 223.52 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "22e983f9-c784-4887-89eb-8eb7989af680")
 		)
@@ -6090,7 +5748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 160Ω ±1% 100mW 0603"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6162,7 +5820,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22814"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6171,7 +5829,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C185369"
+		(property "PBX_MFT" "Yageo Group"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6180,16 +5838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C185369"
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07160RL"
+		(property "PBX_PN" "RC0603FR-07160RL"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6260,7 +5909,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "P-MOSFET 30V 3.8A 99mR@4.5V SOT-23"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6305,7 +5954,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C155244"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6314,7 +5963,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6323,16 +5972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C155244"
-			(at 83.82 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "DMP3099L-7"
+		(property "PBX_PN" "DMP3099L-7"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6405,7 +6045,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode 30V 200mA SOD-123"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6414,7 +6054,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "OnSemi"
+		(property "MFT" "onsemi"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6450,7 +6090,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C7502705"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6459,7 +6099,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
+		(property "PBX_MFT" "onsemi"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6468,17 +6108,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C152458"
+		(property "PBX_PN" "BAT54T1G"
 			(at 105.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 105.41 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6628,33 +6259,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C245924"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C245924"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0718RL"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fb479d7d-ee06-4e48-8bdd-edb8f87e1210")
 		)
@@ -6714,7 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -6795,7 +6399,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -6804,17 +6408,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21190"
+		(property "PBX_PN" "RC0603FR-071KL"
 			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 69.85 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)

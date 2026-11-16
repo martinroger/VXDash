@@ -1856,7 +1856,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.2V to 18V input, 2A low Iq Sync"
+		(property "Description" "Buck converter 4.2-18V in 2A sync 750kHz TSOT-26"
 			(at 123.19 40.64 0)
 			(effects
 				(font
@@ -1892,7 +1892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" "C1323282"
+		(property "LCSC alt" ""
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -1901,7 +1901,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C1323282"
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -1910,7 +1910,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C1323282"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -1919,16 +1919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C1323282"
-			(at 124.46 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "AP62200WU-7"
+		(property "PBX_PN" "AP62200WU-7"
 			(at 124.46 53.34 0)
 			(effects
 				(font
@@ -2091,15 +2082,6 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "C0402C220J5GAC7411"
-			(at 168.91 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "481a9988-1ef7-48ad-8e0c-254bf6ab9903")
 		)
@@ -2161,7 +2143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 24kΩ ±1% 100mW 0603"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -2242,7 +2224,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -2251,16 +2233,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23352"
-			(at 160.02 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0724KL"
+		(property "PBX_PN" "RC0603FR-0724KL"
 			(at 160.02 77.47 0)
 			(effects
 				(font
@@ -2330,7 +2303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 10uF 25V X7R ±10% 1206"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -2402,7 +2375,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C14860"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -2411,7 +2384,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C14860"
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -2420,16 +2393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14860"
-			(at 99.06 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL31B106KAHNNNE"
+		(property "PBX_PN" "CL31B106KAHNNNE"
 			(at 99.06 62.23 0)
 			(effects
 				(font
@@ -2499,7 +2463,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 75kΩ ±1% 100mW 0603"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -2580,7 +2544,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -2589,16 +2553,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23242"
-			(at 160.02 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0775KL"
+		(property "PBX_PN" "RC0603FR-0775KL"
 			(at 160.02 66.04 0)
 			(effects
 				(font
@@ -2668,7 +2623,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 820kΩ ±1% 100mW 0603"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -2740,7 +2695,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C141684"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -2749,7 +2704,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C141684"
+		(property "PBX_MFT" "Yageo Group"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -2758,16 +2713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C141684"
-			(at 88.9 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07820KL"
+		(property "PBX_PN" "RC0603FR-07820KL"
 			(at 88.9 63.5 0)
 			(effects
 				(font
@@ -2836,7 +2782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 22uF 10V X7R ±10% 1206"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -2908,7 +2854,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C87996"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -2917,7 +2863,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C87996"
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -2926,16 +2872,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C87996"
-			(at 200.66 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL31B226KPHNNNE"
+		(property "PBX_PN" "CL31B226KPHNNNE"
 			(at 200.66 66.04 0)
 			(effects
 				(font
@@ -3004,7 +2941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 22uF 10V X7R ±10% 1206"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -3076,7 +3013,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C87996"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -3085,7 +3022,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C87996"
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -3094,16 +3031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C87996"
-			(at 193.04 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL31B226KPHNNNE"
+		(property "PBX_PN" "CL31B226KPHNNNE"
 			(at 193.04 66.04 0)
 			(effects
 				(font
@@ -3171,7 +3099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power inductor 3.3uH 3.9A 25mR shielded 5x5mm"
 			(at 153.67 63.5 0)
 			(effects
 				(font
@@ -3252,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C28642360"
 			(at 153.67 60.96 0)
 			(effects
 				(font
@@ -3261,7 +3189,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C28642360"
+		(property "PBX_MFT" "Magnetsyc"
 			(at 153.67 60.96 0)
 			(effects
 				(font
@@ -3270,25 +3198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C28642360"
-			(at 153.67 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "NR5040S3R3MT"
-			(at 153.67 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "NRS5030T3R3MMGJ"
+		(property "PBX_PN" "NR5040S3R3MT"
 			(at 153.67 60.96 0)
 			(effects
 				(font
@@ -3358,7 +3268,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 120kΩ ±1% 100mW 0603"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -3439,7 +3349,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -3448,16 +3358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25808"
-			(at 88.9 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07120KL"
+		(property "PBX_PN" "RC0603FR-07120KL"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -3527,7 +3428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -3608,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -3617,25 +3518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 106.68 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 106.68 62.23 0)
 			(effects
 				(font
@@ -3704,7 +3587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 140.97 55.88 0)
 			(effects
 				(font
@@ -3784,7 +3667,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 140.97 55.88 0)
 			(effects
 				(font
@@ -3793,26 +3676,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 140.97 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 140.97 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
-			(at 140.97 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3881,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -3962,7 +3827,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 185.42 66.04 0)
 			(effects
 				(font
@@ -3971,25 +3836,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 185.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 185.42 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 185.42 66.04 0)
 			(effects
 				(font
