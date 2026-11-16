@@ -106,6 +106,24 @@
 					(hide yes)
 				)
 			)
+			(property "PBX_MFT" "Diodes Inc."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" "AS2333M8-13"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -124,24 +142,6 @@
 				)
 			)
 			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PBX_MFT" "Diodes Inc."
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PBX_PN" "AS2333M8-13"
 				(at 0 0 0)
 				(effects
 					(font
@@ -441,24 +441,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "PBX_MFT" ""
 				(at 0 0 0)
 				(effects
@@ -469,6 +451,24 @@
 				)
 			)
 			(property "PBX_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -682,24 +682,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "cap capacitor mlcc"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "PBX_MFT" ""
 				(at 0 0 0)
 				(effects
@@ -710,6 +692,24 @@
 				)
 			)
 			(property "PBX_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor mlcc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -911,24 +911,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "PBX_MFT" ""
 				(at 0 0 0)
 				(effects
@@ -939,6 +921,24 @@
 				)
 			)
 			(property "PBX_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1053,15 +1053,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "MFT" ""
 				(at 0 0 0)
 				(effects
@@ -1117,6 +1108,15 @@
 				)
 			)
 			(property "PBX_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1495,7 +1495,7 @@
 	(text_box "ADC compliance ranges from 0 to 2.7V. \nAllows for reasonable voltage drop across current source and diode.\n\n300R and 3k max sensor resistance per range.\nLow range => 2.7 / 300 = 9mA,\nHigh range => 2.7 / 3k = 900uA.\n\n3.15V Vref based on 3.3V : (820/859)*3.3\n\nIref is based on (39/859)*Vdd :\nLow range = 150mV / 9mA = 16.666 ohm\nHigh range 150mV / 900uA = 166.666 ohm\n\nHigh range = 160R + 6R8 = 166R8 = 899.2uA\nLow range = 18R || 166R8 = 16.247R = 9.232mA\n\nMore precision gained from measuring VDD to get the actual Vref and Iref"
 		(exclude_from_sim no)
 		(at 12.7 12.7 0)
-		(size 64.77 39.37)
+		(size 64.77 40.64)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)

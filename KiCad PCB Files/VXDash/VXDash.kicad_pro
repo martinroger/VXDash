@@ -1147,7 +1147,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1175,15 +1175,9 @@
         },
         {
           "group_by": false,
-          "label": "AISLER_MPN",
-          "name": "AISLER_MPN",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1195,7 +1189,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1225,7 +1219,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1264,28 +1258,22 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": true,
           "label": "JLCPCB",
           "name": "JLCPCB",
           "show": true
         },
         {
           "group_by": false,
-          "label": "ALT_MFT_PN_1",
-          "name": "ALT_MFT_PN_1",
-          "show": false
-        },
-        {
-          "group_by": true,
           "label": "LCSC alt",
           "name": "LCSC alt",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1325,18 +1313,6 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB extended",
-          "name": "JLCPCB extended",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Recommended JLCPCB",
-          "name": "Recommended JLCPCB",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
@@ -1349,14 +1325,14 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
+          "label": "PBX_PN",
+          "name": "PBX_PN",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
+          "label": "PBX_MFT",
+          "name": "PBX_MFT",
           "show": false
         }
       ],
