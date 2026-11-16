@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "Analog circuit")
-		(date "2026-11-15")
+		(date "2026-11-16")
 		(rev "0.4.0")
 		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
@@ -1100,6 +1100,26 @@
 		)
 		(uuid "719acecf-da73-4705-bd50-debb4209d28f")
 	)
+	(text_box "Ratiometric measurement\n\nVmeas = 22/122.1 * Vact\nRatio ~ 0.18018018\n"
+		(exclude_from_sim no)
+		(at 289.56 191.77 0)
+		(size 35.56 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "af5be972-8220-4913-b259-f87a39e0790d")
+	)
 	(text_box "18.3 typ = 3.3V out"
 		(exclude_from_sim no)
 		(at 326.39 156.21 0)
@@ -1980,7 +2000,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220k"
+		(property "Value" "22k"
 			(at 331.47 179.0699 0)
 			(effects
 				(font
@@ -1998,7 +2018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C123420.pdf"
+		(property "Datasheet" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2043,7 +2063,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Yageo"
+		(property "MFT" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2052,7 +2072,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "RC0603FR-07220KL"
+		(property "MFT_PN" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2061,7 +2081,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C123420"
+		(property "LCSC" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2079,7 +2099,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C22961"
+		(property "JLCPCB" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2097,7 +2117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C22961"
+		(property "Recommended JLCPCB" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2106,7 +2126,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "RC0603FR-07220KL"
+		(property "AISLER_MPN" ""
 			(at 328.93 177.8 0)
 			(effects
 				(font
@@ -2639,175 +2659,6 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 328.93 165.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "31dc2246-fb19-422a-a629-838fd31de303")
-		(property "Reference" "R66"
-			(at 331.47 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1M"
-			(at 331.47 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 330.708 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105578.pdf"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-071ML"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105578"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C22935"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB extended" ""
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C22935"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071ML"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd03201c-f6b8-411f-aced-03bedd75c80b")
-		)
-		(pin "2"
-			(uuid "765299b0-d061-43fc-ba9e-9bf12d90f7db")
-		)
-		(instances
-			(project "VXDash"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
-					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -4142,6 +3993,174 @@
 			(project "VXDash"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 328.93 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9c7283e-7fd9-4960-8164-d27092e1e144")
+		(property "Reference" "R110"
+			(at 331.47 163.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 331.47 166.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 327.152 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07100KL-Yageo-datasheet-141265859.pdf"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0603FR-07100KL"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25803"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB extended" ""
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Recommended JLCPCB" "C25803"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AISLER_MPN" "RC0603FR-07100KL"
+			(at 328.93 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087d9a6b-05e0-4eb7-8b7d-7b10b0f9114e")
+		)
+		(pin "2"
+			(uuid "a900ab05-4f1f-4e2d-90f5-e0b6f2be327a")
+		)
+		(instances
+			(project "VXDash"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854"
+					(reference "R110")
 					(unit 1)
 				)
 			)
