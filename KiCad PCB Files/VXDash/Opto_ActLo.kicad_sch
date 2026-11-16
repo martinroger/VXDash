@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler 5kV"
+			(property "Description" "Optocoupler phototransistor 5kV CTR 130-260% SMD-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,15 +77,6 @@
 					(hide yes)
 				)
 			)
-			(property "ALT_MFT_PN_1" "DPC817S-B-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "LCSC" "C109226"
 				(at 0 0 0)
 				(effects
@@ -104,16 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "AISLER_MPN" "LTV-817S-TA1-B"
+			(property "JLCPCB" "C109226"
 				(at 0 0 0)
 				(effects
 					(font
@@ -132,6 +114,24 @@
 				)
 			)
 			(property "ki_fp_filters" "SMDIP*W9.53mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_MFT" "Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" "LTV-817S-TA1-B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,15 +498,6 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -517,6 +508,24 @@
 				)
 			)
 			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font

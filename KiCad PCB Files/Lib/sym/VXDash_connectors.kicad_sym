@@ -40,7 +40,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Right angle version of the original VX220 cluster header"
+		(property "Description" "VX220 cluster header right angle (Aptiv 12092886)"
 			(at 0 8.89 0)
 			(effects
 				(font
@@ -94,7 +94,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "12092886"
+		(property "PBX_MFT" "Aptiv"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "12092886"
 			(at 0 0 0)
 			(effects
 				(font
@@ -616,7 +625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB-C receptacle USB 2.0 SMD right angle"
 			(at 0 0 0)
 			(effects
 				(font
@@ -643,7 +652,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C3020560"
 			(at 0 0 0)
 			(effects
 				(font
@@ -679,7 +688,16 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "USB4105-GF-A"
+		(property "PBX_MFT" "Global Connector Technology"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "USB4105-GF-A"
 			(at 0 0 0)
 			(effects
 				(font
