@@ -648,7 +648,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../VXDash_2.0-D.step",
+      "step": "../../CAD files/VXDash_2.0-0.4.1.step",
       "svg": "",
       "vrml": ""
     },
@@ -1171,7 +1171,7 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1189,7 +1189,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1237,7 +1237,7 @@
           "group_by": true,
           "label": "MFT_PN",
           "name": "MFT_PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1255,13 +1255,13 @@
           "group_by": true,
           "label": "MFT",
           "name": "MFT",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -1273,7 +1273,7 @@
           "group_by": false,
           "label": "LCSC alt",
           "name": "LCSC alt",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
