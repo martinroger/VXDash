@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Optoisolator Active Low Follower")
-		(date "2026-10-25")
-		(rev "0.3.0")
-		(company "Alex Miller & Martin Roger")
+		(date "2026-11-22")
+		(rev "0.4.0")
+		(company "Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler phototransistor 5kV CTR 130-260% SMD-4"
+			(property "Description" "Optocoupler phototransistor 5kV CTR 200-400% SMD-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -68,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFT_PN" "LTV-817S-TA1-B"
+			(property "MFT_PN" "LTV-817S-TA1-C"
 				(at 0 0 90)
 				(effects
 					(font
@@ -77,7 +77,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C109226"
+			(property "LCSC" "C109227"
 				(at 0 0 0)
 				(effects
 					(font
@@ -86,7 +86,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC alt" "C22454766"
+			(property "LCSC alt" "C2912100"
 				(at 0 0 0)
 				(effects
 					(font
@@ -95,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB" "C109226"
+			(property "JLCPCB" "C109227"
 				(at 0 0 0)
 				(effects
 					(font
@@ -104,7 +104,7 @@
 					(hide yes)
 				)
 			)
-			(property "PBX_MFT" "Lite-On"
+			(property "PBX_MFT" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -113,7 +113,7 @@
 					(hide yes)
 				)
 			)
-			(property "PBX_PN" "LTV-817S-TA1-B"
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -122,7 +122,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Optocoupler, Phototransistor Output, 5000 VRMS, BVCEO 35V, CTR% 130-260 (rank B)"
+			(property "ki_keywords" "Optocoupler, Phototransistor Output, 5000 VRMS, BVCEO 35V, CTR% 200-400 (rank C)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -361,6 +361,236 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VXDash_diodes:1N4148W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148W"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/8abd7fc00ebe41ffb03ad1383c10753b.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switching diode 75V 150mA SOD-123"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" "ST(Semtech)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT_PN" "1N4148W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C81598"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" "C909967"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" "C81598"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148W_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148W_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -689,10 +919,10 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Assume 50% CTR w.c.\nVf = 1.2V @1mA\nLowest battery = 10V\n\nCircuit CTR:\nIf = (10V-1.2V)/1mA = 8.8k. \nLower closest 8k2 = 1.07mA\nIc = 3.3/10k = 330uA\nCTRc = 0.33/1.07 = 30.8%\n\nOpto is always in saturation\n"
+	(text_box "Assume 50% CTR w.c.\nVf = 1.2V @1mA\nVf2 ~ 0.7V @1mA\nLowest battery = 10V\n\nCircuit CTR:\nIf = (10V-1.2V-0.7V)/1mA = 8k1 \nClosest 8k2 => 0.987mA\nIc = 3.3/10k = 330uA\nCTRc = 0.33/0.987 = 33.43%\n\nOpto is always in saturation\n"
 		(exclude_from_sim no)
-		(at 124.46 53.34 0)
-		(size 35.56 25.4)
+		(at 124.46 49.53 0)
+		(size 48.26 29.21)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -710,7 +940,7 @@
 		)
 		(uuid "9ee1103d-7d35-456d-a1ef-d257a6f9c46c")
 	)
-	(text_box "Single channel alternative : Diodes Inc DPC817S-B-TR"
+	(text_box "Single channel alternative : Everlight EL817S1(C)(TU)-F"
 		(exclude_from_sim no)
 		(at 123.19 115.57 0)
 		(size 52.07 5.08)
@@ -765,6 +995,16 @@
 			(type default)
 		)
 		(uuid "2a67aa4f-8ec7-4f54-a05a-5d41056bce83")
+	)
+	(wire
+		(pts
+			(xy 127 102.87) (xy 137.16 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "435594ce-869d-40a2-84c4-a3acf13f3558")
 	)
 	(wire
 		(pts
@@ -838,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 102.87) (xy 137.16 102.87)
+			(xy 109.22 102.87) (xy 119.38 102.87)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +1142,7 @@
 	)
 	(hierarchical_label "~{HL_Input}"
 		(shape input)
-		(at 124.46 102.87 180)
+		(at 109.22 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -921,6 +1161,187 @@
 			(justify left)
 		)
 		(uuid "7fbb8266-22eb-4210-8b97-eb5a256862ae")
+	)
+	(symbol
+		(lib_id "VXDash_diodes:1N4148W")
+		(at 123.19 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0280295e-bbb0-493a-9d08-a85124f55176")
+		(property "Reference" "D16"
+			(at 123.19 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 123.19 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 123.19 107.315 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/8abd7fc00ebe41ffb03ad1383c10753b.pdf"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switching diode 75V 150mA SOD-123"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "ST(Semtech)"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "1N4148W"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C81598"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" "C909967"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C81598"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" ""
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 123.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d10a6a14-2888-4082-b1c9-b84f2174b73e")
+		)
+		(pin "1"
+			(uuid "49075df9-a78d-4c61-a851-b6480669b2be")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/2079de5b-2f3f-4362-a932-421ac573d68a"
+					(reference "D16")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/22d7e4c3-2f98-48b1-822b-d87f9cb003dc"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/2c42d151-3f82-4e36-8ef6-a2a8856329ed"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3c86231c-7b35-4b64-9413-492f9e109edd"
+					(reference "D26")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/4292c77c-6947-4703-ab55-15d783bb0dbb"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/78ec3fed-e0f7-4c10-8e27-628198f4a0d7"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/b35c940f-baa6-46a1-adee-d5b5ad7f2de7"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/eb0d7996-49da-4ffe-ae91-4b075a92eda1"
+					(reference "D27")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/ee13a136-3711-40c9-8966-5935214037ae"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
@@ -1449,7 +1870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Optocoupler phototransistor 5kV CTR 130-260% SMD-4"
+		(property "Description" "Optocoupler phototransistor 5kV CTR 200-400% SMD-4"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1467,7 +1888,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "LTV-817S-TA1-B"
+		(property "MFT_PN" "LTV-817S-TA1-C"
 			(at 144.78 100.33 90)
 			(effects
 				(font
@@ -1476,7 +1897,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C109226"
+		(property "LCSC" "C109227"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1485,7 +1906,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" "C22454766"
+		(property "LCSC alt" "C2912100"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1494,7 +1915,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C109226"
+		(property "JLCPCB" "C109227"
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1503,7 +1924,7 @@
 				(hide yes)
 			)
 		)
-		(property "PBX_MFT" "Lite-On"
+		(property "PBX_MFT" ""
 			(at 144.78 100.33 0)
 			(effects
 				(font
@@ -1512,7 +1933,7 @@
 				(hide yes)
 			)
 		)
-		(property "PBX_PN" "LTV-817S-TA1-B"
+		(property "PBX_PN" ""
 			(at 144.78 100.33 0)
 			(effects
 				(font
