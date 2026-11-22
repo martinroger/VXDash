@@ -297,7 +297,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -529,7 +538,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -749,7 +767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 680Ω ±1% 500mW 1210"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -821,7 +839,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C163351"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -830,7 +848,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C163351"
+		(property "PBX_MFT" "Yageo Group"
 			(at 124.46 95.25 0)
 			(effects
 				(font
@@ -839,17 +857,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C163351"
+		(property "PBX_PN" "RC1210FR-07680RL"
 			(at 124.46 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC1210FR-07680RL"
-			(at 124.46 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +927,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 15Ω ±1% 100mW 0603"
 			(at 124.46 115.57 0)
 			(effects
 				(font
@@ -990,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22810"
 			(at 124.46 115.57 0)
 			(effects
 				(font
@@ -999,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C128059"
+		(property "PBX_MFT" "Yageo Group"
 			(at 124.46 115.57 0)
 			(effects
 				(font
@@ -1008,17 +1017,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C22810"
+		(property "PBX_PN" "RC0603FR-0715RL"
 			(at 124.46 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0715RL"
-			(at 124.46 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +1087,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 47Ω ±1% 100mW 0603"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -1168,7 +1168,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 124.46 105.41 0)
 			(effects
 				(font
@@ -1177,17 +1177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23182"
+		(property "PBX_PN" "RC0603FR-0747RL"
 			(at 124.46 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0747RL"
-			(at 124.46 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1255,7 +1246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode 30V 200mA SOD-123"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -1264,7 +1255,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "OnSemi"
+		(property "MFT" "onsemi"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -1300,7 +1291,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C7502705"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -1309,7 +1300,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
+		(property "PBX_MFT" "onsemi"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -1318,16 +1309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C152458"
-			(at 124.46 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
+		(property "PBX_PN" "BAT54T1G"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -1399,15 +1381,6 @@
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
 			(at 124.46 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" ""
-			(at 124.46 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)

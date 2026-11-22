@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Main architecture")
-		(date "2026-11-11")
-		(rev "0.1.0")
-		(company "Martin Roger")
+		(date "2026-10-25")
+		(rev "0.3.0")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "High-Speed CAN Transceiver with standy-by and VIO pin for compatibility with 3.3V and 5V microcontroller"
+			(property "Description" "CAN FD transceiver 5Mbps with VIO SOIC-8"
 				(at -1.27 13.97 0)
 				(effects
 					(font
@@ -77,15 +77,6 @@
 					(hide yes)
 				)
 			)
-			(property "ALT_MFT_PN_1" "ATA6561-GAQW-N"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "LCSC" "C2929602"
 				(at 0 0 0)
 				(effects
@@ -104,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB" ""
+			(property "JLCPCB" "C616016"
 				(at 0 0 0)
 				(effects
 					(font
@@ -113,7 +104,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" "ATA6561-GAQW"
+			(property "PBX_MFT" "Microchip"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" "ATA6561-GAQW"
 				(at 0 0 0)
 				(effects
 					(font
@@ -421,7 +421,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -641,7 +650,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1251,7 +1269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -1332,7 +1350,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -1341,25 +1359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 111.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 111.76 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 111.76 73.66 0)
 			(effects
 				(font
@@ -1428,7 +1428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 0Ω ±1% 125mW 0805"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -1509,7 +1509,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Royal Ohm"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -1518,16 +1518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C17477"
-			(at 128.27 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0805W8F0000T5E"
+		(property "PBX_PN" "0805W8F0000T5E"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -1597,7 +1588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -1678,7 +1669,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -1687,25 +1678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 144.78 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 144.78 73.66 0)
 			(effects
 				(font
@@ -1775,7 +1748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MLCC 22uF 10V X7R ±10% 1206"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -1847,7 +1820,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C87996"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -1856,7 +1829,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C87996"
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -1865,16 +1838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C87996"
-			(at 156.21 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL31B226KPHNNNE"
+		(property "PBX_PN" "CL31B226KPHNNNE"
 			(at 156.21 73.66 0)
 			(effects
 				(font
@@ -1943,7 +1907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver with standy-by and VIO pin for compatibility with 3.3V and 5V microcontroller"
+		(property "Description" "CAN FD transceiver 5Mbps with VIO SOIC-8"
 			(at 124.46 76.2 0)
 			(effects
 				(font
@@ -1970,15 +1934,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_MFT_PN_1" "ATA6561-GAQW-N"
-			(at 125.73 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C2929602"
 			(at 125.73 90.17 0)
 			(effects
@@ -1997,7 +1952,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C616016"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -2006,7 +1961,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C2929602"
+		(property "PBX_MFT" "Microchip"
 			(at 125.73 90.17 0)
 			(effects
 				(font
@@ -2015,16 +1970,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C616016"
-			(at 125.73 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "ATA6561-GAQW"
+		(property "PBX_PN" "ATA6561-GAQW"
 			(at 125.73 90.17 0)
 			(effects
 				(font

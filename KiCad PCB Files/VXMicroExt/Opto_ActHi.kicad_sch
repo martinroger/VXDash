@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "Optoisolator Active High Follower")
-		(date "2026-11-11")
-		(rev "0.1.0")
-		(company "Martin Roger")
+		(date "2026-10-25")
+		(rev "0.3.0")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
@@ -50,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Optocoupler 5kV"
+			(property "Description" "Optocoupler phototransistor 5kV CTR 130-260% SMD-4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -77,15 +77,6 @@
 					(hide yes)
 				)
 			)
-			(property "ALT_MFT_PN_1" "DPC817S-B-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
 			(property "LCSC" "C109226"
 				(at 0 0 0)
 				(effects
@@ -104,7 +95,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB" ""
+			(property "JLCPCB" "C109226"
 				(at 0 0 0)
 				(effects
 					(font
@@ -113,7 +104,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" "LTV-817S-TA1-B"
+			(property "PBX_MFT" "Lite-On"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" "LTV-817S-TA1-B"
 				(at 0 0 0)
 				(effects
 					(font
@@ -498,7 +498,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -945,7 +954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Optocoupler 5kV"
+		(property "Description" "Optocoupler phototransistor 5kV CTR 130-260% SMD-4"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -972,15 +981,6 @@
 				(hide yes)
 			)
 		)
-		(property "ALT_MFT_PN_1" "DPC817S-B-TR"
-			(at 138.43 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "LCSC" "C109226"
 			(at 138.43 99.06 0)
 			(effects
@@ -999,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C109226"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -1008,7 +1008,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C109226"
+		(property "PBX_MFT" "Lite-On"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -1017,16 +1017,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C109226"
-			(at 138.43 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "LTV-817S-TA1-B"
+		(property "PBX_PN" "LTV-817S-TA1-B"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -1126,7 +1117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 10kΩ ±1% 100mW 0603"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1207,7 +1198,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1216,16 +1207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25804"
-			(at 149.86 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0710KL"
+		(property "PBX_PN" "RC0603FR-0710KL"
 			(at 149.86 86.36 0)
 			(effects
 				(font
@@ -1410,7 +1392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 8.2kΩ ±1% 100mW 0603"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -1491,7 +1473,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 127 86.36 0)
 			(effects
 				(font
@@ -1500,16 +1482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C25981"
-			(at 127 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-078K2L"
+		(property "PBX_PN" "RC0603FR-078K2L"
 			(at 127 86.36 0)
 			(effects
 				(font

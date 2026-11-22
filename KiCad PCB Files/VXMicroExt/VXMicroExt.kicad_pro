@@ -644,7 +644,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "../../VXDash_2.0-D.step",
+      "step": "../../CAD files/VXDash_2.0-0.4.1.step",
       "svg": "",
       "vrml": ""
     },
@@ -1143,7 +1143,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -1167,19 +1167,13 @@
           "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "AISLER_MPN",
-          "name": "AISLER_MPN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1221,7 +1215,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1239,7 +1233,7 @@
           "group_by": true,
           "label": "MFT_PN",
           "name": "MFT_PN",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1257,30 +1251,24 @@
           "group_by": true,
           "label": "MFT",
           "name": "MFT",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "JLCPCB",
           "name": "JLCPCB",
           "show": true
         },
         {
           "group_by": false,
-          "label": "ALT_MFT_PN_1",
-          "name": "ALT_MFT_PN_1",
-          "show": false
-        },
-        {
-          "group_by": true,
           "label": "LCSC alt",
           "name": "LCSC alt",
-          "show": true
-        },
-        {
-          "group_by": true,
-          "label": "LCSC",
-          "name": "LCSC",
           "show": true
         },
         {
@@ -1317,6 +1305,30 @@
           "group_by": false,
           "label": "If",
           "name": "If",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PBX_PN",
+          "name": "PBX_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PBX_MFT",
+          "name": "PBX_MFT",
           "show": false
         }
       ],
@@ -1459,10 +1471,6 @@
       "Rsensing_Pair1"
     ],
     [
-      "024f3b9c-af80-4b8c-9e91-7ad2b6b7f854",
-      "ANALOG 1"
-    ],
-    [
       "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
       "POWER INPUT"
     ],
@@ -1471,8 +1479,8 @@
       "5V_SMPS_AUX"
     ],
     [
-      "37252296-36c4-478d-bdce-138de39481a2",
-      "ANALOG 2"
+      "36cf284f-d007-407a-8cf1-3a728debbb83",
+      "Analog_1"
     ],
     [
       "2e212a69-c846-4621-91af-cd3a20f77307",

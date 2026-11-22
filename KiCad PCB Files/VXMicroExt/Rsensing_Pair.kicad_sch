@@ -6,299 +6,12 @@
 	(paper "A4")
 	(title_block
 		(title "Rsensing subcircuit")
-		(date "2026-11-11")
-		(rev "0.1.0")
-		(company "Martin Roger")
+		(date "2026-11-15")
+		(rev "0.4.0")
+		(company "Alex Miller & Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
-		(symbol "Transistor_FET:Q_PMOS_GSD"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS_GSD"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "P-MOSFET transistor, gate/source/drain"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_PMOS_GSD_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_GSD_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "VXDash_ICs:AS2333_OpAmp"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -339,7 +52,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
+			(property "Description" "Op amp dual zero-drift RRIO 1.8-5.5V MSOP-8"
 				(at 0 17.78 0)
 				(effects
 					(font
@@ -348,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(property "MFT" "Diode Inc"
+			(property "MFT" "Diodes Inc"
 				(at 0 22.86 0)
 				(effects
 					(font
@@ -384,7 +97,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLCPCB" ""
+			(property "JLCPCB" "C527573"
 				(at 0 0 0)
 				(effects
 					(font
@@ -393,7 +106,7 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" "AS2333M8-13"
+			(property "PBX_MFT" "Diodes Inc."
 				(at 0 0 0)
 				(effects
 					(font
@@ -402,7 +115,7 @@
 					(hide yes)
 				)
 			)
-			(property "ALT_MFT_PN_1" "TLV2333IDGKR"
+			(property "PBX_PN" "AS2333M8-13"
 				(at 0 0 0)
 				(effects
 					(font
@@ -728,7 +441,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -960,7 +682,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1180,7 +911,16 @@
 					(hide yes)
 				)
 			)
-			(property "AISLER_MPN" ""
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -1243,6 +983,356 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "VXDash_transistors:Q_PMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFT_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC alt" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_MFT" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PBX_PN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1402,10 +1492,10 @@
 		)
 		(uuid "b02745f5-688f-4a59-aa8e-3aa7a85245c6")
 	)
-	(text_box "ADC range 2.7V. Allows for reasonable voltage drop across current source and diode.\n300R and 3k max sensor resistance per range.\nLow range = 2.7 / 300 = 9mA,\nHigh range = 2.7 / 3k = 900uA.\n150mV Vref. \nLow range = 150mV / 9mA = 16.666 ohm\nHigh range 150mV / 900uA = 166.666 ohm\n\nHigh range = 160R + 6R8 = 166R8 = 899.2uA\nLow range = 18R || 166R8 = 16.247R = 9.232mA\n"
+	(text_box "ADC compliance ranges from 0 to 2.7V. \nAllows for reasonable voltage drop across current source and diode.\n\n300R and 3k max sensor resistance per range.\nLow range => 2.7 / 300 = 9mA,\nHigh range => 2.7 / 3k = 900uA.\n\n3.15V Vref based on 3.3V : (820/859)*3.3\n\nIref is based on (39/859)*Vdd :\nLow range = 150mV / 9mA = 16.666 ohm\nHigh range 150mV / 900uA = 166.666 ohm\n\nHigh range = 160R + 6R8 = 166R8 = 899.2uA\nLow range = 18R || 166R8 = 16.247R = 9.232mA\n\nMore precision gained from measuring VDD to get the actual Vref and Iref"
 		(exclude_from_sim no)
-		(at 118.11 49.53 0)
-		(size 53.34 25.4)
+		(at 12.7 12.7 0)
+		(size 64.77 40.64)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2501,33 +2591,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 198.12 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C21190"
-			(at 198.12 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 198.12 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "10bb5b20-18ca-4339-900e-d9544173b5f5")
 		)
@@ -2536,7 +2599,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R55")
 					(unit 1)
 				)
@@ -2643,33 +2706,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C152458"
-			(at 212.09 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 212.09 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "a67e1f63-22f4-4474-99a3-670ca74d4b73")
 		)
@@ -2678,7 +2714,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "D3")
 					(unit 1)
 				)
@@ -2731,7 +2767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 18Ω ±1% 100mW 0603"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2803,7 +2839,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C321765"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2812,7 +2848,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C245924"
+		(property "PBX_MFT" "Yageo Group"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2821,16 +2857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C245924"
-			(at 86.36 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0718RL"
+		(property "PBX_PN" "RC0603FR-0718RL"
 			(at 86.36 50.8 0)
 			(effects
 				(font
@@ -2847,7 +2874,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R49")
 					(unit 1)
 				)
@@ -2898,7 +2925,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -2979,7 +3006,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 72.39 60.96 0)
 			(effects
 				(font
@@ -2988,17 +3015,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21190"
+		(property "PBX_PN" "RC0603FR-071KL"
 			(at 72.39 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 72.39 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3032,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R48")
 					(unit 1)
 				)
@@ -3022,7 +3040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(lib_id "VXDash_transistors:Q_PMOS_GSD")
 		(at 209.55 60.96 0)
 		(mirror x)
 		(unit 1)
@@ -3113,33 +3131,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
-			(at 209.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C155244"
-			(at 209.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "DMP3099L-7"
-			(at 209.55 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8bcff733-2091-4b38-879b-4a0ab813c3a9")
 		)
@@ -3151,7 +3142,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "Q3")
 					(unit 1)
 				)
@@ -3202,7 +3193,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 250mW 1206"
 			(at 97.79 114.3 0)
 			(effects
 				(font
@@ -3282,7 +3273,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 97.79 114.3 0)
 			(effects
 				(font
@@ -3291,17 +3282,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C4410"
+		(property "PBX_PN" "RC1206FR-071KL"
 			(at 97.79 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC1206FR-071KL"
-			(at 97.79 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3317,7 +3299,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R51")
 					(unit 1)
 				)
@@ -3383,7 +3365,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "#PWR048")
 					(unit 1)
 				)
@@ -3436,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 6.8Ω ±1% 100mW 0603"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3508,7 +3490,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23214"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3517,7 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C23214"
+		(property "PBX_MFT" "Uniroyal"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3526,16 +3508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23214"
-			(at 101.6 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF680KT5E"
+		(property "PBX_PN" "0603WAF680KT5E"
 			(at 101.6 60.96 0)
 			(effects
 				(font
@@ -3552,7 +3525,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R53")
 					(unit 1)
 				)
@@ -3605,7 +3578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 0Ω ±1% 100mW 0603"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -3686,7 +3659,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Royal Ohm"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -3695,16 +3668,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21189"
-			(at 212.09 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF0000T5E"
+		(property "PBX_PN" "0603WAF0000T5E"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -3721,7 +3685,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R57")
 					(unit 1)
 				)
@@ -3787,7 +3751,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "#PWR047")
 					(unit 1)
 				)
@@ -3840,7 +3804,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 6.8Ω ±1% 100mW 0603"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3912,7 +3876,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C23214"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3921,7 +3885,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C23214"
+		(property "PBX_MFT" "Uniroyal"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3930,16 +3894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C23214"
-			(at 227.33 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF680KT5E"
+		(property "PBX_PN" "0603WAF680KT5E"
 			(at 227.33 59.69 0)
 			(effects
 				(font
@@ -3956,7 +3911,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R60")
 					(unit 1)
 				)
@@ -4009,7 +3964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode 30V 200mA SOD-123"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4018,7 +3973,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "OnSemi"
+		(property "MFT" "onsemi"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4054,7 +4009,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C7502705"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4063,7 +4018,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
+		(property "PBX_MFT" "onsemi"
 			(at 86.36 106.68 0)
 			(effects
 				(font
@@ -4072,17 +4027,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C152458"
+		(property "PBX_PN" "BAT54T1G"
 			(at 86.36 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 86.36 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4044,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "D1")
 					(unit 1)
 				)
@@ -4151,7 +4097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" "MLCC 33nF 50V X7R ±10% 0603"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -4232,7 +4178,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -4241,16 +4187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21117"
-			(at 109.22 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB333"
+		(property "PBX_PN" "CC0603KRX7R9BB333"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -4267,7 +4204,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "C28")
 					(unit 1)
 				)
@@ -4318,7 +4255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
+		(property "Description" "Op amp dual zero-drift RRIO 1.8-5.5V MSOP-8"
 			(at 184.15 78.74 0)
 			(effects
 				(font
@@ -4327,7 +4264,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Diode Inc"
+		(property "MFT" "Diodes Inc"
 			(at 184.15 73.66 0)
 			(effects
 				(font
@@ -4363,7 +4300,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C527573"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -4372,7 +4309,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C5948553"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -4381,25 +4318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C527573"
-			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "AS2333M8-13"
-			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "TLV2333IDGKR"
+		(property "PBX_PN" "AS2333M8-13"
 			(at 184.15 96.52 0)
 			(effects
 				(font
@@ -4434,7 +4353,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "IC4")
 					(unit 2)
 				)
@@ -4487,7 +4406,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.8V, MICROPOWER CMOS ZERO-DRIFT OPERATIONAL AMPLIFIERS"
+		(property "Description" "Op amp dual zero-drift RRIO 1.8-5.5V MSOP-8"
 			(at 54.61 78.74 0)
 			(effects
 				(font
@@ -4496,7 +4415,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Diode Inc"
+		(property "MFT" "Diodes Inc"
 			(at 54.61 73.66 0)
 			(effects
 				(font
@@ -4532,7 +4451,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C527573"
 			(at 54.61 96.52 0)
 			(effects
 				(font
@@ -4541,7 +4460,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C5948553"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 54.61 96.52 0)
 			(effects
 				(font
@@ -4550,25 +4469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C527573"
-			(at 54.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "AS2333M8-13"
-			(at 54.61 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "TLV2333IDGKR"
+		(property "PBX_PN" "AS2333M8-13"
 			(at 54.61 96.52 0)
 			(effects
 				(font
@@ -4603,7 +4504,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "IC4")
 					(unit 1)
 				)
@@ -4737,33 +4638,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C21117"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CC0603KRX7R9BB333"
-			(at 234.95 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b1b32093-0948-4cda-91df-5d851246c35e")
 		)
@@ -4772,7 +4646,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "C29")
 					(unit 1)
 				)
@@ -4823,7 +4697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -4904,7 +4778,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 195.58 96.52 0)
 			(effects
 				(font
@@ -4913,17 +4787,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21190"
+		(property "PBX_PN" "RC0603FR-071KL"
 			(at 195.58 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 195.58 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4804,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R54")
 					(unit 1)
 				)
@@ -4992,7 +4857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 160Ω ±1% 100mW 0603"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5064,7 +4929,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22814"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5073,7 +4938,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C185369"
+		(property "PBX_MFT" "Yageo Group"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5082,16 +4947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C185369"
-			(at 227.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07160RL"
+		(property "PBX_PN" "RC0603FR-07160RL"
 			(at 227.33 50.8 0)
 			(effects
 				(font
@@ -5108,7 +4964,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R59")
 					(unit 1)
 				)
@@ -5116,7 +4972,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(lib_id "VXDash_transistors:Q_PMOS_GSD")
 		(at 83.82 60.96 0)
 		(mirror x)
 		(unit 1)
@@ -5162,7 +5018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "P-MOSFET 30V 3.8A 99mR@4.5V SOT-23"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5198,7 +5054,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C155244"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5207,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
+		(property "LCSC alt" ""
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5216,7 +5072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C155244"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5225,7 +5081,7 @@
 				(hide yes)
 			)
 		)
-		(property "AISLER_MPN" "DMP3099L-7"
+		(property "PBX_PN" "DMP3099L-7"
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -5245,7 +5101,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "Q1")
 					(unit 1)
 				)
@@ -5352,33 +5208,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
-			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C152458"
-			(at 231.14 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 231.14 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cb0b7450-4c09-41bb-8457-9ace433b41d5")
 		)
@@ -5387,7 +5216,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "D4")
 					(unit 1)
 				)
@@ -5440,7 +5269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Ceremic capacitor"
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -5521,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -5530,25 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C14663"
-			(at 30.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "CL10B104KB8NNWC"
-			(at 30.48 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ALT_MFT_PN_1" "CL10B104KB8NNNC"
+		(property "PBX_PN" "CL10B104KB8NNWC"
 			(at 30.48 92.71 0)
 			(effects
 				(font
@@ -5565,7 +5376,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "C27")
 					(unit 1)
 				)
@@ -5618,7 +5429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 0Ω ±1% 100mW 0603"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -5699,7 +5510,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Royal Ohm"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -5708,16 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21189"
-			(at 86.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "0603WAF0000T5E"
+		(property "PBX_PN" "0603WAF0000T5E"
 			(at 86.36 74.93 0)
 			(effects
 				(font
@@ -5734,7 +5536,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R50")
 					(unit 1)
 				)
@@ -5742,7 +5544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(lib_id "VXDash_transistors:Q_PMOS_GSD")
 		(at 209.55 96.52 0)
 		(mirror x)
 		(unit 1)
@@ -5833,33 +5635,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C155244"
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "DMP3099L-7"
-			(at 209.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b2df06c9-2648-4bf8-902e-1e58bce652e3")
 		)
@@ -5871,7 +5646,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "Q4")
 					(unit 1)
 				)
@@ -6002,33 +5777,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
-			(at 223.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C4410"
-			(at 223.52 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC1206FR-071KL"
-			(at 223.52 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "22e983f9-c784-4887-89eb-8eb7989af680")
 		)
@@ -6037,7 +5785,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R58")
 					(unit 1)
 				)
@@ -6090,7 +5838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 160Ω ±1% 100mW 0603"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6162,7 +5910,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C22814"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6171,7 +5919,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C185369"
+		(property "PBX_MFT" "Yageo Group"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6180,16 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C185369"
-			(at 101.6 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-07160RL"
+		(property "PBX_PN" "RC0603FR-07160RL"
 			(at 101.6 50.8 0)
 			(effects
 				(font
@@ -6206,7 +5945,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R52")
 					(unit 1)
 				)
@@ -6214,7 +5953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(lib_id "VXDash_transistors:Q_PMOS_GSD")
 		(at 83.82 96.52 0)
 		(mirror x)
 		(unit 1)
@@ -6260,7 +5999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
+		(property "Description" "P-MOSFET 30V 3.8A 99mR@4.5V SOT-23"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6305,7 +6044,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C155244"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6314,7 +6053,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C155244"
+		(property "PBX_MFT" "Diodes Inc."
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6323,16 +6062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C155244"
-			(at 83.82 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "DMP3099L-7"
+		(property "PBX_PN" "DMP3099L-7"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6352,7 +6082,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "Q2")
 					(unit 1)
 				)
@@ -6405,7 +6135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" "Schottky diode 30V 200mA SOD-123"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6414,7 +6144,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "OnSemi"
+		(property "MFT" "onsemi"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6450,7 +6180,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C7502705"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6459,7 +6189,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C152458"
+		(property "PBX_MFT" "onsemi"
 			(at 105.41 106.68 0)
 			(effects
 				(font
@@ -6468,17 +6198,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C152458"
+		(property "PBX_PN" "BAT54T1G"
 			(at 105.41 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "BAT54T1G"
-			(at 105.41 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6215,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "D2")
 					(unit 1)
 				)
@@ -6628,33 +6349,6 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" "C245924"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Recommended JLCPCB" "C245924"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-0718RL"
-			(at 212.09 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fb479d7d-ee06-4e48-8bdd-edb8f87e1210")
 		)
@@ -6663,7 +6357,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R56")
 					(unit 1)
 				)
@@ -6714,7 +6408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -6795,7 +6489,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB extended" ""
+		(property "PBX_MFT" "Yageo Group"
 			(at 69.85 96.52 0)
 			(effects
 				(font
@@ -6804,17 +6498,8 @@
 				(hide yes)
 			)
 		)
-		(property "Recommended JLCPCB" "C21190"
+		(property "PBX_PN" "RC0603FR-071KL"
 			(at 69.85 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "AISLER_MPN" "RC0603FR-071KL"
-			(at 69.85 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +6515,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "R47")
 					(unit 1)
 				)
@@ -6896,7 +6581,7 @@
 		)
 		(instances
 			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/024f3b9c-af80-4b8c-9e91-7ad2b6b7f854/17fb3549-8ca7-418f-beb2-9d5e3767d202"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/17fb3549-8ca7-418f-beb2-9d5e3767d202"
 					(reference "#PWR049")
 					(unit 1)
 				)
