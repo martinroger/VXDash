@@ -1170,12 +1170,6 @@
 		(uuid "70f75598-1797-40da-8a0a-122a6ff50e89")
 	)
 	(junction
-		(at 154.94 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "beb7ee97-e2ef-4ff2-ba2c-5cc7991951b8")
-	)
-	(junction
 		(at 142.24 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1407,16 +1401,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 182.88) (xy 154.94 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7deb9425-6e55-402c-a58b-2da2a7b0321b")
-	)
-	(wire
-		(pts
 			(xy 165.1 171.45) (xy 185.42 171.45)
 		)
 		(stroke
@@ -1454,16 +1438,6 @@
 			(type default)
 		)
 		(uuid "89891781-cdb5-40a8-b433-a10803ae36d9")
-	)
-	(wire
-		(pts
-			(xy 143.51 176.53) (xy 143.51 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90a8c46a-dc19-4c02-abfa-9b1b1858b12c")
 	)
 	(wire
 		(pts
@@ -1604,6 +1578,16 @@
 			(type default)
 		)
 		(uuid "f6ea7e09-3d10-441b-a768-f13d991f54af")
+	)
+	(label "V_SUPPLY"
+		(at 143.51 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e6c9d04-db53-4533-a44e-084a97b33cf2")
 	)
 	(label "5V_sense_1"
 		(at 184.15 168.91 0)
