@@ -5,120 +5,13 @@
 	(uuid "1c1323e2-840c-4269-8cfa-5e63590e0945")
 	(paper "A3")
 	(title_block
-		(title "Analog circuit")
-		(date "2026-11-16")
+		(title "Analog ratiometric 5V sensing circuit")
+		(date "2026-11-24")
 		(rev "0.4.0")
-		(company "Alex Miller & Martin Roger")
+		(company "Martin Roger")
 		(comment 1 "https://github.com/martinroger/VXDash")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "VXDash_ICs:ADS1115IDGS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1204,26 +1097,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "High range Iref : \n(39/859) * Vsupply / 166R8 -> (39/(859*166.8)) * Vsupply\n\nLow range Iref : \n(39/859) * Vsupply / 16.247 -> (39/(859*16.247)) * Vsupply\n\nAssuming Rload, observed Vload : \n\nVload = Rload * Iref\n\nRload = (Vload/Vsupply) * Kfactor\nLow range : Kfactor = 859 * 16.247 / 39\nHi range : Kfactor = 859 * 166.8 / 39\n"
-		(exclude_from_sim no)
-		(at 167.64 190.5 0)
-		(size 64.77 29.21)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4146f41b-c332-43e4-a264-9aa1130158db")
-	)
 	(text_box "ADDR= 1001000b = 0x48"
 		(exclude_from_sim no)
 		(at 133.35 184.15 0)
@@ -1246,7 +1119,7 @@
 	)
 	(text_box "Ratiometric measurement\n\nVmeas = 22/122.1 * Vact\nRatio ~ 0.18018018\n"
 		(exclude_from_sim no)
-		(at 289.56 191.77 0)
+		(at 283.21 175.26 0)
 		(size 35.56 11.43)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1266,7 +1139,7 @@
 	)
 	(text_box "18.3 typ = 3.3V out"
 		(exclude_from_sim no)
-		(at 326.39 156.21 0)
+		(at 320.04 139.7 0)
 		(size -24.13 3.81)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1284,61 +1157,17 @@
 		)
 		(uuid "b22e8b68-e5a1-4fdb-8dd5-800e95486c60")
 	)
-	(text_box "Vref = 150mV\n(39/859)*3.3V\nRequires tracking Vsupply"
-		(exclude_from_sim no)
-		(at 255.27 124.46 0)
-		(size 27.94 8.89)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e8e1f99e-bfc2-4b08-a165-f10919d5c404")
-	)
 	(junction
-		(at 341.63 160.02)
+		(at 335.28 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "04b4baa7-70d5-4a76-9733-e904a657e387")
 	)
 	(junction
-		(at 248.92 138.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68caf26c-2631-4c90-8ae0-fea405cae0f6")
-	)
-	(junction
-		(at 341.63 182.88)
+		(at 335.28 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70f75598-1797-40da-8a0a-122a6ff50e89")
-	)
-	(junction
-		(at 154.94 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7a96c891-64fb-4255-89ef-1aee04c3bda2")
-	)
-	(junction
-		(at 248.92 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7cfe9088-61e4-4858-9249-eeed388172e6")
-	)
-	(junction
-		(at 248.92 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b990a2d9-d56b-4d80-b87c-2aaff30901e6")
 	)
 	(junction
 		(at 154.94 182.88)
@@ -1347,43 +1176,37 @@
 		(uuid "beb7ee97-e2ef-4ff2-ba2c-5cc7991951b8")
 	)
 	(junction
-		(at 248.92 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4fc9413-6179-4a1f-abe4-375453c86d17")
-	)
-	(junction
 		(at 142.24 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca4c2db6-6b90-4a52-905e-cdb067ae932d")
 	)
 	(junction
-		(at 328.93 171.45)
+		(at 322.58 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce074294-e31f-437b-945a-f39233e2dc03")
 	)
 	(junction
-		(at 341.63 184.15)
+		(at 335.28 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d34c2f0e-5d10-4def-972b-e1168dead043")
 	)
 	(junction
-		(at 328.93 182.88)
+		(at 322.58 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc324530-5505-4baa-90a8-f69b7ccc74b8")
 	)
 	(junction
-		(at 314.96 171.45)
+		(at 308.61 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9cdc557-e136-462b-af42-ee46e58dc627")
 	)
 	(junction
-		(at 328.93 160.02)
+		(at 322.58 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe5f448a-b820-47b1-b11a-094fedc0fffd")
@@ -1391,26 +1214,6 @@
 	(no_connect
 		(at 144.78 166.37)
 		(uuid "e317fba1-a58b-4a69-83e7-1863499f277f")
-	)
-	(wire
-		(pts
-			(xy 154.94 115.57) (xy 248.92 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00cc40a6-0706-4fbb-97b0-3de43c550fba")
-	)
-	(wire
-		(pts
-			(xy 170.18 144.78) (xy 170.18 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "011b916a-8a7a-4ea4-acd6-6840f8558d46")
 	)
 	(wire
 		(pts
@@ -1424,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 147.32) (xy 328.93 149.86)
+			(xy 322.58 130.81) (xy 322.58 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +1237,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 182.88) (xy 328.93 182.88)
+			(xy 308.61 166.37) (xy 322.58 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1444,93 +1247,13 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 137.16) (xy 248.92 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e9007fd-e113-446d-b08a-393cec023076")
-	)
-	(wire
-		(pts
-			(xy 237.49 127) (xy 237.49 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ebf31d7-f180-4dc7-8faf-f9018abb1ad9")
-	)
-	(wire
-		(pts
-			(xy 255.27 138.43) (xy 255.27 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "105637bd-1889-4757-a9c2-dcb7ec04763a")
-	)
-	(wire
-		(pts
-			(xy 248.92 148.59) (xy 248.92 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1497f152-ea21-4caf-9f0d-b79de709be2f")
-	)
-	(wire
-		(pts
-			(xy 248.92 139.7) (xy 248.92 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "168255dd-d0c6-4a56-9c45-ab7b2c51571a")
-	)
-	(wire
-		(pts
-			(xy 346.71 160.02) (xy 341.63 160.02)
+			(xy 340.36 143.51) (xy 335.28 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c33bb18-b9e4-4863-bfe3-2087534a5dd5")
-	)
-	(wire
-		(pts
-			(xy 248.92 148.59) (xy 248.92 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1dc5ab0f-9e86-4f10-b08c-0a7de783d491")
-	)
-	(wire
-		(pts
-			(xy 248.92 124.46) (xy 248.92 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2000fbdb-bbb6-4c36-8453-a36aa5952c79")
-	)
-	(wire
-		(pts
-			(xy 255.27 148.59) (xy 248.92 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d9ff3b-cf24-4f1d-ae7f-2c2cd8ede77b")
 	)
 	(wire
 		(pts
@@ -1544,17 +1267,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 168.91) (xy 167.64 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28581ece-ed8d-4b3b-b662-720dfa48336c")
-	)
-	(wire
-		(pts
-			(xy 341.63 175.26) (xy 341.63 182.88)
+			(xy 335.28 158.75) (xy 335.28 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +1277,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 160.02) (xy 341.63 160.02)
+			(xy 322.58 143.51) (xy 335.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +1287,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 171.45) (xy 314.96 172.72)
+			(xy 308.61 154.94) (xy 308.61 156.21)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +1297,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 168.91) (xy 328.93 171.45)
+			(xy 322.58 152.4) (xy 322.58 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +1307,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 171.45) (xy 314.96 171.45)
+			(xy 279.4 154.94) (xy 308.61 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1604,27 +1317,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 137.16) (xy 248.92 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "461bf71a-ccad-479d-8430-2e435bbed0c5")
-	)
-	(wire
-		(pts
-			(xy 214.63 124.46) (xy 248.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4984bf82-4146-4553-ab5a-15d77f8a15f2")
-	)
-	(wire
-		(pts
-			(xy 346.71 167.64) (xy 346.71 160.02)
+			(xy 340.36 151.13) (xy 340.36 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +1327,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 157.48) (xy 328.93 160.02)
+			(xy 322.58 140.97) (xy 322.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 175.26) (xy 346.71 184.15)
+			(xy 340.36 158.75) (xy 340.36 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1684,17 +1377,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 144.78) (xy 170.18 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "697e04ba-2772-4437-8534-f67d7f2cf39c")
-	)
-	(wire
-		(pts
-			(xy 328.93 171.45) (xy 328.93 173.99)
+			(xy 322.58 154.94) (xy 322.58 157.48)
 		)
 		(stroke
 			(width 0)
@@ -1714,7 +1397,7 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 180.34) (xy 314.96 182.88)
+			(xy 308.61 163.83) (xy 308.61 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +1417,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 171.45) (xy 165.1 171.45)
+			(xy 165.1 171.45) (xy 185.42 171.45)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +1427,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.28 147.32) (xy 328.93 147.32)
+			(xy 328.93 130.81) (xy 322.58 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +1437,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 182.88) (xy 341.63 182.88)
+			(xy 322.58 166.37) (xy 335.28 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1784,36 +1467,6 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 134.62) (xy 214.63 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "930c7aa2-6c84-4ca3-a174-ba6eb62ee7f9")
-	)
-	(wire
-		(pts
-			(xy 214.63 144.78) (xy 220.98 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a102a86a-7201-4c01-83e1-802973249150")
-	)
-	(wire
-		(pts
-			(xy 167.64 134.62) (xy 185.42 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2d9e6ab-45bf-4ab8-9460-1a377ebe6ca3")
-	)
-	(wire
-		(pts
 			(xy 142.24 115.57) (xy 142.24 120.65)
 		)
 		(stroke
@@ -1834,26 +1487,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 127) (xy 214.63 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae329cb6-ac46-4e54-9ecd-a6faf26b828f")
-	)
-	(wire
-		(pts
-			(xy 214.63 137.16) (xy 217.17 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5449274-46f4-44cf-951d-37b41fed3e27")
-	)
-	(wire
-		(pts
 			(xy 142.24 129.54) (xy 142.24 128.27)
 		)
 		(stroke
@@ -1864,27 +1497,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 138.43) (xy 255.27 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb4db4ca-fa98-4ae2-9629-dff1603b3657")
-	)
-	(wire
-		(pts
-			(xy 248.92 133.35) (xy 248.92 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be32dc7b-fae9-4e22-ac87-2a81415a4916")
-	)
-	(wire
-		(pts
-			(xy 341.63 184.15) (xy 341.63 185.42)
+			(xy 335.28 167.64) (xy 335.28 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1894,17 +1507,7 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 147.32) (xy 220.98 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd557957-4ddd-4b82-9fdf-79fec38678c3")
-	)
-	(wire
-		(pts
-			(xy 341.63 167.64) (xy 341.63 160.02)
+			(xy 335.28 151.13) (xy 335.28 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1914,17 +1517,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 124.46) (xy 248.92 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dac0f0d9-5b14-4d18-b1e4-bc9a5e109393")
-	)
-	(wire
-		(pts
-			(xy 317.5 171.45) (xy 314.96 171.45)
+			(xy 311.15 154.94) (xy 308.61 154.94)
 		)
 		(stroke
 			(width 0)
@@ -1934,7 +1527,7 @@
 	)
 	(wire
 		(pts
-			(xy 346.71 184.15) (xy 341.63 184.15)
+			(xy 340.36 167.64) (xy 335.28 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1944,23 +1537,13 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 171.45) (xy 328.93 171.45)
+			(xy 318.77 154.94) (xy 322.58 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e24e8303-7fb0-4c73-b795-55ebf9afa44f")
-	)
-	(wire
-		(pts
-			(xy 250.19 105.41) (xy 250.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38fda59-933c-4abb-bef0-c6150a1654fc")
 	)
 	(wire
 		(pts
@@ -1974,7 +1557,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 168.91) (xy 167.64 168.91)
+			(xy 165.1 168.91) (xy 184.15 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1984,7 +1567,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 161.29) (xy 328.93 160.02)
+			(xy 322.58 144.78) (xy 322.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2004,7 +1587,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 181.61) (xy 328.93 182.88)
+			(xy 322.58 165.1) (xy 322.58 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2014,7 +1597,7 @@
 	)
 	(wire
 		(pts
-			(xy 341.63 182.88) (xy 341.63 184.15)
+			(xy 335.28 166.37) (xy 335.28 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2022,163 +1605,25 @@
 		)
 		(uuid "f6ea7e09-3d10-441b-a768-f13d991f54af")
 	)
-	(wire
-		(pts
-			(xy 255.27 147.32) (xy 255.27 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8a140df-6891-4d8b-91b2-e9bff716c393")
-	)
-	(label "Batt_sense_scaled"
-		(at 285.75 171.45 0)
+	(label "5V_sense_1"
+		(at 184.15 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "05823032-fdc2-4505-837f-bdd5bc5d8079")
+		(uuid "d793c514-6e18-4f6a-b319-ce9c332bace6")
 	)
-	(label "r_adc_A"
-		(at 181.61 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2b5144de-fca9-4515-9a0f-431222645104")
-	)
-	(label "r_adc_B"
-		(at 173.99 144.78 0)
+	(label "5V_sense_1"
+		(at 279.4 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4411ebdd-0d27-41a8-9bd7-193d0f837a3e")
-	)
-	(label "v_ref"
-		(at 250.19 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aeaf3b91-c992-4253-a891-8901ca8938a2")
-	)
-	(label "v_ref"
-		(at 240.03 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8b72af5-e3c3-4c98-9522-70add190ab94")
-	)
-	(label "Batt_sense_scaled"
-		(at 167.64 173.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d80f9151-a644-48eb-969c-6ce3e6a0715a")
-	)
-	(hierarchical_label "Set_Hi_Chan_A"
-		(shape input)
-		(at 217.17 137.16 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "018eb53b-0205-4ed3-9e43-8a03d5c517e5")
-	)
-	(hierarchical_label "R_SENSOR_B"
-		(shape input)
-		(at 220.98 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "053ab458-a1cf-4f51-9aa3-fbcf84e21939")
-	)
-	(hierarchical_label "R_SENSOR_A"
-		(shape input)
-		(at 217.17 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ed53720-ef10-4874-9cc4-e544de425131")
-	)
-	(hierarchical_label "MEAS_12V_IN"
-		(shape input)
-		(at 335.28 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b632fd1f-17a7-4d80-8632-ced0c3d0f7d9")
-	)
-	(hierarchical_label "ADC_SCL"
-		(shape input)
-		(at 111.76 171.45 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b8553e9a-921c-4ffb-a566-c7b2ff7941b4")
-	)
-	(hierarchical_label "V_SUPPLY"
-		(shape input)
-		(at 111.76 115.57 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb01d2fc-cd2b-47a3-8a00-0c984a0f9b91")
-	)
-	(hierarchical_label "Set_Hi_Chan_B"
-		(shape input)
-		(at 220.98 147.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdc6d8c0-8b03-4c47-b551-b50cd2fd3e00")
-	)
-	(hierarchical_label "V_SUPPLY"
-		(shape input)
-		(at 170.18 176.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e1e02157-cb6e-4c7d-a203-eff6702174de")
+		(uuid "e6b31718-eb01-4206-ab49-13d9dd74936b")
 	)
 	(hierarchical_label "ADC_SDA"
 		(shape bidirectional)
@@ -2189,47 +1634,104 @@
 			)
 			(justify right)
 		)
-		(uuid "ee0cb814-d92a-4fc4-bdb6-84f72074e3ff")
+		(uuid "08c3ca12-686e-43e9-9c40-3d77ccb24b6a")
+	)
+	(hierarchical_label "Sensor_5V_IN_1"
+		(shape input)
+		(at 328.93 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d472955-cc1c-4069-8403-e5e4b36fffc2")
+	)
+	(hierarchical_label "Source_5V_2"
+		(shape input)
+		(at 328.93 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2557578c-e21e-4491-a46d-6b614ca93776")
+	)
+	(hierarchical_label "ADC_SCL"
+		(shape input)
+		(at 111.76 171.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "502b690b-3aec-4370-8b2b-8678089bc893")
+	)
+	(hierarchical_label "V_SUPPLY"
+		(shape input)
+		(at 111.76 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5b4488e3-1165-4167-8352-733f2d150f47")
+	)
+	(hierarchical_label "Source_5V_1"
+		(shape input)
+		(at 328.93 223.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c33c8b28-9b34-47a6-9880-5339631c29d2")
+	)
+	(hierarchical_label "Sensor_5V_IN_2"
+		(shape input)
+		(at 328.93 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db3e73c0-bb70-4c5b-97d4-4a29c0a50f30")
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 328.93 177.8 0)
+		(at 322.58 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0b69dd52-b8c9-4f93-98d2-701ea0f5bb66")
+		(uuid "31fd2d47-a158-4272-8294-3ccd73bfa372")
 		(property "Reference" "R67"
-			(at 331.47 176.5299 0)
+			(at 325.12 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "22k"
-			(at 331.47 179.0699 0)
+		(property "Value" "100R"
+			(at 325.12 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 327.152 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 328.93 177.8 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 324.358 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,8 +1739,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick film resistor 22kΩ ±1% 100mW 0603"
-			(at 328.93 177.8 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C105577.pdf"
+			(at 322.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick film resistor 100Ω ±1% 125mW 0805"
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +1758,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 328.93 177.8 0)
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,8 +1766,8 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "100mW"
-			(at 328.93 177.8 0)
+		(property "Power" "125mW"
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +1776,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 328.93 177.8 0)
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2273,8 +1784,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Royal Ohm"
-			(at 328.93 177.8 0)
+		(property "MFT" "Yageo"
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,8 +1793,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "0603WAF2202T5E"
-			(at 328.93 177.8 0)
+		(property "MFT_PN" "RC0805FR-07100RL"
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2291,8 +1802,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C31850"
-			(at 328.93 177.8 0)
+		(property "LCSC" "C105577"
+			(at 322.58 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +1812,393 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 328.93 177.8 0)
+			(at 322.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C17408"
+			(at 322.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Yageo Group"
+			(at 322.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "RC0805FR-07100RL"
+			(at 322.58 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf5de594-1a4e-4a29-a527-5b6de1b5e909")
+		)
+		(pin "2"
+			(uuid "7d6747df-fcba-4ec9-b8c6-24d42fd54026")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 335.28 168.91 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48a101d8-6a7b-4034-ad84-502f3ef87c23")
+		(property "Reference" "#PWR054"
+			(at 335.28 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 335.28 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 335.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 335.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 335.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e49f97c-13a4-487a-917b-e72ac4507da7")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 322.58 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55ea5e57-a970-48b3-b44e-2315c7bff5db")
+		(property "Reference" "R68"
+			(at 325.12 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 325.12 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 320.802 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07100KL-Yageo-datasheet-141265859.pdf"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick film resistor 100kΩ ±1% 100mW 0603"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Yageo"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "RC0603FR-07100KL"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14675"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25803"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Yageo Group"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "RC0603FR-07100KL"
+			(at 322.58 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087d9a6b-05e0-4eb7-8b7d-7b10b0f9114e")
+		)
+		(pin "2"
+			(uuid "a900ab05-4f1f-4e2d-90f5-e0b6f2be327a")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_passives:Res")
+		(at 322.58 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d318f6c-fd9a-45a6-b3e9-6565f20c6801")
+		(property "Reference" "R69"
+			(at 325.12 160.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22k"
+			(at 325.12 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 320.802 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick film resistor 22kΩ ±1% 100mW 0603"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "1%"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" ""
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Royal Ohm"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "0603WAF2202T5E"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C31850"
+			(at 322.58 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" ""
+			(at 322.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2310,7 +2207,7 @@
 			)
 		)
 		(property "JLCPCB" "C31850"
-			(at 328.93 177.8 0)
+			(at 322.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2319,7 +2216,7 @@
 			)
 		)
 		(property "PBX_MFT" ""
-			(at 328.93 177.8 0)
+			(at 322.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2225,7 @@
 			)
 		)
 		(property "PBX_PN" ""
-			(at 328.93 177.8 0)
+			(at 322.58 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,166 +2242,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 321.31 171.45 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d48c1a9-2fa4-49a0-a93f-81dab0327424")
-		(property "Reference" "R64"
-			(at 321.31 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 321.31 167.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 321.31 173.228 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-071KL-Yageo-datasheet-141265859.pdf"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-071KL"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C22548"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C21190"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Yageo Group"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "RC0603FR-071KL"
-			(at 321.31 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90405fea-9cc2-4afe-9b3b-112f1bb7d9ff")
-		)
-		(pin "2"
-			(uuid "214d80ed-e896-4ae1-9adc-b20807c2dadf")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "R64")
+					(reference "R69")
 					(unit 1)
 				)
 			)
@@ -2512,326 +2250,7 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 346.71 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10b7576c-c867-4013-92ca-98f70312f0e9")
-		(property "Reference" "C36"
-			(at 350.52 168.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 350.52 171.4499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 345.7448 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung Electro-Mechanics"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "CL10B104KB8NNWC"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "10%"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 350.52 173.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC" "C16194176"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" "C1591"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C14663"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Samsung Electro-Mechanics"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "CL10B104KB8NNWC"
-			(at 346.71 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7263a038-c250-4008-8e35-2ce637c3976f")
-		)
-		(pin "2"
-			(uuid "fe1bf954-1326-476d-a5ce-85c6b26a7ede")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 248.92 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "238b604e-e36d-47a4-b51a-d43f3fb8f64c")
-		(property "Reference" "R62"
-			(at 251.46 128.2699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "39k"
-			(at 251.46 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 250.698 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C163424.pdf"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick film resistor 39kΩ ±1% 100mW 0603"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-0739KL"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C163424"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C23153"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Yageo Group"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "RC0603FR-0739KL"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8cc8d4c2-fd3f-4002-a3ea-e3eff86f2328")
-		)
-		(pin "2"
-			(uuid "e80af220-0940-45f6-aa6d-f40f591d8d5c")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 314.96 176.53 0)
+		(at 308.61 160.02 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2839,9 +2258,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "340c1620-d7bc-4563-b869-e721af3ffb1e")
-		(property "Reference" "C35"
-			(at 311.15 173.9899 0)
+		(uuid "79030142-a7fb-43bd-975f-4f7a5917ea76")
+		(property "Reference" "C40"
+			(at 304.8 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2269,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 311.15 176.5299 0)
+			(at 304.8 160.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2278,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 315.9252 172.72 0)
+			(at 309.5752 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2287,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C100042.pdf"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2296,7 @@
 			)
 		)
 		(property "Description" "MLCC 10nF 50V X7R ±10% 0603"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2305,7 @@
 			)
 		)
 		(property "MFT" "Yageo"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2314,7 @@
 			)
 		)
 		(property "MFT_PN" "CC0603KRX7R9BB103"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2323,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +2332,7 @@
 			)
 		)
 		(property "Tol" "10%"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,7 +2341,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 311.15 179.0699 0)
+			(at 304.8 162.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2350,7 @@
 			)
 		)
 		(property "LCSC" "C100042"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2359,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2368,7 @@
 			)
 		)
 		(property "JLCPCB" "C57112"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2377,7 @@
 			)
 		)
 		(property "PBX_MFT" "Yageo Group"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2386,7 @@
 			)
 		)
 		(property "PBX_PN" "CC0603KRX7R9BB103"
-			(at 314.96 176.53 0)
+			(at 308.61 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,74 +2403,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 250.19 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4529d82f-0bc6-4be3-822c-ef5ce1497752")
-		(property "Reference" "TP8"
-			(at 252.73 100.8379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ADS_VREF"
-			(at 252.73 103.3779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 250.19 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "988dc226-af3f-4f28-abb1-f9fd48873547")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "TP8")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -3059,17 +2411,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 341.63 185.42 0)
-		(mirror y)
+		(at 142.24 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60f35774-352b-4cbe-9b87-46dbef5bac3e")
-		(property "Reference" "#PWR056"
-			(at 341.63 191.77 0)
+		(uuid "7b89637c-4daf-4178-882c-55ad24a05716")
+		(property "Reference" "#PWR049"
+			(at 142.24 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +2428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 341.63 190.5 0)
+			(at 144.78 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,7 +2436,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 185.42 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3095,7 +2445,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 185.42 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +2454,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 341.63 185.42 0)
+			(at 142.24 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3113,56 +2463,46 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e49f97c-13a4-487a-917b-e72ac4507da7")
+			(uuid "9c719866-fbce-4023-a89b-6a80e5d45683")
 		)
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "#PWR056")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "VXDash_diodes:D_Zener")
-		(at 341.63 171.45 90)
-		(mirror x)
+		(lib_id "VXDash_passives:Cap_MLCC")
+		(at 340.36 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "721405bb-eb60-4b26-ad84-a25d324d768a")
-		(property "Reference" "D5"
-			(at 339.09 170.815 90)
+		(uuid "b7e93cb0-acac-4cfa-8d50-7c98106f13cd")
+		(property "Reference" "C42"
+			(at 344.17 152.3999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "18V"
-			(at 339.09 173.355 90)
+		(property "Value" "100n"
+			(at 344.17 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 341.63 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
-			(at 341.63 171.45 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 339.3948 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,8 +2510,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Zener diode 18V 500mW SOD-123"
-			(at 341.63 171.45 0)
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,8 +2519,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT" "Micro Commercial Co"
-			(at 341.63 171.45 90)
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,8 +2528,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "BZT52C18-TP"
-			(at 341.63 171.45 90)
+		(property "MFT" "Samsung Electro-Mechanics"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,8 +2537,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C668896"
-			(at 341.63 171.45 90)
+		(property "MFT_PN" "CL10B104KB8NNWC"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,8 +2546,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC alt" "C467525"
-			(at 341.63 171.45 90)
+		(property "Dielectric" "X7R"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,8 +2555,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C19077414"
-			(at 341.63 171.45 90)
+		(property "Tol" "10%"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,8 +2564,17 @@
 				(hide yes)
 			)
 		)
-		(property "PBX_MFT" "MCC"
-			(at 341.63 171.45 0)
+		(property "Voltage" "50V"
+			(at 344.17 157.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C16194176"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,8 +2582,35 @@
 				(hide yes)
 			)
 		)
-		(property "PBX_PN" "BZT52C18-TP"
-			(at 341.63 171.45 0)
+		(property "LCSC alt" "C1591"
+			(at 340.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 340.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
+			(at 340.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "CL10B104KB8NNWC"
+			(at 340.36 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3243,15 +2619,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d56b10f0-3bd4-422b-b9b7-c4d09a726fc3")
+			(uuid "7263a038-c250-4008-8e35-2ce637c3976f")
 		)
 		(pin "2"
-			(uuid "d6fb05f5-15c7-464a-a89e-a0e10bc951b8")
+			(uuid "fe1bf954-1326-476d-a5ce-85c6b26a7ede")
 		)
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "D5")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -3266,8 +2642,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7226971e-8f17-407c-9045-06df0adbac6e")
-		(property "Reference" "C33"
+		(uuid "c4aee6a1-9030-4d15-a380-4bb7710edbfe")
+		(property "Reference" "C34"
 			(at 144.78 121.92 0)
 			(effects
 				(font
@@ -3411,7 +2787,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -3419,34 +2795,33 @@
 	)
 	(symbol
 		(lib_id "VXDash_passives:Res")
-		(at 248.92 143.51 0)
+		(at 314.96 154.94 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e7d77d9-ceb9-4071-b613-d628ca8d9521")
-		(property "Reference" "R63"
-			(at 246.38 144.7801 0)
+		(uuid "d5822137-00a8-4579-927e-90acf8d0ff48")
+		(property "Reference" "R65"
+			(at 314.96 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "820k"
-			(at 246.38 142.2401 0)
+		(property "Value" "1k"
+			(at 314.96 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 247.142 143.51 90)
+			(at 314.96 156.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3454,8 +2829,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07820KL-Yageo-datasheet-141265859.pdf"
-			(at 248.92 143.51 0)
+		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-071KL-Yageo-datasheet-141265859.pdf"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,8 +2838,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick film resistor 820kΩ ±1% 100mW 0603"
-			(at 248.92 143.51 0)
+		(property "Description" "Thick film resistor 1kΩ ±1% 100mW 0603"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3473,7 +2848,7 @@
 			)
 		)
 		(property "Tol" "1%"
-			(at 248.92 143.51 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,7 +2857,7 @@
 			)
 		)
 		(property "Power" "100mW"
-			(at 248.92 143.51 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3491,7 +2866,7 @@
 			)
 		)
 		(property "Type" ""
-			(at 248.92 143.51 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3500,7 +2875,7 @@
 			)
 		)
 		(property "MFT" "Yageo"
-			(at 248.92 143.51 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3508,8 +2883,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFT_PN" "RC0603FR-07820KL"
-			(at 248.92 143.51 0)
+		(property "MFT_PN" "RC0603FR-071KL"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3517,8 +2892,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C141684"
-			(at 248.92 143.51 0)
+		(property "LCSC" "C22548"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3527,7 +2902,7 @@
 			)
 		)
 		(property "LCSC alt" ""
-			(at 248.92 143.51 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,8 +2910,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C141684"
-			(at 248.92 143.51 0)
+		(property "JLCPCB" "C21190"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,7 +2920,7 @@
 			)
 		)
 		(property "PBX_MFT" "Yageo Group"
-			(at 248.92 143.51 0)
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,8 +2928,8 @@
 				(hide yes)
 			)
 		)
-		(property "PBX_PN" "RC0603FR-07820KL"
-			(at 248.92 143.51 0)
+		(property "PBX_PN" "RC0603FR-071KL"
+			(at 314.96 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3563,15 +2938,214 @@
 			)
 		)
 		(pin "1"
-			(uuid "4dd883e0-56c8-4b03-aecb-5785553632a6")
+			(uuid "90405fea-9cc2-4afe-9b3b-112f1bb7d9ff")
 		)
 		(pin "2"
-			(uuid "9ead3eb8-a927-4938-ab5a-63e33eede9be")
+			(uuid "214d80ed-e896-4ae1-9adc-b20807c2dadf")
 		)
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "R63")
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "VXDash_diodes:D_Zener")
+		(at 335.28 154.94 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "daaf3d72-d9db-4977-a88d-1cee775f31dd")
+		(property "Reference" "D17"
+			(at 332.74 154.305 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "18V"
+			(at 332.74 156.845 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mccsemi.com/pdf/Products/BZT52C2V4~BZT52C75(500mW)(SOD-123).pdf"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Zener diode 18V 500mW SOD-123"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Micro Commercial Co"
+			(at 335.28 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "BZT52C18-TP"
+			(at 335.28 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C668896"
+			(at 335.28 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" "C467525"
+			(at 335.28 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19077414"
+			(at 335.28 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "MCC"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "BZT52C18-TP"
+			(at 335.28 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d56b10f0-3bd4-422b-b9b7-c4d09a726fc3")
+		)
+		(pin "2"
+			(uuid "d6fb05f5-15c7-464a-a89e-a0e10bc951b8")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db1baec3-894d-47d6-9b94-68ed50292517")
+		(property "Reference" "#PWR052"
+			(at 154.94 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 154.94 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f441381-9b19-4800-ae5a-fda19abae752")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -3586,8 +3160,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "80b70970-3eef-4d10-9b3c-98b964483116")
-		(property "Reference" "U19"
+		(uuid "f5f592de-c425-4c02-ad97-0627dffb341c")
+		(property "Reference" "U12"
 			(at 152.7967 156.21 0)
 			(effects
 				(font
@@ -3728,817 +3302,8 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "U19")
+					(reference "U12")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 328.93 153.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "80cd2846-3412-436c-8170-0c96154ac271")
-		(property "Reference" "R65"
-			(at 331.47 152.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100R"
-			(at 331.47 154.9399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 330.708 153.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C105577.pdf"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick film resistor 100Ω ±1% 125mW 0805"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "125mW"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0805FR-07100RL"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105577"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C17408"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Yageo Group"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "RC0805FR-07100RL"
-			(at 328.93 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf5de594-1a4e-4a29-a527-5b6de1b5e909")
-		)
-		(pin "2"
-			(uuid "7d6747df-fcba-4ec9-b8c6-24d42fd54026")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "R65")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 248.92 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d990f47-ddbe-42ea-9e52-fd07320dc0e3")
-		(property "Reference" "#PWR055"
-			(at 248.92 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8cedf8b-dd0f-4a43-85cd-34cdc107ec89")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0f8c763-b5de-4271-93ab-cdec4bfd2434")
-		(property "Reference" "#PWR054"
-			(at 142.24 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c719866-fbce-4023-a89b-6a80e5d45683")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 154.94 184.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7994b50-6081-4e10-8520-69db10f0db3d")
-		(property "Reference" "#PWR053"
-			(at 154.94 190.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 154.94 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f441381-9b19-4800-ae5a-fda19abae752")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "#PWR053")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Res")
-		(at 328.93 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9c7283e-7fd9-4960-8164-d27092e1e144")
-		(property "Reference" "R110"
-			(at 331.47 163.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 331.47 166.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 327.152 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheet.octopart.com/RC0603FR-07100KL-Yageo-datasheet-141265859.pdf"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick film resistor 100kΩ ±1% 100mW 0603"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "1%"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "100mW"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Type" ""
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "RC0603FR-07100KL"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C14675"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C25803"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Yageo Group"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "RC0603FR-07100KL"
-			(at 328.93 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "087d9a6b-05e0-4eb7-8b7d-7b10b0f9114e")
-		)
-		(pin "2"
-			(uuid "a900ab05-4f1f-4e2d-90f5-e0b6f2be327a")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "R110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 255.27 143.51 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf68b03f-1d8d-4d0a-bc9b-6ea28427d8cc")
-		(property "Reference" "C34"
-			(at 259.08 140.9699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100n"
-			(at 259.08 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 254.3048 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 259.08 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Tol" "10%"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Samsung Electro-Mechanics"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "CL10B104KB8NNWC"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C16194176"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" "C1591"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C14663"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Samsung Electro-Mechanics"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "CL10B104KB8NNWC"
-			(at 255.27 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "39a51642-4dc2-46c6-ba3f-ef16d1d41c70")
-		)
-		(pin "1"
-			(uuid "6cfa7fab-f155-4452-b170-427475eaa7e6")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(sheet
-		(at 185.42 121.92)
-		(size 29.21 27.94)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 194 0 1.0000)
-		)
-		(uuid "17fb3549-8ca7-418f-beb2-9d5e3767d202")
-		(property "Sheetname" "Rsensing_Pair1"
-			(at 185.42 121.2084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Rsensing_Pair.kicad_sch"
-			(at 185.42 150.4446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "ADC_A" output
-			(at 185.42 134.62 180)
-			(uuid "232b5020-d7b0-4ba8-8f8f-042a81219da9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "ADC_B" output
-			(at 185.42 144.78 180)
-			(uuid "c2537d86-58ba-44e5-a49c-3c1d4b81ecb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "HighResiSet_A" input
-			(at 214.63 137.16 0)
-			(uuid "11330181-c68c-4145-bcb5-ecc9de0824ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "HighResiSet_B" input
-			(at 214.63 147.32 0)
-			(uuid "28a0a083-f477-4745-888d-092e3241c89c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vref" input
-			(at 214.63 127 0)
-			(uuid "c0322944-afce-46d1-8150-e4e00e0e042c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SensorSupply" input
-			(at 214.63 124.46 0)
-			(uuid "ab4273e5-e18c-4c8c-8a80-3bad5a7e16c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Sender_A" passive
-			(at 214.63 134.62 0)
-			(uuid "db74b83b-37a5-4592-bd81-73b5b729160e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Sender_B" passive
-			(at 214.63 144.78 0)
-			(uuid "dfdf6832-79af-4c2c-8226-016a3f04636b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project ""
-				(path "/36cf284f-d007-407a-8cf1-3a728debbb83"
-					(page "#")
-				)
-			)
-			(project ""
-				(path "/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(page "#")
-				)
-			)
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd"
-					(page "21")
 				)
 			)
 		)
