@@ -1305,7 +1305,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3c86231c-7b35-4b64-9413-492f9e109edd"
-					(reference "D8")
+					(reference "D10")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7a8fcafd-29f0-4e47-9248-0c79a9fce6b6"
@@ -1477,7 +1477,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3c86231c-7b35-4b64-9413-492f9e109edd"
-					(reference "R32")
+					(reference "R40")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7a8fcafd-29f0-4e47-9248-0c79a9fce6b6"
@@ -1649,7 +1649,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3c86231c-7b35-4b64-9413-492f9e109edd"
-					(reference "R31")
+					(reference "R39")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7a8fcafd-29f0-4e47-9248-0c79a9fce6b6"
@@ -1677,7 +1677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b310dada-1de9-40f6-9e86-dde4ada475c6")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 154.94 114.3 0)
 			(effects
 				(font
@@ -1728,19 +1728,19 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/3c86231c-7b35-4b64-9413-492f9e109edd"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/7a8fcafd-29f0-4e47-9248-0c79a9fce6b6"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/bb039abc-f7e0-4a0b-8bdc-22e9c827257d"
 					(reference "#PWR028")
 					(unit 1)
 				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df489048-ccf0-41cf-9a06-eb2dd70baca6"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/bb039abc-f7e0-4a0b-8bdc-22e9c827257d"
 					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/df489048-ccf0-41cf-9a06-eb2dd70baca6"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)

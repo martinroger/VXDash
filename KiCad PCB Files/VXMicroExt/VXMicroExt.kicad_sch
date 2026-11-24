@@ -3395,7 +3395,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Address is 0x??"
+	(text "Address is 0x20"
 		(exclude_from_sim no)
 		(at 152.654 272.542 0)
 		(effects
@@ -13196,7 +13196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b817ce0f-91e5-4196-b5ce-81a71e59eb03")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 552.45 372.11 0)
 			(effects
 				(font
@@ -13246,7 +13246,7 @@
 		(instances
 			(project "VXMicroExt"
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
