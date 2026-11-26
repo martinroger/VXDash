@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TE_Superseal_1.0_34P_6437288_Horizontal"
-		(at 0 33 0)
+		(at 0 34.5 0)
 		(layer "F.Fab")
 		(uuid "238723dc-7ea7-4509-a0be-f0a91b14330f")
 		(effects
@@ -52,67 +52,35 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start -22.71 7.25)
-		(end 22.8 30.25)
+	(fp_line
+		(start -13.8 -5.6)
+		(end -12.6 -5.6)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "46cbd86d-49d6-459c-9f7b-4087a2d48825")
+		(layer "F.SilkS")
+		(uuid "ad459f57-90ad-40f0-a2f0-27e921a8ad86")
 	)
 	(fp_line
-		(start -19.3 14.25)
-		(end -19.3 30.25)
+		(start -13.2 -4.8)
+		(end -13.8 -5.6)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
-		(layer "F.Fab")
-		(uuid "080c3862-a254-40f4-88e0-818ae0521e1c")
+		(layer "F.SilkS")
+		(uuid "396792ee-f1a3-495d-a81b-9fc56fced252")
 	)
 	(fp_line
-		(start 19.3 14.25)
-		(end 19.3 30.25)
+		(start -12.6 -5.6)
+		(end -13.2 -4.8)
 		(stroke
-			(width 0.1)
+			(width 0.15)
 			(type solid)
 		)
-		(layer "F.Fab")
-		(uuid "04cf042e-bbf2-4032-98a9-5addd739f538")
-	)
-	(fp_line
-		(start -22.71 14.25)
-		(end -19.3 14.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "26275a19-0e31-4d3c-9727-1cb4734408b9")
-	)
-	(fp_line
-		(start 19.3 14.25)
-		(end 22.8 14.25)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "bf0a6b94-883d-4d77-83c6-4ad98b32c29e")
-	)
-	(fp_text user "6437288 body 45.5 wide"
-		(at 0 26 0)
-		(layer "F.Fab")
-		(uuid "8ebed8b6-2b98-4ca6-a7a2-35a4f1d5ce7b")
-		(effects
-			(font
-				(size 0.7 0.7)
-				(thickness 0.12)
-			)
-		)
+		(layer "F.SilkS")
+		(uuid "d3b295d9-f56c-463b-9c74-f99a272d136f")
 	)
 	(fp_rect
 		(start -22.83 7.13)
@@ -136,6 +104,16 @@
 		(layer "F.SilkS")
 		(uuid "6c6e4286-b47d-48e4-bb1e-5d5912bea3fc")
 	)
+	(fp_line
+		(start -30 31.5)
+		(end 30 31.5)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(layer "Dwgs.User")
+		(uuid "870d19a8-8624-4c92-80ab-231b63cb8349")
+	)
 	(fp_rect
 		(start -23.3 -5.9)
 		(end 23.3 30.75)
@@ -148,44 +126,55 @@
 		(uuid "0a4e3bf5-4a52-4183-93c0-d7fdb97bf527")
 	)
 	(fp_line
-		(start -13.8 -5.6)
-		(end -12.6 -5.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "ad459f57-90ad-40f0-a2f0-27e921a8ad86")
-	)
-	(fp_line
-		(start -12.6 -5.6)
-		(end -13.2 -4.8)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "d3b295d9-f56c-463b-9c74-f99a272d136f")
-	)
-	(fp_line
-		(start -13.2 -4.8)
-		(end -13.8 -5.6)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "396792ee-f1a3-495d-a81b-9fc56fced252")
-	)
-	(fp_line
-		(start -30 31.5)
-		(end 30 31.5)
+		(start -22.71 14.25)
+		(end -19.3 14.25)
 		(stroke
 			(width 0.1)
-			(type dash)
+			(type solid)
 		)
-		(layer "Dwgs.User")
-		(uuid "870d19a8-8624-4c92-80ab-231b63cb8349")
+		(layer "F.Fab")
+		(uuid "26275a19-0e31-4d3c-9727-1cb4734408b9")
+	)
+	(fp_line
+		(start -19.3 14.25)
+		(end -19.3 30.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "080c3862-a254-40f4-88e0-818ae0521e1c")
+	)
+	(fp_line
+		(start 19.3 14.25)
+		(end 19.3 30.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "04cf042e-bbf2-4032-98a9-5addd739f538")
+	)
+	(fp_line
+		(start 19.3 14.25)
+		(end 22.8 14.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bf0a6b94-883d-4d77-83c6-4ad98b32c29e")
+	)
+	(fp_rect
+		(start -22.71 7.25)
+		(end 22.8 30.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "46cbd86d-49d6-459c-9f7b-4087a2d48825")
 	)
 	(fp_text user "MATING SIDE / BOARD EDGE ->  +Y"
 		(at 0 32.7 0)
@@ -198,13 +187,38 @@
 			)
 		)
 	)
+	(fp_text user "6437288 body 45.5 wide"
+		(at 0 26 0)
+		(layer "F.Fab")
+		(uuid "8ebed8b6-2b98-4ca6-a7a2-35a4f1d5ce7b")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -19.25 10.5)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0fe451f0-31ff-4116-a6c2-19e379016d50")
+	)
+	(pad "" np_thru_hole circle
+		(at 19.25 10.5)
+		(size 3.5 3.5)
+		(drill 3.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "9b1aa92c-6e37-4ef1-8194-e3b5ca4b7462")
+	)
 	(pad "1" thru_hole roundrect
 		(at -12 -4)
 		(size 2 2)
 		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
-		(roundrect_rratio 0.25)
 		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
 		(uuid "21fefbd5-7730-4d37-801c-9de7afc157f1")
 	)
 	(pad "2" thru_hole circle
@@ -471,30 +485,16 @@
 		(remove_unused_layers no)
 		(uuid "57e58cf2-e1c0-4870-9e85-2c05b72b7da8")
 	)
-	(pad "" np_thru_hole circle
-		(at -19.25 10.5)
-		(size 3.5 3.5)
-		(drill 3.5)
-		(layers "*.Cu" "*.Mask")
-		(uuid "0fe451f0-31ff-4116-a6c2-19e379016d50")
-	)
-	(pad "" np_thru_hole circle
-		(at 19.25 10.5)
-		(size 3.5 3.5)
-		(drill 3.5)
-		(layers "*.Cu" "*.Mask")
-		(uuid "9b1aa92c-6e37-4ef1-8194-e3b5ca4b7462")
-	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Lib/3d/TE_6437288_Superseal_34P.step"
 		(offset
-			(xyz 0.01 -11.75 -3.9)
+			(xyz 0.01 -11.75 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
-	(embedded_fonts no)
 )
