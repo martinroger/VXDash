@@ -1233,7 +1233,7 @@
           "group_by": true,
           "label": "MFT_PN",
           "name": "MFT_PN",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1251,16 +1251,16 @@
           "group_by": true,
           "label": "MFT",
           "name": "MFT",
-          "show": false
+          "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
           "show": true
@@ -1461,10 +1461,6 @@
     [
       "a87a9e87-7d8f-4fc6-ad53-8bc7de93c011",
       "POWER INPUT"
-    ],
-    [
-      "befc6912-58aa-49dc-b5e3-6f92b4eb9c47",
-      "5V_SMPS_AUX"
     ],
     [
       "36cf284f-d007-407a-8cf1-3a728debbb83",

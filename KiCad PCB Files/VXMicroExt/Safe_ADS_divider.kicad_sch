@@ -1105,6 +1105,182 @@
 		(uuid "c1b9843c-b012-416c-9742-97a58762e2a4")
 	)
 	(symbol
+		(lib_id "VXDash_passives:Cap_MLCC")
+		(at 129.54 93.98 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "09757309-73c8-43ff-871f-c80257d458be")
+		(property "Reference" "C40"
+			(at 125.73 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100n"
+			(at 125.73 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 130.5052 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://datasheet.octopart.com/CL10B104KB8NNWC-Samsung-datasheet-8326407.pdf"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MLCC 100nF 50V X7R ±10% 0603"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT" "Samsung Electro-Mechanics"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFT_PN" "CL10B104KB8NNWC"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tol" "10%"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 125.73 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C16194176"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC alt" "C1591"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C14663"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_MFT" "Samsung Electro-Mechanics"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PBX_PN" "CL10B104KB8NNWC"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72a22de7-6c61-4b1a-a90e-3ea4761b1454")
+		)
+		(pin "2"
+			(uuid "071ddedb-f774-4068-8470-9d378975fbe1")
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/f6dd4674-2d8d-490e-9cec-620ef46d6cdc"
+					(reference "C44")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/02bea3aa-1277-49e3-84fc-a707a4944c45"
+					(reference "C41")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/50d54d03-8355-41e7-8096-52affd406ead"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/aa570d98-f820-4607-83df-0817e5e0bdbc"
+					(reference "C42")
+					(unit 1)
+				)
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/df1c8f23-3c68-43f3-afe5-a3c9522b066f"
+					(reference "C45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 156.21 102.87 0)
 		(mirror y)
@@ -1707,183 +1883,6 @@
 				)
 				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/df1c8f23-3c68-43f3-afe5-a3c9522b066f"
 					(reference "R58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VXDash_passives:Cap_MLCC")
-		(at 129.54 93.98 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7b12fe2-e8f9-4c65-89e9-1dbe9d9efb80")
-		(property "Reference" "C14"
-			(at 125.73 91.4399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10n"
-			(at 125.73 93.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 130.5052 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C100042.pdf"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MLCC 10nF 50V X7R ±10% 0603"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT" "Yageo"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFT_PN" "CC0603KRX7R9BB103"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Dielectric" "X7R"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tol" "10%"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 125.73 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC" "C100042"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC alt" ""
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C57112"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_MFT" "Yageo Group"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PBX_PN" "CC0603KRX7R9BB103"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c30184f-e9f2-4832-96c5-091ec713bba9")
-		)
-		(pin "2"
-			(uuid "110bed90-71c2-47c2-9775-2e79241a7918")
-		)
-		(instances
-			(project "VXMicroExt"
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/36cf284f-d007-407a-8cf1-3a728debbb83/f6dd4674-2d8d-490e-9cec-620ef46d6cdc"
-					(reference "C20")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/02bea3aa-1277-49e3-84fc-a707a4944c45"
-					(reference "C16")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/50d54d03-8355-41e7-8096-52affd406ead"
-					(reference "C14")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/aa570d98-f820-4607-83df-0817e5e0bdbc"
-					(reference "C18")
-					(unit 1)
-				)
-				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef/6f6b84a2-110c-4041-9bf6-7d79f95b63fd/df1c8f23-3c68-43f3-afe5-a3c9522b066f"
-					(reference "C29")
 					(unit 1)
 				)
 			)
