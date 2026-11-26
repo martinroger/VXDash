@@ -456,5 +456,16 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "bd47c336-94e8-43d6-9b1a-1ed3887f7ba5")
 	)
+	(model "${KIPRJMOD}/../Lib/3d/c-2384723-1-a-3d.stp"
+		(offset
+			(xyz 0 -30 14.7)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 	(embedded_fonts no)
 )
