@@ -103,6 +103,46 @@
 		(layer "Dwgs.User")
 		(uuid "3039b1d3-1a7c-407a-b8df-17daa1ea73c1")
 	)
+	(fp_line
+		(start -23.5 6.5)
+		(end -23.5 14.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e1e57e52-f031-4ed7-9cf7-e19edd7cea7a")
+	)
+	(fp_line
+		(start -23.5 14.5)
+		(end 23 14.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "56bf48eb-dab0-46dc-b7cc-367144aab2a3")
+	)
+	(fp_line
+		(start 23 6.5)
+		(end -23.5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a97fba85-79a0-4b4e-ba52-cd9c882a9bd4")
+	)
+	(fp_line
+		(start 23 14.5)
+		(end 23 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "287293f7-d846-4181-b6e3-6031edecfb00")
+	)
 	(fp_rect
 		(start -29.6 -8)
 		(end 29.6 30.75)
@@ -217,6 +257,18 @@
 			(font
 				(size 0.7 0.7)
 				(thickness 0.12)
+			)
+		)
+	)
+	(fp_text user "No PCB zone for 6437288"
+		(at 0 11 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd6f8e91-4fa5-48c0-ba00-0c7e577f8412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -535,7 +587,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/../Lib/3d/c-2384723-1-a-3d.stp"
 		(offset
-			(xyz 0 -30 14)
+			(xyz 0 -30 14.7)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -547,7 +599,7 @@
 	(model "${KIPRJMOD}/../Lib/3d/TE_6437288_Superseal_34P.step"
 		(hide yes)
 		(offset
-			(xyz 0.01 -11.75 0)
+			(xyz 0.01 -11.75 -3.5)
 		)
 		(scale
 			(xyz 1 1 1)
