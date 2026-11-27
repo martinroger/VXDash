@@ -796,7 +796,7 @@
 	)
 	(text_box "ADDR = 0x49"
 		(exclude_from_sim no)
-		(at 166.37 173.99 0)
+		(at 123.19 130.81 0)
 		(size 19.05 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -813,6 +813,26 @@
 			(justify left top)
 		)
 		(uuid "719acecf-da73-4705-bd50-debb4209d28f")
+	)
+	(text_box "Ratiometric measurement\n\nVmeas = 22/123 * Vact\nRatio ~ 0.17886179\n"
+		(exclude_from_sim no)
+		(at 106.68 138.43 0)
+		(size 35.56 11.43)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "aad55dc2-b610-4059-ae8f-e46c5f0a92bd")
 	)
 	(junction
 		(at 187.96 157.48)

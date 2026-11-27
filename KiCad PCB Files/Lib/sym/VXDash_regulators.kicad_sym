@@ -94,15 +94,6 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "buck stepdown switching regulator"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "PBX_MFT" "Diodes Inc."
 			(at 0 0 0)
 			(effects
@@ -113,6 +104,15 @@
 			)
 		)
 		(property "PBX_PN" "AP62200WU-7"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "buck stepdown switching regulator"
 			(at 0 0 0)
 			(effects
 				(font
@@ -267,7 +267,7 @@
 			)
 		)
 		(property "Footprint" "VXDash_IC:Infineon_PG-SCT595-5"
-			(at 0 -10.16 0)
+			(at -0.254 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,7 +276,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/part/TLE4250-2G"
-			(at 0 -12.7 0)
+			(at -0.254 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -285,7 +285,7 @@
 			)
 		)
 		(property "Description" "Voltage tracker LDO 50mA, 4-40V in (45V abs), output tracks ADJ/EN 2.5-36V, short to GND/battery and reverse polarity proof, AEC-Q100, PG-SCT595-5"
-			(at 0 0 0)
+			(at 0 10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -294,7 +294,7 @@
 			)
 		)
 		(property "MFT" "Infineon"
-			(at 0 0 0)
+			(at -14.986 17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -303,7 +303,7 @@
 			)
 		)
 		(property "MFT_PN" "TLE4250-2G"
-			(at 0 0 0)
+			(at -12.7 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +368,7 @@
 		(symbol "TLE4250-2G_0_1"
 			(rectangle
 				(start -7.62 2.54)
-				(end 7.62 -5.08)
+				(end 7.62 -12.7)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -415,26 +415,8 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 10.16 0 180)
-				(length 2.54)
-				(name "Q"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at -2.54 -7.62 90)
+				(at -2.54 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -452,7 +434,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -7.62 90)
+				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -462,6 +444,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "Q"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)

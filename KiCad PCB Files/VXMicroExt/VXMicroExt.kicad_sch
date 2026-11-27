@@ -15716,6 +15716,98 @@
 		)
 	)
 	(sheet
+		(at 430.53 203.2)
+		(size 33.02 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6fe0c65c-8716-4870-ae02-e99a018b1246")
+		(property "Sheetname" "Sensor_5V_supply"
+			(at 430.53 202.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensor_5V_supply.kicad_sch"
+			(at 430.53 213.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EN" input
+			(at 430.53 210.82 180)
+			(uuid "eea29431-92aa-4091-ae40-eac497c154ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Supply_source" input
+			(at 430.53 204.47 180)
+			(uuid "595a0dfe-b6e3-4c03-b5d4-5b6ef22a1972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VIO" input
+			(at 450.85 203.2 90)
+			(uuid "90d05a21-30eb-4708-bc59-aa1c07d93417")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout" output
+			(at 463.55 204.47 0)
+			(uuid "2bf8fcfc-14b6-4c49-8180-d7c8002a0d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vref" input
+			(at 430.53 208.28 180)
+			(uuid "210fe1a8-2143-4072-ba53-a489d412198f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "VXMicroExt"
+				(path "/f2858fc4-50de-4ff0-a01c-5b985ee14aef"
+					(page "24")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 58.42 283.21)
 		(size 22.86 5.08)
 		(exclude_from_sim no)
